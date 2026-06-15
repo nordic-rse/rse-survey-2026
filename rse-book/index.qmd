@@ -5,9 +5,13 @@ It includes currently the following questions:
 
 # How to use this book
 
-Assumption:
+## Assumptions
 
-+ raw data, as received from SW, is saved in folder `RSE_survey_2026_data`
++ raw data, as received from SW, is saved as folder `RSE_survey_2026_data` in 
+root directory
++ create preprocessed data sets in `data` folder by running from the root 
+directory `Rscript ./rse-book/R/create_datasets.R` (the `data` folder will 
+appear in `rse-book/data`)
 
 ## Folder structure
 

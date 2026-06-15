@@ -8,7 +8,7 @@ DATA_DIR <- if (file.exists("RSE_survey_2026_data")) {
 } else {
   "../RSE_survey_2026_data"
 }
-OUT_DIR <- "data"
+OUT_DIR <- "rse-book/data"
 
 clean_cols <- function(df, col_name) {
   df |>
@@ -54,6 +54,11 @@ groups <- list(
     ukrse3          = "skill_development"
   )
 )
+
+# if data directory does not exist yet, create it
+if (!dir.exists(OUT_DIR)) {
+  dir.create(OUT_DIR)
+}
 
 # Read, clean, join, and write each group in one pass
 iwalk(groups, \(mapping, out_name) {
