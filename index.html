@@ -28,41 +28,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -73,7 +38,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./chapters/rse1_0.html" rel="next">
+<link href="./about/user-guide.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -124,7 +89,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">About</a></li><li class="breadcrumb-item"><a href="./index.html">Nordic insights</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -149,21 +114,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">RSE role</span></a>
+ <span class="menu-text">About</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Nordic insights</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about/user-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">User Guide</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">RSE role</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/rse1_0.html" class="sidebar-item-text sidebar-link">
@@ -186,13 +168,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Education</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/edu2_0.html" class="sidebar-item-text sidebar-link">
@@ -209,13 +191,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">Software experience</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/soft2can_0.html" class="sidebar-item-text sidebar-link">
@@ -232,13 +214,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
  <span class="menu-text">Open science</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/open1de_0.html" class="sidebar-item-text sidebar-link">
@@ -255,13 +237,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
  <span class="menu-text">UK RSE network</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/ukrse1_0.html" class="sidebar-item-text sidebar-link">
@@ -278,13 +260,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
  <span class="menu-text">RSE Organisation</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/org1can_0.html" class="sidebar-item-text sidebar-link">
@@ -313,13 +295,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
  <span class="menu-text">Employment</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/currentEmp1_0.html" class="sidebar-item-text sidebar-link">
@@ -384,13 +366,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
  <span class="menu-text">Likert scales</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/likert01.html" class="sidebar-item-text sidebar-link">
@@ -443,13 +425,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
  <span class="menu-text">Turnover</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/turnOver3.html" class="sidebar-item-text sidebar-link">
@@ -460,13 +442,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
  <span class="menu-text">Work activities</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/currentWork2_0.html" class="sidebar-item-text sidebar-link">
@@ -495,13 +477,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
  <span class="menu-text">Publications</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/paper3mod_0.html" class="sidebar-item-text sidebar-link">
@@ -518,13 +500,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true">
  <span class="menu-text">Conferences</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/conf1can_0.html" class="sidebar-item-text sidebar-link">
@@ -541,13 +523,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
  <span class="menu-text">Project Management</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/proj1can_0.html" class="sidebar-item-text sidebar-link">
@@ -582,13 +564,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true">
  <span class="menu-text">Job stability</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/stability1_0.html" class="sidebar-item-text sidebar-link">
@@ -605,13 +587,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true">
  <span class="menu-text">Training</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/train2_0.html" class="sidebar-item-text sidebar-link">
@@ -652,13 +634,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true">
  <span class="menu-text">Funding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/fund3.html" class="sidebar-item-text sidebar-link">
@@ -675,13 +657,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true">
  <span class="menu-text">Tooling</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/tool5.html" class="sidebar-item-text sidebar-link">
@@ -704,13 +686,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
  <span class="menu-text">Generative AI</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/genAI1_0.html" class="sidebar-item-text sidebar-link">
@@ -751,13 +733,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true">
  <span class="menu-text">Demographics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/socio3_0.html" class="sidebar-item-text sidebar-link">
@@ -768,13 +750,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true">
  <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./appendices/methodology.html" class="sidebar-item-text sidebar-link">
@@ -805,28 +787,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
-  <li><a href="#the-general-idea" id="toc-the-general-idea" class="nav-link" data-scroll-target="#the-general-idea">The general idea</a></li>
-  <li><a href="#folder-and-file-overview" id="toc-folder-and-file-overview" class="nav-link" data-scroll-target="#folder-and-file-overview">Folder and file overview</a></li>
-  <li><a href="#setup-the-config-file" id="toc-setup-the-config-file" class="nav-link" data-scroll-target="#setup-the-config-file">Setup the config file</a></li>
-  <li><a href="#anatomy-of-a-chapter" id="toc-anatomy-of-a-chapter" class="nav-link" data-scroll-target="#anatomy-of-a-chapter">Anatomy of a chapter</a></li>
-  <li><a href="#how-to-run" id="toc-how-to-run" class="nav-link" data-scroll-target="#how-to-run">How to run</a>
+  <li><a href="#nordic-insights" id="toc-nordic-insights" class="nav-link active" data-scroll-target="#nordic-insights">Nordic insights</a>
   <ul class="collapse">
-  <li><a href="#run-a-single-chapter" id="toc-run-a-single-chapter" class="nav-link" data-scroll-target="#run-a-single-chapter">Run a single chapter</a></li>
-  <li><a href="#run-the-entire-book" id="toc-run-the-entire-book" class="nav-link" data-scroll-target="#run-the-entire-book">Run the entire book</a></li>
-  <li><a href="#update-the-recoding-appendix" id="toc-update-the-recoding-appendix" class="nav-link" data-scroll-target="#update-the-recoding-appendix">Update the recoding appendix</a></li>
+  <li><a href="#interdisciplinary-rse-community-broad-but-concentrated-in-stem" id="toc-interdisciplinary-rse-community-broad-but-concentrated-in-stem" class="nav-link" data-scroll-target="#interdisciplinary-rse-community-broad-but-concentrated-in-stem">Interdisciplinary RSE community: Broad but concentrated in STEM</a></li>
+  <li><a href="#rse-role-and-software-experience" id="toc-rse-role-and-software-experience" class="nav-link" data-scroll-target="#rse-role-and-software-experience">RSE role and software experience</a></li>
+  <li><a href="#employment-and-job-titles" id="toc-employment-and-job-titles" class="nav-link" data-scroll-target="#employment-and-job-titles">Employment and job titles</a></li>
+  <li><a href="#time-allocation-protecting-time-for-software-and-research-from-management-overhead" id="toc-time-allocation-protecting-time-for-software-and-research-from-management-overhead" class="nav-link" data-scroll-target="#time-allocation-protecting-time-for-software-and-research-from-management-overhead">Time allocation: Protecting time for software and research from management overhead</a></li>
+  <li><a href="#technical-toolbox-python-github-hpc-and-collaboration" id="toc-technical-toolbox-python-github-hpc-and-collaboration" class="nav-link" data-scroll-target="#technical-toolbox-python-github-hpc-and-collaboration">Technical toolbox: Python, GitHub, HPC and collaboration</a></li>
+  <li><a href="#generative-ai-in-rse-work" id="toc-generative-ai-in-rse-work" class="nav-link" data-scroll-target="#generative-ai-in-rse-work">Generative AI in RSE work</a></li>
+  <li><a href="#software-quality-testing-and-software-citation" id="toc-software-quality-testing-and-software-citation" class="nav-link" data-scroll-target="#software-quality-testing-and-software-citation">Software quality, testing and software citation</a></li>
+  <li><a href="#job-satisfaction-and-labour-market-demand" id="toc-job-satisfaction-and-labour-market-demand" class="nav-link" data-scroll-target="#job-satisfaction-and-labour-market-demand">Job satisfaction and labour market demand</a></li>
+  <li><a href="#career-progression-and-promotion-uncertainty" id="toc-career-progression-and-promotion-uncertainty" class="nav-link" data-scroll-target="#career-progression-and-promotion-uncertainty">Career progression and promotion uncertainty</a></li>
+  <li><a href="#skills-development-and-training-needs" id="toc-skills-development-and-training-needs" class="nav-link" data-scroll-target="#skills-development-and-training-needs">Skills development and training needs</a></li>
+  <li><a href="#networks-community-and-local-support-structures" id="toc-networks-community-and-local-support-structures" class="nav-link" data-scroll-target="#networks-community-and-local-support-structures">Networks, community and local support structures</a></li>
+  <li><a href="#publications-dissemination-and-conferences" id="toc-publications-dissemination-and-conferences" class="nav-link" data-scroll-target="#publications-dissemination-and-conferences">Publications, dissemination and conferences</a></li>
+  <li><a href="#project-workload-and-resilience" id="toc-project-workload-and-resilience" class="nav-link" data-scroll-target="#project-workload-and-resilience">Project workload and resilience</a></li>
+  <li><a href="#what-respondents-want-from-a-nordic-rse-institute" id="toc-what-respondents-want-from-a-nordic-rse-institute" class="nav-link" data-scroll-target="#what-respondents-want-from-a-nordic-rse-institute">What respondents want from a Nordic-RSE institute</a></li>
+  <li><a href="#please-share-your-thoughts-or-comments" id="toc-please-share-your-thoughts-or-comments" class="nav-link" data-scroll-target="#please-share-your-thoughts-or-comments">Please share your thoughts or comments!</a></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next</a></li>
   </ul></li>
-  <li><a href="#caching-and-rebuilds" id="toc-caching-and-rebuilds" class="nav-link" data-scroll-target="#caching-and-rebuilds">Caching and rebuilds</a></li>
-  <li><a href="#current-content" id="toc-current-content" class="nav-link" data-scroll-target="#current-content">Current content</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">About</a></li><li class="breadcrumb-item"><a href="./index.html">Nordic insights</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">International RSE Survey 2026</h1>
+<p class="subtitle lead">Nordic RSEs: satisfied, skilled and in demand but looking for clearer career paths</p>
 </div>
 
 
@@ -855,166 +844,399 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This book analyses the International RSE Survey 2026, including single-select, multi-select, Likert-scale, time-allocation, and free-text questions. It presents descriptive tables and figures for submitted responses and groups free-text answers into auditable categories.</p>
-<p>Each chapter covers <strong>one survey question or closely related question group</strong>. The analysis can be focused on a single country or a set of countries through one configuration value (<code>FILTER</code>) in <code>R/.config</code>, so the shared code can produce, for example, Nordic or German views.</p>
-</section>
-<section id="the-general-idea" class="level1">
-<h1>The general idea</h1>
-<p>The common workflow is:</p>
-<ol type="1">
-<li><strong>Load and filter</strong> the raw survey data for the configured country/countries. Only <strong>submitted</strong> responses are kept (<code>submitdate_0</code> non-empty); partial sessions without a submission timestamp are excluded.</li>
-<li><strong>Select and summarise</strong> the columns for the chapter’s question type.</li>
-<li><strong>Visualise</strong> response counts or percentages using the appropriate single-select, multi-select, Likert, or time-allocation display.</li>
-<li>For free text, <strong>tokenize and recode</strong> responses with an ordered regular-expression map.</li>
-<li><strong>Audit free-text recoding</strong> with a raw-to-category allocation table, collected in the <a href="appendices/recoding.html" class="quarto-xref"><span>Appendix B — Recoding</span></a> appendix.</li>
-</ol>
-</section>
-<section id="folder-and-file-overview" class="level1">
-<h1>Folder and file overview</h1>
-<p>The book lives in <code>rse-book/</code> and is organized as follows:</p>
-<ul>
-<li><code>index.qmd</code>: This page (preface and usage guide).</li>
-<li><code>_quarto.yml</code>: Book configuration (chapter order, output format, execution options).</li>
-<li><code>chapters/</code>: One <code>.qmd</code> file per survey question or question group.</li>
-<li><code>appendices/</code>:
-<ul>
-<li><code>methodology.qmd</code>: Data and methodology notes.</li>
-<li><code>recoding.qmd</code>: The codebook, i.e.&nbsp;the raw-to-category allocation tables collected from all chapters.</li>
-</ul></li>
-<li><code>R/</code>: The shared R code.
-<ul>
-<li><code>.config</code>: User configuration (data directory and country filter).</li>
-<li><code>postprocessing.R</code>: Shared data loading, filtering, analysis, table, and plotting functions.</li>
-<li><code>_common.R</code>: Loads the configuration, shared functions, and question metadata.</li>
-<li><code>_load_common.R</code>: Location-independent entry point sourced by each chapter.</li>
-<li><code>recodes/</code>: Reusable free-text recoding maps, kept separate from chapter layout and plotting code.</li>
-</ul></li>
-<li><code>references.bib</code> / <code>references.qmd</code>: Bibliography (currently empty).</li>
-<li><code>_book/</code>: Rendered output (generated, not edited by hand).</li>
-<li><code>_freeze/</code> and <code>_allocation_cache/</code>: Generated caches (see <a href="#caching-and-rebuilds">Caching and rebuilds</a>).</li>
-</ul>
-<p>The <strong>raw survey data</strong> is <em>not</em> inside <code>rse-book/</code>. It lives in a separate directory at the repository root (default <code>RSE_survey_2026_data/</code>). The analysis reads just two files there: <code>2026_tf.csv</code> (the full respondent table, one row per respondent, used for both country filtering via <code>socio1_0</code> and for selecting each question’s columns) and <code>2026_all_cols.csv</code> (question metadata, used to decode multi-response option labels).</p>
-<p>The repository root also contains the standalone Nordic report <code>insights.qmd</code>. Its R code is split into focused modules in <code>RSE_survey_insights_helper/</code>. Survey-flow documentation and the generator for the Nordic question inventory live in <code>RSE_survey_outline/</code>; those documents are separate from the book chapters.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Exclusion criteria">
+<section id="nordic-insights" class="level1 unnumbered">
+<h1 class="unnumbered">Nordic insights</h1>
+<p>This post shows results from the 5th international RSE survey that ran in early 2026. Over 950 Research Software Engineers from 55 countries shared insights into their career and interests. The full dataset is available for download at <a href="https://github.com/softwaresaved/RSE_survey_longitudinal/" class="uri">https://github.com/softwaresaved/RSE_survey_longitudinal/</a>. An interactive dashboard with all international RSE survey data is available at <a href="https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/" class="uri">https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/</a>. This page presents and analyses the findings on the Nordic and Baltic countries.</p>
+<p>Figures use a colorblind-safe palette (Okabe–Ito). <strong>Affirmative</strong> responses (Agree/Strongly Agree, True, Yes, Always) share green; <strong>negative</strong> responses (Disagree/Strongly disagree, False, No, Never) share orange-red; neutral options and aggregated <strong>Other</strong> categories are grey.</p>
+<p>Percentages are computed from the number of respondents who answered each question. Analyses include only <strong>submitted</strong> Nordic responses (<code>submitdate_0</code> non-empty): <strong>62</strong> respondents in total, with <strong>10</strong> partial responses excluded. Question-level <strong>N</strong> can still vary when respondents skipped a question or it did not apply to them.</p>
+<p>Submitted responses came primarily from Finland (<strong>32.3%</strong>), Sweden (<strong>30.6%</strong>), and Norway (<strong>16.1%</strong>), with smaller shares from Estonia (<strong>12.9%</strong>), Denmark (<strong>6.5%</strong>), and Iceland (<strong>1.6%</strong>).</p>
+<p>The sample spans early-career and mid-career respondents. The most common age groups were <strong>35 to 44 years</strong> (<strong>44.3%</strong>) and <strong>25 to 34 years</strong> (<strong>32.8%</strong>), followed by <strong>45 to 54 years</strong> (<strong>18.0%</strong>). In the following we analyse age groups as three classes: under 35, 35-45, and 45+.</p>
+<section id="interdisciplinary-rse-community-broad-but-concentrated-in-stem" class="level2">
+<h2 class="anchored" data-anchor-id="interdisciplinary-rse-community-broad-but-concentrated-in-stem">Interdisciplinary RSE community: Broad but concentrated in STEM</h2>
+<p>Respondents selected a wide range of disciplines in which they work, underlining the interdisciplinary nature of RSE roles. The most frequently selected area was Computer Science, chosen by <strong>71.0%</strong> of respondents. This was followed by Biological Sciences at <strong>37.1%</strong>, Physical Sciences at <strong>32.3%</strong>, and Medicine/Health Sciences at <strong>27.4%</strong>.</p>
+<p>When respondents described their own disciplinary background, Computer Science was again the most frequently selected option, at <strong>38.7%</strong>. Physical Sciences followed at <strong>22.6%</strong>, Biological Sciences at <strong>9.7%</strong>, and Mathematical Sciences at <strong>8.1%</strong>.</p>
+<p>In terms of highest education attained, <strong>54.8%</strong> held a PhD and <strong>40.3%</strong> a Master’s degree.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Exclusion criteria
+<span class="screen-reader-only">Note</span>Key finding
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Analyses include only respondents who <strong>submitted</strong> the survey, identified by a non-empty <code>submitdate_0</code>. Partial responses saved without a submission timestamp are excluded. Question-level <strong>N</strong> can still vary when a submitted respondent skipped a question or it did not apply to them.</p>
+<p>The Nordic RSE community is strongly rooted in computing, but its work spans many scientific domains. However, survey responses are strongly concentrated in STEM while social sciences appear underrepresented.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" alt="Two-panel figure. Left: horizontal bar chart of work disciplines ranked by selection share among Nordic respondents. Computer Science is highest. Right: horizontal bar chart of qualification disciplines with Computer Science again most common. Both panels use a single blue accent colour." width="1344"></p>
+<figcaption>Disciplines Nordic respondents work in (multi-select, left) and highest academic qualification discipline (single-select, right). (disciplines worked in: N = 62; qualification discipline: N = 62)</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </section>
-<section id="setup-the-config-file" class="level1">
-<h1>Setup the config file</h1>
-<p>All user configuration is in <code>rse-book/R/.config</code>. It is plain R that is <code>source()</code>d at the start of every chapter:</p>
-<ul>
-<li><code>DATA_DIR</code>: the directory name where the raw survey data lives (default <code>RSE_survey_2026_data</code>).</li>
-<li><code>FILTER</code>: which respondents to include. This can be:
-<ul>
-<li>a <strong>single country</strong>, e.g.&nbsp;<code>FILTER = "Germany"</code>, or</li>
-<li>a <strong>set of countries</strong>, e.g.&nbsp;the Nordics: <code>FILTER = c("Finland", "Norway", "Sweden", "Denmark", "Iceland", "Estonia")</code>.</li>
-</ul></li>
-</ul>
-<p>Whatever you set here becomes the default country scope for every chapter.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
+<section id="rse-role-and-software-experience" class="level2">
+<h2 class="anchored" data-anchor-id="rse-role-and-software-experience">RSE role and software experience</h2>
+<p>Of the respondents, <strong>93.5%</strong> write software for academic research as part of their job, and <strong>67.2%</strong> consider themselves professional software developers. The experience levels are high: <strong>35.5%</strong> reported <strong>15+ years</strong> of software development experience, followed by <strong>10 years</strong> (<strong>17.7%</strong>) and <strong>5 years</strong> (<strong>11.3%</strong>).</p>
+<p>Most respondents have no leadership role: only <strong>8.2%</strong> said that the majority of their role comprises leading a group of software developers or RSEs. The majority or respondents write software for more than 2 users (accounting for 75.9%).</p>
+</section>
+<section id="employment-and-job-titles" class="level2">
+<h2 class="anchored" data-anchor-id="employment-and-job-titles">Employment and job titles</h2>
+<p>Most respondents reported relatively stable employment conditions. <strong>74.2%</strong> indicated that they are in permanent employment, while <strong>22.6%</strong> reported fixed-term employment, and <strong>95.2%</strong> reported working full time. However, among respondents under 35, permanent and fixed-term positions are roughly balanced (<strong>55.0%</strong> permanent and <strong>45.0%</strong> fixed-term). This likely reflects the fact that many younger respondents are employed in PhD or postdoctoral positions, which are typically fixed-term by design.</p>
+<p>Official job titles may vary. Among retained coded job-title entries, the most frequent category was Software Engineer or Developer (<strong>37.5%</strong>), followed by Researcher (<strong>17.5%</strong>), Technical/Professional Support Role (<strong>12.5%</strong>), and Faculty/Professor (<strong>7.5%</strong>). In addition, <strong>30.9%</strong> of respondents are known in their group by a different job title than their official one; among retained coded alternative-title entries, the most common categories were Bioinformatician (<strong>18.8%</strong>), Research Software Engineer (<strong>12.5%</strong>), and Application Expert (<strong>6.2%</strong>).</p>
+<p>Most respondents work in universities (<strong>79.0%</strong>), and this is also the most common background for their previous role (<strong>51.6%</strong>), followed by private companies (<strong>22.6%</strong>).</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+<span class="screen-reader-only">Note</span>Key finding
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can also analyze a different country for a single table or plot without touching the config, by passing <code>filter =</code> directly to the functions, e.g. <code>process_text_codes_with_allocation(filter = nordic_countries, ...)</code>. Many multi-select and Likert chapters compare <strong>Nordics</strong> (descriptive statistics and free-text responses), <strong>within Nordic countries</strong>, and <strong>between countries</strong> (Nordics vs Germany vs Netherlands).</p>
+<p>Most respondents are in permanent, full-time employment, while the higher share of fixed-term contracts among younger respondents likely reflects PhD and postdoctoral career stages. RSE work also appears under different job titles.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" alt="Two-panel figure. Left: stacked bar chart of employment nature categories by three age groups (Below 35, 35-45, 45+), with colour-coded contract types. Right: ranked horizontal bar chart of recoded official job titles showing percentage and count labels; Software Engineer or Developer leads." width="1152"></p>
+<figcaption>Employment nature by age group (stacked bars) and recoded official job titles (ranked bar chart). (employment nature: N = 62; official job titles: N = 58)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="time-allocation-protecting-time-for-software-and-research-from-management-overhead" class="level2">
+<h2 class="anchored" data-anchor-id="time-allocation-protecting-time-for-software-and-research-from-management-overhead">Time allocation: Protecting time for software and research from management overhead</h2>
+<p>Respondents indicate that software development sits at the heart of RSE work. Respondents reported spending the largest share of their time on software development, at <strong>44.7%</strong> on average. This was followed by research at <strong>20.0%</strong>, other activities at <strong>15.6%</strong>, and teaching at <strong>14.9%</strong>.</p>
+<p>When comparing actual and desired time allocation, respondents indicated that they would prefer to spend more time on software development and research, and less time on management and “other activities”. The desired reduction in management time was <strong>-6.6 percentage points</strong>, while “other activities” showed a desired reduction of <strong>-3.2 percentage points</strong>. Respondents aged 35-45 and 45+ also indicated a wish to reduce teaching time slightly, by <strong>-1.0 percentage point</strong> and <strong>-3.4 percentage points</strong>, respectively, while respondents under 35 indicated a wish to increase teaching time by <strong>+3.5 percentage points</strong>. (This may reflect the fact that more experienced respondents are also more likely to hold roles with formal teaching or supervision responsibilities. In other words, the wish to reduce teaching time may say less about teaching itself and more about the broader workload attached to more senior or established positions.)</p>
+<p>This suggests that RSEs see their greatest value in the direct combination of technical development and research contribution, but that organisational responsibilities can draw time away from this core work.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>RSEs spend most of their time developing software and would like even more time for software development and research, with less time spent on management. Older respondents’ wish to reduce teaching may reflect greater teaching responsibilities in more senior roles.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" alt="Horizontal lollipop-style chart comparing mean actual time spent on each work activity with the mean desired change. Software development has the longest actual-time bars; management and other activities show desired decreases (orange-red dotted lines) while software and research show desired increases (green solid lines)." width="960"></p>
+<figcaption>Mean actual time (baseline) and desired change by activity. Solid lines indicate an increase; dotted lines a decrease. (N = 62)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" alt="Faceted horizontal chart in three columns by age group. Each row is a work activity; solid bars show mean actual time and overlaid lines show mean desired change. Green lines mark desired increases, orange-red lines mark desired decreases. Software development dominates actual time across all age groups; management shows the largest desired reduction." width="1344"></p>
+<figcaption>Mean actual vs desired time by activity in three age-group columns (Below 35, 35–45, 45+). Green lines indicate a desired increase; orange-red a decrease. (N = 61; 1 of 62 allocation respondents excluded for missing age.)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="technical-toolbox-python-github-hpc-and-collaboration" class="level2">
+<h2 class="anchored" data-anchor-id="technical-toolbox-python-github-hpc-and-collaboration">Technical toolbox: Python, GitHub, HPC and collaboration</h2>
+<p>In the multi-select responses on programming languages, Python was selected by <strong>95.1%</strong> of respondents, making it by far the most commonly used language. Git was reported as a version control tool by all respondents, and GitHub was selected by <strong>93.4%</strong> as a collaboration platform for software development.</p>
+<p>Other frequently selected collaboration tools included Git at <strong>70.5%</strong>, GitLab at <strong>52.5%</strong>, and Slack at <strong>50.8%</strong>. Regarding deployment environments, HPC was the most frequently selected platform, at <strong>58.6%</strong>, followed by laptops or desktops at <strong>48.3%</strong>, stand-alone servers at <strong>39.7%</strong>, and cloud platforms at <strong>31.0%</strong>. For day-to-day development, <strong>73.3%</strong> primarily use GNU/Linux, followed by macOS (<strong>15.0%</strong>) and Windows (<strong>10.0%</strong>).</p>
+<p>There are also some age-group differences in programming language selections. Among respondents aged 45+, the most frequently selected languages after Python were JavaScript at <strong>42.9%</strong>, C++ at <strong>28.6%</strong>, and SQL at <strong>28.6%</strong>. Among those aged 35-45, R was selected by <strong>48.1%</strong>, JavaScript by <strong>44.4%</strong>, and SQL by <strong>37%</strong>. Among respondents under 35, JavaScript was selected by <strong>30%</strong>, while C++ and Rust were each selected by <strong>25%</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Python, Git, GitHub and HPC form a central part of the Nordic RSE technical toolbox.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" alt="Four-panel grid. Top left: programming languages ranked by selection share, with Python highest. Top right: stacked bars of programming languages by age group. Bottom left: collaboration tools ranked, GitHub and Git leading. Bottom right: deployment platforms ranked, HPC most common." width="1344"></p>
+<figcaption>Technical toolbox: programming languages, collaboration tools, deployment platforms (multi-select), and programming languages by age group (stacked bars). (programming languages: N = 61; collaboration tools: N = 61; deployment platforms: N = 58)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="generative-ai-in-rse-work" class="level2">
+<h2 class="anchored" data-anchor-id="generative-ai-in-rse-work">Generative AI in RSE work</h2>
+<p>When asked how frequently respondents use generative AI tools in RSE-related tasks, <strong>42.6%</strong> reported daily use and <strong>19.7%</strong> weekly use. A further <strong>9.8%</strong> used generative AI monthly and <strong>11.5%</strong> rarely, while <strong>16.4%</strong> reported never using generative AI in their RSE work.</p>
+<p>When asked for what purposes participants use generative AI tools, respondents most frequently selected writing and debugging code, at <strong>82.0%</strong>. By contrast, designing software architecture was the least frequently selected use case, at <strong>20.0%</strong>. Suggesting that respondents see currently the value in generative AI mainly for practical coding tasks rather than for higher-level software design.</p>
+<p>In terms of tools used at work, ChatGPT was selected by <strong>63.3%</strong>, followed by Claude at <strong>40.8%</strong> and Gemini at <strong>26.5%</strong>.</p>
+<p>Looking ahead, <strong>59.3%</strong> expected generative AI not to significantly change demand for RSE roles over the next five years, while <strong>22.2%</strong> expected increased demand and <strong>18.5%</strong> expected reduced demand. Most respondents expected positive effects on their own productivity (<strong>66.1%</strong> increase), but effects on code quality and job satisfaction were more mixed: <strong>44.6%</strong> expected code quality to stay the same and <strong>36.8%</strong> expected job satisfaction to decrease. When asked what skills are needed to use generative AI effectively, most often answers could be subsummed under the following labels “Critical thinking, scepticism and output validation”, “Foundational software engineering skills”, “Prompt engineering and generative AI literacy”, “Judgment on when and how to use AI”, “Programming language and code comprehension”, and “Testing, QA and verification”.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Generative AI is widely used for writing and debugging code, but software architecture is the least common use case, suggesting that higher-level design decisions remain largely human-led.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" alt="Three-panel figure. Top: horizontal bar chart of generative AI usage frequency (daily use most common). Bottom left: purposes ranked by selection share, with writing and debugging code highest and software architecture lowest. Bottom right: tools ranked, ChatGPT leading, then Claude and Gemini." width="1344"></p>
+<figcaption>Generative AI usage frequency (single-select), use purposes and tools selected at work (multi-select). Purposes and tools N count only respondents with at least one selection. Among 61 usage-frequency responses, 10 answered Never (no purposes/tools recorded) and 1 selected no purpose despite non-never usage. (AI usage frequency: N = 61; AI purposes: N = 50; AI tools: N = 49)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="software-quality-testing-and-software-citation" class="level2">
+<h2 class="anchored" data-anchor-id="software-quality-testing-and-software-citation">Software quality, testing and software citation</h2>
+<p>When asked how respondents test the software they produce, respondents most often selected “developers do their own testing”, at <strong>78.7%</strong>. Automated testing with continuous integration was selected by <strong>52.5%</strong>, while <strong>31.1%</strong> selected “no formal testing but user feedback”.</p>
+<p>Among respondents who answered the citation questions, referencing software appears to be common practice. <strong>82.1%</strong> said they always reference software directly (N = 28) and <strong>66.7%</strong> always reference a published paper describing the software (N = 24). Generating persistent identifiers is less common: <strong>80%</strong> (N = 25) said they never generate a DOI or other persistent identifier for their software.</p>
+<p>Open-science practices appear widespread with <strong>88.7%</strong> of respondents reported having an ORCID ID, and among those who answered the licensing question (N = 39), <strong>94.9%</strong> said they always license their software with an open-source licence.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Testing is common and referencing software seems to be standard practice among those who answered the citation questions, but generating persistent identifiers such as DOIs is less common. ORCID use and open-source licensing are already widespread.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" alt="Two-row figure. Top row: three side-by-side horizontal Likert bar charts for software citation practices (direct reference, paper reference, DOI generation) using Never/Sometimes/Always colours. Bottom: horizontal bar chart of software testing methods ranked by selection share; developer self-testing is most common." width="1344"></p>
+<figcaption>Software testing (multi-select) and software citation practices (frequency Likert). Citation questions were not answered by all respondents, so N is lower than for software testing. (reference directly: N = 28; reference via paper: N = 24; generating DOIs: N = 25; software testing: N = 61)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="job-satisfaction-and-labour-market-demand" class="level2">
+<h2 class="anchored" data-anchor-id="job-satisfaction-and-labour-market-demand">Job satisfaction and labour market demand</h2>
+<p>A positive result is the high level of satisfaction among respondents. <strong>87.1%</strong> reported being satisfied with their current job position, while only <strong>4.8%</strong> were unsatisfied. Career satisfaction was also high, with <strong>80.3%</strong> satisfied and <strong>9.8%</strong> unsatisfied.</p>
+<p>Respondents also generally viewed their expertise as relevant beyond their current workplace: <strong>69.0%</strong> agreed that their experience is in demand on the labour market, compared with <strong>15.5%</strong> who disagreed. This confidence appears across age groups, and is especially strong among respondents aged 45+, where <strong>83.3%</strong> agreed that their experience is in demand. Among those under 35, <strong>73.7%</strong> agreed, and among those aged 35-45, <strong>57.7%</strong> agreed while <strong>19.2%</strong> disagreed.</p>
+<p>Recognition of research contribution was stronger from supervisors than institutions. <strong>81.4%</strong> agreed that their contribution is recognised by their supervisor, compared with <strong>61.0%</strong> who agreed that it is recognised by their institution. Among respondents aged 45+, institutional recognition was lower (<strong>53.8%</strong> agree, <strong>30.8%</strong> disagree), while supervisor recognition remained high (<strong>85.7%</strong> agree).</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Most respondents are satisfied with their jobs and careers, and feel their experience is in demand. Recognition from supervisors is felt stronger than recognition from institutions.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" alt="Three side-by-side horizontal Likert bar charts for job satisfaction, career satisfaction, and perceived labour market demand. Green bars show agree responses, orange-red bars show disagree; satisfaction is high on all three items with job satisfaction strongest." width="1344"></p>
+<figcaption>Job satisfaction, career satisfaction and perceived labour market demand. (job satisfaction: N = 62; career satisfaction: N = 61; labour market demand: N = 58)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="career-progression-and-promotion-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="career-progression-and-promotion-uncertainty">Career progression and promotion uncertainty</h2>
+<p>While RSEs are satisfied and feel in demand, many do not see clear opportunities for progression within their current roles.</p>
+<p>When asked whether it would be difficult to get an equivalent job, <strong>42.4%</strong> agreed that it would not be very difficult, while <strong>28.8%</strong> disagreed.</p>
+<p>Regarding promotion prospects, overall, <strong>48.3%</strong> disagreed that they are likely to gain a promotion within their current group, while only <strong>20.7%</strong> agreed. This becomes more pronounced with age and experience. Among respondents aged 45+, <strong>58.3%</strong> disagreed and only <strong>8.3%</strong> agreed. Among those aged 35-45, <strong>53.8%</strong> disagreed and <strong>15.4%</strong> agreed. Respondents under 35 were more optimistic, with <strong>36.8%</strong> disagreeing and <strong>31.6%</strong> agreeing. However, this age pattern might simply reflect the fact that more experienced respondents may already be in more senior positions, where further promotion is naturally less frequent or less clearly defined.</p>
+<p>The clarity of promotion processes appears more challenging. Overall, <strong>51.8%</strong> disagreed that the process to gain a promotion is clear and understandable, compared with <strong>28.6%</strong> who agreed. Uncertainty is stronger among older respondents: in the 45+ group, <strong>58.3%</strong> disagreed and <strong>25%</strong> agreed, while in the 35-45 group, <strong>58.3%</strong> disagreed and <strong>20.8%</strong> agreed. Respondents under 35 found the process somewhat clearer, with <strong>42.1%</strong> disagreeing and <strong>36.8%</strong> agreeing. This age difference may partly reflect how respondents at different career stages interpret “promotion”. For many younger respondents, especially those in PhD positions, the next step may be relatively well defined: completing the doctoral thesis and moving to the next career stage. For mid-career and senior RSEs, progression may be less standardised, particularly where institutions do not have formal RSE career ladders or clear technical advancement routes.</p>
+<p>The same pattern appears in perceptions of wider career opportunities. Overall, <strong>40.4%</strong> disagreed that there are many opportunities within their chosen career plan, while <strong>33.3%</strong> agreed. Younger respondents were much more optimistic: among those under 35, <strong>60%</strong> agreed and <strong>20%</strong> disagreed. Among those aged 35-45, only <strong>15.4%</strong> agreed, while <strong>42.3%</strong> disagreed and many were indifferent. Among respondents aged 45+, <strong>72.7%</strong> disagreed and <strong>27.3%</strong> agreed.</p>
+<p>At the same time, <strong>43.9%</strong> agreed that their next position is likely to be a Research Software Engineer or Research Software Developer role, suggesting that many respondents still see themselves continuing on an RSE career path even when promotion routes feel unclear.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Promotion routes are often unclear, especially beyond early-career stages where progression may no longer be tied to defined PhD milestones.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" alt="Faceted grouped bar chart with three rows, one per career statement, and three age groups along the x-axis. Green bars show agree share, orange-red bars show disagree share (neutral excluded). Disagree exceeds agree for promotion likelihood and process clarity, especially among older groups; younger respondents are more optimistic about career-plan opportunities." width="960"></p>
+<figcaption>Agreement and disagreement with three career progression statements, by age group. (likely promotion: N = 58; clear promotion process: N = 56; career-plan opportunities: N = 57)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="skills-development-and-training-needs" class="level2">
+<h2 class="anchored" data-anchor-id="skills-development-and-training-needs">Skills development and training needs</h2>
+<p>On the question how respondents did learn the skills they need to be come RSE, <strong>83.6%</strong> selected learning on the job, while <strong>65.6%</strong> selected self-taught learning. A university course or module was selected by <strong>50.8%</strong>, and online courses by <strong>32.8%</strong>.</p>
+<p>Looking ahead, the most common categories among retained coded skill entries were “AI-assisted development and agents” (<strong>22.5%</strong>), “HPC, parallel and GPU computing” (<strong>22.5%</strong>), “communication, teaching and writing” (<strong>20.0%</strong>), “DevOps, CI/CD and pipelines” (<strong>12.5%</strong>), and “software testing, QA and verification” (<strong>12.5%</strong>).</p>
+<p>Training involvement is varied. <strong>47.5%</strong> of respondents reported taking part in providing training one to two times per year, while <strong>29.5%</strong> reported no training provision. When asked about training programmes, most responses referred to local/in-house trainings, CodeRefinery, HPC and research computing trainings, and workshops, tutorials, and hackathons.</p>
+<p>Half of respondents (<strong>50.9%</strong>) teach or support credit-bearing modules or courses, including <strong>61.1%</strong> of those under 35 and <strong>35.7%</strong> of those aged 45+. When granted time for personal skills development, <strong>38.3%</strong> said they always have some time to dedicate to their own skills, while <strong>28.3%</strong> have time only in weeks with a low workload. Many respondents also reported teaching-related roles: lecturing or content delivery was selected by <strong>65.5%</strong>, teaching assistant by <strong>44.8%</strong>, and content creation by <strong>37.9%</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Most RSEs learned their skills through practice and self-study, and want further development in AI development, HPC, DevOps, testing and communication.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" alt="Three-panel figure. Top: ranked horizontal bar chart of skills respondents want to acquire, led by AI-assisted development and HPC. Bottom left: learning pathways ranked by selection share. Bottom right: teaching and training roles ranked; lecturing or content delivery is most common." width="1344"></p>
+<figcaption>How respondents learned RSE skills, skills they would like to acquire next, and teaching or training roles. (skills learned: N = 61; skills to acquire: N = 40; teaching/training roles: N = 29)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="networks-community-and-local-support-structures" class="level2">
+<h2 class="anchored" data-anchor-id="networks-community-and-local-support-structures">Networks, community and local support structures</h2>
+<p><strong>62.0%</strong> of respondents reported having a peer network beyond their closest colleagues, including <strong>37.9%</strong> for whom it came naturally with the job and <strong>24.1%</strong> who had to build such a network from scratch. <strong>17.2%</strong> indicated that they do not need a peer network.</p>
+<p>A majority of respondents, <strong>55.9%</strong>, reported being part of a dedicated research software group within their organisation. This suggests that Nordic RSEs are already finding ways to connect, but that stronger structures could make peer support, knowledge exchange and collaboration more accessible to everyone.</p>
+<p><strong>54.8%</strong> regularly change the researchers they work with, and the most common audiences for their code were researchers in their own group (<strong>48.4%</strong>), their whole organisation (<strong>41.9%</strong>), and researchers anywhere in their country (<strong>38.7%</strong>).</p>
+<p><strong>44.1%</strong> are members of an RSE association, with membership highest among respondents aged 35-45 (<strong>56.0%</strong>) and lowest among those aged 45+ (<strong>21.4%</strong>). Among respondents who answered the follow-up on interest in joining an RSE organisation, <strong>78.6%</strong> said they would be interested. For those who answered what they would hope to get from such an organisation, networking was selected by <strong>85.1%</strong>, research software standards by <strong>72.3%</strong>, training by <strong>57.4%</strong>, and research collaborations by <strong>53.2%</strong>. Priorities varied by age: respondents under 35 emphasised job opportunities (<strong>66.7%</strong>), while those aged 45+ placed more weight on research collaborations (<strong>63.6%</strong>).</p>
+<p>Funding sources show a combination of institutional and project-based support. Institutional support was selected by <strong>72.9%</strong> and grants by <strong>67.8%</strong>. However access to dedicated RSE funding appears limited: only <strong>16.7%</strong> said they have access to RSE-type grants in their institution or country, while <strong>40.0%</strong> said no and <strong>43.3%</strong> did not know.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Many RSEs have peer networks, but a significant share had to build them themselves. A majority also belong to dedicated research software groups, and many see value in joining broader RSE associations for networking, standards and training.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" alt="Three-panel figure. Top left: peer-network categories ranked by selection share. Top right: binary Likert chart showing 56% belong to a dedicated research software group. Bottom: funding sources ranked, institutional support and grants most common." width="1344"></p>
+<figcaption>Peer networks and dedicated research software groups (top row), and funding sources (bottom row). (peer network: N = 58; dedicated RSE group: N = 59; funding sources: N = 59)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="publications-dissemination-and-conferences" class="level2">
+<h2 class="anchored" data-anchor-id="publications-dissemination-and-conferences">Publications, dissemination and conferences</h2>
+<p><strong>51.6%</strong> of respondents have published a paper about their software, for example in journals such as JOSS or SoftwareX. When software contributes to a paper, acknowledgement practices vary: being named as co-author is common (<strong>25.8%</strong> always, <strong>54.8%</strong> sometimes), while being named as main author is rare (<strong>2.9%</strong> always, <strong>64.7%</strong> never). Younger respondents were more likely to be named as co-authors (<strong>57.1%</strong> always among those under 35).</p>
+<p><strong>47.4%</strong> of respondents have presented software work at a conference or workshop. Often named conference were related to labels “Digital Humanities and GLAM”, “HPC and e-infrastructure”, “Chemistry, materials and photon science”, “Astronomy, space and physics”, and “RSE community conferences”.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Many Nordic RSEs publish and present their software, but authorship and acknowledgement practices remain varied, especially for main-author credit.</p>
 </div>
 </div>
 </section>
-<section id="anatomy-of-a-chapter" class="level1">
-<h1>Anatomy of a chapter</h1>
-<p>Each chapter in <code>chapters/</code> starts with the same setup and then uses the analysis appropriate to its question type:</p>
-<ol type="1">
-<li><strong>Front matter</strong> with the question title and <code>question_id</code>.</li>
-<li>A setup cell that loads the shared code:</li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| include: false</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| file: ../R/_load_common.R</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ol start="3" type="1">
-<li>Multi-select questions can show a <strong>heatmap</strong> of who selected what:</li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_heatmap</span>(FILTER, <span class="st">"tool4can"</span>)</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ol start="4" type="1">
-<li><p>Free-text questions load a <strong>recode map</strong>, normally from <code>R/recodes/</code>. A map is a <code>tibble</code> of <code>raw</code> (regex) and <code>clean</code> (category) pairs. A row with <code>NA</code> in <code>clean</code> excludes matching responses from the analysis.</p></li>
-<li><p>The <strong>analysis call</strong>, which produces the summary table and caches the allocation (audit) table for the recoding appendix:</p></li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="fu">file.path</span>(book_root, <span class="st">"R/recodes/skill2_recode.R"</span>))</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>data_coded <span class="ot">&lt;-</span> <span class="fu">process_text_codes_with_allocation</span>(</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">filter =</span> FILTER,</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">question_code =</span> <span class="st">"skill2"</span>,</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">recode_map =</span> skill2_recode_map,</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">header =</span> <span class="st">"Skills to acquire (Nordics)"</span>,</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">other =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">cache_id =</span> <span class="st">"skill2"</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>data_coded<span class="sc">$</span>summary_table</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Useful arguments:</p>
-<ul>
-<li><code>question_code</code>: the question code, i.e.&nbsp;the column-name stem in <code>2026_tf.csv</code> (e.g.&nbsp;<code>"conf2can_0"</code>, or <code>"org2can"</code> for the <code>org2can[...]_0</code> multi-response sub-columns). The helpers select the matching columns and decode option labels automatically.</li>
-<li><code>other</code>: <code>TRUE</code> for the “other, please specify” free-text responses, <code>FALSE</code> for the main pre-defined options.</li>
-<li><code>cache_id</code>: an identifier under which the allocation table is saved so it appears in the <a href="appendices/recoding.html" class="quarto-xref"><span>Appendix B — Recoding</span></a> appendix.</li>
-</ul>
-<p>All code cells use <code>#| echo: false</code>, so the rendered book shows tables and figures but not the underlying R code.</p>
+<section id="project-workload-and-resilience" class="level2">
+<h2 class="anchored" data-anchor-id="project-workload-and-resilience">Project workload and resilience</h2>
+<p>RSE workloads typically span multiple projects. <strong>80.3%</strong> of respondents are currently involved in one to four software projects, and <strong>39.7%</strong> work on projects that typically include a project manager.</p>
+<p>Project resilience is a concern. <strong>58.9%</strong> said their current project would stall if just one knowledgeable developer left, and only <strong>16.9%</strong> work on projects that typically have a plan to cope with developers leaving.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Many projects depend on very few knowledgeable developers and rarely have succession or departure plans in place.</p>
+</div>
+</div>
 </section>
-<section id="how-to-run" class="level1">
-<h1>How to run</h1>
-<p>You need <a href="https://quarto.org/docs/get-started/">Quarto</a> and R (with the packages used by the analysis: <code>dplyr</code>, <code>tidyr</code>, <code>stringr</code>, <code>purrr</code>, <code>forcats</code>, <code>ggplot2</code>, <code>patchwork</code>, <code>gt</code>, <code>scales</code>, and <code>tibble</code>).</p>
-<p>Run the commands from inside the <code>rse-book/</code> directory:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> rse-book</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<section id="run-a-single-chapter" class="level2">
-<h2 class="anchored" data-anchor-id="run-a-single-chapter">Run a single chapter</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render chapters/conf2can_0.qmd</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>The result is written to <code>_book/chapters/conf2can_0.html</code>.</p>
+<section id="what-respondents-want-from-a-nordic-rse-institute" class="level2">
+<h2 class="anchored" data-anchor-id="what-respondents-want-from-a-nordic-rse-institute">What respondents want from a Nordic-RSE institute</h2>
+<p>When asked how Nordic-RSE could foster community engagement and knowledge transfer, respondents most often selected organisation of conferences, workshops and similar events, at <strong>86.7%</strong>. Other priorities differed by career stage. Respondents under 35 most often selected compilation and development of freely available training materials (<strong>68.4%</strong>). Those aged 35-45 most often selected organisation of online and/or in-person trainings (<strong>59.3%</strong>). Respondents aged 45+ most often selected fostering networking within the RSE community via a moderated chat (<strong>61.5%</strong>).</p>
+<p>When asked what tasks should be undertaken by a Nordic-RSE institute, respondents most often selected advocating for research software towards politicians and decision makers (<strong>71.7%</strong>), community engagement and training (<strong>70.0%</strong>), and promotion of career paths in the RSE field (<strong>70.0%</strong>). Among respondents under 35, all three ranked equally at <strong>73.7%</strong>. These priorities align closely with the broader survey findings: the community is skilled and satisfied, but wants clearer career structures, and more opportunities to learn and connect.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Key finding">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key finding
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Respondents see a Nordic-RSE institute primarily as a platform for conferences and workshops, advocacy, career development, and community training.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" alt="Two stacked horizontal bar charts, each faceted into three age-group columns. Top chart: how Nordic-RSE could foster community engagement; conferences and workshops rank highest across all ages. Bottom chart: tasks the institute should undertake; advocacy, community training, and career-path promotion lead overall." width="1344"></p>
+<figcaption>Community engagement priorities and institute tasks by age group (multi-select; three columns show Below 35, 35–45, and 45+). (community engagement: N = 60; institute tasks: N = 60)</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="run-the-entire-book" class="level2">
-<h2 class="anchored" data-anchor-id="run-the-entire-book">Run the entire book</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Then open <code>_book/index.html</code>.</p>
+<section id="please-share-your-thoughts-or-comments" class="level2">
+<h2 class="anchored" data-anchor-id="please-share-your-thoughts-or-comments">Please share your thoughts or comments!</h2>
+<p>We would love to hear what you think. Please take a moment and share your thoughts about the survey and the analysis in our collaborative document: <a href="https://hackmd.io/@nordic-rse/rse-survey-2026" class="uri">https://hackmd.io/@nordic-rse/rse-survey-2026</a>.</p>
 </section>
-<section id="update-the-recoding-appendix" class="level2">
-<h2 class="anchored" data-anchor-id="update-the-recoding-appendix">Update the recoding appendix</h2>
-<p>The codebook in <code>appendices/recoding.qmd</code> is built from allocation tables that the <strong>chapters</strong> produce while they render. So render the chapters first (e.g. render the whole book), then refresh the appendix:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render appendices/recoding.qmd <span class="at">--no-cache</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-</section>
-<section id="caching-and-rebuilds" class="level1">
-<h1>Caching and rebuilds</h1>
-<ul>
-<li><strong><code>_freeze/</code></strong>: Existing frozen output may remain from earlier builds, but <code>_quarto.yml</code> sets <code>freeze: false</code> so full renders always execute the current chapter code against the current data and shared R functions.</li>
-<li><strong><code>_allocation_cache/</code></strong>: each chapter writes its allocation table here (keyed by <code>cache_id</code>); the recoding appendix reads them back. If you rename or remove questions, clear stale <code>.rds</code> files before rendering the full book so removed questions cannot remain in the appendix.</li>
-</ul>
-</section>
-<section id="current-content" class="level1">
-<h1>Current content</h1>
-<p>The chapter list in <code>_quarto.yml</code> is the authoritative inventory and determines the book navigation and render order. It currently covers RSE roles, education, software experience, open science, RSE organisations, employment, Likert scales, turnover, work and publication practices, conferences, project management, job stability, training, funding, tooling, generative AI, and demographics.</p>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
+<p>These findings will directly shape how we, together with you at Nordic-RSE develop our activities and priorities going forward. We’ll follow up with a separate post on the concrete steps we’re taking in response. We will also link to resources on where to find training, networking and career that already exist for RSEs in the Nordics today. If you would like to get involved, come to one of our coffee breaks or biweekly meetings: <a href="https://nordic-rse.org/join/" class="uri">https://nordic-rse.org/join/</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1422,8 +1644,8 @@ Tip
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./chapters/rse1_0.html" class="pagination-link" aria-label="Do you write software for academic research as part of your job?">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Do you write software for academic research as part of your job?</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./about/user-guide.html" class="pagination-link" aria-label="User Guide">
+        <span class="nav-page-text">User Guide</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
