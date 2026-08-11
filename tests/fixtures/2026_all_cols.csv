@@ -1,0 +1,8 @@
+New_name,Old_name,Question,Option,year,source_file,row_index
+edu1_0,edu1,What is the highest level of education you have attained?,,2026,fixture,1
+skill2,skill2,What three skills would you like to acquire?,,2026,fixture,2
+socio1_0,socio1,Country,,2026,fixture,3
+socio3_0,socio3,Age,,2026,fixture,4
+org2can[SQ001]_0,org2can,What would you hope to get out of such an organisation?,Networking,2026,fixture,5
+org2can[SQ002]_0,org2can,What would you hope to get out of such an organisation?,Training,2026,fixture,6
+org2can[other]_0,org2can,What would you hope to get out of such an organisation?,Other,2026,fixture,7

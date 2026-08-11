@@ -1,0 +1,18 @@
+# Shared defaults for analysis tasks and renderers.
+default_tasks:
+  - focus
+  - by_age
+  - between_countries
+
+# Select-question chapter content: table | graphic | both
+presentation: both
+
+country_column: socio1_0
+age_column: socio3_0
+submit_column: submitdate_0
+year_column: Year_0
+
+# Clean long-format output from `rse-survey process-data`
+processed_dir: rse-book/_data
+
+empty_question_policy: skip_with_warning  # or fail
