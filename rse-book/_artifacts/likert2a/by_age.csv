@@ -1,0 +1,17 @@
+item,age_group,category,n,pct,N
+Directly reference the software (i.e. through Github link or Zenodo),Under 35,Always,31,91.2,34
+Directly reference the software (i.e. through Github link or Zenodo),Under 35,Never,3,8.8,34
+Directly reference the software (i.e. through Github link or Zenodo),35-44,Always,31,88.6,35
+Directly reference the software (i.e. through Github link or Zenodo),35-44,Never,4,11.4,35
+Directly reference the software (i.e. through Github link or Zenodo),45-54,Always,15,93.8,16
+Directly reference the software (i.e. through Github link or Zenodo),45-54,Never,1,6.2,16
+Directly reference the software (i.e. through Github link or Zenodo),55+,Always,6,85.7,7
+Directly reference the software (i.e. through Github link or Zenodo),55+,Never,1,14.3,7
+I reference a published paper describing the software,Under 35,Always,20,71.4,28
+I reference a published paper describing the software,Under 35,Never,8,28.6,28
+I reference a published paper describing the software,35-44,Always,28,77.8,36
+I reference a published paper describing the software,35-44,Never,8,22.2,36
+I reference a published paper describing the software,45-54,Always,12,75.0,16
+I reference a published paper describing the software,45-54,Never,4,25.0,16
+I reference a published paper describing the software,55+,Always,6,85.7,7
+I reference a published paper describing the software,55+,Never,1,14.3,7

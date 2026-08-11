@@ -1,0 +1,25 @@
+country_group,category,n,pct
+Germany,Laptop/desktop,131,67.9
+Germany,Stand-alone server(s),97,50.3
+Germany,HPC,80,41.5
+Germany,GPU,51,26.4
+Germany,Cloud,27,14.0
+Germany,Mobile,6,3.1
+Netherlands,Laptop/desktop,41,85.4
+Netherlands,HPC,22,45.8
+Netherlands,Stand-alone server(s),17,35.4
+Netherlands,Cloud,12,25.0
+Netherlands,GPU,5,10.4
+Netherlands,Mobile,1,2.1
+United Kingdom,Laptop/desktop,90,72.6
+United Kingdom,HPC,62,50.0
+United Kingdom,Stand-alone server(s),50,40.3
+United Kingdom,Cloud,37,29.8
+United Kingdom,GPU,29,23.4
+United Kingdom,Mobile,2,1.6
+United States,Laptop/desktop,60,67.4
+United States,HPC,52,58.4
+United States,Stand-alone server(s),40,44.9
+United States,Cloud,38,42.7
+United States,GPU,24,27.0
+United States,Mobile,3,3.4

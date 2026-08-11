@@ -1,0 +1,15 @@
+country_group,category,n,pct,N
+Germany,True,182,89.7,203
+Germany,False,13,6.4,203
+Germany,ORCID is not relevant for me,4,2.0,203
+Germany,I do not know what ORCID is,4,2.0,203
+Netherlands,True,43,86.0,50
+Netherlands,False,3,6.0,50
+Netherlands,I do not know what ORCID is,2,4.0,50
+Netherlands,ORCID is not relevant for me,2,4.0,50
+United Kingdom,True,116,92.8,125
+United Kingdom,False,8,6.4,125
+United Kingdom,I do not know what ORCID is,1,0.8,125
+United States,True,82,88.2,93
+United States,False,7,7.5,93
+United States,I do not know what ORCID is,4,4.3,93

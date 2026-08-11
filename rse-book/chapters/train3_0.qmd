@@ -3,33 +3,18 @@ title: "What training programs are you involved with?"
 question_id: train3_0
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## What training programs are you involved with?
 
-## `r filter_label`
+Artifacts for `train3_0` (from `rse-survey build-artifacts`).
 
-### Free-text responses
+### Focus
 
-```{r}
-#| echo: false
-source(file.path(book_root, "R/recodes/train3_0_recode.R"))
-```
+{{< include ../_artifacts/train3_0/focus.md >}}
 
-```{r}
-#| echo: false
+### By age group
 
-data_coded <- process_text_codes_with_allocation(
-  filter = FILTER,
-  question_code = "train3_0",
-  recode_map = train3_0_recode_map,
-  header = "Training programs",
-  other = FALSE,
-  cache_id = "train3_0"
-)
+{{< include ../_artifacts/train3_0/by_age.md >}}
 
-data_coded$summary_table
-```
+### Between countries
 
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
+{{< include ../_artifacts/train3_0/between_countries.md >}}

@@ -1,0 +1,13 @@
+{
+  "question_id": "socio3_0",
+  "focus": [
+    "Germany"
+  ],
+  "tasks": [
+    "focus",
+    "by_age",
+    "between_countries"
+  ],
+  "response_kind": "categorical",
+  "written_at": "2026-08-11T05:18:49.757007+00:00"
+}

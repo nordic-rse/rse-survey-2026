@@ -3,33 +3,18 @@ title: "What three skills would you like to acquire or improve to help your work
 question_id: skill2
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## What three skills would you like to acquire or improve to help your work as a Research Software Engineer / Research Software Developer? The skills can be technical and non-technical.
 
-## `r filter_label`
+Artifacts for `skill2` (from `rse-survey build-artifacts`).
 
-### Free-text responses
+### Focus
 
-```{r}
-#| echo: false
-source(file.path(book_root, "R/recodes/skill2_recode.R"))
-```
+{{< include ../_artifacts/skill2/focus.md >}}
 
-```{r}
-#| echo: false
+### By age group
 
-skills_coded <- process_text_codes_with_allocation(
-  filter = FILTER,
-  question_code = "skill2",
-  recode_map = skill2_recode_map,
-  header = "Skills",
-  other = FALSE,
-  cache_id = "skill2"
-)
+{{< include ../_artifacts/skill2/by_age.md >}}
 
-skills_coded$summary_table
-```
+### Between countries
 
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
+{{< include ../_artifacts/skill2/between_countries.md >}}

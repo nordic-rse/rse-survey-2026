@@ -1,0 +1,21 @@
+age_group,category,n,pct,N
+Under 35,Strongly Agree,5,8.2,61
+Under 35,Agree,13,21.3,61
+Under 35,Neither agree or disagree,17,27.9,61
+Under 35,Disagree,12,19.7,61
+Under 35,Strongly disagree,14,23.0,61
+35-44,Strongly Agree,2,2.7,74
+35-44,Agree,20,27.0,74
+35-44,Neither agree or disagree,16,21.6,74
+35-44,Disagree,10,13.5,74
+35-44,Strongly disagree,26,35.1,74
+45-54,Strongly Agree,2,6.9,29
+45-54,Agree,5,17.2,29
+45-54,Neither agree or disagree,5,17.2,29
+45-54,Disagree,10,34.5,29
+45-54,Strongly disagree,7,24.1,29
+55+,Strongly Agree,1,9.1,11
+55+,Agree,4,36.4,11
+55+,Neither agree or disagree,4,36.4,11
+55+,Disagree,1,9.1,11
+55+,Strongly disagree,1,9.1,11

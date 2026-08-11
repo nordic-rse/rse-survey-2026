@@ -1,0 +1,345 @@
+raw,cluster_id,category
+derse,4,Conferences and events
+rsecon,7,RSE events
+agu,6,Survey terms
+egu,6,Survey terms
+adass,6,Survey terms
+collaborations workshop,3,Workshop series
+dhd,4,Conferences and events
+pasc,2,Conferences and events
+siam cse,2,Conferences and events
+siam,2,Conferences and events
+dash,6,Survey terms
+latinr,6,Survey terms
+juliacon,2,Conferences and events
+derse conference,1,Astronomy conferences
+nobugs,6,Survey terms
+posit::conf,2,Conferences and events
+spie,6,Survey terms
+eccomas,6,Survey terms
+american geophysical union annual meeting,1,Astronomy conferences
+many,6,Survey terms
+usrse,6,Survey terms
+ieee escience,3,Workshop series
+multiple,6,Survey terms
+aps march meeting,1,Astronomy conferences
+user!,6,Survey terms
+project workshops,3,Workshop series
+community workshops,3,Workshop series
+euroscipy,0,Scientific conferences and workshops
+sc,0,Scientific conferences and workshops
+fosdem,4,Conferences and events
+isc,2,Conferences and events
+rsecon (uk),7,RSE events
+eusn,4,Conferences and events
+european geosciences union,0,Scientific conferences and workshops
+icse,4,Conferences and events
+chep,2,Conferences and events
+supercomputing,5,Scientific research fields
+siam pp,2,Conferences and events
+scipy,5,Scientific research fields
+pycon,2,Conferences and events
+icalepcs,4,Conferences and events
+domain conferences/workshops (mrs,3,Workshop series
+emrs rsc,7,RSE events
+faraday discussions,1,Astronomy conferences
+psdi workshops),3,Workshop series
+uk swift hep workshops,3,Workshop series
+ivoa,6,Survey terms
+some other astronomy conferences,1,Astronomy conferences
+nerc digital gathering,3,Workshop series
+empirical methods in natural language processing conference,1,Astronomy conferences
+ebrains / hbp summit and workshops,3,Workshop series
+tnc pearc techx,2,Conferences and events
+a few,6,Survey terms
+elixir pathogen data focus group,5,Scientific research fields
+adass and numerous other conferences,1,Astronomy conferences
+siam conferences,1,Astronomy conferences
+domain workshops,3,Workshop series
+mpg fdm,2,Conferences and events
+wccm,4,Conferences and events
+icosahom,4,Conferences and events
+gamms rse,7,RSE events
+symposium on software performance (ssp),3,Workshop series
+aiaa,6,Survey terms
+topical conferences,1,Astronomy conferences
+where our users go to,4,Conferences and events
+cancer genomics consortium,5,Scientific research fields
+vision sciences society,5,Scientific research fields
+society for neuroscience,5,Scientific research fields
+barcamp open science,3,Workshop series
+open science days,5,Scientific research fields
+helmholtz metadata conference,1,Astronomy conferences
+mpg fdm workshop,3,Workshop series
+eln workshops,3,Workshop series
+ukrse,6,Survey terms
+third infinity,6,Survey terms
+american geophysical union fall meeting,1,Astronomy conferences
+ucar sea's improving scientific software conference,3,Workshop series
+american meteorological society annual meeting,1,Astronomy conferences
+watoc,2,Conferences and events
+inmm,6,Survey terms
+goldschmidt,0,Scientific conferences and workshops
+aas,6,Survey terms
+iau,6,Survey terms
+very different,6,Survey terms
+some topical conferences,1,Astronomy conferences
+comparative oceanic linguistics,0,Scientific conferences and workshops
+canberra,6,Survey terms
+e.g. european library automation group (elag),3,Workshop series
+semantic web in libraries (swib),0,Scientific conferences and workshops
+liege colloquium,0,Scientific conferences and workshops
+including adho,6,Survey terms
+eadh,6,Survey terms
+hmc conference,1,Astronomy conferences
+saxfdm tagung,0,Scientific conferences and workshops
+biometrisches kolloquium,0,Scientific conferences and workshops
+sib,4,Conferences and events
+bioinformatic conferences: eccb,1,Astronomy conferences
+ismb,4,Conferences and events
+skach winter meeting,1,Astronomy conferences
+european r users meeting,1,Astronomy conferences
+rencontresr,2,Conferences and events
+uros,6,Survey terms
+rss,7,RSE events
+jsm,6,Survey terms
+compstat,2,Conferences and events
+australasian region biometrics conference,5,Scientific research fields
+different rse conferences & related workshops,3,Workshop series
+acm pepm,2,Conferences and events
+ecological modelling conference,1,Astronomy conferences
+rse conferences,7,RSE events
+esa living planet symposium,5,Scientific research fields
+espresso summer school,0,Scientific conferences and workshops
+leipzig summer schoon on active matter,0,Scientific conferences and workshops
+american chemical society,4,Conferences and events
+cecam espresso summer school,0,Scientific conferences and workshops
+ieee escience conference,1,Astronomy conferences
+caribbean regional conference of psychology,1,Astronomy conferences
+interamerican congress of psychology,1,Astronomy conferences
+dh,4,Conferences and events
+chr,2,Conferences and events
+ismrm,4,Conferences and events
+miccai,6,Survey terms
+multiple all over europa,0,Scientific conferences and workshops
+england,0,Scientific conferences and workshops
+nac,2,Conferences and events
+cray user group,2,Conferences and events
+pyhep,2,Conferences and events
+rslondonsoutheast,7,RSE events
+durham hpc days,2,Conferences and events
+dh benelux,4,Conferences and events
+igarss,6,Survey terms
+cosyne,2,Conferences and events
+sfn,4,Conferences and events
+cvpr,2,Conferences and events
+cmstatistics,5,Scientific research fields
+mica,6,Survey terms
+euromech colloquium,0,Scientific conferences and workshops
+bernstein conference,1,Astronomy conferences
+ocns annual meeting,1,Astronomy conferences
+knime,4,Conferences and events
+oecd,6,Survey terms
+resa,2,Conferences and events
+rseaunz,7,RSE events
+sers,4,Conferences and events
+chase,6,Survey terms
+wssspe,2,Conferences and events
+icsew,4,Conferences and events
+rseconuk,7,RSE events
+chaos communication congress,1,Astronomy conferences
+practicalmeeg,0,Scientific conferences and workshops
+de rse,7,RSE events
+nordicrsecon,0,Scientific conferences and workshops
+aoir,6,Survey terms
+ducoms,4,Conferences and events
+rse day ku leuven,7,RSE events
+other online formats,0,Scientific conferences and workshops
+google cloud summit,3,Workshop series
+text encoding initiative conference,3,Workshop series
+declarative amsterdam,0,Scientific conferences and workshops
+european society for textual scholarship,0,Scientific conferences and workshops
+wapor,6,Survey terms
+ifd&tc,2,Conferences and events
+acspri,2,Conferences and events
+interne wissensaustausch workshop,0,Scientific conferences and workshops
+elixir all hands,6,Survey terms
+diverses conférences,1,Astronomy conferences
+"""ceci meeting"" (consortium des équipements de calcul intensif)",3,Workshop series
+talks lors de déplacements dans des universités,0,Scientific conferences and workshops
+programación en ciencias pesqueras,3,Workshop series
+synchrotron radiation instrumentation (sri),5,Scientific research fields
+sunbelt (insna),2,Conferences and events
+sunbelt,2,Conferences and events
+språkbanken meetings,1,Astronomy conferences
+dhnb,4,Conferences and events
+computer applications in archaeology (caa),3,Workshop series
+archeofoss,6,Survey terms
+annual meeting of the american ornithological society,5,Scientific research fields
+hmc,2,Conferences and events
+nfdi,2,Conferences and events
+swedish language technology conference (sltc),3,Workshop series
+language resources and evaluation conference (lrec),3,Workshop series
+huminfra nodes conference,1,Astronomy conferences
+not software conferences.,1,Astronomy conferences
+iss,4,Conferences and events
+spie astronomical telescopes+instrumentation,5,Scientific research fields
+afrilex,6,Survey terms
+esa living planet,5,Scientific research fields
+emnlp,6,Survey terms
+acl,2,Conferences and events
+coling,2,Conferences and events
+supercomputing workshop,3,Workshop series
+mostly community/ project ws (datahub,3,Workshop series
+hmc),2,Conferences and events
+ric conference,1,Astronomy conferences
+issi,6,Survey terms
+dasc,2,Conferences and events
+aiaa scitech,5,Scientific research fields
+aviose,6,Survey terms
+dlr llm wissensaustauschworkshop,0,Scientific conferences and workshops
+event of rsse africa (cape town,7,RSE events
+acat,6,Survey terms
+lhcp,2,Conferences and events
+workshops within princeton university (organized by research computing),3,Workshop series
+american astronomical society,5,Scientific research fields
+ices annual science conference,1,Astronomy conferences
+acs fall meeting,1,Astronomy conferences
+recomb,2,Conferences and events
+summer rosetta con,0,Scientific conferences and workshops
+cakefest,4,Conferences and events
+hepix,6,Survey terms
+rstudio::conf,7,RSE events
+agu fall meeting,1,Astronomy conferences
+rwanda ai and machine learning  workshop,3,Workshop series
+seismological society of american annual meeting,1,Astronomy conferences
+ciroh developers conference,3,Workshop series
+ewri,6,Survey terms
+techx,4,Conferences and events
+tiime,6,Survey terms
+tnc,2,Conferences and events
+https://www.nobugsconference.org/,3,Workshop series
+european simulation interoperability workshop,3,Workshop series
+military information and communications symposium of south africa,1,Astronomy conferences
+land warfare conference,1,Astronomy conferences
+csir biennial conference,1,Astronomy conferences
+prasa,2,Conferences and events
+african digital scholarship and curation conference,1,Astronomy conferences
+aas and aps,6,Survey terms
+pac,6,Survey terms
+issb,4,Conferences and events
+gordon research conference (usa),1,Astronomy conferences
+american crystallography association annual meeting (usa) and others,5,Scientific research fields
+project specific conference,1,Astronomy conferences
+gitkon,6,Survey terms
+collegeville workshop,3,Workshop series
+rse con,7,RSE events
+digital humanities,0,Scientific conferences and workshops
+semantic web in libraris (swib),0,Scientific conferences and workshops
+digital humanities in nordic and baltic countries (dhnb),0,Scientific conferences and workshops
+theory and practice of digital libraries,0,Scientific conferences and workshops
+digikult,6,Survey terms
+cordi,6,Survey terms
+derse würzburg + karlsruhe,0,Scientific conferences and workshops
+rsecon newcastle,7,RSE events
+hpsf conference,1,Astronomy conferences
+monogram,5,Scientific research fields
+ssi collaborations workshop,3,Workshop series
+spie astronomy,5,Scientific research fields
+varies,6,Survey terms
+escience,5,Scientific research fields
+iscb,4,Conferences and events
+other consortium/project/topic specific workshops,3,Workshop series
+ams,4,Conferences and events
+noaa space weather workshop,3,Workshop series
+european space weather week,0,Scientific conferences and workshops
+dhtech symposium,3,Workshop series
+forge,4,Conferences and events
+south african society of atmospheric scientists,5,Scientific research fields
+eresearch,6,Survey terms
+idw,6,Survey terms
+uklft,0,Scientific conferences and workshops
+prace days,6,Survey terms
+uktc,4,Conferences and events
+uk fluids,0,Scientific conferences and workshops
+vibiom,6,Survey terms
+gfv,2,Conferences and events
+one health symposium,1,Astronomy conferences
+virus genomics,5,Scientific research fields
+evolution and bioinformatics,5,Scientific research fields
+cospar,2,Conferences and events
+shine,6,Survey terms
+higgs days santander,6,Survey terms
+research area specific not software specific conferences,1,Astronomy conferences
+advanced technologies and treatments for diabetes (attd),3,Workshop series
+agu and ssa,6,Survey terms
+gdansk,0,Scientific conferences and workshops
+stockholm,0,Scientific conferences and workshops
+sweden,0,Scientific conferences and workshops
+jlesc,2,Conferences and events
+nia omics data resources: a path to interoperability workshop,3,Workshop series
+chpc conference,1,Astronomy conferences
+res con,2,Conferences and events
+strong lensing conferece,5,Scientific research fields
+california forestry science symposium,3,Workshop series
+north american forestry ecology workshop,3,Workshop series
+acm pearc,2,Conferences and events
+acm document engineering,3,Workshop series
+educause,6,Survey terms
+cni,4,Conferences and events
+pydata,2,Conferences and events
+fossdem,6,Survey terms
+acts developer workshop,3,Workshop series
+atlas tracking workshop,3,Workshop series
+atlas tdaq workshop,3,Workshop series
+ipdps,4,Conferences and events
+american meteorological society,5,Scientific research fields
+galaxy community conference,1,Astronomy conferences
+eresearch south africa conference,1,Astronomy conferences
+usrse conferences,1,Astronomy conferences
+usrse'xy,6,Survey terms
+aas/spd/tess,4,Conferences and events
+pcapac,2,Conferences and events
+ieee rt,3,Workshop series
+nofe,4,Conferences and events
+workshops hosted at sheffield university,3,Workshop series
+arc,6,Survey terms
+nfcs,4,Conferences and events
+worktribe connect,4,Conferences and events
+globus world,0,Scientific conferences and workshops
+uk rsecon,7,RSE events
+dh conference,1,Astronomy conferences
+plant and animal genome conference,5,Scientific research fields
+american physical society division of plasma physics annual meetings,1,Astronomy conferences
+python in heliophysics meetings,5,Scientific research fields
+open source software for fusion energy conference,3,Workshop series
+gamm,6,Survey terms
+nordic rse conference,7,RSE events
+hipeac,2,Conferences and events
+netsci,2,Conferences and events
+icns,4,Conferences and events
+openacc summit,3,Workshop series
+computing related conferences and workshops (nordugrid,3,Workshop series
+wlcg),2,Conferences and events
+lattice conference,1,Astronomy conferences
+adac,2,Conferences and events
+american geophysical union,1,Astronomy conferences
+ocean sciences,5,Scientific research fields
+siesta advanced workshop,3,Workshop series
+egi,4,Conferences and events
+esa living planete,5,Scientific research fields
+neic,6,Survey terms
+software defined space conference,1,Astronomy conferences
+interne workshops,3,Workshop series
+domain conferences in the past,1,Astronomy conferences
+musikwissenschaftliche themenkonferenz an der akademie der wissenschaften und der literatur (adw mainz),0,Scientific conferences and workshops
+mett,2,Conferences and events
+gamm annual meeting,1,Astronomy conferences
+jupytercon,2,Conferences and events
+magnetism conferences,1,Astronomy conferences
+pycon chile,2,Conferences and events
+pycon us,2,Conferences and events
+mse,4,Conferences and events
+iucr,6,Survey terms
+ecm,4,Conferences and events
+epdic,6,Survey terms

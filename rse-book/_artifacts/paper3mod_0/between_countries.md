@@ -1,0 +1,14 @@
+### Have you published a paper about your software? (For example in journals such as JOSS or Software-x) (N=460)
+
+| country_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Germany | False | 109 | 55.9 | 195 |
+| Germany | True | 86 | 44.1 | 195 |
+| Netherlands | False | 29 | 58.0 | 50 |
+| Netherlands | True | 21 | 42.0 | 50 |
+| United Kingdom | True | 64 | 51.6 | 124 |
+| United Kingdom | False | 60 | 48.4 | 124 |
+| United States | True | 49 | 53.8 | 91 |
+| United States | False | 42 | 46.2 | 91 |
+
+![Have you published a paper about your software? (For example in journals such as JOSS or Software-x) (N=460)](../_artifacts/paper3mod_0/between_countries.png?v=c932e67038)

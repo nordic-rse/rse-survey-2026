@@ -1,0 +1,61 @@
+item,country_group,category,n,pct,N
+Not mentioned at all,Germany,Always,13,12.4,105
+Not mentioned at all,Germany,Sometimes,50,47.6,105
+Not mentioned at all,Germany,Never,42,40.0,105
+Not mentioned at all,Netherlands,Always,2,6.7,30
+Not mentioned at all,Netherlands,Sometimes,11,36.7,30
+Not mentioned at all,Netherlands,Never,17,56.7,30
+Not mentioned at all,United Kingdom,Always,7,10.6,66
+Not mentioned at all,United Kingdom,Sometimes,27,40.9,66
+Not mentioned at all,United Kingdom,Never,32,48.5,66
+Not mentioned at all,United States,Always,9,18.8,48
+Not mentioned at all,United States,Sometimes,22,45.8,48
+Not mentioned at all,United States,Never,17,35.4,48
+Acknowledged in the main text,Germany,Always,8,7.5,106
+Acknowledged in the main text,Germany,Sometimes,48,45.3,106
+Acknowledged in the main text,Germany,Never,50,47.2,106
+Acknowledged in the main text,Netherlands,Always,4,14.8,27
+Acknowledged in the main text,Netherlands,Sometimes,11,40.7,27
+Acknowledged in the main text,Netherlands,Never,12,44.4,27
+Acknowledged in the main text,United Kingdom,Always,6,9.1,66
+Acknowledged in the main text,United Kingdom,Sometimes,22,33.3,66
+Acknowledged in the main text,United Kingdom,Never,38,57.6,66
+Acknowledged in the main text,United States,Always,6,10.9,55
+Acknowledged in the main text,United States,Sometimes,31,56.4,55
+Acknowledged in the main text,United States,Never,18,32.7,55
+Acknowledged in acknowledgements section,Germany,Always,8,7.8,102
+Acknowledged in acknowledgements section,Germany,Sometimes,65,63.7,102
+Acknowledged in acknowledgements section,Germany,Never,29,28.4,102
+Acknowledged in acknowledgements section,Netherlands,Always,3,9.7,31
+Acknowledged in acknowledgements section,Netherlands,Sometimes,20,64.5,31
+Acknowledged in acknowledgements section,Netherlands,Never,8,25.8,31
+Acknowledged in acknowledgements section,United Kingdom,Always,4,6.2,65
+Acknowledged in acknowledgements section,United Kingdom,Sometimes,40,61.5,65
+Acknowledged in acknowledgements section,United Kingdom,Never,21,32.3,65
+Acknowledged in acknowledgements section,United States,Always,5,10.0,50
+Acknowledged in acknowledgements section,United States,Sometimes,35,70.0,50
+Acknowledged in acknowledgements section,United States,Never,10,20.0,50
+Named as co-author,Germany,Always,22,20.8,106
+Named as co-author,Germany,Sometimes,62,58.5,106
+Named as co-author,Germany,Never,22,20.8,106
+Named as co-author,Netherlands,Always,8,25.8,31
+Named as co-author,Netherlands,Sometimes,17,54.8,31
+Named as co-author,Netherlands,Never,6,19.4,31
+Named as co-author,United Kingdom,Always,27,40.9,66
+Named as co-author,United Kingdom,Sometimes,27,40.9,66
+Named as co-author,United Kingdom,Never,12,18.2,66
+Named as co-author,United States,Always,10,19.6,51
+Named as co-author,United States,Sometimes,31,60.8,51
+Named as co-author,United States,Never,10,19.6,51
+Named as main author,Germany,Always,8,6.9,116
+Named as main author,Germany,Sometimes,36,31.0,116
+Named as main author,Germany,Never,72,62.1,116
+Named as main author,Netherlands,Always,1,2.9,34
+Named as main author,Netherlands,Sometimes,9,26.5,34
+Named as main author,Netherlands,Never,24,70.6,34
+Named as main author,United Kingdom,Always,11,14.1,78
+Named as main author,United Kingdom,Sometimes,21,26.9,78
+Named as main author,United Kingdom,Never,46,59.0,78
+Named as main author,United States,Always,2,3.8,52
+Named as main author,United States,Sometimes,18,34.6,52
+Named as main author,United States,Never,32,61.5,52

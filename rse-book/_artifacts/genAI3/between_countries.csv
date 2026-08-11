@@ -1,0 +1,22 @@
+country_group,category,n,pct
+Germany,ChatGPT,116,75.8
+Germany,Claude,60,39.2
+Germany,GitHub Copilot,60,39.2
+Germany,Gemini,29,19.0
+Germany,Cursor,6,3.9
+Germany,Tabnine,1,0.7
+Netherlands,ChatGPT,20,60.6
+Netherlands,GitHub Copilot,17,51.5
+Netherlands,Claude,14,42.4
+Netherlands,Gemini,13,39.4
+Netherlands,Cursor,2,6.1
+United Kingdom,ChatGPT,49,57.6
+United Kingdom,GitHub Copilot,42,49.4
+United Kingdom,Claude,28,32.9
+United Kingdom,Gemini,18,21.2
+United Kingdom,Cursor,9,10.6
+United States,ChatGPT,41,58.6
+United States,Claude,38,54.3
+United States,GitHub Copilot,31,44.3
+United States,Gemini,24,34.3
+United States,Cursor,11,15.7

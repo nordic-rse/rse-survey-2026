@@ -1,0 +1,13 @@
+{
+  "question_id": "ukrse1_0",
+  "focus": [
+    "Germany"
+  ],
+  "tasks": [
+    "focus",
+    "by_age",
+    "between_countries"
+  ],
+  "response_kind": "categorical",
+  "written_at": "2026-08-09T14:55:45.143520+00:00"
+}

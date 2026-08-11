@@ -1,0 +1,38 @@
+### Which collaboration tools do you use for software development? (Germany, N=202)
+
+| age_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Under 35 | GitLab | 52 | 74.3 | 70 |
+| Under 35 | GitHub | 49 | 70.0 | 70 |
+| Under 35 | Git | 44 | 62.9 | 70 |
+| Under 35 | Slack | 12 | 17.1 | 70 |
+| Under 35 | Confluence | 6 | 8.6 | 70 |
+| Under 35 | Jira | 5 | 7.1 | 70 |
+| Under 35 | Google Drive | 3 | 4.3 | 70 |
+| Under 35 | Bitbucket | 2 | 2.9 | 70 |
+| 35-44 | GitLab | 67 | 82.7 | 81 |
+| 35-44 | GitHub | 62 | 76.5 | 81 |
+| 35-44 | Git | 52 | 64.2 | 81 |
+| 35-44 | Slack | 12 | 14.8 | 81 |
+| 35-44 | Google Drive | 11 | 13.6 | 81 |
+| 35-44 | Confluence | 10 | 12.3 | 81 |
+| 35-44 | Jira | 7 | 8.6 | 81 |
+| 35-44 | Trello | 4 | 4.9 | 81 |
+| 45-54 | GitLab | 33 | 89.2 | 37 |
+| 45-54 | GitHub | 28 | 75.7 | 37 |
+| 45-54 | Git | 22 | 59.5 | 37 |
+| 45-54 | Slack | 5 | 13.5 | 37 |
+| 45-54 | Confluence | 4 | 10.8 | 37 |
+| 45-54 | Jira | 4 | 10.8 | 37 |
+| 45-54 | Google Drive | 3 | 8.1 | 37 |
+| 45-54 | Sourceforge | 1 | 2.7 | 37 |
+| 45-54 | Trello | 1 | 2.7 | 37 |
+| 55+ | GitLab | 12 | 85.7 | 14 |
+| 55+ | Git | 9 | 64.3 | 14 |
+| 55+ | GitHub | 8 | 57.1 | 14 |
+| 55+ | Slack | 2 | 14.3 | 14 |
+| 55+ | Confluence | 1 | 7.1 | 14 |
+| 55+ | Google Drive | 1 | 7.1 | 14 |
+| 55+ | Jira | 1 | 7.1 | 14 |
+
+![Which collaboration tools do you use for software development? (N=202)](../_artifacts/proj6zaf/by_age.png?v=fff52964ad)

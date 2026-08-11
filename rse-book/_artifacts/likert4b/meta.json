@@ -1,0 +1,13 @@
+{
+  "question_id": "likert4b",
+  "focus": [
+    "Germany"
+  ],
+  "tasks": [
+    "focus",
+    "by_age",
+    "between_countries"
+  ],
+  "response_kind": "likert",
+  "written_at": "2026-08-11T03:56:56.396993+00:00"
+}

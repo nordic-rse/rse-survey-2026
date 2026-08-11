@@ -1,0 +1,7 @@
+submitdate_0,socio1_0,socio3_0,Year_0,edu1_0,skill2,org2can[SQ001]_0,org2can[SQ002]_0,org2can[other]_0
+2026-01-15,Germany,25 to 34 years,2026,PhD,python,True,False,
+2026-01-16,Germany,35 to 44 years,2026,Master,testing,True,True,
+2026-01-17,Netherlands,25 to 34 years,2026,PhD,r,False,True,
+2026-01-18,United Kingdom,45 to 54 years,2026,Bachelor,hpc,True,False,networking
+2026-01-19,United States,18 to 24 years,2026,Master,devops,False,False,
+2025-01-20,Germany,25 to 34 years,2025,PhD,old,True,False,

@@ -1,0 +1,13 @@
+{
+  "question_id": "proj4can",
+  "focus": [
+    "Germany"
+  ],
+  "tasks": [
+    "focus",
+    "by_age",
+    "between_countries"
+  ],
+  "response_kind": "categorical_with_other",
+  "written_at": "2026-08-11T05:18:23.923624+00:00"
+}

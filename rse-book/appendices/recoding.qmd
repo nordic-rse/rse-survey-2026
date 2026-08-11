@@ -1,20 +1,23 @@
 # Recoding {#sec-appendix-recoding}
 
-This appendix lists the raw-to-category allocation tables for free-text questions. Each row links one normalized raw response to its assigned category in the corresponding chapter summary table.
+Token → category tables for free-text questions with `appendix: true`.
 
-Allocation tables are generated when question chapters are rendered and cached for display here.
+## `currentEmp5_0`
 
-<!-- quarto render appendices/recoding.qmd --no-cache -->
+{{< include ../_artifacts/currentEmp5_0/token_allocation.md >}}
 
-```{r}
-#| include: false
-#| message: false
-#| warning: false
-#| file: ../R/_load_common.R
-```
+## `conf2can_0`
 
-```{r}
-#| echo: false
-#| results: asis
-render_allocation_appendix()
-```
+{{< include ../_artifacts/conf2can_0/token_allocation.md >}}
+
+## `train3_0`
+
+{{< include ../_artifacts/train3_0/token_allocation.md >}}
+
+## `skill2`
+
+{{< include ../_artifacts/skill2/token_allocation.md >}}
+
+## `genAI6_0`
+
+{{< include ../_artifacts/genAI6_0/token_allocation.md >}}

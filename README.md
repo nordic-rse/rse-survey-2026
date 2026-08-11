@@ -1,96 +1,134 @@
-# rse-survey-2026
+# International RSE Survey analysis package
 
-Analysis and reporting code for the International RSE Survey 2026. The
-repository contains a question-by-question Quarto book (with Nordic insights as
-the landing page) and generated descriptions of the survey flow.
+Analyse the International RSE Survey for **your focus country** (or country
+group), build tables/figures as artifacts, and publish a thin Quarto book.
 
-## Data
+## What you need
 
-Place the survey exports in `RSE_survey_2026_data/` at the repository root. The
-analysis uses:
+1. Survey files under `RSE_survey_2026_data/` — see [docs/input-format.md](docs/input-format.md)
+2. Python 3.11+ (via [uv](https://github.com/astral-sh/uv) or conda)
 
-- `2026_tf.csv`: one row per respondent, including question responses and
-  country (`socio1_0`);
-- `2026_all_cols.csv`: question text and option metadata.
-
-The data are not committed to this repository.
-
-## Repository structure
-
-| Path | Purpose |
-|------|---------|
-| [`rse-book/`](rse-book/) | Main Quarto book; About part (insights + user guide) plus question-by-question chapters |
-| [`rse-book/index.qmd`](rse-book/index.qmd) | Nordic insights landing page |
-| [`rse-book/about/user-guide.qmd`](rse-book/about/user-guide.qmd) | User guide for working with the book |
-| [`rse-book/chapters/`](rse-book/chapters/) | One Quarto chapter per survey question or question group |
-| [`rse-book/R/`](rse-book/R/) | Book configuration, data preparation, analysis, and plotting code |
-| [`rse-book/R/recodes/`](rse-book/R/recodes/) | Reusable free-text recoding maps |
-| [`RSE_survey_insights_helper/`](RSE_survey_insights_helper/) | Data, plotting, caption, theme, and setup modules for the Nordic insights page |
-| [`RSE_survey_outline/survey-process.md`](RSE_survey_outline/survey-process.md) | Global survey flow, routing, and analysis filtering |
-| [`RSE_survey_outline/survey-process-nordics.md`](RSE_survey_outline/survey-process-nordics.md) | Generated Nordic question inventory with per-question **N** and routing notes |
-| [`RSE_survey_outline/build-survey-process-nordics.R`](RSE_survey_outline/build-survey-process-nordics.R) | Generator for the Nordic survey-process document |
-
-## Configuration
-
-Book and report code share `rse-book/R/.config`:
-
-- `DATA_DIR` gives the data directory name;
-- `NORDIC_COUNTRIES` is the Nordic set (landing page always uses this);
-- `FILTER` is the primary country scope for chapters;
-- `FILTER_COMPARE` is a named list of extra groups for Between Countries.
-
-Analyses retain only submitted responses (rows with a non-empty
-`submitdate_0`).
-
-## Build the outputs
-
-Run these commands from the repository root.
-
-Regenerate the Nordic survey-process document:
+## Install
 
 ```bash
-Rscript RSE_survey_outline/build-survey-process-nordics.R
+# uv (recommended)
+uv sync --extra dev
+# optional HF coding extras:
+# uv sync --extra dev --extra hf
+
+# or conda
+mamba env create -f environment.yml
+mamba activate rse-survey
 ```
 
-Render the complete analysis book (Nordic insights landing page plus chapters):
+## Configure your report
+
+Edit [`config/book.yml`](config/book.yml):
+
+- `focus` — who the report is about
+- `presentation` — select-question chapter content: `table` | `graphic` | `both`
+- `questions.<id>.category_order` — optional answer-label order (omit/`null` = by frequency)
+- `questions.<id>.category_labels` — optional raw survey label → shorter display label (tables/plots)
+- `questions.<id>.category_groups` — optional aggregate several raw labels into one display category
+- `questions.<id>.response_kind: categorical_with_other` — closed options only in tables/plots; requires `closed_categories`; writes `other_by_country` lists
+- `age_groups` — how `socio3_0` bands map to report groups
+- `compare_groups` — countries for between-country views
+- `questions` — which survey items appear, and which tasks to run
+
+First-test defaults: **Germany** focus; compare Netherlands / UK / US;
+single-year **2026** (`waves.include`).
+
+## Run
+
+Global flags: `--silent` | `--verbose` (default) | `--debug`
+(before or after the subcommand). With `--debug`, Prefect flows return and
+print their result payload; otherwise they return nothing to the CLI.
 
 ```bash
-cd rse-book
-quarto render
+# Check data + config
+uv run rse-survey validate
+
+# Process raw CSV → clean long-format table (required before analysis)
+uv run rse-survey process-data
+
+# Build artifacts for all questions in book.yml
+uv run rse-survey build-artifacts
+
+# Or one question while iterating
+uv run rse-survey build-artifacts --question edu1_0
+
+# Select-question table + horizontal bar (focus | by_age | between_countries)
+uv run rse-survey select-questions --question rse1_0 --grouping focus
+uv run rse-survey select-questions --question rse1_0 --grouping by_age
+uv run rse-survey select-questions --question rse1_0 --grouping between_countries
 ```
 
-To render one book chapter while developing:
+Outputs: clean data in `rse-book/_data/`; artifacts in
+`rse-book/_artifacts/<question_id>/` (including `focus.png`,
+`by_age.png`, `between_countries.png` for select questions).
+
+### Free-text HF coding
+
+Configs: [`config/free_text_coding.yml`](config/free_text_coding.yml) (needs `[hf]` extras).
+Each entry is coding params (`k`, `model`, `labels`, …) plus optional `text_column`
+(defaults to the question id). Answers come from the **focus slice** of the
+clean long table (run `process-data` first).
+
+Workflow:
+
+1. **Cluster + draft labels once** (writes YAML `labels` + editable CSV):
 
 ```bash
-cd rse-book
-quarto render chapters/conf2can_0.qmd
+uv run rse-survey propose --question skill2 --overwrite-labels
 ```
 
-The book is written to `rse-book/_book/`. Open `_book/index.html` for the
-Nordic insights landing page.
+2. **Review cluster names** in `config/free_text_coding.yml`, then broadcast
+   them to every token:
 
-## Publish the book
+```bash
+uv run rse-survey apply --question skill2
+```
 
-The book is published to GitHub Pages at
-<https://nordic-rse.github.io/rse-survey-2026/>.
+3. **Reallocate or drop individual tokens** in
+   `rse-book/_hf_freetext_cache/<qid>/token_labels.csv`:
+   - edit `category_human` (leave `category_llm` as the model draft)
+   - set `exclude` to `1` to drop a token from analysis (default `0`)
 
-Survey microdata are not available in CI, so computed results are frozen
-locally and committed under `rse-book/_freeze/`. GitHub Actions then renders
-HTML from those freezes and deploys to the `gh-pages` branch.
+   Then refresh the summary:
 
-1. With the survey data available, render the book so `_freeze/` stays in sync
-   with chapter sources and R code:
+```bash
+uv run rse-survey apply --question skill2 --from-csv
+```
 
-   ```bash
-   cd rse-book
-   quarto render
-   ```
+4. **Follow-up** (`build-artifacts`, appendix) reads `token_labels.csv`.
 
-2. Commit any updated files under `rse-book/_freeze/` together with analysis
-   changes.
+```bash
+uv run rse-survey build-artifacts --question skill2
+```
 
-3. Push to `main`. The `Publish Quarto book` workflow deploys automatically
-   when `rse-book/` changes. You can also run it manually from the Actions tab.
+```bash
+uv run rse-survey sync-quarto
+cd rse-book && quarto render
+```
 
-## How to cite
-Bockting, F. & Wittke, S. (2026). Analysis Book for the International RSE Survey 2026 (Nordic Focus) (Version 0.1.0). Zenodo. https://doi.org/10.5281/zenodo.21716004
+Plot titles live in the PNGs under `rse-book/_artifacts/` (not in Quarto).
+After changing plotting code, regenerate artifacts, then force the book copy:
+
+```bash
+uv run rse-survey select-questions --question rse1_0 --grouping focus
+uv run rse-survey select-questions --question rse1_0 --grouping by_age
+uv run rse-survey select-questions --question rse1_0 --grouping between_countries
+uv run rse-survey sync-quarto   # overwrites rse-book/_book/_artifacts/
+cd rse-book && quarto render chapters/rse1_0.qmd
+```
+
+Nuclear option if a page still shows an old image:
+
+```bash
+rm -rf rse-book/_book/_artifacts
+cd rse-book && quarto render
+```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) to add analysis tasks or graphics.

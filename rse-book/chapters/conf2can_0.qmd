@@ -2,44 +2,19 @@
 title: "At which conference(s)/workshop(s) have you presented your software work?"
 question_id: conf2can_0
 ---
-```{r}
-#| include: false
-#| message: false
-#| warning: false
-#| file: ../R/_load_common.R
-```
 
-```{r}
-#| echo: false
-col <- "conf2can_0"
-question_text <- cols |> 
-  dplyr::filter(New_name == col) |> 
-  dplyr::pull(Question) |> 
-  unique()
-```
+## At which conference(s)/workshop(s) have you presented your software work?
 
-## `r filter_label`
+Artifacts for `conf2can_0` (from `rse-survey build-artifacts`).
 
-### Free-text responses
+### Focus
 
-```{r}
-#| echo: false
+{{< include ../_artifacts/conf2can_0/focus.md >}}
 
-source(file.path(book_root, "R/recodes/conf2can_0_recode.R"))
-```
+### By age group
 
-```{r}
-#| echo: false
-data_coded <- process_text_codes_with_allocation(
-  filter = FILTER,
-  question_code = "conf2can_0",
-  recode_map = conf2can_0_recode_map,
-  header = paste0("Conference (", filter_label, ")"),
-  other = FALSE,
-  cache_id = "conf2can_0"
-)
+{{< include ../_artifacts/conf2can_0/by_age.md >}}
 
-data_coded$summary_table
-```
+### Between countries
 
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
+{{< include ../_artifacts/conf2can_0/between_countries.md >}}

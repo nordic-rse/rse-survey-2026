@@ -1,0 +1,195 @@
+item,country_group,category,n,pct,N
+Developing software (Actual),Germany,0% (None at all),9,4.4,203
+Developing software (Actual),Germany,20%,69,34.0,203
+Developing software (Actual),Germany,40%,54,26.6,203
+Developing software (Actual),Germany,60%,33,16.3,203
+Developing software (Actual),Germany,80%,33,16.3,203
+Developing software (Actual),Germany,100% (All my time),5,2.5,203
+Developing software (Actual),Netherlands,0% (None at all),1,2.0,50
+Developing software (Actual),Netherlands,20%,13,26.0,50
+Developing software (Actual),Netherlands,40%,14,28.0,50
+Developing software (Actual),Netherlands,60%,13,26.0,50
+Developing software (Actual),Netherlands,80%,7,14.0,50
+Developing software (Actual),Netherlands,100% (All my time),2,4.0,50
+Developing software (Actual),United Kingdom,0% (None at all),7,5.6,126
+Developing software (Actual),United Kingdom,20%,42,33.3,126
+Developing software (Actual),United Kingdom,40%,29,23.0,126
+Developing software (Actual),United Kingdom,60%,29,23.0,126
+Developing software (Actual),United Kingdom,80%,15,11.9,126
+Developing software (Actual),United Kingdom,100% (All my time),4,3.2,126
+Developing software (Actual),United States,0% (None at all),4,4.4,91
+Developing software (Actual),United States,20%,18,19.8,91
+Developing software (Actual),United States,40%,27,29.7,91
+Developing software (Actual),United States,60%,16,17.6,91
+Developing software (Actual),United States,80%,19,20.9,91
+Developing software (Actual),United States,100% (All my time),7,7.7,91
+Developing software (Desired),Germany,0% (None at all),4,2.0,197
+Developing software (Desired),Germany,20%,35,17.8,197
+Developing software (Desired),Germany,40%,70,35.5,197
+Developing software (Desired),Germany,60%,58,29.4,197
+Developing software (Desired),Germany,80%,23,11.7,197
+Developing software (Desired),Germany,100% (All my time),7,3.6,197
+Developing software (Desired),Netherlands,20%,6,12.5,48
+Developing software (Desired),Netherlands,40%,18,37.5,48
+Developing software (Desired),Netherlands,60%,15,31.2,48
+Developing software (Desired),Netherlands,80%,5,10.4,48
+Developing software (Desired),Netherlands,100% (All my time),4,8.3,48
+Developing software (Desired),United Kingdom,0% (None at all),3,2.4,124
+Developing software (Desired),United Kingdom,20%,28,22.6,124
+Developing software (Desired),United Kingdom,40%,39,31.5,124
+Developing software (Desired),United Kingdom,60%,23,18.5,124
+Developing software (Desired),United Kingdom,80%,24,19.4,124
+Developing software (Desired),United Kingdom,100% (All my time),7,5.6,124
+Developing software (Desired),United States,0% (None at all),1,1.1,88
+Developing software (Desired),United States,20%,8,9.1,88
+Developing software (Desired),United States,40%,35,39.8,88
+Developing software (Desired),United States,60%,20,22.7,88
+Developing software (Desired),United States,80%,18,20.5,88
+Developing software (Desired),United States,100% (All my time),6,6.8,88
+Research (Actual),Germany,0% (None at all),44,22.3,197
+Research (Actual),Germany,20%,97,49.2,197
+Research (Actual),Germany,40%,34,17.3,197
+Research (Actual),Germany,60%,15,7.6,197
+Research (Actual),Germany,80%,6,3.0,197
+Research (Actual),Germany,100% (All my time),1,0.5,197
+Research (Actual),Netherlands,0% (None at all),14,30.4,46
+Research (Actual),Netherlands,20%,19,41.3,46
+Research (Actual),Netherlands,40%,11,23.9,46
+Research (Actual),Netherlands,60%,2,4.3,46
+Research (Actual),United Kingdom,0% (None at all),39,33.6,116
+Research (Actual),United Kingdom,20%,51,44.0,116
+Research (Actual),United Kingdom,40%,11,9.5,116
+Research (Actual),United Kingdom,60%,9,7.8,116
+Research (Actual),United Kingdom,80%,5,4.3,116
+Research (Actual),United Kingdom,100% (All my time),1,0.9,116
+Research (Actual),United States,0% (None at all),28,32.6,86
+Research (Actual),United States,20%,39,45.3,86
+Research (Actual),United States,40%,13,15.1,86
+Research (Actual),United States,60%,5,5.8,86
+Research (Actual),United States,80%,1,1.2,86
+Research (Desired),Germany,0% (None at all),27,14.1,192
+Research (Desired),Germany,20%,59,30.7,192
+Research (Desired),Germany,40%,68,35.4,192
+Research (Desired),Germany,60%,27,14.1,192
+Research (Desired),Germany,80%,7,3.6,192
+Research (Desired),Germany,100% (All my time),4,2.1,192
+Research (Desired),Netherlands,0% (None at all),7,14.9,47
+Research (Desired),Netherlands,20%,21,44.7,47
+Research (Desired),Netherlands,40%,16,34.0,47
+Research (Desired),Netherlands,60%,3,6.4,47
+Research (Desired),United Kingdom,0% (None at all),22,19.3,114
+Research (Desired),United Kingdom,20%,45,39.5,114
+Research (Desired),United Kingdom,40%,30,26.3,114
+Research (Desired),United Kingdom,60%,11,9.6,114
+Research (Desired),United Kingdom,80%,3,2.6,114
+Research (Desired),United Kingdom,100% (All my time),3,2.6,114
+Research (Desired),United States,0% (None at all),12,14.1,85
+Research (Desired),United States,20%,43,50.6,85
+Research (Desired),United States,40%,20,23.5,85
+Research (Desired),United States,60%,8,9.4,85
+Research (Desired),United States,80%,2,2.4,85
+Management (Actual),Germany,0% (None at all),67,34.5,194
+Management (Actual),Germany,20%,87,44.8,194
+Management (Actual),Germany,40%,22,11.3,194
+Management (Actual),Germany,60%,16,8.2,194
+Management (Actual),Germany,80%,2,1.0,194
+Management (Actual),Netherlands,0% (None at all),26,55.3,47
+Management (Actual),Netherlands,20%,14,29.8,47
+Management (Actual),Netherlands,40%,3,6.4,47
+Management (Actual),Netherlands,60%,2,4.3,47
+Management (Actual),Netherlands,80%,1,2.1,47
+Management (Actual),Netherlands,100% (All my time),1,2.1,47
+Management (Actual),United Kingdom,0% (None at all),44,38.3,115
+Management (Actual),United Kingdom,20%,45,39.1,115
+Management (Actual),United Kingdom,40%,11,9.6,115
+Management (Actual),United Kingdom,60%,8,7.0,115
+Management (Actual),United Kingdom,80%,7,6.1,115
+Management (Actual),United States,0% (None at all),33,42.9,77
+Management (Actual),United States,20%,27,35.1,77
+Management (Actual),United States,40%,11,14.3,77
+Management (Actual),United States,60%,3,3.9,77
+Management (Actual),United States,80%,2,2.6,77
+Management (Actual),United States,100% (All my time),1,1.3,77
+Management (Desired),Germany,0% (None at all),93,54.4,171
+Management (Desired),Germany,20%,61,35.7,171
+Management (Desired),Germany,40%,14,8.2,171
+Management (Desired),Germany,60%,2,1.2,171
+Management (Desired),Germany,80%,1,0.6,171
+Management (Desired),Netherlands,0% (None at all),32,74.4,43
+Management (Desired),Netherlands,20%,8,18.6,43
+Management (Desired),Netherlands,40%,1,2.3,43
+Management (Desired),Netherlands,60%,2,4.7,43
+Management (Desired),United Kingdom,0% (None at all),52,49.1,106
+Management (Desired),United Kingdom,20%,41,38.7,106
+Management (Desired),United Kingdom,40%,7,6.6,106
+Management (Desired),United Kingdom,60%,6,5.7,106
+Management (Desired),United States,0% (None at all),37,52.9,70
+Management (Desired),United States,20%,25,35.7,70
+Management (Desired),United States,40%,2,2.9,70
+Management (Desired),United States,60%,5,7.1,70
+Management (Desired),United States,80%,1,1.4,70
+Teaching (Actual),Germany,0% (None at all),117,62.6,187
+Teaching (Actual),Germany,20%,58,31.0,187
+Teaching (Actual),Germany,40%,10,5.3,187
+Teaching (Actual),Germany,60%,2,1.1,187
+Teaching (Actual),Netherlands,0% (None at all),18,40.0,45
+Teaching (Actual),Netherlands,20%,24,53.3,45
+Teaching (Actual),Netherlands,40%,3,6.7,45
+Teaching (Actual),United Kingdom,0% (None at all),52,46.4,112
+Teaching (Actual),United Kingdom,20%,49,43.8,112
+Teaching (Actual),United Kingdom,40%,6,5.4,112
+Teaching (Actual),United Kingdom,60%,2,1.8,112
+Teaching (Actual),United Kingdom,80%,2,1.8,112
+Teaching (Actual),United Kingdom,100% (All my time),1,0.9,112
+Teaching (Actual),United States,0% (None at all),48,61.5,78
+Teaching (Actual),United States,20%,27,34.6,78
+Teaching (Actual),United States,40%,3,3.8,78
+Teaching (Desired),Germany,0% (None at all),74,44.0,168
+Teaching (Desired),Germany,20%,81,48.2,168
+Teaching (Desired),Germany,40%,11,6.5,168
+Teaching (Desired),Germany,60%,2,1.2,168
+Teaching (Desired),Netherlands,0% (None at all),14,31.1,45
+Teaching (Desired),Netherlands,20%,26,57.8,45
+Teaching (Desired),Netherlands,40%,5,11.1,45
+Teaching (Desired),United Kingdom,0% (None at all),45,40.2,112
+Teaching (Desired),United Kingdom,20%,53,47.3,112
+Teaching (Desired),United Kingdom,40%,11,9.8,112
+Teaching (Desired),United Kingdom,60%,1,0.9,112
+Teaching (Desired),United Kingdom,80%,1,0.9,112
+Teaching (Desired),United Kingdom,100% (All my time),1,0.9,112
+Teaching (Desired),United States,0% (None at all),32,43.2,74
+Teaching (Desired),United States,20%,35,47.3,74
+Teaching (Desired),United States,40%,7,9.5,74
+Other activities (Actual),Germany,0% (None at all),37,22.4,165
+Other activities (Actual),Germany,20%,108,65.5,165
+Other activities (Actual),Germany,40%,15,9.1,165
+Other activities (Actual),Germany,60%,4,2.4,165
+Other activities (Actual),Germany,80%,1,0.6,165
+Other activities (Actual),Netherlands,0% (None at all),12,30.8,39
+Other activities (Actual),Netherlands,20%,22,56.4,39
+Other activities (Actual),Netherlands,40%,5,12.8,39
+Other activities (Actual),United Kingdom,0% (None at all),28,26.7,105
+Other activities (Actual),United Kingdom,20%,54,51.4,105
+Other activities (Actual),United Kingdom,40%,19,18.1,105
+Other activities (Actual),United Kingdom,60%,3,2.9,105
+Other activities (Actual),United Kingdom,80%,1,1.0,105
+Other activities (Actual),United States,0% (None at all),21,26.6,79
+Other activities (Actual),United States,20%,50,63.3,79
+Other activities (Actual),United States,40%,6,7.6,79
+Other activities (Actual),United States,60%,2,2.5,79
+Other activities (Desired),Germany,0% (None at all),89,57.8,154
+Other activities (Desired),Germany,20%,56,36.4,154
+Other activities (Desired),Germany,40%,8,5.2,154
+Other activities (Desired),Germany,60%,1,0.6,154
+Other activities (Desired),Netherlands,0% (None at all),22,56.4,39
+Other activities (Desired),Netherlands,20%,15,38.5,39
+Other activities (Desired),Netherlands,40%,2,5.1,39
+Other activities (Desired),United Kingdom,0% (None at all),42,43.3,97
+Other activities (Desired),United Kingdom,20%,42,43.3,97
+Other activities (Desired),United Kingdom,40%,11,11.3,97
+Other activities (Desired),United Kingdom,60%,1,1.0,97
+Other activities (Desired),United Kingdom,80%,1,1.0,97
+Other activities (Desired),United States,0% (None at all),34,47.9,71
+Other activities (Desired),United States,20%,32,45.1,71
+Other activities (Desired),United States,40%,4,5.6,71
+Other activities (Desired),United States,100% (All my time),1,1.4,71

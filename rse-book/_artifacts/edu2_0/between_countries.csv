@@ -1,0 +1,39 @@
+country_group,category,n,pct
+Germany,Computer science,60,32.1
+Germany,Physical sciences,55,29.4
+Germany,Engineering and technology,30,16.0
+Germany,Biological sciences,13,7.0
+Germany,Mathematical sciences,11,5.9
+Germany,Historical and philosophical studies,10,5.3
+Germany,Creative arts and design,2,1.1
+Germany,Languages and linguistics,2,1.1
+Germany,Communications,2,1.1
+Germany,Medicine and health sciences,1,0.5
+Germany,Social sciences,1,0.5
+Netherlands,Physical sciences,16,35.6
+Netherlands,Computer science,15,33.3
+Netherlands,Biological sciences,6,13.3
+Netherlands,Engineering and technology,3,6.7
+Netherlands,Mathematical sciences,3,6.7
+Netherlands,Agriculture and related subjects,1,2.2
+Netherlands,Languages and linguistics,1,2.2
+United Kingdom,Physical sciences,52,42.6
+United Kingdom,Computer science,30,24.6
+United Kingdom,Biological sciences,14,11.5
+United Kingdom,Mathematical sciences,10,8.2
+United Kingdom,Engineering and technology,9,7.4
+United Kingdom,Medicine and health sciences,2,1.6
+United Kingdom,Languages and linguistics,1,0.8
+United Kingdom,Social sciences,1,0.8
+United Kingdom,"Architecture, building and planning",1,0.8
+United Kingdom,Business,1,0.8
+United Kingdom,Agriculture and related subjects,1,0.8
+United States,Computer science,26,29.9
+United States,Physical sciences,25,28.7
+United States,Biological sciences,11,12.6
+United States,Engineering and technology,8,9.2
+United States,Mathematical sciences,6,6.9
+United States,Historical and philosophical studies,4,4.6
+United States,Social sciences,4,4.6
+United States,Medicine and health sciences,2,2.3
+United States,Communications,1,1.1

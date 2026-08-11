@@ -1,0 +1,10 @@
+### Referencing software in writing (Germany, N=117)
+
+| item | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Directly reference the software (i.e. through Github link or Zenodo) | Always | 83 | 89.2 | 93 |
+| Directly reference the software (i.e. through Github link or Zenodo) | Never | 10 | 10.8 | 93 |
+| I reference a published paper describing the software | Always | 66 | 75.0 | 88 |
+| I reference a published paper describing the software | Never | 22 | 25.0 | 88 |
+
+![Referencing software in writing (N=117)](../_artifacts/likert2a/focus.png?v=349edc063c)

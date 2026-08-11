@@ -1,0 +1,18 @@
+### Do you have an ORCID ID? (Germany, N=200)
+
+| age_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Under 35 | True | 59 | 85.5 | 69 |
+| Under 35 | False | 5 | 7.2 | 69 |
+| Under 35 | I do not know what ORCID is | 3 | 4.3 | 69 |
+| Under 35 | ORCID is not relevant for me | 2 | 2.9 | 69 |
+| 35-44 | True | 76 | 93.8 | 81 |
+| 35-44 | False | 3 | 3.7 | 81 |
+| 35-44 | I do not know what ORCID is | 1 | 1.2 | 81 |
+| 35-44 | ORCID is not relevant for me | 1 | 1.2 | 81 |
+| 45-54 | True | 34 | 91.9 | 37 |
+| 45-54 | False | 2 | 5.4 | 37 |
+| 45-54 | ORCID is not relevant for me | 1 | 2.7 | 37 |
+| 55+ | True | 13 | 100.0 | 13 |
+
+![Do you have an ORCID ID? (N=200)](../_artifacts/open1de_0/by_age.png?v=9f129d916e)

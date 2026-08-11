@@ -1,0 +1,41 @@
+country_group,category,n,pct
+Germany,GitLab,165,80.9
+Germany,GitHub,148,72.5
+Germany,Git,127,62.3
+Germany,Slack,31,15.2
+Germany,Confluence,21,10.3
+Germany,Google Drive,18,8.8
+Germany,Jira,17,8.3
+Germany,Trello,5,2.5
+Germany,Bitbucket,2,1.0
+Germany,Sourceforge,1,0.5
+Netherlands,Git,43,86.0
+Netherlands,GitHub,41,82.0
+Netherlands,GitLab,30,60.0
+Netherlands,Slack,18,36.0
+Netherlands,Google Drive,7,14.0
+Netherlands,Jira,7,14.0
+Netherlands,Confluence,5,10.0
+Netherlands,Bitbucket,1,2.0
+Netherlands,Trello,1,2.0
+United Kingdom,GitHub,116,94.3
+United Kingdom,Git,80,65.0
+United Kingdom,Slack,66,53.7
+United Kingdom,GitLab,51,41.5
+United Kingdom,Google Drive,31,25.2
+United Kingdom,Jira,20,16.3
+United Kingdom,Confluence,19,15.4
+United Kingdom,Bitbucket,9,7.3
+United Kingdom,Trello,8,6.5
+United Kingdom,Sourceforge,3,2.4
+United Kingdom,Travis,1,0.8
+United States,GitHub,89,98.9
+United States,Slack,68,75.6
+United States,Git,65,72.2
+United States,Google Drive,41,45.6
+United States,GitLab,22,24.4
+United States,Jira,12,13.3
+United States,Confluence,11,12.2
+United States,Trello,9,10.0
+United States,Bitbucket,5,5.6
+United States,Travis,1,1.1

@@ -1,0 +1,13 @@
+country_group,category,n,pct,N
+Germany,Always,8,7.5,106
+Germany,Sometimes,48,45.3,106
+Germany,Never,50,47.2,106
+Netherlands,Always,4,14.8,27
+Netherlands,Sometimes,11,40.7,27
+Netherlands,Never,12,44.4,27
+United Kingdom,Always,6,9.1,66
+United Kingdom,Sometimes,22,33.3,66
+United Kingdom,Never,38,57.6,66
+United States,Always,6,10.9,55
+United States,Sometimes,31,56.4,55
+United States,Never,18,32.7,55

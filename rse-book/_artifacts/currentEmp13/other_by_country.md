@@ -1,0 +1,67 @@
+#### Germany
+
+- DH
+- Climate Science, Earth System Science, Atmospheric Sciences
+- natural sciences
+- terrestrial systems
+- Discipline agonstic support job
+- Atmospheric Science
+- Geochemie
+- Transport and Traffic
+- Kognitive Neurowissenschaften
+- Library and information science
+- Environmental Sciences
+- Geowissenschaften
+- Analytische Chemie
+- Ecology and Environment
+- Environmental Sciences, Chemistry
+- Research Data Management
+- electro chemistry
+- Digital Humanities
+- Chemistry
+- Geoinformatik
+- Anwender sind aus allen möglichen Gebieten
+- Robotics
+- Information Science
+- Geochemistry
+- Chemie
+- Geoinformation
+- Space
+- Psychologie und Bewegungswissenschaften
+- High Performance Computing
+- Geschichts- und Kulturwissenschaften
+- Archäologie
+- Kunstwissenschaften
+
+#### Netherlands
+
+- Media Studies
+- Literary studies
+- Geosciences
+- Environmental sciences
+
+#### United Kingdom
+
+- Digital Humanities
+- Multi-disciplinary
+- Any really, depends on who asks for help
+- justice
+- RSE
+- Fintech
+- weather and climate
+- Eath Sciences
+- Security
+- Astronomy and astrophysics
+- Particle Physics, Astrophysics, Cosmology, Solar System and Planetary Science and Nuclear Physics theory community
+- Geography
+- Chemical sciences
+- Digital Humanities, Digital Heritage and Web Archives
+- Environmental sciences
+
+#### United States
+
+- Neuroscience
+- materials research
+- Literature
+- I serve a broad community, so most disciplines
+- Earth & Space Sciences

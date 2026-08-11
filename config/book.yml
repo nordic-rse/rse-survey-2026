@@ -1,0 +1,512 @@
+# Book build settings for the International RSE Survey analysis.
+# First test: Germany focus, NL/UK/US compare, single-year 2026.
+
+data_dir: RSE_survey_2026_data
+
+# What select-question chapters include: table | graphic | both
+presentation: both
+
+focus:
+  label: Germany
+  countries: [Germany]
+
+# socio3_0 uses categorical bands; map survey labels → report groups
+age_column: socio3_0
+age_groups:
+  "Under 35": ["18 to 24 years", "25 to 34 years"]
+  "35-44": ["35 to 44 years"]
+  "45-54": ["45 to 54 years"]
+  "55+": ["55 to 64 years", "Age 65 or older"]
+
+compare_groups:
+  Germany: [Germany]
+  Netherlands: [Netherlands]
+  United Kingdom: ["United Kingdom"]
+  United States: ["United States"]
+
+waves:
+  year_column: Year_0
+  include: [2026]
+
+questions:
+  rse1_0:
+    title: "Do you write software for academic research as part of your job?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  rse3_0:
+    title: "Who uses the code that you write?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+    category_order:
+      - "5 - Mostly other people"
+      - "4"
+      - "3"
+      - "2"
+      - "1"
+      - "0 - Mostly me"
+  rse4de_0:
+    title: "Does the majority of your role comprise leading a group of software developers
+      or RSEs?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  edu2_0:
+    title: "In which discipline is your highest academic qualification?"
+    response_kind: categorical_with_other
+    closed_categories:
+      - Physical sciences
+      - Computer science
+      - Engineering and technology
+      - Biological sciences
+      - Mathematical sciences
+      - Medicine and health sciences
+      - Social sciences
+      - Historical and philosophical studies
+      - Languages and linguistics
+      - Agriculture and related subjects
+      - Creative arts and design
+      - Architecture, building and planning
+      - Veterinary science
+      - Law
+      - Business
+      - Education
+      - Communications
+    tasks: [focus, by_age, between_countries]
+  edu1_0:
+    title: "What is the highest level of education you have attained?"
+    response_kind: categorical
+    category_labels:
+      "University of Applied Sciences entrance qualification or subject-specific higher education entrance qualification (or similar)": "UAS / subject-specific HE entrance qualification"
+      "Secondary school or lower secondary school certificate (or similar)": "Secondary / lower secondary certificate"
+      "General University Entrance Qualification (or similar)": "General university entrance qualification"
+      "WO (Wetenschappelijk onderwijs) Masters Degree": "WO Masters"
+      "WO (Wetenschappelijk onderwijs) Undergraduate degree": "WO Undergraduate"
+      "HBO (Hoger beroepsonderwijs) Masters Degree": "HBO Masters"
+      "HBO (Hoger beroepsonderwijs) Undergraduate degree": "HBO Undergraduate"
+      "Further Education (NVQ A-Level, ...)": "Further Education (NVQ / A-Level)"
+    tasks: [focus, by_age, between_countries]
+  soft2can_0:
+    title: "Do you consider yourself a professional software developer?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  soft1can_0:
+    title: "How many years of software development experience do you have?"
+    response_kind: categorical
+    category_groups:
+      "0-5": ["0", "1", "2", "3", "4"]
+      "5-10": ["5", "6", "7", "8", "9"]
+      "10-15": ["10", "11", "12", "13", "14"]
+      "15+": ["15+"]
+    category_order:
+      - "15+"
+      - "10-15"
+      - "5-10"
+      - "0-5"
+    tasks: [focus, by_age, between_countries]
+  open1de_0:
+    title: "Do you have an ORCID ID?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  open1can:
+    title: "How often do you license your software with an open-source licence?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  ukrse3:
+    title: "How did you learn the skills you need to become a Research Software Engineer
+      / Research Software Developer?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - Conferences
+      - Learned on-the-job
+      - Online courses
+      - Self-taught
+      - Summer schools or workshops
+      - University course or module
+  currentEmp5_0:
+    title: "What is your official job title?"
+    response_kind: free_text
+    tasks: [focus]
+    appendix: true
+  currentEmp6_0:
+    title: "Are you known in your group by a different job title?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  currentEmp60_0:
+    title: "Please enter the job title you use."
+    response_kind: free_text
+    tasks: [focus, by_age, between_countries]
+    appendix: true
+  currentEmp12_0:
+    title: "Do you work full time or part time?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  currentEmp10_0:
+    title: "What is the nature of your current employment?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  currentEmp11_0:
+    title: "What is the expected duration (in years) of your current position (in
+      total)?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+    category_groups:
+      "0-3": ["0.5", "1.0", "1.5", "2.0", "2.083", "2.5"]
+      "3-6": ["3.0", "3.8", "4.0", "5.0"]
+      "6-9": ["6.0", "7.0", "8.0"]
+      "9": ["9.0"]
+    category_order:
+      - "9"
+      - "6-9"
+      - "3-6"
+      - "0-3"
+  currentEmp13:
+    title: "Please select the discipline(s) in which you work."
+    response_kind: categorical_with_other
+    closed_categories:
+      - Physical sciences
+      - Computer science
+      - Engineering and technology
+      - Biological sciences
+      - Mathematical sciences
+      - Medicine and health sciences
+      - Social sciences
+      - Historical and philosophical studies
+      - Languages and linguistics
+      - Agriculture and related subjects
+      - Creative arts and design
+      - Architecture, building and planning
+      - Veterinary science
+      - Law
+      - Business
+      - Education
+      - Communications
+    tasks: [focus, by_age, between_countries]
+  currentEmp2q_0:
+    title: "Which university do you work for?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  likert01:
+    title: "Actual and desired time spent on activities"
+    response_kind: likert
+    # likert0 asks how time IS spent, likert1 how the respondent WOULD LIKE
+    # to spend it; same five activities. Pair them per activity.
+    item_conditions:
+      likert0: Actual
+      likert1: Desired
+    item_order:
+      - "Developing software (Actual)"
+      - "Developing software (Desired)"
+      - "Research (Actual)"
+      - "Research (Desired)"
+      - "Management (Actual)"
+      - "Management (Desired)"
+      - "Teaching (Actual)"
+      - "Teaching (Desired)"
+      - "Other activities (Actual)"
+      - "Other activities (Desired)"
+    category_order:
+      - "0% (None at all)"
+      - "20%"
+      - "40%"
+      - "60%"
+      - "80%"
+      - "100% (All my time)"
+    tasks: [focus, by_age, between_countries]
+  likert3a:
+    title: "Satisfaction with current position"
+    response_kind: likert
+    tasks: [focus, by_age, between_countries]
+    category_order:
+      - Strongly Agree
+      - Agree
+      - Neither agree or disagree
+      - Disagree
+      - Strongly disagree
+  likert3b:
+    title: "Satisfaction with career"
+    response_kind: likert
+    tasks: [focus, by_age, between_countries]
+    category_order:
+      - Strongly Agree
+      - Agree
+      - Neither agree or disagree
+      - Disagree
+      - Strongly disagree
+  likert5b:
+    title: "Career prospects and labour market"
+    response_kind: likert
+    tasks: [focus, by_age, between_countries]
+    category_order:
+      - Strongly Agree
+      - Agree
+      - Neither agree or disagree
+      - Disagree
+      - Strongly disagree
+  likert2a:
+    title: "Referencing software in writing"
+    response_kind: likert
+    tasks: [focus, by_age, between_countries]
+  likert2b:
+    title: "Generating DOIs for software"
+    response_kind: likert
+    tasks: [focus, by_age, between_countries]
+  currentWork2_0:
+    title: "Are you part of a dedicated research software group within your institution?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  currentWork1_0:
+    title: "Do you always work with the same researchers, or do you regularly change
+      the researchers you work with?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  paper3mod_0:
+    title: "Have you published a paper about your software? (For example in journals
+      such as JOSS or Software-x)"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  paper2mod:
+    title: "In general, when your software contributes to a paper, are you acknowledged
+      in that paper?"
+    # Array: five ways of being credited, each rated Always/Sometimes/Never.
+    # Pooling them puts one respondent in up to five rows (pct > 100).
+    response_kind: likert
+    category_order:
+      - "Always"
+      - "Sometimes"
+      - "Never"
+    tasks: [focus, by_age, between_countries]
+  conf1can_0:
+    title: "Have you presented your software work at a conference or workshop?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  conf2can_0:
+    title: "At which conference(s)/workshop(s) have you presented your software work?"
+    response_kind: free_text
+    tasks: [focus, by_age, between_countries]
+    appendix: true
+  proj1can_0:
+    title: "How many software projects are you currently involved in?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+    category_order:
+      - "0"
+      - "1-4"
+      - "5-9"
+      - "10-14"
+      - "15+"
+  proj8can_0:
+    title: "Do your research software projects typically include a project manager?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  proj4can:
+    title: "How do you test the software that you produce?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - No formal testing
+      - No formal testing but users provide feedback
+      - The developers do their own testing
+      - Test engineers conduct testing
+      - Don't know
+      - Automated testing with continuous integration
+  proj5zaf:
+    title: "Which version control tools do you use for software development?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - CVS
+      - SVN
+      - Git
+      - Mercurial
+      - SQ005
+  proj6zaf:
+    title: "Which collaboration tools do you use for software development?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - Bitbucket
+      - Confluence
+      - Git
+      - GitHub
+      - GitLab
+      - Google Drive
+      - Jira
+      - Slack
+      - Sourceforge
+      - Travis
+      - Trello
+  stability1_0:
+    title: "What is the minimum number of software developers that would have to suddenly
+      disappear from your current project before it stalls due to a lack of knowledgeable
+      people?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  stability2_0:
+    title: "Do the projects you work on typically have a plan to cope with developers
+      leaving the group?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  train2_0:
+    title: "On average, how many times a year do you take part in providing training?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  train3_0:
+    title: "What training programs are you involved with?"
+    response_kind: free_text
+    tasks: [focus, by_age, between_countries]
+    appendix: true
+  train4_0:
+    title: "Do you teach or support the teaching of credit bearing modules or courses?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  train5:
+    title: "In what capacity do you contribute?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - Module or course leader
+      - Lecturing or content delivery
+      - Teaching assistant
+      - Marking or grading
+      - Content creation
+      - Assessment design
+  skill2:
+    title: "What three skills would you like to acquire or improve to help your work
+      as a Research Software Engineer / Research Software Developer? The skills can
+      be technical and non-technical."
+    response_kind: free_text
+    tasks: [focus, by_age, between_countries]
+    appendix: true
+  fund3:
+    title: "Which of the following sources are used to pay for your effort as a Research
+      Software Engineer?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - Institutional support (centrally funded)
+      - Grants
+      - I volunteer my time
+      - Industry support
+      - Consulting &amp; services
+      - Foundations &amp; consortiums
+      - Venture Capital
+  tool5:
+    title: "On which platform(s) is your most recent research software project deployed?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - HPC
+      - Cloud
+      - Stand-alone server(s)
+      - Laptop/desktop
+      - Mobile
+      - GPU
+  tool2:
+    title: "Which operating system do you primarily use for development?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - GNU/Linux
+      - macOS
+      - Windows
+  tool4:
+    title: "What programming languages do you use at work? Please select all that
+      apply."
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - Assembly
+      - C
+      - C#
+      - C++
+      - Clojure
+      - CoffeeScript
+      - Common Lisp
+      - Dart
+      - Elixir
+      - Erlang
+      - F#
+      - Fortran
+      - Go
+      - Groovy
+      - Hack
+      - Haskell
+      - Java
+      - JavaScript
+      - Julia
+      - Lua
+      - Matlab
+      - Objective-C
+      - Perl
+      - PHP
+      - Python
+      - R
+      - Ruby
+      - Rust
+      - Scala
+      - Smalltalk
+      - SQL
+      - Swift
+      - TypeScript
+      - VB.NET
+      - VBA
+      - Visual Basic
+  genAI1_0:
+    title: "How frequently do you use generative AI tools in your RSE-related tasks
+      (e.g., coding, documentation, testing, or design)?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+    category_order:
+      - "Daily"
+      - "Weekly"
+      - "Monthly"
+      - "Rarely (a few times a year)"
+      - "Never"
+  genAI2:
+    title: "For what purposes do you use generative AI tools?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - Writing or debugging code
+      - Generating technical documentation
+      - Designing software architectures
+      - Creating test cases or testing strategies
+      - Summarising technical material
+      - Learning or teaching programming concepts
+  genAI3:
+    title: "Which generative AI tools do you currently use in your RSE work?"
+    response_kind: categorical_with_other
+    tasks: [focus, by_age, between_countries]
+    closed_categories:
+      - ChatGPT
+      - Claude
+      - CodeWhisperer
+      - Cursor
+      - Gemini
+      - GitHub Copilot
+      - Tabnine
+  genAI4:
+    title: "Over the next five years, how do you think generative AI tools will affect
+      demand for RSEs roles?"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]
+  genAI5:
+    title: "Over the next five years, how do you think generative AI tools will affect
+      you?"
+    # Array: productivity / code quality / job satisfaction, each Increase-Same-Decrease.
+    response_kind: likert
+    category_order:
+      - "Increase"
+      - "Same"
+      - "Decrease"
+    tasks: [focus, by_age, between_countries]
+  genAI6_0:
+    title: "What skills do you think are necessary to effectively use generative AI
+      for research software development tasks?"
+    response_kind: free_text
+    tasks: [focus, by_age, between_countries]
+    appendix: true
+  socio3_0:
+    title: "Please select your age"
+    response_kind: categorical
+    tasks: [focus, by_age, between_countries]

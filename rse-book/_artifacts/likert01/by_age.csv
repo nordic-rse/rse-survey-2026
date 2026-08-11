@@ -1,0 +1,166 @@
+item,age_group,category,n,pct,N
+Developing software (Actual),Under 35,0% (None at all),1,1.4,69
+Developing software (Actual),Under 35,20%,14,20.3,69
+Developing software (Actual),Under 35,40%,24,34.8,69
+Developing software (Actual),Under 35,60%,14,20.3,69
+Developing software (Actual),Under 35,80%,14,20.3,69
+Developing software (Actual),Under 35,100% (All my time),2,2.9,69
+Developing software (Actual),35-44,0% (None at all),5,6.2,81
+Developing software (Actual),35-44,20%,32,39.5,81
+Developing software (Actual),35-44,40%,19,23.5,81
+Developing software (Actual),35-44,60%,11,13.6,81
+Developing software (Actual),35-44,80%,12,14.8,81
+Developing software (Actual),35-44,100% (All my time),2,2.5,81
+Developing software (Actual),45-54,0% (None at all),3,8.3,36
+Developing software (Actual),45-54,20%,17,47.2,36
+Developing software (Actual),45-54,40%,6,16.7,36
+Developing software (Actual),45-54,60%,6,16.7,36
+Developing software (Actual),45-54,80%,4,11.1,36
+Developing software (Actual),55+,20%,5,35.7,14
+Developing software (Actual),55+,40%,3,21.4,14
+Developing software (Actual),55+,60%,2,14.3,14
+Developing software (Actual),55+,80%,3,21.4,14
+Developing software (Actual),55+,100% (All my time),1,7.1,14
+Developing software (Desired),Under 35,0% (None at all),1,1.5,67
+Developing software (Desired),Under 35,20%,7,10.4,67
+Developing software (Desired),Under 35,40%,20,29.9,67
+Developing software (Desired),Under 35,60%,23,34.3,67
+Developing software (Desired),Under 35,80%,14,20.9,67
+Developing software (Desired),Under 35,100% (All my time),2,3.0,67
+Developing software (Desired),35-44,0% (None at all),2,2.5,79
+Developing software (Desired),35-44,20%,15,19.0,79
+Developing software (Desired),35-44,40%,33,41.8,79
+Developing software (Desired),35-44,60%,24,30.4,79
+Developing software (Desired),35-44,80%,5,6.3,79
+Developing software (Desired),45-54,0% (None at all),1,2.8,36
+Developing software (Desired),45-54,20%,10,27.8,36
+Developing software (Desired),45-54,40%,12,33.3,36
+Developing software (Desired),45-54,60%,7,19.4,36
+Developing software (Desired),45-54,80%,3,8.3,36
+Developing software (Desired),45-54,100% (All my time),3,8.3,36
+Developing software (Desired),55+,20%,3,23.1,13
+Developing software (Desired),55+,40%,3,23.1,13
+Developing software (Desired),55+,60%,4,30.8,13
+Developing software (Desired),55+,80%,1,7.7,13
+Developing software (Desired),55+,100% (All my time),2,15.4,13
+Research (Actual),Under 35,0% (None at all),12,17.9,67
+Research (Actual),Under 35,20%,32,47.8,67
+Research (Actual),Under 35,40%,15,22.4,67
+Research (Actual),Under 35,60%,7,10.4,67
+Research (Actual),Under 35,80%,1,1.5,67
+Research (Actual),35-44,0% (None at all),21,26.2,80
+Research (Actual),35-44,20%,38,47.5,80
+Research (Actual),35-44,40%,10,12.5,80
+Research (Actual),35-44,60%,8,10.0,80
+Research (Actual),35-44,80%,3,3.8,80
+Research (Actual),45-54,0% (None at all),9,26.5,34
+Research (Actual),45-54,20%,15,44.1,34
+Research (Actual),45-54,40%,7,20.6,34
+Research (Actual),45-54,80%,2,5.9,34
+Research (Actual),45-54,100% (All my time),1,2.9,34
+Research (Actual),55+,0% (None at all),2,15.4,13
+Research (Actual),55+,20%,11,84.6,13
+Research (Desired),Under 35,0% (None at all),7,10.6,66
+Research (Desired),Under 35,20%,23,34.8,66
+Research (Desired),Under 35,40%,22,33.3,66
+Research (Desired),Under 35,60%,11,16.7,66
+Research (Desired),Under 35,80%,1,1.5,66
+Research (Desired),Under 35,100% (All my time),2,3.0,66
+Research (Desired),35-44,0% (None at all),13,16.9,77
+Research (Desired),35-44,20%,20,26.0,77
+Research (Desired),35-44,40%,28,36.4,77
+Research (Desired),35-44,60%,10,13.0,77
+Research (Desired),35-44,80%,5,6.5,77
+Research (Desired),35-44,100% (All my time),1,1.3,77
+Research (Desired),45-54,0% (None at all),5,14.3,35
+Research (Desired),45-54,20%,11,31.4,35
+Research (Desired),45-54,40%,13,37.1,35
+Research (Desired),45-54,60%,4,11.4,35
+Research (Desired),45-54,80%,1,2.9,35
+Research (Desired),45-54,100% (All my time),1,2.9,35
+Research (Desired),55+,0% (None at all),2,16.7,12
+Research (Desired),55+,20%,4,33.3,12
+Research (Desired),55+,40%,5,41.7,12
+Research (Desired),55+,60%,1,8.3,12
+Management (Actual),Under 35,0% (None at all),31,47.7,65
+Management (Actual),Under 35,20%,26,40.0,65
+Management (Actual),Under 35,40%,4,6.2,65
+Management (Actual),Under 35,60%,4,6.2,65
+Management (Actual),35-44,0% (None at all),21,26.6,79
+Management (Actual),35-44,20%,39,49.4,79
+Management (Actual),35-44,40%,13,16.5,79
+Management (Actual),35-44,60%,4,5.1,79
+Management (Actual),35-44,80%,2,2.5,79
+Management (Actual),45-54,0% (None at all),9,27.3,33
+Management (Actual),45-54,20%,15,45.5,33
+Management (Actual),45-54,40%,2,6.1,33
+Management (Actual),45-54,60%,7,21.2,33
+Management (Actual),55+,0% (None at all),6,42.9,14
+Management (Actual),55+,20%,5,35.7,14
+Management (Actual),55+,40%,2,14.3,14
+Management (Actual),55+,60%,1,7.1,14
+Management (Desired),Under 35,0% (None at all),38,66.7,57
+Management (Desired),Under 35,20%,16,28.1,57
+Management (Desired),Under 35,40%,3,5.3,57
+Management (Desired),35-44,0% (None at all),32,45.7,70
+Management (Desired),35-44,20%,33,47.1,70
+Management (Desired),35-44,40%,2,2.9,70
+Management (Desired),35-44,60%,2,2.9,70
+Management (Desired),35-44,80%,1,1.4,70
+Management (Desired),45-54,0% (None at all),15,48.4,31
+Management (Desired),45-54,20%,9,29.0,31
+Management (Desired),45-54,40%,7,22.6,31
+Management (Desired),55+,0% (None at all),7,58.3,12
+Management (Desired),55+,20%,3,25.0,12
+Management (Desired),55+,40%,2,16.7,12
+Teaching (Actual),Under 35,0% (None at all),43,69.4,62
+Teaching (Actual),Under 35,20%,16,25.8,62
+Teaching (Actual),Under 35,40%,3,4.8,62
+Teaching (Actual),35-44,0% (None at all),47,61.0,77
+Teaching (Actual),35-44,20%,23,29.9,77
+Teaching (Actual),35-44,40%,6,7.8,77
+Teaching (Actual),35-44,60%,1,1.3,77
+Teaching (Actual),45-54,0% (None at all),17,51.5,33
+Teaching (Actual),45-54,20%,14,42.4,33
+Teaching (Actual),45-54,40%,1,3.0,33
+Teaching (Actual),45-54,60%,1,3.0,33
+Teaching (Actual),55+,0% (None at all),9,69.2,13
+Teaching (Actual),55+,20%,4,30.8,13
+Teaching (Desired),Under 35,0% (None at all),26,46.4,56
+Teaching (Desired),Under 35,20%,28,50.0,56
+Teaching (Desired),Under 35,60%,2,3.6,56
+Teaching (Desired),35-44,0% (None at all),30,41.1,73
+Teaching (Desired),35-44,20%,35,47.9,73
+Teaching (Desired),35-44,40%,8,11.0,73
+Teaching (Desired),45-54,0% (None at all),10,35.7,28
+Teaching (Desired),45-54,20%,15,53.6,28
+Teaching (Desired),45-54,40%,3,10.7,28
+Teaching (Desired),55+,0% (None at all),7,70.0,10
+Teaching (Desired),55+,20%,3,30.0,10
+Other activities (Actual),Under 35,0% (None at all),13,23.2,56
+Other activities (Actual),Under 35,20%,37,66.1,56
+Other activities (Actual),Under 35,40%,5,8.9,56
+Other activities (Actual),Under 35,60%,1,1.8,56
+Other activities (Actual),35-44,0% (None at all),16,22.2,72
+Other activities (Actual),35-44,20%,48,66.7,72
+Other activities (Actual),35-44,40%,7,9.7,72
+Other activities (Actual),35-44,60%,1,1.4,72
+Other activities (Actual),45-54,0% (None at all),5,20.8,24
+Other activities (Actual),45-54,20%,14,58.3,24
+Other activities (Actual),45-54,40%,2,8.3,24
+Other activities (Actual),45-54,60%,2,8.3,24
+Other activities (Actual),45-54,80%,1,4.2,24
+Other activities (Actual),55+,0% (None at all),3,25.0,12
+Other activities (Actual),55+,20%,9,75.0,12
+Other activities (Desired),Under 35,0% (None at all),39,72.2,54
+Other activities (Desired),Under 35,20%,13,24.1,54
+Other activities (Desired),Under 35,40%,2,3.7,54
+Other activities (Desired),35-44,0% (None at all),37,55.2,67
+Other activities (Desired),35-44,20%,25,37.3,67
+Other activities (Desired),35-44,40%,4,6.0,67
+Other activities (Desired),35-44,60%,1,1.5,67
+Other activities (Desired),45-54,0% (None at all),10,43.5,23
+Other activities (Desired),45-54,20%,12,52.2,23
+Other activities (Desired),45-54,40%,1,4.3,23
+Other activities (Desired),55+,0% (None at all),3,33.3,9
+Other activities (Desired),55+,20%,6,66.7,9

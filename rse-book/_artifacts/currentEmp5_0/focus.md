@@ -1,0 +1,14 @@
+### What is your official job title? (Germany, N=176)
+
+| category | n | pct |
+| --- | --- | --- |
+| Researcher / Scientific Staff | 105 | 59.7 |
+| (Research) Software Engineer | 32 | 18.2 |
+| Management Roles | 12 | 6.8 |
+| Technical Staff | 11 | 6.2 |
+| Data Management / Data Scientist | 7 | 4.0 |
+| Software Developer | 7 | 4.0 |
+| eln & rdm Support | 2 | 1.1 |
+| Computational Scientist / Scientific Programmer | 1 | 0.6 |
+
+![What is your official job title? (N=176)](../_artifacts/currentEmp5_0/focus.png?v=a46fd205bf)

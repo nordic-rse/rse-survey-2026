@@ -1,16 +1,38 @@
+# Survey data (local)
 RSE_survey_2026_data
-*_files
+
+# Derived clean long-format table (from local microdata)
+rse-book/_data/*
+!rse-book/_data/.gitkeep
+
+# Cursor / agent skill mirrors
 .agents/*
 agent/*
+
+# Quarto / R leftovers
+*_files
 *_cache
+!rse-book/_hf_freetext_cache/
+!rse-book/_hf_freetext_cache/**
 Rplots.pdf
 *.html
 !rse-book/_book/**
 rse-book/_book/
 rse-book/*.zip
-skills-lock.json
-!insights.html
 *.log
-!rse-book/_book.zip
-rse-survey-2026-nordic-analysis-book.zip
-rse-survey-2026-nordic-analysis-book/*
+skills-lock.json
+
+# HF coding runtime caches (keep committed freezes; ignore bulky regenerable files)
+rse-book/_hf_freetext_cache/**/embeddings.npy
+rse-book/_hf_freetext_cache/**/labels_proposed.json
+
+# Local Hugging Face download cache (optional)
+.hf_cache/
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+src/rse_survey.egg-info/

@@ -1,0 +1,10 @@
+{
+  "question_id": "conf2can_0",
+  "k": 8,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "random_state": 42,
+  "n_unique_tokens": 344,
+  "config": "rse-book/R/hf_freetext/config/conf2can_0.yml",
+  "created_at": "2026-08-07T07:42:28.707996+00:00",
+  "labels_applied_at": "2026-08-07T07:43:06.738434+00:00"
+}

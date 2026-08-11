@@ -1,0 +1,345 @@
+raw,cluster_id,n
+derse,4,22
+rsecon,7,19
+agu,6,9
+egu,6,8
+adass,6,7
+collaborations workshop,3,6
+dhd,4,5
+pasc,2,5
+siam cse,2,4
+siam,2,4
+dash,6,4
+latinr,6,4
+juliacon,2,3
+derse conference,1,3
+nobugs,6,3
+posit::conf,2,3
+spie,6,3
+eccomas,6,2
+american geophysical union annual meeting,1,2
+many,6,2
+usrse,6,2
+ieee escience,3,2
+multiple,6,2
+aps march meeting,1,2
+user!,6,2
+project workshops,3,2
+community workshops,3,2
+euroscipy,0,2
+sc,0,2
+fosdem,4,2
+isc,2,2
+rsecon (uk),7,2
+eusn,4,2
+european geosciences union,0,2
+icse,4,2
+chep,2,2
+supercomputing,5,2
+siam pp,2,2
+scipy,5,2
+pycon,2,2
+icalepcs,4,2
+domain conferences/workshops (mrs,3,1
+emrs rsc,7,1
+faraday discussions,1,1
+psdi workshops),3,1
+uk swift hep workshops,3,1
+ivoa,6,1
+some other astronomy conferences,1,1
+nerc digital gathering,3,1
+empirical methods in natural language processing conference,1,1
+ebrains / hbp summit and workshops,3,1
+tnc pearc techx,2,1
+a few,6,1
+elixir pathogen data focus group,5,1
+adass and numerous other conferences,1,1
+siam conferences,1,1
+domain workshops,3,1
+mpg fdm,2,1
+wccm,4,1
+icosahom,4,1
+gamms rse,7,1
+symposium on software performance (ssp),3,1
+aiaa,6,1
+topical conferences,1,1
+where our users go to,4,1
+cancer genomics consortium,5,1
+vision sciences society,5,1
+society for neuroscience,5,1
+barcamp open science,3,1
+open science days,5,1
+helmholtz metadata conference,1,1
+mpg fdm workshop,3,1
+eln workshops,3,1
+ukrse,6,1
+third infinity,6,1
+american geophysical union fall meeting,1,1
+ucar sea's improving scientific software conference,3,1
+american meteorological society annual meeting,1,1
+watoc,2,1
+inmm,6,1
+goldschmidt,0,1
+aas,6,1
+iau,6,1
+very different,6,1
+some topical conferences,1,1
+comparative oceanic linguistics,0,1
+canberra,6,1
+e.g. european library automation group (elag),3,1
+semantic web in libraries (swib),0,1
+liege colloquium,0,1
+including adho,6,1
+eadh,6,1
+hmc conference,1,1
+saxfdm tagung,0,1
+biometrisches kolloquium,0,1
+sib,4,1
+bioinformatic conferences: eccb,1,1
+ismb,4,1
+skach winter meeting,1,1
+european r users meeting,1,1
+rencontresr,2,1
+uros,6,1
+rss,7,1
+jsm,6,1
+compstat,2,1
+australasian region biometrics conference,5,1
+different rse conferences & related workshops,3,1
+acm pepm,2,1
+ecological modelling conference,1,1
+rse conferences,7,1
+esa living planet symposium,5,1
+espresso summer school,0,1
+leipzig summer schoon on active matter,0,1
+american chemical society,4,1
+cecam espresso summer school,0,1
+ieee escience conference,1,1
+caribbean regional conference of psychology,1,1
+interamerican congress of psychology,1,1
+dh,4,1
+chr,2,1
+ismrm,4,1
+miccai,6,1
+multiple all over europa,0,1
+england,0,1
+nac,2,1
+cray user group,2,1
+pyhep,2,1
+rslondonsoutheast,7,1
+durham hpc days,2,1
+dh benelux,4,1
+igarss,6,1
+cosyne,2,1
+sfn,4,1
+cvpr,2,1
+cmstatistics,5,1
+mica,6,1
+euromech colloquium,0,1
+bernstein conference,1,1
+ocns annual meeting,1,1
+knime,4,1
+oecd,6,1
+resa,2,1
+rseaunz,7,1
+sers,4,1
+chase,6,1
+wssspe,2,1
+icsew,4,1
+rseconuk,7,1
+chaos communication congress,1,1
+practicalmeeg,0,1
+de rse,7,1
+nordicrsecon,0,1
+aoir,6,1
+ducoms,4,1
+rse day ku leuven,7,1
+other online formats,0,1
+google cloud summit,3,1
+text encoding initiative conference,3,1
+declarative amsterdam,0,1
+european society for textual scholarship,0,1
+wapor,6,1
+ifd&tc,2,1
+acspri,2,1
+interne wissensaustausch workshop,0,1
+elixir all hands,6,1
+diverses conférences,1,1
+"""ceci meeting"" (consortium des équipements de calcul intensif)",3,1
+talks lors de déplacements dans des universités,0,1
+programación en ciencias pesqueras,3,1
+synchrotron radiation instrumentation (sri),5,1
+sunbelt (insna),2,1
+sunbelt,2,1
+språkbanken meetings,1,1
+dhnb,4,1
+computer applications in archaeology (caa),3,1
+archeofoss,6,1
+annual meeting of the american ornithological society,5,1
+hmc,2,1
+nfdi,2,1
+swedish language technology conference (sltc),3,1
+language resources and evaluation conference (lrec),3,1
+huminfra nodes conference,1,1
+not software conferences.,1,1
+iss,4,1
+spie astronomical telescopes+instrumentation,5,1
+afrilex,6,1
+esa living planet,5,1
+emnlp,6,1
+acl,2,1
+coling,2,1
+supercomputing workshop,3,1
+mostly community/ project ws (datahub,3,1
+hmc),2,1
+ric conference,1,1
+issi,6,1
+dasc,2,1
+aiaa scitech,5,1
+aviose,6,1
+dlr llm wissensaustauschworkshop,0,1
+event of rsse africa (cape town,7,1
+acat,6,1
+lhcp,2,1
+workshops within princeton university (organized by research computing),3,1
+american astronomical society,5,1
+ices annual science conference,1,1
+acs fall meeting,1,1
+recomb,2,1
+summer rosetta con,0,1
+cakefest,4,1
+hepix,6,1
+rstudio::conf,7,1
+agu fall meeting,1,1
+rwanda ai and machine learning  workshop,3,1
+seismological society of american annual meeting,1,1
+ciroh developers conference,3,1
+ewri,6,1
+techx,4,1
+tiime,6,1
+tnc,2,1
+https://www.nobugsconference.org/,3,1
+european simulation interoperability workshop,3,1
+military information and communications symposium of south africa,1,1
+land warfare conference,1,1
+csir biennial conference,1,1
+prasa,2,1
+african digital scholarship and curation conference,1,1
+aas and aps,6,1
+pac,6,1
+issb,4,1
+gordon research conference (usa),1,1
+american crystallography association annual meeting (usa) and others,5,1
+project specific conference,1,1
+gitkon,6,1
+collegeville workshop,3,1
+rse con,7,1
+digital humanities,0,1
+semantic web in libraris (swib),0,1
+digital humanities in nordic and baltic countries (dhnb),0,1
+theory and practice of digital libraries,0,1
+digikult,6,1
+cordi,6,1
+derse würzburg + karlsruhe,0,1
+rsecon newcastle,7,1
+hpsf conference,1,1
+monogram,5,1
+ssi collaborations workshop,3,1
+spie astronomy,5,1
+varies,6,1
+escience,5,1
+iscb,4,1
+other consortium/project/topic specific workshops,3,1
+ams,4,1
+noaa space weather workshop,3,1
+european space weather week,0,1
+dhtech symposium,3,1
+forge,4,1
+south african society of atmospheric scientists,5,1
+eresearch,6,1
+idw,6,1
+uklft,0,1
+prace days,6,1
+uktc,4,1
+uk fluids,0,1
+vibiom,6,1
+gfv,2,1
+one health symposium,1,1
+virus genomics,5,1
+evolution and bioinformatics,5,1
+cospar,2,1
+shine,6,1
+higgs days santander,6,1
+research area specific not software specific conferences,1,1
+advanced technologies and treatments for diabetes (attd),3,1
+agu and ssa,6,1
+gdansk,0,1
+stockholm,0,1
+sweden,0,1
+jlesc,2,1
+nia omics data resources: a path to interoperability workshop,3,1
+chpc conference,1,1
+res con,2,1
+strong lensing conferece,5,1
+california forestry science symposium,3,1
+north american forestry ecology workshop,3,1
+acm pearc,2,1
+acm document engineering,3,1
+educause,6,1
+cni,4,1
+pydata,2,1
+fossdem,6,1
+acts developer workshop,3,1
+atlas tracking workshop,3,1
+atlas tdaq workshop,3,1
+ipdps,4,1
+american meteorological society,5,1
+galaxy community conference,1,1
+eresearch south africa conference,1,1
+usrse conferences,1,1
+usrse'xy,6,1
+aas/spd/tess,4,1
+pcapac,2,1
+ieee rt,3,1
+nofe,4,1
+workshops hosted at sheffield university,3,1
+arc,6,1
+nfcs,4,1
+worktribe connect,4,1
+globus world,0,1
+uk rsecon,7,1
+dh conference,1,1
+plant and animal genome conference,5,1
+american physical society division of plasma physics annual meetings,1,1
+python in heliophysics meetings,5,1
+open source software for fusion energy conference,3,1
+gamm,6,1
+nordic rse conference,7,1
+hipeac,2,1
+netsci,2,1
+icns,4,1
+openacc summit,3,1
+computing related conferences and workshops (nordugrid,3,1
+wlcg),2,1
+lattice conference,1,1
+adac,2,1
+american geophysical union,1,1
+ocean sciences,5,1
+siesta advanced workshop,3,1
+egi,4,1
+esa living planete,5,1
+neic,6,1
+software defined space conference,1,1
+interne workshops,3,1
+domain conferences in the past,1,1
+musikwissenschaftliche themenkonferenz an der akademie der wissenschaften und der literatur (adw mainz),0,1
+mett,2,1
+gamm annual meeting,1,1
+jupytercon,2,1
+magnetism conferences,1,1
+pycon chile,2,1
+pycon us,2,1
+mse,4,1
+iucr,6,1
+ecm,4,1
+epdic,6,1

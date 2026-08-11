@@ -3,118 +3,18 @@ title: "In general, when your software contributes to a paper, are you acknowled
 question_id: paper2mod
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## In general, when your software contributes to a paper, are you acknowledged in that paper?
 
-```{r}
-#| echo: false
-question_code <- "paper2mod"
+Artifacts for `paper2mod` (from `rse-survey build-artifacts`).
 
-```
+### Focus
 
-## `r filter_label`
+{{< include ../_artifacts/paper2mod/focus.md >}}
 
-### Descriptive Statistics
+### By age group
 
-```{r}
-#| echo: false
+{{< include ../_artifacts/paper2mod/by_age.md >}}
 
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("In general, when your software contributes to a paper, are you acknowledged in that paper? (", filter_label, ")")
-)
-```
+### Between countries
 
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap(FILTER, question_code, title = filter_label)
-```
-
-### Free-text responses
-
-```{r}
-#| echo: false
-source(file.path(book_root, "R/recodes/paper2mod_recode.R"))
-
-cleaned_data <- process_text_codes_with_allocation(
-  filter = FILTER,
-  question_code = "paper2mod",
-  recode_map = paper2mod_recode_map,
-  header = "In general, when your software contributes to a paper, are you acknowledged in that paper?",
-  other = TRUE,
-  cache_id = "paper2mod"
-)
-
-cleaned_data$summary_table
-```
-
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
-
-### Statistics by age group
-
-```{r}
-#| echo: false
-
-print_heatmap_category_age_wide_table(
-  FILTER,
-  question_code,
-  header = paste0("In general, when your software contributes to a paper, are you acknowledged in that paper? by age group (", filter_label, ")")
-)
-```
-
-```{r}
-#| echo: false
-#| results: asis
-#| eval: !expr show_within
-cat("## Within ", filter_label, "
-
-", sep = "")
-```
-
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("In general, when your software contributes to a paper, are you acknowledged in that paper? within ", filter_label),
-  group_by = FILTER
-)
-```
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_stacked_bars(
-  FILTER,
-  question_code,
-  countries = FILTER,
-  title = paste0("In general, when your software contributes to a paper, are you acknowledged in that paper? within ", filter_label)
-)
-```
-
-## Between Countries
-
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_stacked_bars(
-  plot_countries,
-  question_code,
-  country_groups = country_groups,
-  title = "In general, when your software contributes to a paper, are you acknowledged in that paper? by country group"
-)
-```
+{{< include ../_artifacts/paper2mod/between_countries.md >}}

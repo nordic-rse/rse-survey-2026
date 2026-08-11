@@ -1,0 +1,14 @@
+### Do you consider yourself a professional software developer? (N=460)
+
+| country_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Germany | True | 105 | 52.8 | 199 |
+| Germany | False | 94 | 47.2 | 199 |
+| Netherlands | True | 33 | 70.2 | 47 |
+| Netherlands | False | 14 | 29.8 | 47 |
+| United Kingdom | True | 80 | 65.0 | 123 |
+| United Kingdom | False | 43 | 35.0 | 123 |
+| United States | True | 67 | 73.6 | 91 |
+| United States | False | 24 | 26.4 | 91 |
+
+![Do you consider yourself a professional software developer? (N=460)](../_artifacts/soft2can_0/between_countries.png?v=46470d9dd7)

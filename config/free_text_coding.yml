@@ -1,0 +1,207 @@
+# HF free-text coding configs keyed by question_id.
+# Text comes from the book-filtered survey table (text_column / question id).
+# propose/apply update the labels: map under each key.
+
+skill2:
+  header: Skills
+  text_column: skill2
+  embed_context: What three skills would you like to acquire or improve to help your work as a Research
+    Software Engineer / Research Software Developer? The skills can be technical and non-technical.
+  other: false
+  k: 15
+  model: intfloat/multilingual-e5-base
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 25
+  labels:
+    0: Research Software Management
+    1: Coding And Development
+    2: Soft Skills And Collaboration
+    3: Advanced Development Techniques
+    4: Requirements Engineering
+    5: AI And Automation
+    6: Software Testing
+    7: Project Management
+    8: Development Tools And Technologies
+    9: Software Architecture And Design
+    10: Teaching And Communication Skills
+conf2can_0:
+  header: Conference
+  text_column: conf2can_0
+  embed_context: At which conference(s)/workshop(s) have you presented your software work?
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+  labels:
+    0: Scientific conferences and workshops
+    1: Astronomy conferences
+    2: Conferences and events
+    3: Workshop series
+    4: Conferences and events
+    5: Scientific research fields
+    6: Survey terms
+    7: RSE events
+currentEmp11qzaf_0:
+  header: Organization
+  text_column: currentEmp11qzaf_0
+  embed_context: What organization do you work for?
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+currentEmp5_0:
+  header: Official job title
+  text_column: currentEmp5_0
+  embed_context: What is your official job title?
+  other: false
+  k: 8
+  model: intfloat/multilingual-e5-base
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+  labels:
+    0: eln & rdm Support
+    1: (Research) Software Engineer
+    2: Researcher / Scientific Staff
+    3: Software Developer
+    4: Management Roles
+    5: Data Management / Data Scientist
+    6: Computational Scientist / Scientific Programmer
+    7: Technical Staff
+  exclude_exact:
+  - i don't know
+  - unsure
+currentEmp60_0:
+  header: Job title used
+  text_column: currentEmp60_0
+  embed_context: Please enter the job title you use.
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+fund3qnl_0:
+  header: Grant types
+  text_column: fund3qnl_0
+  embed_context: If you are funded via grants, what type of grants are they?
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+genAI6_0:
+  header: GenAI skills
+  text_column: genAI6_0
+  embed_context: What skills do you think are necessary to effectively use generative AI for research
+    software development tasks?
+  embed_prefix: GenAI skill
+  other: false
+  cluster_method: kmeans
+  k: 16
+  model: intfloat/multilingual-e5-base
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 25
+  exclude_exact:
+  - none
+  - etc.
+  - etc
+  - i don't know
+  - idk
+  - no idea
+  - desire for brain rot
+  - lack of pride
+  exclude_patterns:
+  - (?i)brain\s*rot
+  - (?i)^i don'?t know
+  - (?i)^don'?t know$
+  labels:
+    0: Prompt Engineering
+    1: Code Review
+    2: Software Engineering Skills
+    3: Software Development Skills
+    4: AI Literacy
+    5: Testing Skills
+    6: AI Oversight Skills
+    7: AI Ethics and Critical Thinking
+    8: Skepticism
+    9: Domain Knowledge
+org3us_0:
+  header: Association activities
+  text_column: org3us_0
+  embed_context: What specific activities or forums would you like to see your national association provide?
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+org4us_0:
+  header: Membership value
+  text_column: org4us_0
+  embed_context: What would a national organization need to provide in order for you to pay membership
+    dues?
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+org5us_0:
+  header: Membership fee willingness
+  text_column: org5us_0
+  embed_context: How much would you be willing to pay as an annual membership fee to join a national association?
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+org7de_0:
+  header: Further suggestions
+  text_column: org7de_0
+  embed_context: Do you have any further suggestions or wishes regarding the conception of a research
+    software institution in Germany?
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+train3_0:
+  header: Training programs
+  text_column: train3_0
+  embed_context: What training programs are you involved with?
+  other: false
+  k: 8
+  model: intfloat/e5-base-v2
+  random_state: 42
+  label_model: Qwen/Qwen2.5-7B-Instruct
+  label_load: 4bit
+  n_examples: 12
+  labels:
+    0: Software Carpentry
+    1: Institutional Training
+    2: Local University Training
+    3: Version Control Systems
+    4: Workshops And Conferences
+    5: HPC Courses And Workshops
+    6: Software Training

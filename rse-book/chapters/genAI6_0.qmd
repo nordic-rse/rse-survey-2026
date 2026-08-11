@@ -3,29 +3,18 @@ title: "What skills do you think are necessary to effectively use generative AI 
 question_id: genAI6_0
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## What skills do you think are necessary to effectively use generative AI for research software development tasks?
 
-## `r filter_label`
+Artifacts for `genAI6_0` (from `rse-survey build-artifacts`).
 
-### Free-text responses
+### Focus
 
-```{r}
-#| echo: false
-source(file.path(book_root, "R/recodes/genAI6_0_recode.R"))
+{{< include ../_artifacts/genAI6_0/focus.md >}}
 
-cleaned_data <- process_text_codes_with_allocation(
-  filter = FILTER,
-  question_code = "genAI6_0",
-  recode_map = genAI6_0_recode_map,
-  header = paste0("What skills do you think are necessary to effectively use generative AI for research software development tasks? (", filter_label, ")"),
-  other = FALSE,
-  cache_id = "genAI6_0"
-)
+### By age group
 
-cleaned_data$summary_table
-```
+{{< include ../_artifacts/genAI6_0/by_age.md >}}
 
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
+### Between countries
+
+{{< include ../_artifacts/genAI6_0/between_countries.md >}}

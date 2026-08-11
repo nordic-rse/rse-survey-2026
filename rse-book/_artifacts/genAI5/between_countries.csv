@@ -1,0 +1,37 @@
+item,country_group,category,n,pct,N
+Your productivity,Germany,Increase,123,62.4,197
+Your productivity,Germany,Same,56,28.4,197
+Your productivity,Germany,Decrease,18,9.1,197
+Your productivity,Netherlands,Increase,30,65.2,46
+Your productivity,Netherlands,Same,12,26.1,46
+Your productivity,Netherlands,Decrease,4,8.7,46
+Your productivity,United Kingdom,Increase,60,51.7,116
+Your productivity,United Kingdom,Same,46,39.7,116
+Your productivity,United Kingdom,Decrease,10,8.6,116
+Your productivity,United States,Increase,59,67.0,88
+Your productivity,United States,Same,23,26.1,88
+Your productivity,United States,Decrease,6,6.8,88
+Your code quality,Germany,Increase,64,33.5,191
+Your code quality,Germany,Same,105,55.0,191
+Your code quality,Germany,Decrease,22,11.5,191
+Your code quality,Netherlands,Increase,18,38.3,47
+Your code quality,Netherlands,Same,24,51.1,47
+Your code quality,Netherlands,Decrease,5,10.6,47
+Your code quality,United Kingdom,Increase,32,27.6,116
+Your code quality,United Kingdom,Same,69,59.5,116
+Your code quality,United Kingdom,Decrease,15,12.9,116
+Your code quality,United States,Increase,34,39.5,86
+Your code quality,United States,Same,36,41.9,86
+Your code quality,United States,Decrease,16,18.6,86
+Your job satisfaction,Germany,Increase,42,22.2,189
+Your job satisfaction,Germany,Same,92,48.7,189
+Your job satisfaction,Germany,Decrease,55,29.1,189
+Your job satisfaction,Netherlands,Increase,7,15.9,44
+Your job satisfaction,Netherlands,Same,23,52.3,44
+Your job satisfaction,Netherlands,Decrease,14,31.8,44
+Your job satisfaction,United Kingdom,Increase,12,10.4,115
+Your job satisfaction,United Kingdom,Same,51,44.3,115
+Your job satisfaction,United Kingdom,Decrease,52,45.2,115
+Your job satisfaction,United States,Increase,23,26.7,86
+Your job satisfaction,United States,Same,35,40.7,86
+Your job satisfaction,United States,Decrease,28,32.6,86

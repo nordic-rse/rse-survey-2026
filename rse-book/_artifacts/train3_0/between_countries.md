@@ -1,0 +1,26 @@
+### What training programs are you involved with? (N=136)
+
+| country_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Germany | Institutional Training | 42 | 56.0 | 75 |
+| Germany | Local University Training | 22 | 29.3 | 75 |
+| Germany | Software Carpentry | 14 | 18.7 | 75 |
+| Germany | Workshops And Conferences | 11 | 14.7 | 75 |
+| Germany | HPC Courses And Workshops | 9 | 12.0 | 75 |
+| Germany | Version Control Systems | 5 | 6.7 | 75 |
+| Germany | Software Training | 2 | 2.7 | 75 |
+| Netherlands | Software Carpentry | 7 | 63.6 | 11 |
+| Netherlands | Local University Training | 4 | 36.4 | 11 |
+| Netherlands | Institutional Training | 1 | 9.1 | 11 |
+| Netherlands | Version Control Systems | 1 | 9.1 | 11 |
+| United Kingdom | Software Carpentry | 20 | 55.6 | 36 |
+| United Kingdom | Local University Training | 19 | 52.8 | 36 |
+| United Kingdom | Version Control Systems | 2 | 5.6 | 36 |
+| United Kingdom | HPC Courses And Workshops | 2 | 5.6 | 36 |
+| United Kingdom | Institutional Training | 1 | 2.8 | 36 |
+| United States | Local University Training | 8 | 57.1 | 14 |
+| United States | Software Carpentry | 4 | 28.6 | 14 |
+| United States | Workshops And Conferences | 1 | 7.1 | 14 |
+| United States | HPC Courses And Workshops | 1 | 7.1 | 14 |
+
+![What training programs are you involved with? (N=136)](../_artifacts/train3_0/between_countries.png?v=1539a52302)

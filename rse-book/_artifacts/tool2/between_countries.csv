@@ -1,0 +1,13 @@
+country_group,category,n,pct
+Germany,GNU/Linux,137,68.5
+Germany,macOS,33,16.5
+Germany,Windows,30,15.0
+Netherlands,GNU/Linux,25,52.1
+Netherlands,macOS,13,27.1
+Netherlands,Windows,10,20.8
+United Kingdom,GNU/Linux,70,56.5
+United Kingdom,macOS,36,29.0
+United Kingdom,Windows,18,14.5
+United States,GNU/Linux,43,47.3
+United States,macOS,36,39.6
+United States,Windows,12,13.2

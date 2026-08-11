@@ -1,0 +1,13 @@
+{
+  "question_id": "prevEmp1",
+  "focus": [
+    "Germany"
+  ],
+  "tasks": [
+    "focus",
+    "by_age",
+    "between_countries"
+  ],
+  "response_kind": "categorical_with_other",
+  "written_at": "2026-08-09T14:55:50.324542+00:00"
+}

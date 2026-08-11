@@ -1,0 +1,26 @@
+### On average, how many times a year do you take part in providing training? (N=467)
+
+| country_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Germany | 0 | 96 | 48.0 | 200 |
+| Germany | 1-2 | 70 | 35.0 | 200 |
+| Germany | 3-5 | 23 | 11.5 | 200 |
+| Germany | 5-10 | 9 | 4.5 | 200 |
+| Germany | 11 or more | 2 | 1.0 | 200 |
+| Netherlands | 0 | 22 | 44.0 | 50 |
+| Netherlands | 1-2 | 17 | 34.0 | 50 |
+| Netherlands | 3-5 | 9 | 18.0 | 50 |
+| Netherlands | 11 or more | 1 | 2.0 | 50 |
+| Netherlands | 5-10 | 1 | 2.0 | 50 |
+| United Kingdom | 1-2 | 42 | 33.1 | 127 |
+| United Kingdom | 0 | 42 | 33.1 | 127 |
+| United Kingdom | 3-5 | 25 | 19.7 | 127 |
+| United Kingdom | 5-10 | 13 | 10.2 | 127 |
+| United Kingdom | 11 or more | 5 | 3.9 | 127 |
+| United States | 1-2 | 44 | 48.9 | 90 |
+| United States | 0 | 25 | 27.8 | 90 |
+| United States | 3-5 | 16 | 17.8 | 90 |
+| United States | 5-10 | 4 | 4.4 | 90 |
+| United States | 11 or more | 1 | 1.1 | 90 |
+
+![On average, how many times a year do you take part in providing training? (N=467)](../_artifacts/train2_0/between_countries.png?v=30b7fbb65b)

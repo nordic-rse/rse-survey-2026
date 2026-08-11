@@ -1,0 +1,348 @@
+### Token → category (conf2can_0)
+
+| token | category |
+| --- | --- |
+| acs fall meeting | Astronomy conferences |
+| adass and numerous other conferences | Astronomy conferences |
+| african digital scholarship and curation conference | Astronomy conferences |
+| agu fall meeting | Astronomy conferences |
+| american geophysical union | Astronomy conferences |
+| american geophysical union annual meeting | Astronomy conferences |
+| american geophysical union fall meeting | Astronomy conferences |
+| american meteorological society annual meeting | Astronomy conferences |
+| american physical society division of plasma physics annual meetings | Astronomy conferences |
+| aps march meeting | Astronomy conferences |
+| bernstein conference | Astronomy conferences |
+| bioinformatic conferences: eccb | Astronomy conferences |
+| caribbean regional conference of psychology | Astronomy conferences |
+| chaos communication congress | Astronomy conferences |
+| chpc conference | Astronomy conferences |
+| csir biennial conference | Astronomy conferences |
+| derse conference | Astronomy conferences |
+| dh conference | Astronomy conferences |
+| diverses conférences | Astronomy conferences |
+| domain conferences in the past | Astronomy conferences |
+| ecological modelling conference | Astronomy conferences |
+| empirical methods in natural language processing conference | Astronomy conferences |
+| eresearch south africa conference | Astronomy conferences |
+| european r users meeting | Astronomy conferences |
+| faraday discussions | Astronomy conferences |
+| galaxy community conference | Astronomy conferences |
+| gamm annual meeting | Astronomy conferences |
+| gordon research conference (usa) | Astronomy conferences |
+| helmholtz metadata conference | Astronomy conferences |
+| hmc conference | Astronomy conferences |
+| hpsf conference | Astronomy conferences |
+| huminfra nodes conference | Astronomy conferences |
+| ices annual science conference | Astronomy conferences |
+| ieee escience conference | Astronomy conferences |
+| interamerican congress of psychology | Astronomy conferences |
+| land warfare conference | Astronomy conferences |
+| lattice conference | Astronomy conferences |
+| magnetism conferences | Astronomy conferences |
+| military information and communications symposium of south africa | Astronomy conferences |
+| not software conferences. | Astronomy conferences |
+| ocns annual meeting | Astronomy conferences |
+| one health symposium | Astronomy conferences |
+| project specific conference | Astronomy conferences |
+| research area specific not software specific conferences | Astronomy conferences |
+| ric conference | Astronomy conferences |
+| seismological society of american annual meeting | Astronomy conferences |
+| siam conferences | Astronomy conferences |
+| skach winter meeting | Astronomy conferences |
+| software defined space conference | Astronomy conferences |
+| some other astronomy conferences | Astronomy conferences |
+| some topical conferences | Astronomy conferences |
+| språkbanken meetings | Astronomy conferences |
+| topical conferences | Astronomy conferences |
+| usrse conferences | Astronomy conferences |
+| aas/spd/tess | Conferences and events |
+| acl | Conferences and events |
+| acm pearc | Conferences and events |
+| acm pepm | Conferences and events |
+| acspri | Conferences and events |
+| adac | Conferences and events |
+| american chemical society | Conferences and events |
+| ams | Conferences and events |
+| cakefest | Conferences and events |
+| chep | Conferences and events |
+| chr | Conferences and events |
+| cni | Conferences and events |
+| coling | Conferences and events |
+| compstat | Conferences and events |
+| cospar | Conferences and events |
+| cosyne | Conferences and events |
+| cray user group | Conferences and events |
+| cvpr | Conferences and events |
+| dasc | Conferences and events |
+| derse | Conferences and events |
+| dh | Conferences and events |
+| dh benelux | Conferences and events |
+| dhd | Conferences and events |
+| dhnb | Conferences and events |
+| ducoms | Conferences and events |
+| durham hpc days | Conferences and events |
+| ecm | Conferences and events |
+| egi | Conferences and events |
+| eusn | Conferences and events |
+| forge | Conferences and events |
+| fosdem | Conferences and events |
+| gfv | Conferences and events |
+| hipeac | Conferences and events |
+| hmc | Conferences and events |
+| hmc) | Conferences and events |
+| icalepcs | Conferences and events |
+| icns | Conferences and events |
+| icosahom | Conferences and events |
+| icse | Conferences and events |
+| icsew | Conferences and events |
+| ifd&tc | Conferences and events |
+| ipdps | Conferences and events |
+| isc | Conferences and events |
+| iscb | Conferences and events |
+| ismb | Conferences and events |
+| ismrm | Conferences and events |
+| iss | Conferences and events |
+| issb | Conferences and events |
+| jlesc | Conferences and events |
+| juliacon | Conferences and events |
+| jupytercon | Conferences and events |
+| knime | Conferences and events |
+| lhcp | Conferences and events |
+| mett | Conferences and events |
+| mpg fdm | Conferences and events |
+| mse | Conferences and events |
+| nac | Conferences and events |
+| netsci | Conferences and events |
+| nfcs | Conferences and events |
+| nfdi | Conferences and events |
+| nofe | Conferences and events |
+| pasc | Conferences and events |
+| pcapac | Conferences and events |
+| posit::conf | Conferences and events |
+| prasa | Conferences and events |
+| pycon | Conferences and events |
+| pycon chile | Conferences and events |
+| pycon us | Conferences and events |
+| pydata | Conferences and events |
+| pyhep | Conferences and events |
+| recomb | Conferences and events |
+| rencontresr | Conferences and events |
+| res con | Conferences and events |
+| resa | Conferences and events |
+| sers | Conferences and events |
+| sfn | Conferences and events |
+| siam | Conferences and events |
+| siam cse | Conferences and events |
+| siam pp | Conferences and events |
+| sib | Conferences and events |
+| sunbelt | Conferences and events |
+| sunbelt (insna) | Conferences and events |
+| techx | Conferences and events |
+| tnc | Conferences and events |
+| tnc pearc techx | Conferences and events |
+| uktc | Conferences and events |
+| watoc | Conferences and events |
+| wccm | Conferences and events |
+| where our users go to | Conferences and events |
+| wlcg) | Conferences and events |
+| worktribe connect | Conferences and events |
+| wssspe | Conferences and events |
+| de rse | RSE events |
+| emrs rsc | RSE events |
+| event of rsse africa (cape town | RSE events |
+| gamms rse | RSE events |
+| nordic rse conference | RSE events |
+| rse con | RSE events |
+| rse conferences | RSE events |
+| rse day ku leuven | RSE events |
+| rseaunz | RSE events |
+| rsecon | RSE events |
+| rsecon (uk) | RSE events |
+| rsecon newcastle | RSE events |
+| rseconuk | RSE events |
+| rslondonsoutheast | RSE events |
+| rss | RSE events |
+| rstudio::conf | RSE events |
+| uk rsecon | RSE events |
+| biometrisches kolloquium | Scientific conferences and workshops |
+| cecam espresso summer school | Scientific conferences and workshops |
+| comparative oceanic linguistics | Scientific conferences and workshops |
+| declarative amsterdam | Scientific conferences and workshops |
+| derse würzburg + karlsruhe | Scientific conferences and workshops |
+| digital humanities | Scientific conferences and workshops |
+| digital humanities in nordic and baltic countries (dhnb) | Scientific conferences and workshops |
+| dlr llm wissensaustauschworkshop | Scientific conferences and workshops |
+| england | Scientific conferences and workshops |
+| espresso summer school | Scientific conferences and workshops |
+| euromech colloquium | Scientific conferences and workshops |
+| european geosciences union | Scientific conferences and workshops |
+| european society for textual scholarship | Scientific conferences and workshops |
+| european space weather week | Scientific conferences and workshops |
+| euroscipy | Scientific conferences and workshops |
+| gdansk | Scientific conferences and workshops |
+| globus world | Scientific conferences and workshops |
+| goldschmidt | Scientific conferences and workshops |
+| interne wissensaustausch workshop | Scientific conferences and workshops |
+| leipzig summer schoon on active matter | Scientific conferences and workshops |
+| liege colloquium | Scientific conferences and workshops |
+| multiple all over europa | Scientific conferences and workshops |
+| musikwissenschaftliche themenkonferenz an der akademie der wissenschaften und der literatur (adw mainz) | Scientific conferences and workshops |
+| nordicrsecon | Scientific conferences and workshops |
+| other online formats | Scientific conferences and workshops |
+| practicalmeeg | Scientific conferences and workshops |
+| saxfdm tagung | Scientific conferences and workshops |
+| sc | Scientific conferences and workshops |
+| semantic web in libraries (swib) | Scientific conferences and workshops |
+| semantic web in libraris (swib) | Scientific conferences and workshops |
+| stockholm | Scientific conferences and workshops |
+| summer rosetta con | Scientific conferences and workshops |
+| sweden | Scientific conferences and workshops |
+| talks lors de déplacements dans des universités | Scientific conferences and workshops |
+| theory and practice of digital libraries | Scientific conferences and workshops |
+| uk fluids | Scientific conferences and workshops |
+| uklft | Scientific conferences and workshops |
+| aiaa scitech | Scientific research fields |
+| american astronomical society | Scientific research fields |
+| american crystallography association annual meeting (usa) and others | Scientific research fields |
+| american meteorological society | Scientific research fields |
+| annual meeting of the american ornithological society | Scientific research fields |
+| australasian region biometrics conference | Scientific research fields |
+| cancer genomics consortium | Scientific research fields |
+| cmstatistics | Scientific research fields |
+| elixir pathogen data focus group | Scientific research fields |
+| esa living planet | Scientific research fields |
+| esa living planet symposium | Scientific research fields |
+| esa living planete | Scientific research fields |
+| escience | Scientific research fields |
+| evolution and bioinformatics | Scientific research fields |
+| monogram | Scientific research fields |
+| ocean sciences | Scientific research fields |
+| open science days | Scientific research fields |
+| plant and animal genome conference | Scientific research fields |
+| python in heliophysics meetings | Scientific research fields |
+| scipy | Scientific research fields |
+| society for neuroscience | Scientific research fields |
+| south african society of atmospheric scientists | Scientific research fields |
+| spie astronomical telescopes+instrumentation | Scientific research fields |
+| spie astronomy | Scientific research fields |
+| strong lensing conferece | Scientific research fields |
+| supercomputing | Scientific research fields |
+| synchrotron radiation instrumentation (sri) | Scientific research fields |
+| virus genomics | Scientific research fields |
+| vision sciences society | Scientific research fields |
+| a few | Survey terms |
+| aas | Survey terms |
+| aas and aps | Survey terms |
+| acat | Survey terms |
+| adass | Survey terms |
+| afrilex | Survey terms |
+| agu | Survey terms |
+| agu and ssa | Survey terms |
+| aiaa | Survey terms |
+| aoir | Survey terms |
+| arc | Survey terms |
+| archeofoss | Survey terms |
+| aviose | Survey terms |
+| canberra | Survey terms |
+| chase | Survey terms |
+| cordi | Survey terms |
+| dash | Survey terms |
+| digikult | Survey terms |
+| eadh | Survey terms |
+| eccomas | Survey terms |
+| educause | Survey terms |
+| egu | Survey terms |
+| elixir all hands | Survey terms |
+| emnlp | Survey terms |
+| epdic | Survey terms |
+| eresearch | Survey terms |
+| ewri | Survey terms |
+| fossdem | Survey terms |
+| gamm | Survey terms |
+| gitkon | Survey terms |
+| hepix | Survey terms |
+| higgs days santander | Survey terms |
+| iau | Survey terms |
+| idw | Survey terms |
+| igarss | Survey terms |
+| including adho | Survey terms |
+| inmm | Survey terms |
+| issi | Survey terms |
+| iucr | Survey terms |
+| ivoa | Survey terms |
+| jsm | Survey terms |
+| latinr | Survey terms |
+| many | Survey terms |
+| mica | Survey terms |
+| miccai | Survey terms |
+| multiple | Survey terms |
+| neic | Survey terms |
+| nobugs | Survey terms |
+| oecd | Survey terms |
+| pac | Survey terms |
+| prace days | Survey terms |
+| shine | Survey terms |
+| spie | Survey terms |
+| third infinity | Survey terms |
+| tiime | Survey terms |
+| ukrse | Survey terms |
+| uros | Survey terms |
+| user! | Survey terms |
+| usrse | Survey terms |
+| usrse'xy | Survey terms |
+| varies | Survey terms |
+| very different | Survey terms |
+| vibiom | Survey terms |
+| wapor | Survey terms |
+| "ceci meeting" (consortium des équipements de calcul intensif) | Workshop series |
+| acm document engineering | Workshop series |
+| acts developer workshop | Workshop series |
+| advanced technologies and treatments for diabetes (attd) | Workshop series |
+| atlas tdaq workshop | Workshop series |
+| atlas tracking workshop | Workshop series |
+| barcamp open science | Workshop series |
+| california forestry science symposium | Workshop series |
+| ciroh developers conference | Workshop series |
+| collaborations workshop | Workshop series |
+| collegeville workshop | Workshop series |
+| community workshops | Workshop series |
+| computer applications in archaeology (caa) | Workshop series |
+| computing related conferences and workshops (nordugrid | Workshop series |
+| dhtech symposium | Workshop series |
+| different rse conferences & related workshops | Workshop series |
+| domain conferences/workshops (mrs | Workshop series |
+| domain workshops | Workshop series |
+| e.g. european library automation group (elag) | Workshop series |
+| ebrains / hbp summit and workshops | Workshop series |
+| eln workshops | Workshop series |
+| european simulation interoperability workshop | Workshop series |
+| google cloud summit | Workshop series |
+| https://www.nobugsconference.org/ | Workshop series |
+| ieee escience | Workshop series |
+| ieee rt | Workshop series |
+| interne workshops | Workshop series |
+| language resources and evaluation conference (lrec) | Workshop series |
+| mostly community/ project ws (datahub | Workshop series |
+| mpg fdm workshop | Workshop series |
+| nerc digital gathering | Workshop series |
+| nia omics data resources: a path to interoperability workshop | Workshop series |
+| noaa space weather workshop | Workshop series |
+| north american forestry ecology workshop | Workshop series |
+| open source software for fusion energy conference | Workshop series |
+| openacc summit | Workshop series |
+| other consortium/project/topic specific workshops | Workshop series |
+| programación en ciencias pesqueras | Workshop series |
+| project workshops | Workshop series |
+| psdi workshops) | Workshop series |
+| rwanda ai and machine learning  workshop | Workshop series |
+| siesta advanced workshop | Workshop series |
+| ssi collaborations workshop | Workshop series |
+| supercomputing workshop | Workshop series |
+| swedish language technology conference (sltc) | Workshop series |
+| symposium on software performance (ssp) | Workshop series |
+| text encoding initiative conference | Workshop series |
+| ucar sea's improving scientific software conference | Workshop series |
+| uk swift hep workshops | Workshop series |
+| workshops hosted at sheffield university | Workshop series |
+| workshops within princeton university (organized by research computing) | Workshop series |

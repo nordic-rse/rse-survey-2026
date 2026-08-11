@@ -1,0 +1,270 @@
+token,category_llm,category_human,cluster_id,n,exclude
+agent based modelling on hpc infrastructure,AI And Automation,AI And Automation,5,1,0
+agentic coding,AI And Automation,AI And Automation,5,2,0
+ai agent assisted development,AI And Automation,AI And Automation,5,1,0
+ai agent management,AI And Automation,AI And Automation,5,1,0
+ai assistants,AI And Automation,AI And Automation,5,1,0
+ai assisted code management (testing,AI And Automation,AI And Automation,5,1,0
+ai development,AI And Automation,AI And Automation,5,1,0
+ai-assisted software development,AI And Automation,AI And Automation,5,1,0
+automation with jube,AI And Automation,AI And Automation,5,1,0
+software develoment using ai assistant,AI And Automation,AI And Automation,5,1,0
+sofware migration (matlab to c) with ai assistant,AI And Automation,AI And Automation,5,1,0
+use of ai/ml in software development,AI And Automation,AI And Automation,5,1,0
+working with ai tools,AI And Automation,AI And Automation,5,1,0
+advanced pandas/geopandas for data analysis,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+architektur,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+browser-based visualisations with python backend (currently using mesa but i want to know about other options),Advanced Development Techniques,Advanced Development Techniques,3,1,0
+cd for documentation using documenter.jl and github actions,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+cloud-technologien,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+create latex graphics with tikz,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+docstrings and comments (e.g. with an llm,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+formale softwarearchitektur für objektorientierte sprachen,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+fortgeschrittene algebra und analysis,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+fortgeschrittenes benchmarking von software,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+geschäftstüchtigkeit/gründermentalität,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+gpu programming and performance engineering (beyond numba/cupy/torch/...),Advanced Development Techniques,Advanced Development Techniques,3,1,0
+höhere mathematik,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+höheres maß an sicherheit (im sinne von cyber-security),Advanced Development Techniques,Advanced Development Techniques,3,1,0
+ki als hilfe in se,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+kommunikationsfähigkeiten,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+language server protocol (lsp),Advanced Development Techniques,Advanced Development Techniques,3,1,0
+laterales führen von kolleg:innen,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+local llm usage for development,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+low level language like rust,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+low-level linux kernel unterstanding,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+model context protocol (mcp),Advanced Development Techniques,Advanced Development Techniques,3,1,0
+more knowledge of python (i use it very little),Advanced Development Techniques,Advanced Development Techniques,3,1,0
+more on the configuration of local servers/clusters,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+noch mehr über softwarearchitektur lernen,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+optimierung von programmlaufzeit,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+optimierung von python code,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+planen der sw architektur,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+python tools to tidy up repository / add readmes,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+reverse engineering von proprietären dateiformaten,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+skripting mit bash und/oder python,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+software-architektur,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+softwarearchitekturgestaltung,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+some more profound knowledge of gitlab-ci (e.g. caching effectively)),Advanced Development Techniques,Advanced Development Techniques,3,1,0
+testentwicklung für mathematische software die über unit tests hinaus gehen,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+using llms and agents (ideally local,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+via llama.cpp) for software development,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+weitere gpu skills,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+überblick über inhaltlich verwandte softwareentwicklung in meiner engeren fachcommunity,Advanced Development Techniques,Advanced Development Techniques,3,1,0
+1. use of git,Coding And Development,Coding And Development,1,1,0
+2. improve c++,Coding And Development,Coding And Development,1,1,0
+3. i dont know,Coding And Development,Coding And Development,1,1,0
+advanced c++,Coding And Development,Coding And Development,1,1,0
+advanced ci/cd using templates,Coding And Development,Coding And Development,1,1,0
+asynchronous programming,Coding And Development,Coding And Development,1,1,0
+best practices for coding,Coding And Development,Coding And Development,1,1,0
+better programming,Coding And Development,Coding And Development,1,1,0
+c++,Coding And Development,Coding And Development,1,1,0
+ci/cd,Coding And Development,Coding And Development,1,2,0
+clean code in long term project,Coding And Development,Coding And Development,1,1,0
+clean coding,Coding And Development,Coding And Development,1,1,0
+cloud computing,Coding And Development,Coding And Development,1,1,0
+code review,Coding And Development,Coding And Development,1,1,0
+coding,Coding And Development,Coding And Development,1,3,0
+container,Coding And Development,Coding And Development,1,1,0
+containerization,Coding And Development,Coding And Development,1,2,0
+data science,Coding And Development,Coding And Development,1,1,0
+data storage systems,Coding And Development,Coding And Development,1,1,0
+databases,Coding And Development,Coding And Development,1,1,0
+debuging,Coding And Development,Coding And Development,1,1,0
+docker,Coding And Development,Coding And Development,1,1,0
+full-stack development,Coding And Development,Coding And Development,1,1,0
+gitlab ci/cd,Coding And Development,Coding And Development,1,1,0
+gpu programming,Coding And Development,Coding And Development,1,1,0
+hpc,Coding And Development,Coding And Development,1,1,0
+i am occasional developer.,Coding And Development,Coding And Development,1,1,0
+improve machine learning skills,Coding And Development,Coding And Development,1,1,0
+improve on python,Coding And Development,Coding And Development,1,1,0
+leveraging cloud resources,Coding And Development,Coding And Development,1,1,0
+low-level programming in c/c++,Coding And Development,Coding And Development,1,1,0
+machine learning,Coding And Development,Coding And Development,1,2,0
+multi cpu,Coding And Development,Coding And Development,1,1,0
+newest c++ features,Coding And Development,Coding And Development,1,1,0
+object oriented programming,Coding And Development,Coding And Development,1,1,0
+optimization,Coding And Development,Coding And Development,1,1,0
+packaging,Coding And Development,Coding And Development,1,1,0
+parallel programming,Coding And Development,Coding And Development,1,1,0
+parallelisation of numerics,Coding And Development,Coding And Development,1,1,0
+parallized hardware,Coding And Development,Coding And Development,1,1,0
+partner(s) for code reviews,Coding And Development,Coding And Development,1,1,0
+producing an efficient code,Coding And Development,Coding And Development,1,1,0
+profiling and performance optimisation,Coding And Development,Coding And Development,1,1,0
+program optimization,Coding And Development,Coding And Development,1,1,0
+python,Coding And Development,Coding And Development,1,2,0
+refactoring techniques,Coding And Development,Coding And Development,1,1,0
+refactoring),Coding And Development,Coding And Development,1,1,0
+reusable patterns,Coding And Development,Coding And Development,1,1,0
+runtime optimization,Coding And Development,Coding And Development,1,1,0
+signal processing),Coding And Development,Coding And Development,1,1,0
+system-engineering,Coding And Development,Coding And Development,1,1,0
+typescript,Coding And Development,Coding And Development,1,1,0
+ui/ux design,Coding And Development,Coding And Development,1,1,0
+version control,Coding And Development,Coding And Development,1,1,0
+ai,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+ai and ml,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+angular,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+aws,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+but with human oversight),Development Tools And Technologies,Development Tools And Technologies,8,1,0
+cuda,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+devops,Development Tools And Technologies,Development Tools And Technologies,8,3,0
+e.g.,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+gtd,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+ides,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+java,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+kubernetes,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+llm,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+rust,Development Tools And Technologies,Development Tools And Technologies,8,6,0
+scrum/agile,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+slurm,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+stan,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+wasm,Development Tools And Technologies,Development Tools And Technologies,8,1,0
+agile management,Project Management,Project Management,7,1,0
+better / more efficient management skills,Project Management,Project Management,7,1,0
+better project management,Project Management,Project Management,7,1,0
+expectation management,Project Management,Project Management,7,1,0
+formal use of project managment software,Project Management,Project Management,7,1,0
+hackathon management,Project Management,Project Management,7,1,0
+how to sell infrastructure work,Project Management,Project Management,7,1,0
+learn how to properly organize of bigger projects,Project Management,Project Management,7,1,0
+management,Project Management,Project Management,7,2,0
+management for training purposes,Project Management,Project Management,7,1,0
+methodology for agile multiproject management,Project Management,Project Management,7,1,0
+process modeling and mining,Project Management,Project Management,7,1,0
+project and time management,Project Management,Project Management,7,1,0
+project management,Project Management,Project Management,7,15,0
+project managing,Project Management,Project Management,7,1,0
+project organisation,Project Management,Project Management,7,1,0
+proper db management,Project Management,Project Management,7,1,0
+stakeholder management / communication,Project Management,Project Management,7,1,0
+system administration,Project Management,Project Management,7,1,0
+task management,Project Management,Project Management,7,1,0
+time management,Project Management,Project Management,7,4,0
+user management and interaction:,Project Management,Project Management,7,1,0
+workflow management skills,Project Management,Project Management,7,1,0
+workflow management tools like snakemake,Project Management,Project Management,7,1,0
+devops engineer,Requirements Engineering,Requirements Engineering,4,1,0
+requirement engineering,Requirements Engineering,Requirements Engineering,4,2,0
+requirement engineering methology,Requirements Engineering,Requirements Engineering,4,1,0
+requirements elicitation in research projects,Requirements Engineering,Requirements Engineering,4,1,0
+requirements engineering,Requirements Engineering,Requirements Engineering,4,3,0
+agile methoden,Research Software Management,Research Software Management,0,1,0
+coordinating teams of rses,Research Software Management,Research Software Management,0,1,0
+effectively testing research software to avoid that bugs that appear only on specific systems,Research Software Management,Research Software Management,0,1,0
+effektive dokumentation,Research Software Management,Research Software Management,0,1,0
+efficiently managing research software projects,Research Software Management,Research Software Management,0,1,0
+formale methoden,Research Software Management,Research Software Management,0,1,0
+funding rse projects,Research Software Management,Research Software Management,0,1,0
+intermediate rse (refactoring,Research Software Management,Research Software Management,0,1,0
+kollaborations-modelle,Research Software Management,Research Software Management,0,1,0
+object-oriented scientific software design,Research Software Management,Research Software Management,0,1,0
+prioritisation of tasks for most impact of research software,Research Software Management,Research Software Management,0,1,0
+projektmanagement,Research Software Management,Research Software Management,0,3,0
+research skills required,Research Software Management,Research Software Management,0,1,0
+research software dissemination,Research Software Management,Research Software Management,0,1,0
+research software maintenance,Research Software Management,Research Software Management,0,1,0
+research software management,Research Software Management,Research Software Management,0,1,0
+ressourcenmanagement,Research Software Management,Research Software Management,0,1,0
+security pentesting,Research Software Management,Research Software Management,0,1,0
+softwareprojektmanagement,Research Software Management,Research Software Management,0,1,0
+team- und communitybuilding,Research Software Management,Research Software Management,0,1,0
+ux/ui research,Research Software Management,Research Software Management,0,1,0
+adopting the recent trends of ai from industry for improving productivity/ development activity,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+ai in rse proficiency (we all stumble along as best as we can here),Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+airworthiness certification,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+closer contact to scientists and scientific methods,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+collaborating,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+collaboration tools,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+communication,Soft Skills And Collaboration,Soft Skills And Collaboration,2,2,0
+"communication (why and how ""my"" software improves others work experience)",Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+communication/pedagogy,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+community building,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+community building 101,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+community organizing,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+contract negotiations,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+cran compliance,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+dealing with legacy code produced by untrained researchers and fast changing requirements while ensuring overall quality and maintainability,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+didactic skills,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+documentation,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+documentation generation,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+documenting,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+especiially optics and all phenomenoms relating to electron magnetism. also other aspects of physics that are relevant to undersand everthing around synchrotrons are of intereset.,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+grant writing,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+i would love to extend my knowledge about physics,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+improve on understanding ci/cd - had to self teach this skill and there are still gaps present,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+improving institutional-level appreciation of rse work,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+leader skills,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+leadership,Soft Skills And Collaboration,Soft Skills And Collaboration,2,4,0
+learn object orientation?,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+legal aspects,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+legal knowledge,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+marketing,Soft Skills And Collaboration,Soft Skills And Collaboration,2,2,0
+more effective usage of ci/cd pipelines to avoid repetitive manual work,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+more knowledge in performance optimization and in the hpc world (vectorization,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+multi gpu). i would love to work together with senios and to be taught by them.,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+negotiation,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+networking,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+participatory (co-production) approaches to rs development,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+people management (communicating what is needed for research and to what depth),Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+presentation skills - with specific focus on how things are presented within software related journals and conferences,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+project,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+statistical learning,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+team leadership,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+technical writing,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+to gain experience,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+writing successful grant proposals,Soft Skills And Collaboration,Soft Skills And Collaboration,2,1,0
+a more consistent way of working with git branches,Software Architecture And Design,Software Architecture And Design,9,1,0
+a more formal approach to distributed software design,Software Architecture And Design,Software Architecture And Design,9,1,0
+a more formal approach to relational database design and administration,Software Architecture And Design,Software Architecture And Design,9,1,0
+adjust chair for comfortable sitting,Software Architecture And Design,Software Architecture And Design,9,1,0
+architecture documentation,Software Architecture And Design,Software Architecture And Design,9,1,0
+deepen the general knowledge on broader software architecture,Software Architecture And Design,Software Architecture And Design,9,1,0
+deeper knowledge of performance optimizations,Software Architecture And Design,Software Architecture And Design,9,1,0
+design of software architecture for numerical software library and packages,Software Architecture And Design,Software Architecture And Design,9,1,0
+enterprise architecture,Software Architecture And Design,Software Architecture And Design,9,1,0
+formal development methodologies,Software Architecture And Design,Software Architecture And Design,9,1,0
+improve knowledge about system architecture,Software Architecture And Design,Software Architecture And Design,9,1,0
+know how to free time slots to work practical,Software Architecture And Design,Software Architecture And Design,9,1,0
+operating systems design,Software Architecture And Design,Software Architecture And Design,9,1,0
+software achitecture patterns,Software Architecture And Design,Software Architecture And Design,9,1,0
+software architecture,Software Architecture And Design,Software Architecture And Design,9,9,0
+software architecture design,Software Architecture And Design,Software Architecture And Design,9,1,0
+software design and architecture,Software Architecture And Design,Software Architecture And Design,9,1,0
+software design patterns,Software Architecture And Design,Software Architecture And Design,9,1,0
+software development best practices,Software Architecture And Design,Software Architecture And Design,9,1,0
+software engineering skills,Software Architecture And Design,Software Architecture And Design,9,1,0
+stronger foundation in mathematics (linear algebra,Software Architecture And Design,Software Architecture And Design,9,1,0
+structured way of improving my coding knowledge,Software Architecture And Design,Software Architecture And Design,9,1,0
+user experience design,Software Architecture And Design,Software Architecture And Design,9,1,0
+using development methodologies in academic environment,Software Architecture And Design,Software Architecture And Design,9,1,0
+advanced testing methods,Software Testing,Software Testing,6,1,0
+automatic testing,Software Testing,Software Testing,6,1,0
+automatisiertes testen,Software Testing,Software Testing,6,1,0
+continuous integration and testing,Software Testing,Software Testing,6,1,0
+formal software testing,Software Testing,Software Testing,6,1,0
+formal testing,Software Testing,Software Testing,6,1,0
+formale begriffe des softwaretestings,Software Testing,Software Testing,6,1,0
+gute tests,Software Testing,Software Testing,6,1,0
+simulaton based inference,Software Testing,Software Testing,6,1,0
+software testing,Software Testing,Software Testing,6,1,0
+system and integration testing strategies),Software Testing,Software Testing,6,1,0
+systematischeres testen,Software Testing,Software Testing,6,1,0
+test-driven development,Software Testing,Software Testing,6,1,0
+testing,Software Testing,Software Testing,6,5,0
+testing strategies for complex systems (mocking and ui testing,Software Testing,Software Testing,6,1,0
+understand how to really write tests,Software Testing,Software Testing,6,1,0
+unit testing,Software Testing,Software Testing,6,2,0
+asking the right questions,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+better / more efficient communicaton skills,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+choosing the right pattern the first time around,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+create more effective learning content,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+expanding to other languages,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+how to teach effectively?,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+remembering people's name,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+sell yourself better,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+teaching/training,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0
+to be a better teacher,Teaching And Communication Skills,Teaching And Communication Skills,10,1,0

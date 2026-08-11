@@ -1,0 +1,13 @@
+{
+  "question_id": "org2can",
+  "focus": [
+    "Germany"
+  ],
+  "tasks": [
+    "focus",
+    "by_age",
+    "between_countries"
+  ],
+  "response_kind": "categorical_with_other",
+  "written_at": "2026-08-09T14:55:48.724152+00:00"
+}

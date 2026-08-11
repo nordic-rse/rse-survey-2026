@@ -1,0 +1,13 @@
+age_group,category,n,pct,N
+Under 35,Increase,13,20.0,65
+Under 35,Same,29,44.6,65
+Under 35,Decrease,23,35.4,65
+35-44,Increase,18,23.1,78
+35-44,Same,40,51.3,78
+35-44,Decrease,20,25.6,78
+45-54,Increase,9,28.1,32
+45-54,Same,13,40.6,32
+45-54,Decrease,10,31.2,32
+55+,Increase,1,7.7,13
+55+,Same,10,76.9,13
+55+,Decrease,2,15.4,13

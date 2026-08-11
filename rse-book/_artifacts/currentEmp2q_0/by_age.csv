@@ -1,0 +1,42 @@
+age_group,category,n,pct,N
+Under 35,University of Stuttgart,5,21.7,23
+Under 35,Karlsruhe Institute of Technology,2,8.7,23
+Under 35,TU Dortmund,2,8.7,23
+Under 35,University of Potsdam,2,8.7,23
+Under 35,Heidelberg University,2,8.7,23
+Under 35,University of Göttingen,2,8.7,23
+Under 35,University of Hamburg,1,4.3,23
+Under 35,University of Marburg,1,4.3,23
+Under 35,Ludwig Maximilian University of Munich,1,4.3,23
+Under 35,University of Augsburg,1,4.3,23
+Under 35,Ruhr University Bochum,1,4.3,23
+Under 35,RWTH Aachen University,1,4.3,23
+Under 35,University of Duisburg-Essen,1,4.3,23
+Under 35,TU Braunschweig,1,4.3,23
+35-44,University of Stuttgart,4,13.3,30
+35-44,University of Bremen,3,10.0,30
+35-44,University of Potsdam,3,10.0,30
+35-44,University of Kiel,2,6.7,30
+35-44,University of Augsburg,2,6.7,30
+35-44,TU Dresden,2,6.7,30
+35-44,University of Bonn,2,6.7,30
+35-44,Humboldt University of Berlin,2,6.7,30
+35-44,Heidelberg University,2,6.7,30
+35-44,University of Hamburg,2,6.7,30
+35-44,University of Hanover,1,3.3,30
+35-44,Technical University of Berlin,1,3.3,30
+35-44,University of Jena,1,3.3,30
+35-44,University of Halle-Wittenberg,1,3.3,30
+35-44,Technische Universität Darmstadt,1,3.3,30
+35-44,Ludwig Maximilian University of Munich,1,3.3,30
+45-54,University of Hamburg,1,12.5,8
+45-54,Humboldt University of Berlin,1,12.5,8
+45-54,University of Stuttgart,1,12.5,8
+45-54,University of Mainz,1,12.5,8
+45-54,University of Vechta,1,12.5,8
+45-54,TU Braunschweig,1,12.5,8
+45-54,Ruhr University Bochum,1,12.5,8
+45-54,University of Jena,1,12.5,8
+55+,University of Bonn,1,33.3,3
+55+,University of Hamburg,1,33.3,3
+55+,University of Duisburg-Essen,1,33.3,3
