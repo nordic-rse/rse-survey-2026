@@ -1,0 +1,108 @@
+raw,cluster_id,category
+application optimization engineer,1,(Research) Software Engineer
+computational scientist,1,(Research) Software Engineer
+developer,1,(Research) Software Engineer
+devops engineer,1,(Research) Software Engineer
+entwicklungsingenieur,1,(Research) Software Engineer
+frontend development,1,(Research) Software Engineer
+full stack developer,1,(Research) Software Engineer
+gis engineer,1,(Research) Software Engineer
+hpc system engineer,1,(Research) Software Engineer
+programmer,1,(Research) Software Engineer
+research software and systems engineer,1,(Research) Software Engineer
+research software engineer,1,(Research) Software Engineer
+responsible person for software engineering,1,(Research) Software Engineer
+scientific programmer,1,(Research) Software Engineer
+scientific software engineer,1,(Research) Software Engineer
+scientist and research software engineer,1,(Research) Software Engineer
+senior bioinformatic software engineer,1,(Research) Software Engineer
+senior computational scientist,1,(Research) Software Engineer
+senior developer,1,(Research) Software Engineer
+senior machine learning researcher,1,(Research) Software Engineer
+senior research software engineer,1,(Research) Software Engineer
+software developer,1,(Research) Software Engineer
+software engineer,1,(Research) Software Engineer
+software-engineer,1,(Research) Software Engineer
+softwareentwickler,1,(Research) Software Engineer
+eln & fdm support,6,Computational Scientist / Scientific Programmer
+eln & rdm supporter,6,Computational Scientist / Scientific Programmer
+configurationmanager,5,Data Management / Data Scientist
+data manager,5,Data Management / Data Scientist
+data scientists,5,Data Management / Data Scientist
+data steward,5,Data Management / Data Scientist
+data steward and scientist,5,Data Management / Data Scientist
+informatiker,5,Data Management / Data Scientist
+it-entwickler,5,Data Management / Data Scientist
+softwarentwickler/datamanager,5,Data Management / Data Scientist
+system administrator,5,Data Management / Data Scientist
+abteilungsleiter,4,Management Roles
+department head,4,Management Roles
+deputy head of department,4,Management Roles
+director of curriculum,4,Management Roles
+group leader,4,Management Roles
+head of department,4,Management Roles
+it admin,4,Management Roles
+managing director,4,Management Roles
+project leader,4,Management Roles
+team lead,4,Management Roles
+team leader,4,Management Roles
+technical director,4,Management Roles
+technical staff,4,Management Roles
+doktorand,2,Researcher / Scientific Staff
+head of science it,2,Researcher / Scientific Staff
+hiwi,2,Researcher / Scientific Staff
+i don’t even know,2,Researcher / Scientific Staff
+juniorprofessor,2,Researcher / Scientific Staff
+phd,2,Researcher / Scientific Staff
+phd candidate,2,Researcher / Scientific Staff
+phd student,2,Researcher / Scientific Staff
+professor,2,Researcher / Scientific Staff
+research assisntant,2,Researcher / Scientific Staff
+rse,2,Researcher / Scientific Staff
+rse and trainer,2,Researcher / Scientific Staff
+scientific coworker,2,Researcher / Scientific Staff
+scientific employee,2,Researcher / Scientific Staff
+scientific researcher,2,Researcher / Scientific Staff
+scientific staff,2,Researcher / Scientific Staff
+scientist,2,Researcher / Scientific Staff
+senior researcher,2,Researcher / Scientific Staff
+senior scientist,2,Researcher / Scientific Staff
+sorry,2,Researcher / Scientific Staff
+staff scientist,2,Researcher / Scientific Staff
+student assistant,2,Researcher / Scientific Staff
+tenure track professor,2,Researcher / Scientific Staff
+wiss. ma,2,Researcher / Scientific Staff
+academic researchers,3,Software Developer
+doctoral student / research associate,3,Software Developer
+miterbeiter wissenchaftler,3,Software Developer
+postdoc researcher,3,Software Developer
+postdoctoral research associate,3,Software Developer
+postdoctoral research fellow,3,Software Developer
+postdoctoral researcher,3,Software Developer
+referent für forschungsdatenmanagement,3,Software Developer
+research assistant,3,Software Developer
+research associate,3,Software Developer
+research fellow,3,Software Developer
+researcher,3,Software Developer
+researcher (wissenschaftliche mitarbeiterin),3,Software Developer
+scientific staff (postdoctoral researcher),3,Software Developer
+stellvertretende abteilungsleiterin und gruppenleitung,3,Software Developer
+technische laborleitung,3,Software Developer
+technischer mitarbeiter,3,Software Developer
+webentwickler für digitale repositorien,3,Software Developer
+wiss. mitarbeiter,3,Software Developer
+wissenschaflticher mitarbeiter,3,Software Developer
+wissenschaftliche hilfskraft,3,Software Developer
+wissenschaftliche mitarbeiterin,3,Software Developer
+wissenschaftlicher angestellter,3,Software Developer
+wissenschaftlicher mitarbeiter,3,Software Developer
+wissenschaftlicher mitarbeiter (researcher),3,Software Developer
+wissenschaftlicher mitarbeiter / post-doc,3,Software Developer
+wissenschaftlicher mitarbeiter:in,3,Software Developer
+wissenschaftlicher programmierer,3,Software Developer
+wissenschaftliches personal,3,Software Developer
+hpc consultant,0,eln & rdm Support
+post doc,0,eln & rdm Support
+post-doc,0,eln & rdm Support
+postdoc,0,eln & rdm Support
+wrap up postdoc,0,eln & rdm Support

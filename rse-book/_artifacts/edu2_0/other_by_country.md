@@ -1,0 +1,39 @@
+#### Germany
+
+- Meteorology/Climatology
+- Chemie
+- Earth Sciences
+- Neurowissenschaften
+- Computational Linguistics / Digital Humanities
+- Environmental Sciences
+- Geisteswissenschaften
+- Chemistry
+- Computational Science
+- Bioinformatics
+- Geoinformation
+- Psychologie und Bewegungswiasenschaft
+- Materials Sciences
+- Mathematik; Kunstwissenschaften
+
+#### Netherlands
+
+- cognitive artificial intelligence (in between computer science, linguistics, psychology, philosophy and logic)
+- Digital Humanities
+- Geospatial Sciences
+- Geosciences
+- Environmental sciences
+
+#### United Kingdom
+
+- Digital Humanities
+- Open (see Open University)
+- Maths & Computing
+- Bioinformatics
+
+#### United States
+
+- Neuroscience
+- music composition
+- Information Science
+- English Literature
+- Computational+Physical Science

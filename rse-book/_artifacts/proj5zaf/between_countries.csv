@@ -1,0 +1,13 @@
+country_group,category,n,pct
+Germany,Git,204,100.0
+Germany,SVN,8,3.9
+Germany,CVS,1,0.5
+Netherlands,Git,50,100.0
+Netherlands,SVN,1,2.0
+United Kingdom,Git,123,100.0
+United Kingdom,SVN,10,8.1
+United Kingdom,CVS,3,2.4
+United Kingdom,Mercurial,3,2.4
+United States,Git,90,100.0
+United States,SVN,5,5.6
+United States,CVS,3,3.3

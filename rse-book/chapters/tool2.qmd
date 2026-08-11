@@ -1,104 +1,24 @@
 ---
 title: "Which operating system do you primarily use for development?"
-question_id: tool2_0
+question_id: tool2
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## Which operating system do you primarily use for development?
 
-```{r}
-#| echo: false
-question_code <- "tool2_0"
+Artifacts for `tool2` (from `rse-survey build-artifacts`).
 
-```
+### Focus
 
-## `r filter_label`
+{{< include ../_artifacts/tool2/focus.md >}}
 
-### Descriptive Statistics
+### By age group
 
-```{r}
-#| echo: false
+{{< include ../_artifacts/tool2/by_age.md >}}
 
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("Which operating system do you primarily use for development? (", filter_label, ")")
-)
-```
+### Between countries
 
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 8
+{{< include ../_artifacts/tool2/between_countries.md >}}
 
-plot_heatmap_category_barplot(
-  FILTER,
-  question_code,
-  title = paste0("Which operating system do you primarily use for development? (", filter_label, ")")
-)
-```
+### Other answers
 
-### Statistics by age group
-
-```{r}
-#| echo: false
-
-print_heatmap_category_age_wide_table(
-  FILTER,
-  question_code,
-  header = paste0("Which operating system do you primarily use for development? by age group (", filter_label, ")")
-)
-```
-
-```{r}
-#| echo: false
-#| results: asis
-#| eval: !expr show_within
-cat("## Within ", filter_label, "
-
-", sep = "")
-```
-
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("Which operating system do you primarily use for development? within ", filter_label),
-  group_by = FILTER
-)
-```
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-#| fig-width: 10
-#| fig-height: 8
-
-plot_heatmap_category_stacked_bars(
-  FILTER,
-  question_code,
-  countries = FILTER,
-  title = paste0("Which operating system do you primarily use for development? within ", filter_label)
-)
-```
-
-## Between Countries
-
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 8
-
-plot_heatmap_category_stacked_bars(
-  plot_countries,
-  question_code,
-  country_groups = country_groups,
-  title = "Which operating system do you primarily use for development? by country group"
-)
-```
+{{< include ../_artifacts/tool2/other_by_country.md >}}

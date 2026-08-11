@@ -3,29 +3,18 @@ title: "Which university do you work for?"
 question_id: currentEmp2q_0
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## Which university do you work for?
 
-## `r filter_label`
+Artifacts for `currentEmp2q_0` (from `rse-survey build-artifacts`).
 
-### Free-text responses
+### Focus
 
-```{r}
-#| echo: false
-source(file.path(book_root, "R/recodes/currentEmp2q_0_recode.R"))
+{{< include ../_artifacts/currentEmp2q_0/focus.md >}}
 
-cleaned_data <- process_text_codes_with_allocation(
-  filter = FILTER,
-  question_code = "currentEmp2q_0",
-  recode_map = currentEmp2q_0_recode_map,
-  header = paste0("Which university do you work for? (", filter_label, ")"),
-  other = TRUE,
-  cache_id = "currentEmp2q_0"
-)
+### By age group
 
-cleaned_data$summary_table
-```
+{{< include ../_artifacts/currentEmp2q_0/by_age.md >}}
 
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
+### Between countries
+
+{{< include ../_artifacts/currentEmp2q_0/between_countries.md >}}

@@ -1,0 +1,98 @@
+token,category_llm,category_human,cluster_id,n,exclude
+bring your oen code hackathons eines hardware herstellers in kooperation mit hpc centern,HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+hands-on to introductory courses to hpc,HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+hpc,HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+hpc einführungskurse,HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+hpc und ai kurse eines hardware herstellers,HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+i teach people compuational data practices,HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+lectures),HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+recode (coding course for beginners at bam),HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+teaching in the regular curriculum as a lecturer and tutorial leader in physics and computer science,HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+university lectures,HPC Courses And Workshops,HPC Courses And Workshops,5,1,0
+0,Institutional Training,Institutional Training,1,3,0
+autodidaktisch online,Institutional Training,Institutional Training,1,1,0
+bespoke client training programms,Institutional Training,Institutional Training,1,1,0
+bespoke training,Institutional Training,Institutional Training,1,1,0
+ci),Institutional Training,Institutional Training,1,1,0
+code refinery,Institutional Training,Institutional Training,1,1,0
+conda,Institutional Training,Institutional Training,1,1,0
+conduct in-house programming training courses for students,Institutional Training,Institutional Training,1,1,0
+cookiecutter,Institutional Training,Institutional Training,1,1,0
+dedicated totorials to interest groups,Institutional Training,Institutional Training,1,1,0
+digital literacy,Institutional Training,Institutional Training,1,1,0
+fachholschul-lehre,Institutional Training,Institutional Training,1,1,0
+fall schools,Institutional Training,Institutional Training,1,1,0
+forschungsdatenmanagement,Institutional Training,Institutional Training,1,1,0
+hands-on training of colleagues,Institutional Training,Institutional Training,1,1,0
+hifis education / hida,Institutional Training,Institutional Training,1,1,0
+hifis schulugen,Institutional Training,Institutional Training,1,1,0
+in house talks,Institutional Training,Institutional Training,1,1,0
+in-house training,Institutional Training,Institutional Training,1,1,0
+institute-level training primarily aimed at phd students,Institutional Training,Institutional Training,1,1,0
+institution specific data literacy training,Institutional Training,Institutional Training,1,1,0
+institutional training,Institutional Training,Institutional Training,1,1,0
+internal training,Institutional Training,Institutional Training,1,1,0
+internal training of colleagues,Institutional Training,Institutional Training,1,1,0
+keine,Institutional Training,Institutional Training,1,2,0
+latex,Institutional Training,Institutional Training,1,1,0
+lokale universitätskurse,Institutional Training,Institutional Training,1,1,0
+lokale weiterbildungen,Institutional Training,Institutional Training,1,1,0
+onboarding,Institutional Training,Institutional Training,1,1,0
+online training,Institutional Training,Institutional Training,1,1,0
+personal training,Institutional Training,Institutional Training,1,1,0
+reading group of our research group,Institutional Training,Institutional Training,1,1,0
+self made,Institutional Training,Institutional Training,1,1,0
+suresoft,Institutional Training,Institutional Training,1,2,0
+tests,Institutional Training,Institutional Training,1,1,0
+training at universities in federal state,Institutional Training,Institutional Training,1,1,0
+training in our software,Institutional Training,Institutional Training,1,1,0
+tsmp fall school,Institutional Training,Institutional Training,1,1,0
+tu dresden,Institutional Training,Institutional Training,1,1,0
+university training,Institutional Training,Institutional Training,1,1,0
+universitätskurse,Institutional Training,Institutional Training,1,1,0
+universitätskurse im studienprogramm,Institutional Training,Institutional Training,1,1,0
+versionskontrolle,Institutional Training,Institutional Training,1,1,0
+zbiw,Institutional Training,Institutional Training,1,1,0
+zentrumsinterne schulungen,Institutional Training,Institutional Training,1,1,0
+local chapter of derse community training,Local University Training,Local University Training,2,1,0
+local graduate school training,Local University Training,Local University Training,2,1,0
+local in-group seminar/talk,Local University Training,Local University Training,2,1,0
+local institute training,Local University Training,Local University Training,2,1,0
+local seminars,Local University Training,Local University Training,2,1,0
+local training for project stakeholders,Local University Training,Local University Training,2,1,0
+local training via seminars,Local University Training,Local University Training,2,1,0
+local training: python programming,Local University Training,Local University Training,2,1,0
+local trainings & weekly open door consulting,Local University Training,Local University Training,2,1,0
+local university training,Local University Training,Local University Training,2,12,0
+local university training (graduate school courses,Local University Training,Local University Training,2,1,0
+local university trainings,Local University Training,Local University Training,2,1,0
+carpentries,Software Carpentry,Software Carpentry,0,2,0
+open to ms and post docs. i am responsible for the material and sometimes draw from/remix carpentries materials.,Software Carpentry,Software Carpentry,0,1,0
+software carpentries,Software Carpentry,Software Carpentry,0,1,0
+software carpentries (not all parts covered),Software Carpentry,Software Carpentry,0,1,0
+software carpentry,Software Carpentry,Software Carpentry,0,6,0
+software carpenty,Software Carpentry,Software Carpentry,0,1,0
+the carpentries,Software Carpentry,Software Carpentry,0,2,0
+but not on software development as such,Software Training,Software Training,6,1,0
+but not software engineering,Software Training,Software Training,6,1,0
+online or in-person training on the use of the developed software,Software Training,Software Training,6,1,0
+eln introduction,Version Control Systems,Version Control Systems,3,1,0
+git,Version Control Systems,Version Control Systems,3,2,0
+github,Version Control Systems,Version Control Systems,3,1,0
+gitlab,Version Control Systems,Version Control Systems,3,1,0
+gitlab introduction,Version Control Systems,Version Control Systems,3,1,0
+python,Version Control Systems,Version Control Systems,3,1,0
+rdm onboarding (barebones gitlab),Version Control Systems,Version Control Systems,3,1,0
+rse basics (version control,Version Control Systems,Version Control Systems,3,1,0
+administering workshops at conferences and similar,Workshops And Conferences,Workshops And Conferences,4,1,0
+bring your own code workshops,Workshops And Conferences,Workshops And Conferences,4,1,0
+cecam workshop,Workshops And Conferences,Workshops And Conferences,4,1,0
+conference workshops,Workshops And Conferences,Workshops And Conferences,4,1,0
+crc workshops,Workshops And Conferences,Workshops And Conferences,4,1,0
+internal training programs and workshops,Workshops And Conferences,Workshops And Conferences,4,1,0
+online and in person workshops on request,Workshops And Conferences,Workshops And Conferences,4,1,0
+open workshop for external users of our software,Workshops And Conferences,Workshops And Conferences,4,1,0
+other conferences,Workshops And Conferences,Workshops And Conferences,4,1,0
+own workshops,Workshops And Conferences,Workshops And Conferences,4,1,0
+tutorials on workshops,Workshops And Conferences,Workshops And Conferences,4,1,0
+workshops organisiert von konferenzen,Workshops And Conferences,Workshops And Conferences,4,1,0

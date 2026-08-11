@@ -1,0 +1,834 @@
+raw,cluster_id,n
+critical thinking,7,38
+prompt engineering,0,16
+code review,1,16
+testing,5,15
+debugging,4,10
+software architecture,2,10
+patience,4,8
+software engineering,2,6
+scepticism,8,6
+domain knowledge,9,6
+discipline,3,4
+experience,4,4
+domain expertise,9,4
+communication,3,4
+skepticism,8,3
+programming,1,3
+problem solving,3,3
+programming skills,1,3
+curiosity,4,3
+attention to detail,3,3
+software development,2,3
+software design,2,3
+programming knowledge,1,3
+documentation,9,3
+architecture,2,3
+common sense,3,3
+caution,4,2
+transparency,3,2
+code understanding,1,2
+system design,2,2
+prompting,0,2
+fact checking,5,2
+llm knowledge,4,2
+previous coding experience,1,2
+coding,1,2
+knowledge of software,2,2
+reviewing,5,2
+critical reading,7,2
+understanding its limitations,9,2
+design patterns,2,2
+code reviewing,1,2
+pensamiento crítico,7,2
+humility,3,2
+restraint,4,2
+overview on available tools,9,2
+clear communication,3,2
+critical thinking and reasoning,7,2
+multitasking,4,2
+software development skills,2,2
+review,4,2
+knowledge,4,2
+ai ethics,7,2
+devops,4,2
+planning,3,2
+reading code,1,2
+test the answers generative ai gives with something that is not ai - ai cannot approve ai,6,1
+debugging/code review,1,1
+project planning,3,1
+being able to explain the problem succinctly and clearly,6,1
+understand the code it writes.,3,1
+rigour,4,1
+need to be already skilled in software development,3,1
+to be able to understand when not to use the output of generative ai.,2,1
+ability to be critical,7,1
+deep understanding of code/problems that the ai is asked so solve,3,1
+code comprehension,1,1
+need to be able to break down a task into subtasks that are comprehensible to the ai and testable by you,2,1
+need to know enough to understand what is generated line by line and to check if what is generated is both producing the correct result and taking a sensible approach,2,1
+solid understanding of software engineering,2,1
+be conservative and use it sparingly,6,1
+designing strong apis,9,1
+not trusting the answers; treating like a fallible human pair programming partner,6,1
+same as without using generative ai - it is just an assistant so you need to know what it is doing,2,1
+the problem with ai is in telling ai what the problem is,6,1
+that is requirements definition.,3,1
+training of junior staff in the seemingly outdated modes of doing things. the model can only enhance what’s there,4,1
+saber describir con precisión el objetivo científico los datos disponibles y  las restricciones metodológicas,0,1
+conocimiento sólido de dominio para evaluar el código generado y validar resultados y supuestos,0,1
+buenas prácticas de ingeniería de software,7,1
+conciencia sobre ética y uso responsable de las herramientas de ia generativa,0,1
+not having inflated expectations for productivity by management.,6,1
+a broad spectrum of skills including requirements gathering and analysis.,2,1
+the ability to recognise when the ai produces nonsence,6,1
+testeo y capacidad de crítica,7,1
+robust ethics and guardrails,3,1
+legislative compliance,3,1
+resources to experiment (including time) and see what works,6,1
+particularly discovering new workflows.,6,1
+tool integration,9,1
+unit testing,5,1
+ci/cd,4,1
+knowledge of how they work,9,1
+programming knowledge for purpose of verification,3,1
+how to use them effectively,9,1
+vorwissen um die ergebnisse beurteilen zu können,0,1
+prompting-fähigkeiten,0,1
+a critical mind set and patience.,7,1
+lernen die richtigen fragen zu stellen? systemverständnis,0,1
+domain knowlege,4,1
+programming language knowledge,1,1
+firm grasp of the programming language and its concepts,3,1
+otherwise you aren't able to review the generated code.,6,1
+problem formulation,9,1
+using stuff efficiently while staying totally independent from bigtech,6,1
+none. research has show that pretty much everyone has the same skill with using llms regardless of how much practice they have. these tools have a dangerous combination of high failure rates and sounding authoritative that makes them potentially dangerous to use without a ton of care that most people won't do,4,1
+they shouldn't be used,6,1
+will make things worse,6,1
+training,4,1
+choose the right ai,4,1
+check and debug final code,1,1
+correct prompting,0,1
+integration,4,1
+licensing,4,1
+dependency management,3,1
+testing techniques,5,1
+ai agent management,3,1
+the ability to pose the right question or task and to critically analyze the results for accuracy and appropriateness.,2,1
+understanding of tools and governance of data,3,1
+improved understanding of ethical and legal considerations,6,1
+tbd - still evolving,4,1
+understanding the relevant subjects well enough to detect / suspect errors etc.,2,1
+healthy skepticism,8,1
+critical assessment of code/code review,1,1
+software testing and quality assurance; developing and enforcing quality standards and practices; developing sound security and privacy practices,2,1
+reviewing skills,5,1
+you need to be a good sw engineer/architect and can make decission what is good or bad,2,1
+to avoid the ai produces technical debt instead of realy helping.,6,1
+promting,0,1
+skepsis,8,1
+self-esteem,4,1
+gute promts schreiben,7,1
+minimal understanding of software development workflows,2,1
+basic programming knowledge,1,1
+critical thinking and fact checking,7,1
+solid technical foundations (including staying up to date),3,1
+using ai as a sparring partner rather than as someone doing the work,6,1
+good knowledge of the topic,3,1
+good understanding of the whole system,3,1
+good basic knowledge of programming and requirement for the specific field (e.g. geospatial),2,1
+understanding how to check correctness of its code completion suggestions. in my experience its first answer is right 70-80% of the time.,4,1
+analytic skills,4,1
+understanding of programming language used,3,1
+software engineering skills,2,1
+you still need to understand whether suggestions/generated code are correct,6,1
+efficient and suitable for the current task.,6,1
+strong foundational skills and knowledge,9,1
+owning and taking responsibility for produced software,3,1
+persistence,4,1
+proper understanding of problem,3,1
+requirement analysis,9,1
+basic understanding of research field the software is made for,3,1
+data management,3,1
+formulation de requêtes,7,1
+vertiefte programmierkenntnisse,7,1
+moral sense,3,1
+work organization,3,1
+work ethics,3,1
+ai-literacy,4,1
+practice,4,1
+critical thinking. not everything that generative ai spits out makes sense. some knowledge of the work is needed to determine if the result is viable or not. personally not a fan of generative ai and avoid using it as much as i can.,4,1
+konzeptionelles verständnis von diversen techniken und tools,0,1
+die einem die ki ausspuckt,0,1
+um bewerten zu können,7,1
+was gut ist und was nicht. das zusammenfassen und kürzen exzessiver,0,1
+wortreicher ki-ausgaben bevor man diese an kolleg:innen weitergibt oder seiner dokumentation hinzufügt.,0,1
+be aware that ai is not smart,6,1
+is not able to think for you,6,1
+and must not be used to directly generate critical parts of software or documents,6,1
+testing testing testing!,5,1
+sich mit der inhärenten unzuverlässigkeit von sprachmodellen kritisch auseinanderzusetzen und einzusehen,0,1
+dass sie zur code-generierung untauglich sind.,0,1
+general knowledge of common problems in code/scripts,3,1
+being able to write clear requirements,3,1
+computational thinking,7,1
+understanding of testing,5,1
+at least as good knowledge of coding as the ai,3,1
+have a good understanding of the task that is asked to the llm so you understand when it gets off track,2,1
+comprehensive understanding of everything ai produced; multi-language experience; review and text creation experience,2,1
+knowledge of design patterns,2,1
+strong quality assurance,5,1
+be aware of newest features in the ai community,6,1
+understanding how to test prototype code,1,1
+understanding of at least one programming language in depth,3,1
+actual software engineering skills,2,1
+generative ais are good for prototyping fast,6,1
+but they cannot every understand the context of where the software will be used,6,1
+this requires careful design through software development/engineering designs.,2,1
+quick reading,4,1
+critical sense,7,1
+notion of basic security caveats,9,1
+knowledge about hpc,9,1
+knowledge about cloud platforms,9,1
+mastering version control system,2,1
+remembering that they are a tool not a black box solution - 'human in the loop' (https://www.phoronix.com/news/llvm-human-in-the-loop),2,1
+reading/writing,7,1
+time management,3,1
+data privacy,3,1
+resilience against hypes,4,1
+how to review of ai generated code,1,1
+which models to use and when and why (i.e how to choose).,6,1
+understanding the objectives of the development.,3,1
+understanding the context and the domain the code will be used for. in software engineering,2,1
+there is no one-size-fits-all (my honest opinion),6,1
+knowledge about the prompted subject,0,1
+brainstorming techniques,7,1
+experience in software engineering to steer ai agents and to check results.,2,1
+je,7,1
+ne,7,1
+sais,7,1
+pas,7,1
+trial and error,4,1
+need to already be an expert with a clear idea and understanding how it should be done. also very high ability to clearly and consisely formulate problems and tasks,4,1
+good experience in software development,3,1
+core knowledge of the language in question and design thinking. i increasingly have to spend my time fixing up code that researchers develop rapidly using genai,4,1
+where the researchers can't explain the design,6,1
+which makes it very difficult to reason about,6,1
+extend,4,1
+debug,4,1
+generative ai isn't useful or necessary,6,1
+this is an inappropriately leading question.,6,1
+top level technical skills to critically integrate and review the code provided by the ai,2,1
+knowing when to step in yourself,3,1
+"just basically being a responsible senior for the ai ""junior""",6,1
+openness to new technologies,9,1
+willingness to experiment,4,1
+basic understanding of code,1,1
+basic understanding of prompting,0,1
+basic understanding of research,9,1
+(read fast,4,1
+get to the point,4,1
+don't be afraid of the tool and see through the fluff),6,1
+generating technical documentation,9,1
+experience and knowledge in language your asking it to code in,3,1
+as well as the applications it's developing a program for.,2,1
+understanding the basics of gen ai,9,1
+using it only as a basis always recheck the generated output and refine manually,6,1
+crittically questioning the output of ai,6,1
+actually still understanding the code,1,1
+and being able to reason with it,6,1
+basic dev skills,9,1
+thinking for one self instead of searching for easy generated answered,6,1
+knowing the coding language,1,1
+knowing how to run a code and debug it,1,1
+knowing the expected results or at least have standard tests,6,1
+like git you need to first be able to do it yourself. you need to be skilled in problem solving scouring slack finding solutions and you need to understand clean code concepts and things like object oriented programming or functional etc. best practices.,4,1
+self scepticism,8,1
+it skills must already exist in order to understand code quality,3,1
+which ai does. i would never just adopt the code as it is. architecture in particular is not good per se.,6,1
+being thorough and sceptical to accept any answer,8,1
+detect on time the hallucination of ai,6,1
+ability to evaluate output of llms,6,1
+which,4,1
+ironically,4,1
+reduces to being basically equivalent to my entire skillset,6,1
+coding and understanding what ai has done.,3,1
+understanding of limitations / error modes of underlying models. experience of using models within their wider operational frameworks in real development or writing workflows.,2,1
+scientific rigour,4,1
+carefulness,3,1
+right incentives for quality,9,1
+not quantity,4,1
+ability to set up integrative workflow,3,1
+knowledge of software engineering,2,1
+ability to write and test software rigorously,3,1
+understanding of its limitations,9,1
+coding ability to understand what it produces,3,1
+you need to already be a good well rounded developer,3,1
+quality control,3,1
+software desifn,2,1
+fundamental knowledge about generative ai and its limitation,9,1
+when to use,4,1
+when to not use,6,1
+how to prompt well,0,1
+how to verify code,1,1
+knowledge of the models limits,9,1
+ability to withstand and enjoy a lot more code review!,1,1
+logic,4,1
+analytics,3,1
+i have found using genai for anything beyond simple tasks frustrating and counter productive. the tool need to get better before i would use them continuously,4,1
+critical thinking and understanding of the code,7,1
+die fähigkeiten sind die selben wie für das effiziente entwickeln von software generell. man braucht vor allem ein solides verständnis im requirements engineering und muss diese vermitteln können (egal ob einem bot,0,1
+einem mitarbeiter oder sich für sich selbst zur strukturierung der entwicklung).,0,1
+knowledge of ai tools,9,1
+how to use/prompt ai tools efficiently,0,1
+how to use ai-generated results efficiently and safely,6,1
+quality assurance,5,1
+verification.,5,1
+code safety structures,1,1
+computer architecture,2,1
+operating systems,2,1
+prompt craftsmanship,0,1
+communication skills,3,1
+there is no way to use generative ai effectively because it is a bluff machine,6,1
+knowledge of programming fundamentals,3,1
+knowledge of general code architecture,2,1
+reading skills,7,1
+critical thinking skills,7,1
+nowadays,4,1
+using cli agents in a daily basis,9,1
+for me,4,1
+the most important skill is to know business rules and scientific concepts behind the architecture you are working to achieve. it is more important to understand concepts than technical details.,2,1
+actual development skills and classic se training. ai should be used as a tool,2,1
+not as a whole independent developer.,6,1
+good software development practices,2,1
+technical background,9,1
+be critical,7,1
+write good prompts,0,1
+programming & development expertise,3,1
+analysis expertise,9,1
+prompt-engineering,0,1
+privacy and security expertise,3,1
+risk assessment,3,1
+broad knowledge of relevant principles to assess llm output quality,6,1
+kritisches hinterfragen,7,1
+belohnungsaufschub und bereitschaft zu lernen obwohl 'die antwort' schon da ist (delayed gratification).,0,1
+being able to reproduce ai-results,6,1
+being able to test ai-results,5,1
+familiarity with domain and technology,9,1
+writing tests to constrain generated code to correct behavior,1,1
+code reviewing the generated code,1,1
+attention to detail.,3,1
+research skills,4,1
+logical reasoning (prompting),0,1
+rigorous assessment (assessing generated solutions),6,1
+diligent testing,5,1
+software engineering professional practices,2,1
+particularly devops/automated testing/tdd/bdd. spec based development looks interesting too.,4,1
+sehr gute programmierkenntnisse,0,1
+same as normal rs work,4,1
+prompt engineering and code review / testing,0,1
+to know when to use it and when not to,6,1
+good prompt engineering,0,1
+how to phrase queries to get the answer you are looking for immediately,0,1
+clear problem definition and cautious use of tools (to avoid hallucinations),6,1
+writing good prompts,0,1
+identifying useless responses,6,1
+code refactoring skills,1,1
+development without generative ai for a while.,6,1
+generative ai is useless and even actively detrimental to research software development.,4,1
+same as now,4,1
+ability to detect bullshit,3,1
+you can only produce quality code using generative ai if you know what quality code looks like. generated code in my experience is often of bad quality upon closer scrutiny. that is not to say that the tools themselves aren't useful,4,1
+but they don't take away the skills that a research software developer currently must have.,2,1
+i hate generative ai with a passion,6,1
+it is a deeply destructive and immoral technology,6,1
+and i will do what i can to keep as far away from it as possible.,6,1
+to know how to code in the first place,3,1
+you still need coding skills yourself to determine whether or not the ai actually produces something meaningful,2,1
+conocimiento (aunque sea básico) del lenguaje/sistema relacionado con las preguntas,2,1
+knowing how to do the job without genai,6,1
+verständnis des softwareprojekts,0,1
+you already need to know what you are doing,6,1
+ability to break a problem down into smaller problems,6,1
+solid algorithmic idea of what one wants to do,6,1
+reasonable grasp of the programming language (to use it safely),3,1
+understanding the scope of the software. communicate to the ai what the users need. understand the needs of the users and how they would like to benefit from the sofware.,2,1
+ai competencies,4,1
+tieferes verständnis des gesamtcodes,0,1
+um im prompt alle notwendigen bedingungen exakt definieren zu können und dann den generierten code hinsichtlich der wechselwirkung mit anderen teilen einschätzen zu können,0,1
+all the ones that make a good software engineer,3,1
+sceptisism,8,1
+targeted use,4,1
+understanding concepts of ai/llms and understanding the concepts of the technology/platformthe ai creates suggestions/solutions for,2,1
+critical thinking (as ever),7,1
+if i only knew,4,1
+a general understanding of the programming and not blind copy + execution of the code,3,1
+erfahrung,7,1
+kritisches denken,7,1
+learn to code.,1,1
+documenting,3,1
+luck,4,1
+descriptive,4,1
+critical,7,1
+fachwissen,7,1
+coding competence,1,1
+critical thinking/judgement,7,1
+proper human testing,5,1
+knowing how to protect source from genai slop,6,1
+verifikation und verständnis des generierten codes,0,1
+clear prompting,0,1
+buena base en ciencia de la computación/ criterio para diferenciar lo que es útil de lo que no,0,1
+fundamental understanding of computational thinking and design,3,1
+savoir déjà coder!,7,1
+be very aware of the things that get generated and double-check everything and test rigorously.,2,1
+ingeniería prompt,7,1
+be an experienced software engineer,2,1
+know what you're doing even without the ai,6,1
+be able to thoroughly review the probably crappy but very plausible ai output,6,1
+be able to treat ai like a very junior dev,6,1
+code comprehension and validation,1,1
+holistic understanding of the software project,3,1
+project scope awareness,3,1
+experience with generative ai tools and their failure modes,6,1
+ai is currently very useful to create algorithms,6,1
+datastructures and boilerplate code. it becomes more important to be vigilant for misconceptions that the ai makes,2,1
+taking more of a orchestrative approach. that said,6,1
+until ai can take over coding completely,1,1
+we must not outsource all coding tasks to ai,6,1
+because the formalism of code helps us programmers to take important decisions and discover misconceptions. generally the job shifts to doing more design work and less coding. i use github copilot to write boilerplate code quickly and use chat to do reaearch on new areas and discuss ideas.,4,1
+knowing its limitations,9,1
+careful understanding of where this can be helpful,6,1
+where it is excessive and unnecessary or even dangerous,6,1
+eigene kenntnis und urteilsfähigkeit,0,1
+strategic thinking,7,1
+how to ensure you are solving the problem you want to solve,6,1
+a cirtical mind; good books or teachers in software architecture and software patterns; good books on robust software,2,1
+critical evaluation,7,1
+digital sovereignty,3,1
+i am not sure,4,1
+low-level understanding of computer architecture,2,1
+proper specification and testing,5,1
+underlying understanding of the code,3,1
+the skill of deluding yourself that the genai is saving you time and/or effort,6,1
+programming experience to evaluate the results,3,1
+ability to effectively evaluate correctness and quality of generative ai outputs. effective interaction models for most effectively steering / specifying what you want the model to do.,4,1
+good examples that shows possibilities and limitations. a careful attitude.,2,1
+qa and testing,5,1
+no over-reliance,4,1
+having time to do things properly,6,1
+research skills like investigating different solutions and weighing pros and cons,6,1
+understanding of llm capabilities,9,1
+judgment,4,1
+willingness to sacrifice using the hard earned skills that have already been learnt which will in turn atrophy.,4,1
+general language knowledge,9,1
+general computer science knowledge,9,1
+most/all software engineering skills,2,1
+critical thinking and reviewing! basic technical knowlegde about concepts and structures in software!,2,1
+understanding of code ai writes,1,1
+understanding how ai works,9,1
+workflows that mitigate slop (e.g. manual review),6,1
+choosing energy-cheap models,9,1
+knowing what tasks to delegate,9,1
+one needs to know how to at least read code to effectively use ai tools.,2,1
+good engineering skill,9,1
+durchblick,7,1
+ambition,4,1
+verständnis,7,1
+programmieren,7,1
+explaining well all important details,9,1
+knowing how to configure with ai agents,9,1
+keeping in mind privacy considerations,3,1
+prompting skills,0,1
+understanding limitations,9,1
+coding skills,1,1
+reproducibilidad,7,1
+understanding of easy to maintain code,3,1
+understanding of modular code design,1,1
+ability to breakdown and understand complex projects,3,1
+critical thinking and problem solving,7,1
+fairly strong programming background,3,1
+familiarity with common software terminology and trends,3,1
+programming experience,1,1
+ability to read and review code,1,1
+understanding prompting,0,1
+understanding agentic coding,1,1
+ability to assess code quality,1,1
+integrity,3,1
+diligence,4,1
+strong sense for detecting errors in generated code,3,1
+own expertise in software development,2,1
+limitations of said tools,9,1
+critical examination of the results,7,1
+design thinking,7,1
+architectural thinking,2,1
+one needs to understand what ai does and where it is going to struggle (and what it doesn't do). where it struggles it can introduce errors but dress them up very convincingly.,2,1
+das wichtigste ist zu wissen wann man die ki nicht einsetzt.,0,1
+software engineering (skilled/advanced),2,1
+programming (skilled/advanced),1,1
+you have to be able to understand the code it generates and therefore be able to write it yourself. only if you still understand your code it is an actual productivity increase. better might be to not use ai to generate code but to ask how a problem could be solved and discuss as form of rubber ducky debugging,4,1
+knowledge of connected services,9,1
+technical & organisational constraints,9,1
+domain knowledge; ai needs to be guided for basicially everything except for code generation,2,1
+programming experience to find flaws in the ai's output,6,1
+understanding for architectures,2,1
+appreciation of (automated) code testing,1,1
+understanding what is right and what is wrong,6,1
+handle bad code from non programming people,1,1
+handle backslash if people understand the limits of ai and starting to avoid it,6,1
+analysis,4,1
+creative thinking,7,1
+ai prompting and usage skills,0,1
+fundamental software engineering knowledge,2,1
+offenheit gegenüber ki,7,1
+zugriff auf qualitativ hochwertige llms,0,1
+clean code,1,1
+good judgement,4,1
+technical prowess,4,1
+avoid it.,6,1
+peer-review experience. doubt every paragraph.,2,1
+a fundamental understanding of what the code generated from these generative ai tools is still required to ensure that it is running accurately,2,1
+system architecture,2,1
+multi-lingual familiarity,9,1
+design and analysis,9,1
+trying to shelve concepts in your brain for later rather vs a results-oriented approach (both might be suitable for different scenarios),4,1
+designing system architecture,2,1
+firm grasp on programming patterns,3,1
+excellent code reviewing skills,1,1
+iterative development skills,9,1
+basic understanding on llm stochasticity,9,1
+basic understanding on llm context engineering,9,1
+basic understanding on transformer attention models,9,1
+deep understanding of the code it produces,3,1
+prompt engineering; critical evaluation and qa,0,1
+the ability to actually code without ai.,2,1
+prompt creation,0,1
+automated testing,5,1
+clear understanding of anticipated code architecture,3,1
+be good at programming in the first place.,3,1
+previous-knowledge,4,1
+code review and analysis,1,1
+system design and architecture,2,1
+scalability,4,1
+security/risk analysis,3,1
+high attention to detail,3,1
+enough knowledge to be able to check the generated information/code,3,1
+and critical thinking skills to determine if using ai is the correct choice.,2,1
+understanding of computer fundamentals,3,1
+good taste,4,1
+a good foundation in software development is needed before using gai tools,3,1
+non-proprietary and privacy respecting tools that integrate with cli editors,6,1
+i would continue to avoid using generative ai for actual coding; generating test cases and updating documentation might be useful.,4,1
+self-discipline about skill development,9,1
+how to prompt is key,0,1
+a strong vocabulary and understanding of computer science in the domain in which you work.,2,1
+code design,1,1
+numerical methods,9,1
+programming fundamentals,9,1
+understanding the limitations of ai,9,1
+understanding of hardware,9,1
+write clear pseudocode,1,1
+machine learning fundamentals,9,1
+knowing when to use the tools; critcal assessment of the results,6,1
+ability to effectively communicate requirements in writting english,3,1
+learning toolchains to add context (e.g. user docs) to the ai so they can give better answers,6,1
+the ability to write good prompts and evaluate the material that ai returns for accuracy and appropriateness for the task at hand,2,1
+how to organize and unionize,3,1
+how to transition to democratic socialism,9,1
+debugging tool basics,9,1
+and design patterns,9,1
+detail orientation,3,1
+test design,5,1
+conocimiento previo de ingeniería de software,7,1
+understanding the cost/benefits of its use,6,1
+setting up environment and context correctly,9,1
+i am not interested in using it,6,1
+prompt engineering and llm architecture build ( transformer module: encodio & decoding),0,1
+apropiada integracion con ides. pront engineering.,7,1
+deep theoretical understanding of ml/ai,9,1
+you need to know how to write good code in that language on your own; effective use of tests; ability to understand and review code that is generated; ability to multi-task,2,1
+knowledge about your own project and your technologies,3,1
+strategy,3,1
+you need to be a professional software engineer first in order to get professional results out of the chatbot.,2,1
+management,3,1
+trust/ethical assurance,3,1
+solid background in system design/architecture,2,1
+breadth+depth in multiple ecosystems,9,1
+and critical thinking ability re selecting best tools for the job,7,1
+software patterns,2,1
+software architectures,2,1
+language basics,9,1
+some understanding of the function and limitations of llms,6,1
+complete avoidance. llm-generated code is frequently non-functional,6,1
+unclear,4,1
+and misunderstood by those who generate it. this ultimately generates additional work,2,1
+since you now not only have poor-quality code,6,1
+but also very little context for why it was designed in a particular way.,6,1
+experienced in programming,3,1
+debugging code,1,1
+profiling,4,1
+incremental development,9,1
+expertise,4,1
+review code / docs and other outputs,1,1
+good software dev skills to double check/guide ai,6,1
+senior rse skills,4,1
+you need to know how to program,3,1
+criticism to ai answers,7,1
+ability to digest answers to get reaqsonable information,6,1
+architecture knowledge,2,1
+procedural thinking,7,1
+ability to distil the true requirements from unstructured descriptions,6,1
+good understanding of the problem,3,1
+ability to tell plausible output from correct output,6,1
+formal proof assistant languages,5,1
+effective prompt writing,0,1
+organization,3,1
+know in advance what result you want and have an idea how you want to do it. (knowing architecture,2,1
+algorithms,4,1
+datatypes before you start coding),1,1
+accurate communication with the ai,3,1
+project management,3,1
+formal validation methods,5,1
+system architecture planning,2,1
+being organized,3,1
+awareness of environmental impact,3,1
+discernment,4,1
+understanding the codebase being targeted sufficiently well to critically evaluate generated output,2,1
+algorithms and data structures,9,1
+anything cognitive,4,1
+development experience. i'm at least able to read and debug and follow the code that is generated. i suspect junior devs aren't ever going to pick up that experience,4,1
+system design experience,2,1
+close inspection and knowledge of how to do it without ai,6,1
+technical framework,9,1
+best practices,9,1
+all se skills are necessary because you have to be able to assess the information that is generated and trim it down,2,1
+i.e. only take the code that is really necessary.,2,1
+abstract thinking,7,1
+ability to formalize a problem/task,6,1
+best practice training,9,1
+ability to understand problems in a wider context,3,1
+product vision,3,1
+active knowlede,4,1
+ai needs to be better at doing complex tasks,6,1
+an ability to remain connected to reality rather than falling into psychosis while having all of ones primary interactions be with a machine. an ability to understand the kind of errors a multi-terabyte statistical language model can make in software,4,1
+and recognise these when they occur even when the models are hyper-optimised for producing output that looks plausible to human eyes.,2,1
+"""actual skills""",4,1
+"""fundamental knowledge""",9,1
+convincing stakeholders the need for rses in the genai loop,6,1
+problem decomposition,9,1
+strong programming fundamentals,3,1
+senior-level software engineering skills,2,1
+comunicación,7,1
+honestidad profesional,7,1
+transparencia,7,1
+having valid data in hands and asking correct questions.,2,1
+building mcp tools,9,1
+building custom gpts,9,1
+fastidious commitment to reviewing and understanding the output of ai tools,2,1
+be able to understand the suggestions before applying them,6,1
+bessere konzepte für testing,0,1
+adaptability,4,1
+verstehen des erzeugten codes,0,1
+um diesen bewerten zu können und logikfehler zu finden,0,1
+ask the right questions,0,1
+interpret the results sceptically,8,1
+project managment,3,1
+validation testing,5,1
+ai literacy and foundations for use,9,1
+ai ethics course,3,1
+environmental consequences,3,1
+moral understanding,3,1
+ability to check and modify proposed solutions,6,1
+avoid code bloat and repetition,1,1
+understanding important concepts,9,1
+taste,4,1
+the ability to look the other way,7,1
+critical thinking and inhibition (to not continue the negative slope when the ai doesn't find what you want),6,1
+general understaning of coding. prompting experience. common sense. concentration. real world experience.,2,1
+be a proficient software developer,2,1
+be tool-curious,4,1
+and advanced understanding of the generated code and its concepts,3,1
+stop and think,7,1
+reflect,4,1
+indifference about social and ecological impacts,6,1
+much stronger software architecture skills,2,1
+stronger skills in restricting the ai to produce code of wanted quality or architecture (e.g. using interfaces (rust traits) and tests).,2,1
+abstraktionsfähigkeit,7,1
+exzellentes prompting,7,1
+hohe disziplin beim prüfen des codes,0,1
+coding in the first place,1,1
+understanding field of application even more,9,1
+broad expertise in software development/software architecture,2,1
+experioence,4,1
+core development skills,9,1
+especially the patience for reviewing,5,1
+deeper test coverage,5,1
+basic coding knowledge,1,1
+critical mindset,7,1
+domain knowledge: without knowing and understanding the science - including the technical aspects - generative ai is risky; critical thinking,2,1
+knowledge of the tasks,9,1
+knowledge of the right ai tools,9,1
+understanding the code it generates and interfere when it is not up to a certain standard,2,1
+technical skills related to the scientific field of the project,3,1
+ethische klarheit um ki abzulehnen,0,1
+formulating will contained tasks,9,1
+understanding how they work on a fundamental level.,3,1
+gen-ai is a powerful tool for a developer with a solid foundational skill set. it is a dangerous crutch and time sink for others.,4,1
+project management skills,3,1
+knowing what you're doing enough to actually be able to check if the code it wrote is correct,2,1
+need to already have solid knowledge of coding to assess ai output for correctness,2,1
+motivation to learn,9,1
+good base knowledge to spot halucinations/innefficencies,6,1
+preexistent and robust software development experience,2,1
+basic understanding of the math behind how llms work,9,1
+critical eye on the result,7,1
+background understanding of the use case,9,1
+inquisitive mind,7,1
+some working knowledge of the problem statement and technical language; for many problems,2,1
+generative ai cannot be used out of the box without knowledgable review,6,1
+accurate prompt definitions; security analysis; code validation,0,1
+detailed and clear prompting,0,1
+understanding how ai analyses and responds to prompts,0,1
+but i think most developers have these skills,3,1
+fundametal understanding of the task,9,1
+strong background in programming,3,1
+experience of knowing when something is wrong,6,1
+effective testing,5,1
+knowing how to ensure your code is of good quality,3,1
+knowing how to edit your code so there is no original research left in it before you use it in a prompt,4,1
+knowing what uses of ai are allowed in a phd programme,6,1
+knowing what your actual issue/question is,6,1
+strong communication skills like writing in a clear and detailed manner and reading and understanding the work of another mind which happens to be artificial,4,1
+understanding the general problem in the first place,3,1
+knowing how to prompt the llms,0,1
+understanding that these models find the average/typical solutions and should not be used as an end all be all option for solving any problems or answering your questions in full.,2,1
+understanding it's limitations,9,1
+software archtecture and design,2,1
+understanding of the technology the ai is producing output for.,2,1
+research domain knowledge! and software skills that don't involve code: software design,2,1
+knowing when it is wrong,6,1
+knowing what questions to ask,0,1
+testing ai's limits,5,1
+you still need to understand the code and what you want the code to do,2,1
+skills in how gen ai can be wrong and how to double check it,6,1
+fundamental understanding of programming,3,1
+pros and cons of llms,6,1
+understanding the tech stack that is being used,3,1
+ability to think critically - similar to knowing how/when to use a stackoverflow answer,7,1
+an understanding of the domain problem,9,1
+knowing what are the possilbe option to know when a suggestion is terrible,6,1
+ability to suggest the appropriate tech stack and packages.,2,1
+high-level software design,2,1
+and taste. product design,4,1
+ux,4,1
+large existing knowledge base,9,1
+bullshit detector,3,1
+verifying sources,5,1
+actually understanding and not blindl copying,6,1
+read software,2,1
+evaluate software quality,2,1
+knowing when they're the wrong tool for the job,6,1
+a good understanding of the languages and tools being used,3,1
+understanding software architecture best practices. system level design. debugging.,2,1
+tener altos conocimientos de ingenieria de software y una conceptualización clara de las tecnologías,2,1
+moral bankruptcy,3,1
+imagination,4,1
+validation,5,1
+solid understanding of programming principles; ability to read and understand code,3,1
+developing proper configuration files,2,1
+test generation,5,1
+proper monitoring and feedback to llm,6,1
+software testing,5,1
+a skeptical nature,8,1
+selber zu denken,7,1
+general concepts of software engineering,2,1
+formal software engineering training,2,1
+understanding of domain research,9,1
+software development skills (version control,2,1
+management). ability to understand information sources,3,1
+which requires research and programming skills.,2,1
+you need to be critical of what it outputs,6,1
+and have to also understand the problem you're trying to make it solve for you,2,1
+programming(!),1,1
+impulse control,3,1
+sound scepticism!,8,1
+testing ai generated output,5,1
+time-management,3,1
+agent management,3,1
+software design principles,2,1
+restraint. limit ai use since it's extremely easy to overuse it resulting in low quality code,4,1
+fundamental knowledge about research software dev,3,1
+structured prompting,0,1
+ciritical thinking,7,1
+proper prompting; understanding of llms; proper knowledge of programming languages,0,1
+the ability to actually understand and test what generative models produce,2,1
+understanding and familiarizing yourself with the principles and basics of software development,3,1
+proper understanding of the project you are trying to build. good understanding of the ability and limitations of genai. proficiency in tools that streamline the development process of genai use. proficiency in designing automated tests. being able to clearly define what a project should do. knowing how to choose the right model/agent for the task.,4,1
+software project management,2,1
+prompt enigneering,7,1
+gen ai has no place in research which is ultimately about increasing human knowledge - at least one human should understand each step.,4,1
+code fluency,1,1
+architechture understanding,9,1
+challenging ai produced plans and code,1,1
+an interrogative mindset,7,1
+etica,7,1
+decisión,7,1
+valor de la herramienta,7,1
+"reading/using with a ""critical"" lense",7,1
+following up with learning/research,9,1
+keeping up to date on genai tools,6,1
+sceptisisim,8,1
+language expertise,9,1
+pentesting,4,1
+ability to ask ai the right questions,0,1
+lesen,7,1
+aufmerksamkeitsspanne,7,1
+architekturverständnis,0,1
+you would still need to have solid understanding of the software development process and architecture. with models you can only improve the gap you know you are missing. often models don't automatically improve the gap you don't know you are missing.,4,1
+understand security issues that can arise. software engineering and architecture are still prerequisites,2,1
+without them,4,1
+vibe-coders are working blindly and introduce terrible mistakes,6,1
+strong data engineering fundamentals,9,1
+understanding of how parts go together,9,1
+understanding of flow to get most out of tools,3,1
+understanding of what ai is attempting to do,6,1
+understanding of basics,9,1
+research methodology,9,1
+einschätzung und prüfung des code,0,1
+knowing how to set up a blocklist to filter ai-generated pages from search results,6,1
+in general,4,1
+you have to already have some development experience / know what you're doing to be able to use these tools effectively. otherwise you won't be able to spot mistakes or critically review their outputs.,4,1
+understanding of ai fundamentals to make best use of the tool and know biases/flaws,2,1
+code design and srchitecture skills,2,1
+writing good specs,9,1
+wissenschaftlich-kritische reflexionsfähigkeit,0,1
+nachhaltigkeitsbewusstsein,7,1
+technisches verständnis,7,1
+frustrationstoleranz,4,1
+selbstwertgefühl,7,1
+ethikbewusstsein,7,1
+projektmanagementfähigkeiten,0,1
+generating permanent facts/skills to be reused between conversations,6,1
+local inference (ideally on device but smth similar to gwdg would be okay too),6,1
+a good background understanding,9,1
+an ability to critic answers,7,1
+that's really hard - we are only just learning about it.,6,1
+if used well by experts then i believe it is a powerful tool.,2,1
+if used blindly then it is full of dangers.,6,1
+critical evaluation of ai-generated outputs,6,1
+software design and architecture fundamentals.,2,1
+creo que hay que saber las bases primero,7,1
+tanto sobre el tema que estamos investigando como de programación,0,1
+eso permite usar estas herramientas de manera efectiva.,7,1
+dealing with ai slop bug reports,6,1
+using mcp to integrate into existing systems,9,1
+discriminación de código,7,1
+ejecución de lógica,7,1
+entendimiento de la problemática,7,1
+análisis crítico.,7,1
+criticism,4,1
+tests,5,1
+the ability to not use them :),6,1
+creativity,4,1
+accurate prompts,0,1
+code lesen und eigenständig bewerten - was sich leider durch massive nutzung von ki schwerer (weniger oft) lernen lässt.,0,1

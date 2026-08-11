@@ -3,91 +3,18 @@ title: "Please select your age"
 question_id: socio3_0
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## Please select your age
 
-```{r}
-#| echo: false
-question_code <- "socio3_0"
-response_levels <- c(
-  "18 to 24 years",
-  "25 to 34 years",
-  "35 to 44 years",
-  "45 to 54 years",
-  "55 to 64 years",
-  "Age 65 or older",
-  "Prefer not to say"
-)
+Artifacts for `socio3_0` (from `rse-survey build-artifacts`).
 
+### Focus
 
-df <- load_filtered_tf(plot_countries)
-likert_cols <- question_code
-```
+{{< include ../_artifacts/socio3_0/focus.md >}}
 
-## `r filter_label`
+### By age group
 
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-#| results: asis
+{{< include ../_artifacts/socio3_0/by_age.md >}}
 
-df_nordics <- load_filtered_tf(FILTER)
+### Between countries
 
-print_likert_items(
-  df_nordics,
-  likert_cols,
-  meta = cols,
-  levels = response_levels,
-  empty_message = paste0("No responses available for ", filter_label, " in the current filter.")
-)
-```
-
-```{r}
-#| echo: false
-#| results: asis
-#| eval: !expr show_within
-cat("## Within ", filter_label, "
-
-", sep = "")
-```
-
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-#| results: asis
-
-df_nordics <- load_filtered_tf(FILTER)
-
-print_likert_items(
-  df_nordics,
-  likert_cols,
-  meta = cols,
-  group_by = FILTER,
-  levels = response_levels,
-  empty_message = paste0("No responses available for ", filter_label, " in the current filter.")
-)
-```
-
-## Between Countries
-
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-#| results: asis
-
-print_likert_items(
-  df,
-  likert_cols,
-  meta = cols,
-  country_groups = country_groups,
-  levels = response_levels,
-  empty_message = "No responses available for the selected country groups."
-)
-```
+{{< include ../_artifacts/socio3_0/between_countries.md >}}

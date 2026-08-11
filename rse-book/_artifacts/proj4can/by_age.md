@@ -1,0 +1,27 @@
+### How do you test the software that you produce? (Germany, N=200)
+
+| age_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Under 35 | The developers do their own testing | 55 | 79.7 | 69 |
+| Under 35 | Automated testing with continuous integration | 46 | 66.7 | 69 |
+| Under 35 | No formal testing but users provide feedback | 18 | 26.1 | 69 |
+| Under 35 | No formal testing | 5 | 7.2 | 69 |
+| Under 35 | Test engineers conduct testing | 3 | 4.3 | 69 |
+| 35-44 | The developers do their own testing | 66 | 81.5 | 81 |
+| 35-44 | Automated testing with continuous integration | 57 | 70.4 | 81 |
+| 35-44 | No formal testing but users provide feedback | 30 | 37.0 | 81 |
+| 35-44 | No formal testing | 11 | 13.6 | 81 |
+| 35-44 | Test engineers conduct testing | 3 | 3.7 | 81 |
+| 35-44 | Don't know | 1 | 1.2 | 81 |
+| 45-54 | The developers do their own testing | 27 | 75.0 | 36 |
+| 45-54 | Automated testing with continuous integration | 21 | 58.3 | 36 |
+| 45-54 | No formal testing but users provide feedback | 12 | 33.3 | 36 |
+| 45-54 | No formal testing | 7 | 19.4 | 36 |
+| 45-54 | Test engineers conduct testing | 2 | 5.6 | 36 |
+| 45-54 | Don't know | 1 | 2.8 | 36 |
+| 55+ | The developers do their own testing | 12 | 85.7 | 14 |
+| 55+ | Automated testing with continuous integration | 11 | 78.6 | 14 |
+| 55+ | No formal testing but users provide feedback | 3 | 21.4 | 14 |
+| 55+ | No formal testing | 1 | 7.1 | 14 |
+
+![How do you test the software that you produce? (N=200)](../_artifacts/proj4can/by_age.png?v=98026ab547)

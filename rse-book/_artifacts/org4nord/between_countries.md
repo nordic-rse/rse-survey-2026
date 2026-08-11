@@ -1,0 +1,48 @@
+### With Nordic-RSE we have an association dedicated to the community of Research Software Engineers in the Nordics. What tasks do you think should be undertaken by Nordic-RSE or a future Nordic institute for research software? — between countries
+
+| country_group | category | n | pct |
+| --- | --- | --- | --- |
+| Germany | 1 | 0 | 0.0 |
+| Germany | 2 | 0 | 0.0 |
+| Germany | 3 | 0 | 0.0 |
+| Germany | 4 | 0 | 0.0 |
+| Germany | 5 | 0 | 0.0 |
+| Germany | 6 | 0 | 0.0 |
+| Germany | 7 | 0 | 0.0 |
+| Germany | 8 | 0 | 0.0 |
+| Germany | 9 | 0 | 0.0 |
+| Germany | 10 | 0 | 0.0 |
+| Germany | other | 0 | 0.0 |
+| Netherlands | 1 | 0 | 0.0 |
+| Netherlands | 2 | 0 | 0.0 |
+| Netherlands | 3 | 0 | 0.0 |
+| Netherlands | 4 | 0 | 0.0 |
+| Netherlands | 5 | 0 | 0.0 |
+| Netherlands | 6 | 0 | 0.0 |
+| Netherlands | 7 | 0 | 0.0 |
+| Netherlands | 8 | 0 | 0.0 |
+| Netherlands | 9 | 0 | 0.0 |
+| Netherlands | 10 | 0 | 0.0 |
+| Netherlands | other | 0 | 0.0 |
+| United Kingdom | 1 | 0 | 0.0 |
+| United Kingdom | 2 | 0 | 0.0 |
+| United Kingdom | 3 | 0 | 0.0 |
+| United Kingdom | 4 | 0 | 0.0 |
+| United Kingdom | 5 | 0 | 0.0 |
+| United Kingdom | 6 | 0 | 0.0 |
+| United Kingdom | 7 | 0 | 0.0 |
+| United Kingdom | 8 | 0 | 0.0 |
+| United Kingdom | 9 | 0 | 0.0 |
+| United Kingdom | 10 | 0 | 0.0 |
+| United Kingdom | other | 0 | 0.0 |
+| United States | 1 | 0 | 0.0 |
+| United States | 2 | 0 | 0.0 |
+| United States | 3 | 0 | 0.0 |
+| United States | 4 | 0 | 0.0 |
+| United States | 5 | 0 | 0.0 |
+| United States | 6 | 0 | 0.0 |
+| United States | 7 | 0 | 0.0 |
+| United States | 8 | 0 | 0.0 |
+| United States | 9 | 0 | 0.0 |
+| United States | 10 | 0 | 0.0 |
+| United States | other | 0 | 0.0 |

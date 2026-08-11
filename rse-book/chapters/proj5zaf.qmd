@@ -3,119 +3,22 @@ title: "Which version control tools do you use for software development?"
 question_id: proj5zaf
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## Which version control tools do you use for software development?
 
-```{r}
-#| echo: false
-question_code <- "proj5zaf"
+Artifacts for `proj5zaf` (from `rse-survey build-artifacts`).
 
-```
+### Focus
 
-## `r filter_label`
+{{< include ../_artifacts/proj5zaf/focus.md >}}
 
-### Descriptive Statistics
+### By age group
 
-```{r}
-#| echo: false
+{{< include ../_artifacts/proj5zaf/by_age.md >}}
 
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("Version control tool (", filter_label, ")")
-)
-```
+### Between countries
 
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
+{{< include ../_artifacts/proj5zaf/between_countries.md >}}
 
-plot_heatmap(FILTER, question_code, title = filter_label)
-```
+### Other answers
 
-### Free-text responses
-
-```{r}
-#| echo: false
-source(file.path(book_root, "R/recodes/proj5zaf_recode.R"))
-
-cleaned_data <- process_text_codes_with_allocation(
-  filter = FILTER,
-  question_code = "proj5zaf",
-  recode_map = proj5zaf_recode_map, 
-  header = "Version Control",
-  other = TRUE,
-  cache_id = "proj5zaf"
-)
-
-cleaned_data$summary_table
-```
-
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
-
-### Statistics by age group
-
-```{r}
-#| echo: false
-
-print_heatmap_category_age_wide_table(
-  FILTER,
-  question_code,
-  header = paste0("Version control tool by age group (", filter_label, ")")
-)
-```
-
-
-```{r}
-#| echo: false
-#| results: asis
-#| eval: !expr show_within
-cat("## Within ", filter_label, "
-
-", sep = "")
-```
-
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("Version control tool selections within ", filter_label),
-  group_by = FILTER
-)
-```
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_stacked_bars(
-  FILTER,
-  question_code,
-  countries = FILTER,
-  title = paste0("Version control tool selections within ", filter_label)
-)
-```
-
-## Between Countries
-
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_stacked_bars(
-  plot_countries,
-  question_code,
-  country_groups = country_groups,
-  title = "Version control tool selections by country group"
-)
-```
+{{< include ../_artifacts/proj5zaf/other_by_country.md >}}

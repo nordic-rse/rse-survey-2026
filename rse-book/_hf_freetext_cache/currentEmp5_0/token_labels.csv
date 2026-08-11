@@ -1,0 +1,108 @@
+token,category_llm,category_human,cluster_id,n,exclude
+application optimization engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+computational scientist,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+developer,(Research) Software Engineer,Software Developer,1,1,0
+devops engineer,(Research) Software Engineer,Software Developer,1,1,0
+entwicklungsingenieur,(Research) Software Engineer,Software Developer,1,1,0
+frontend development,(Research) Software Engineer,Software Developer,1,1,0
+full stack developer,(Research) Software Engineer,Software Developer,1,1,0
+gis engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+hpc system engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+programmer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+research software and systems engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+research software engineer,(Research) Software Engineer,(Research) Software Engineer,1,12,0
+responsible person for software engineering,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+scientific programmer,(Research) Software Engineer,(Research) Software Engineer,1,2,0
+scientific software engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+scientist and research software engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+senior bioinformatic software engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+senior computational scientist,(Research) Software Engineer,Computational Scientist / Scientific Programmer,1,1,0
+senior developer,(Research) Software Engineer,Software Developer,1,1,0
+senior machine learning researcher,(Research) Software Engineer,Researcher / Scientific Staff,1,1,0
+senior research software engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+software developer,(Research) Software Engineer,Software Developer,1,1,0
+software engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+software-engineer,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+softwareentwickler,(Research) Software Engineer,(Research) Software Engineer,1,1,0
+eln & fdm support,Computational Scientist / Scientific Programmer,eln & rdm Support,6,1,0
+eln & rdm supporter,Computational Scientist / Scientific Programmer,eln & rdm Support,6,1,0
+configurationmanager,Data Management / Data Scientist,Technical Staff,5,1,0
+data manager,Data Management / Data Scientist,Data Management / Data Scientist,5,2,0
+data scientists,Data Management / Data Scientist,Data Management / Data Scientist,5,1,0
+data steward,Data Management / Data Scientist,Data Management / Data Scientist,5,1,0
+data steward and scientist,Data Management / Data Scientist,Data Management / Data Scientist,5,1,0
+informatiker,Data Management / Data Scientist,Technical Staff,5,1,0
+it-entwickler,Data Management / Data Scientist,Technical Staff,5,1,0
+softwarentwickler/datamanager,Data Management / Data Scientist,Data Management / Data Scientist,5,1,0
+system administrator,Data Management / Data Scientist,Technical Staff,5,1,0
+abteilungsleiter,Management Roles,Management Roles,4,1,0
+department head,Management Roles,Management Roles,4,1,0
+deputy head of department,Management Roles,Management Roles,4,1,0
+director of curriculum,Management Roles,Management Roles,4,1,0
+group leader,Management Roles,Management Roles,4,2,0
+head of department,Management Roles,Management Roles,4,1,0
+it admin,Management Roles,Technical Staff,4,1,0
+managing director,Management Roles,Management Roles,4,1,0
+project leader,Management Roles,Management Roles,4,1,0
+team lead,Management Roles,Management Roles,4,2,0
+team leader,Management Roles,Management Roles,4,1,0
+technical director,Management Roles,Technical Staff,4,1,0
+technical staff,Management Roles,Technical Staff,4,1,0
+doktorand,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+head of science it,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+hiwi,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+i don’t even know,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,1
+juniorprofessor,Researcher / Scientific Staff,Researcher / Scientific Staff,2,2,0
+phd,Researcher / Scientific Staff,Researcher / Scientific Staff,2,2,0
+phd candidate,Researcher / Scientific Staff,Researcher / Scientific Staff,2,3,0
+phd student,Researcher / Scientific Staff,Researcher / Scientific Staff,2,4,0
+professor,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+research assisntant,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+rse,Researcher / Scientific Staff,(Research) Software Engineer,2,3,0
+rse and trainer,Researcher / Scientific Staff,(Research) Software Engineer,2,1,0
+scientific coworker,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+scientific employee,Researcher / Scientific Staff,Researcher / Scientific Staff,2,4,0
+scientific researcher,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+scientific staff,Researcher / Scientific Staff,Researcher / Scientific Staff,2,3,0
+scientist,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+senior researcher,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+senior scientist,Researcher / Scientific Staff,Researcher / Scientific Staff,2,2,0
+sorry,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,1
+staff scientist,Researcher / Scientific Staff,Researcher / Scientific Staff,2,2,0
+student assistant,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+tenure track professor,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+wiss. ma,Researcher / Scientific Staff,Researcher / Scientific Staff,2,1,0
+academic researchers,Software Developer,Researcher / Scientific Staff,3,1,0
+doctoral student / research associate,Software Developer,Researcher / Scientific Staff,3,1,0
+miterbeiter wissenchaftler,Software Developer,Researcher / Scientific Staff,3,1,0
+postdoc researcher,Software Developer,Researcher / Scientific Staff,3,1,0
+postdoctoral research associate,Software Developer,Researcher / Scientific Staff,3,1,0
+postdoctoral research fellow,Software Developer,Researcher / Scientific Staff,3,1,0
+postdoctoral researcher,Software Developer,Researcher / Scientific Staff,3,1,0
+referent für forschungsdatenmanagement,Software Developer,Data Management / Data Scientist,3,1,0
+research assistant,Software Developer,Researcher / Scientific Staff,3,3,0
+research associate,Software Developer,Researcher / Scientific Staff,3,4,0
+research fellow,Software Developer,Researcher / Scientific Staff,3,1,0
+researcher,Software Developer,Researcher / Scientific Staff,3,3,0
+researcher (wissenschaftliche mitarbeiterin),Software Developer,Researcher / Scientific Staff,3,1,0
+scientific staff (postdoctoral researcher),Software Developer,Researcher / Scientific Staff,3,1,0
+stellvertretende abteilungsleiterin und gruppenleitung,Software Developer,Management Roles,3,1,0
+technische laborleitung,Software Developer,Technical Staff,3,1,0
+technischer mitarbeiter,Software Developer,Technical Staff,3,1,0
+webentwickler für digitale repositorien,Software Developer,Technical Staff,3,1,0
+wiss. mitarbeiter,Software Developer,Researcher / Scientific Staff,3,1,0
+wissenschaflticher mitarbeiter,Software Developer,Researcher / Scientific Staff,3,1,0
+wissenschaftliche hilfskraft,Software Developer,Researcher / Scientific Staff,3,2,0
+wissenschaftliche mitarbeiterin,Software Developer,Researcher / Scientific Staff,3,4,0
+wissenschaftlicher angestellter,Software Developer,Researcher / Scientific Staff,3,1,0
+wissenschaftlicher mitarbeiter,Software Developer,Researcher / Scientific Staff,3,29,0
+wissenschaftlicher mitarbeiter (researcher),Software Developer,Researcher / Scientific Staff,3,1,0
+wissenschaftlicher mitarbeiter / post-doc,Software Developer,Researcher / Scientific Staff,3,1,0
+wissenschaftlicher mitarbeiter:in,Software Developer,Researcher / Scientific Staff,3,1,0
+wissenschaftlicher programmierer,Software Developer,Researcher / Scientific Staff,3,1,0
+wissenschaftliches personal,Software Developer,Researcher / Scientific Staff,3,1,0
+hpc consultant,eln & rdm Support,Technical Staff,0,1,0
+post doc,eln & rdm Support,Researcher / Scientific Staff,0,1,0
+post-doc,eln & rdm Support,Researcher / Scientific Staff,0,1,0
+postdoc,eln & rdm Support,Researcher / Scientific Staff,0,5,0
+wrap up postdoc,eln & rdm Support,Researcher / Scientific Staff,0,1,0

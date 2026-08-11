@@ -1,0 +1,11 @@
+age_group,category,n,pct,N
+Under 35,Always,3,9.4,32
+Under 35,Sometimes,10,31.2,32
+Under 35,Never,19,59.4,32
+35-44,Always,5,11.6,43
+35-44,Sometimes,18,41.9,43
+35-44,Never,20,46.5,43
+45-54,Sometimes,15,62.5,24
+45-54,Never,9,37.5,24
+55+,Sometimes,4,66.7,6
+55+,Never,2,33.3,6

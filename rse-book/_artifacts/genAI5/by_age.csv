@@ -1,0 +1,35 @@
+item,age_group,category,n,pct,N
+Your productivity,Under 35,Increase,40,58.0,69
+Your productivity,Under 35,Same,22,31.9,69
+Your productivity,Under 35,Decrease,7,10.1,69
+Your productivity,35-44,Increase,50,64.9,77
+Your productivity,35-44,Same,19,24.7,77
+Your productivity,35-44,Decrease,8,10.4,77
+Your productivity,45-54,Increase,25,67.6,37
+Your productivity,45-54,Same,9,24.3,37
+Your productivity,45-54,Decrease,3,8.1,37
+Your productivity,55+,Increase,7,53.8,13
+Your productivity,55+,Same,6,46.2,13
+Your code quality,Under 35,Increase,19,27.9,68
+Your code quality,Under 35,Same,39,57.4,68
+Your code quality,Under 35,Decrease,10,14.7,68
+Your code quality,35-44,Increase,29,38.7,75
+Your code quality,35-44,Same,36,48.0,75
+Your code quality,35-44,Decrease,10,13.3,75
+Your code quality,45-54,Increase,12,34.3,35
+Your code quality,45-54,Same,21,60.0,35
+Your code quality,45-54,Decrease,2,5.7,35
+Your code quality,55+,Increase,4,33.3,12
+Your code quality,55+,Same,8,66.7,12
+Your job satisfaction,Under 35,Increase,13,20.0,65
+Your job satisfaction,Under 35,Same,29,44.6,65
+Your job satisfaction,Under 35,Decrease,23,35.4,65
+Your job satisfaction,35-44,Increase,18,23.1,78
+Your job satisfaction,35-44,Same,40,51.3,78
+Your job satisfaction,35-44,Decrease,20,25.6,78
+Your job satisfaction,45-54,Increase,9,28.1,32
+Your job satisfaction,45-54,Same,13,40.6,32
+Your job satisfaction,45-54,Decrease,10,31.2,32
+Your job satisfaction,55+,Increase,1,7.7,13
+Your job satisfaction,55+,Same,10,76.9,13
+Your job satisfaction,55+,Decrease,2,15.4,13

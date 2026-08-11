@@ -3,102 +3,18 @@ title: "What is the nature of your current employment?"
 question_id: currentEmp10_0
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## What is the nature of your current employment?
 
-```{r}
-#| echo: false
-question_code <- "currentEmp10_0"
+Artifacts for `currentEmp10_0` (from `rse-survey build-artifacts`).
 
-```
+### Focus
 
-## `r filter_label`
+{{< include ../_artifacts/currentEmp10_0/focus.md >}}
 
-### Descriptive Statistics
+### By age group
 
-```{r}
-#| echo: false
+{{< include ../_artifacts/currentEmp10_0/by_age.md >}}
 
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("Employment nature (", filter_label, ")")
-)
-```
+### Between countries
 
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_barplot(
-  FILTER,
-  question_code,
-  title = paste0("Employment nature (", filter_label, ")")
-)
-```
-
-### Statistics by age group
-
-```{r}
-#| echo: false
-
-print_heatmap_category_age_wide_table(
-  FILTER,
-  question_code,
-  header = paste0("Employment nature by age group (", filter_label, ")")
-)
-```
-
-```{r}
-#| echo: false
-#| results: asis
-#| eval: !expr show_within
-cat("## Within ", filter_label, "
-
-", sep = "")
-```
-
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("Employment nature within ", filter_label),
-  group_by = FILTER
-)
-```
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_stacked_bars(
-  FILTER,
-  question_code,
-  countries = FILTER,
-  title = paste0("Employment nature within ", filter_label)
-)
-```
-
-## Between Countries
-
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_stacked_bars(
-  plot_countries,
-  question_code,
-  country_groups = country_groups,
-  title = "Employment nature by country group"
-)
-```
+{{< include ../_artifacts/currentEmp10_0/between_countries.md >}}

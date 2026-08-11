@@ -1,0 +1,23 @@
+### What is the nature of your current employment? (N=476)
+
+| country_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Germany | Fixed-term | 121 | 58.7 | 206 |
+| Germany | Permanent | 78 | 37.9 | 206 |
+| Germany | Prefer not to say | 3 | 1.5 | 206 |
+| Germany | Other | 2 | 1.0 | 206 |
+| Germany | Zero-hours/hourly/casual | 2 | 1.0 | 206 |
+| Netherlands | Permanent | 37 | 74.0 | 50 |
+| Netherlands | Fixed-term | 13 | 26.0 | 50 |
+| United Kingdom | Permanent | 85 | 66.9 | 127 |
+| United Kingdom | Fixed-term | 37 | 29.1 | 127 |
+| United Kingdom | Other | 2 | 1.6 | 127 |
+| United Kingdom | Prefer not to say | 2 | 1.6 | 127 |
+| United Kingdom | Zero-hours/hourly/casual | 1 | 0.8 | 127 |
+| United States | Permanent | 68 | 73.1 | 93 |
+| United States | Fixed-term | 13 | 14.0 | 93 |
+| United States | Other | 7 | 7.5 | 93 |
+| United States | Prefer not to say | 3 | 3.2 | 93 |
+| United States | Zero-hours/hourly/casual | 2 | 2.2 | 93 |
+
+![What is the nature of your current employment? (N=476)](../_artifacts/currentEmp10_0/between_countries.png?v=5c0994e3e6)

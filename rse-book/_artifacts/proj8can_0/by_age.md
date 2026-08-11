@@ -1,0 +1,14 @@
+### Do your research software projects typically include a project manager? (Germany, N=194)
+
+| age_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Under 35 | False | 46 | 67.6 | 68 |
+| Under 35 | True | 22 | 32.4 | 68 |
+| 35-44 | False | 57 | 72.2 | 79 |
+| 35-44 | True | 22 | 27.8 | 79 |
+| 45-54 | False | 27 | 79.4 | 34 |
+| 45-54 | True | 7 | 20.6 | 34 |
+| 55+ | False | 7 | 53.8 | 13 |
+| 55+ | True | 6 | 46.2 | 13 |
+
+![Do your research software projects typically include a project manager? (N=194)](../_artifacts/proj8can_0/by_age.png?v=bdc443b1f6)

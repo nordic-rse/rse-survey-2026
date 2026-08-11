@@ -3,98 +3,18 @@ title: "Satisfaction with career"
 question_id: likert3b
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## Satisfaction with career
 
-```{r}
-#| echo: false
-question_code <- "likert3b"
+Artifacts for `likert3b` (from `rse-survey build-artifacts`).
 
+### Focus
 
-df <- load_filtered_tf(plot_countries)
-likert_cols <- question_columns(question_code, names(df))
-```
+{{< include ../_artifacts/likert3b/focus.md >}}
 
-## `r filter_label`
+### By age group
 
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-#| results: asis
+{{< include ../_artifacts/likert3b/by_age.md >}}
 
-df_nordics <- load_filtered_tf(FILTER)
+### Between countries
 
-print_likert_items(
-  df_nordics,
-  likert_cols,
-  meta = cols,
-  empty_message = paste0("No responses available for ", filter_label, " in the current filter.")
-)
-```
-
-### Statistics by age group
-
-```{r}
-#| echo: false
-#| results: asis
-
-df_nordics <- load_filtered_tf(FILTER)
-
-print_likert_items(
-  df_nordics,
-  likert_cols,
-  meta = cols,
-  group_by = "age_group",
-  include_plot = FALSE,
-  heading_level = 4L,
-  empty_message = paste0("No responses available for ", filter_label, " in the current filter.")
-)
-```
-
-```{r}
-#| echo: false
-#| results: asis
-#| eval: !expr show_within
-cat("## Within ", filter_label, "
-
-", sep = "")
-```
-
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-#| results: asis
-
-df_nordics <- load_filtered_tf(FILTER)
-
-print_likert_items(
-  df_nordics,
-  likert_cols,
-  meta = cols,
-  group_by = FILTER,
-  empty_message = paste0("No responses available for ", filter_label, " in the current filter.")
-)
-```
-
-## Between Countries
-
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-#| results: asis
-
-print_likert_items(
-  df,
-  likert_cols,
-  meta = cols,
-  country_groups = country_groups,
-  empty_message = "No responses available for the selected country groups."
-)
-```
+{{< include ../_artifacts/likert3b/between_countries.md >}}

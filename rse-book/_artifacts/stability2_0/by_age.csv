@@ -1,0 +1,9 @@
+age_group,category,n,pct,N
+Under 35,False,55,84.6,65
+Under 35,True,10,15.4,65
+35-44,False,68,86.1,79
+35-44,True,11,13.9,79
+45-54,False,29,80.6,36
+45-54,True,7,19.4,36
+55+,False,12,92.3,13
+55+,True,1,7.7,13

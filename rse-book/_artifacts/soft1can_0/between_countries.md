@@ -1,0 +1,22 @@
+### How many years of software development experience do you have? (N=476)
+
+| country_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Germany | 15+ | 81 | 39.3 | 206 |
+| Germany | 10-15 | 39 | 18.9 | 206 |
+| Germany | 5-10 | 48 | 23.3 | 206 |
+| Germany | 0-5 | 38 | 18.4 | 206 |
+| Netherlands | 15+ | 22 | 44.0 | 50 |
+| Netherlands | 10-15 | 8 | 16.0 | 50 |
+| Netherlands | 5-10 | 11 | 22.0 | 50 |
+| Netherlands | 0-5 | 9 | 18.0 | 50 |
+| United Kingdom | 15+ | 60 | 47.2 | 127 |
+| United Kingdom | 10-15 | 26 | 20.5 | 127 |
+| United Kingdom | 5-10 | 25 | 19.7 | 127 |
+| United Kingdom | 0-5 | 16 | 12.6 | 127 |
+| United States | 15+ | 39 | 41.9 | 93 |
+| United States | 10-15 | 17 | 18.3 | 93 |
+| United States | 5-10 | 25 | 26.9 | 93 |
+| United States | 0-5 | 12 | 12.9 | 93 |
+
+![How many years of software development experience do you have? (N=476)](../_artifacts/soft1can_0/between_countries.png?v=f77d9265e0)

@@ -1,0 +1,67 @@
+country_group,category,n,pct
+Germany,Computer science,107,56.0
+Germany,Physical sciences,76,39.8
+Germany,Engineering and technology,56,29.3
+Germany,Biological sciences,45,23.6
+Germany,Mathematical sciences,28,14.7
+Germany,Medicine and health sciences,24,12.6
+Germany,Languages and linguistics,18,9.4
+Germany,Social sciences,16,8.4
+Germany,Historical and philosophical studies,16,8.4
+Germany,Education,15,7.9
+Germany,Agriculture and related subjects,11,5.8
+Germany,Communications,10,5.2
+Germany,Creative arts and design,4,2.1
+Germany,"Architecture, building and planning",2,1.0
+Germany,Law,1,0.5
+Germany,Business,1,0.5
+Netherlands,Physical sciences,22,45.8
+Netherlands,Computer science,21,43.8
+Netherlands,Biological sciences,16,33.3
+Netherlands,Engineering and technology,16,33.3
+Netherlands,Medicine and health sciences,10,20.8
+Netherlands,Social sciences,8,16.7
+Netherlands,Agriculture and related subjects,6,12.5
+Netherlands,Mathematical sciences,6,12.5
+Netherlands,Languages and linguistics,5,10.4
+Netherlands,"Architecture, building and planning",4,8.3
+Netherlands,Education,4,8.3
+Netherlands,Historical and philosophical studies,3,6.2
+Netherlands,Veterinary science,2,4.2
+Netherlands,Business,1,2.1
+Netherlands,Communications,1,2.1
+Netherlands,Creative arts and design,1,2.1
+United Kingdom,Physical sciences,73,59.3
+United Kingdom,Engineering and technology,57,46.3
+United Kingdom,Computer science,55,44.7
+United Kingdom,Medicine and health sciences,44,35.8
+United Kingdom,Biological sciences,40,32.5
+United Kingdom,Mathematical sciences,24,19.5
+United Kingdom,Education,23,18.7
+United Kingdom,Social sciences,17,13.8
+United Kingdom,Agriculture and related subjects,13,10.6
+United Kingdom,Languages and linguistics,12,9.8
+United Kingdom,Historical and philosophical studies,12,9.8
+United Kingdom,"Architecture, building and planning",7,5.7
+United Kingdom,Creative arts and design,7,5.7
+United Kingdom,Veterinary science,5,4.1
+United Kingdom,Law,5,4.1
+United Kingdom,Business,5,4.1
+United Kingdom,Communications,5,4.1
+United States,Computer science,48,52.7
+United States,Physical sciences,45,49.5
+United States,Engineering and technology,37,40.7
+United States,Biological sciences,35,38.5
+United States,Mathematical sciences,20,22.0
+United States,Medicine and health sciences,19,20.9
+United States,Social sciences,11,12.1
+United States,Education,10,11.0
+United States,Languages and linguistics,6,6.6
+United States,Historical and philosophical studies,6,6.6
+United States,Agriculture and related subjects,4,4.4
+United States,Communications,3,3.3
+United States,Creative arts and design,3,3.3
+United States,Law,2,2.2
+United States,Business,2,2.2
+United States,Veterinary science,1,1.1
+United States,"Architecture, building and planning",1,1.1

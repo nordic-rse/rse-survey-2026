@@ -1,0 +1,11 @@
+### Satisfaction with career (Germany, N=203)
+
+| category | n | pct |
+| --- | --- | --- |
+| Strongly Agree | 35 | 17.2 |
+| Agree | 99 | 48.8 |
+| Neither agree or disagree | 51 | 25.1 |
+| Disagree | 15 | 7.4 |
+| Strongly disagree | 3 | 1.5 |
+
+![Satisfaction with career (N=203)](../_artifacts/likert3b/focus.png?v=724149fb65)

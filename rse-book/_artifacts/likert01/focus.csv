@@ -1,0 +1,52 @@
+item,category,n,pct,N
+Developing software (Actual),0% (None at all),9,4.4,203
+Developing software (Actual),20%,69,34.0,203
+Developing software (Actual),40%,54,26.6,203
+Developing software (Actual),60%,33,16.3,203
+Developing software (Actual),80%,33,16.3,203
+Developing software (Actual),100% (All my time),5,2.5,203
+Developing software (Desired),0% (None at all),4,2.0,197
+Developing software (Desired),20%,35,17.8,197
+Developing software (Desired),40%,70,35.5,197
+Developing software (Desired),60%,58,29.4,197
+Developing software (Desired),80%,23,11.7,197
+Developing software (Desired),100% (All my time),7,3.6,197
+Research (Actual),0% (None at all),44,22.3,197
+Research (Actual),20%,97,49.2,197
+Research (Actual),40%,34,17.3,197
+Research (Actual),60%,15,7.6,197
+Research (Actual),80%,6,3.0,197
+Research (Actual),100% (All my time),1,0.5,197
+Research (Desired),0% (None at all),27,14.1,192
+Research (Desired),20%,59,30.7,192
+Research (Desired),40%,68,35.4,192
+Research (Desired),60%,27,14.1,192
+Research (Desired),80%,7,3.6,192
+Research (Desired),100% (All my time),4,2.1,192
+Management (Actual),0% (None at all),67,34.5,194
+Management (Actual),20%,87,44.8,194
+Management (Actual),40%,22,11.3,194
+Management (Actual),60%,16,8.2,194
+Management (Actual),80%,2,1.0,194
+Management (Desired),0% (None at all),93,54.4,171
+Management (Desired),20%,61,35.7,171
+Management (Desired),40%,14,8.2,171
+Management (Desired),60%,2,1.2,171
+Management (Desired),80%,1,0.6,171
+Teaching (Actual),0% (None at all),117,62.6,187
+Teaching (Actual),20%,58,31.0,187
+Teaching (Actual),40%,10,5.3,187
+Teaching (Actual),60%,2,1.1,187
+Teaching (Desired),0% (None at all),74,44.0,168
+Teaching (Desired),20%,81,48.2,168
+Teaching (Desired),40%,11,6.5,168
+Teaching (Desired),60%,2,1.2,168
+Other activities (Actual),0% (None at all),37,22.4,165
+Other activities (Actual),20%,108,65.5,165
+Other activities (Actual),40%,15,9.1,165
+Other activities (Actual),60%,4,2.4,165
+Other activities (Actual),80%,1,0.6,165
+Other activities (Desired),0% (None at all),89,57.8,154
+Other activities (Desired),20%,56,36.4,154
+Other activities (Desired),40%,8,5.2,154
+Other activities (Desired),60%,1,0.6,154

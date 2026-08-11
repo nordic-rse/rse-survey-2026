@@ -3,119 +3,22 @@ title: "Which generative AI tools do you currently use in your RSE work?"
 question_id: genAI3
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## Which generative AI tools do you currently use in your RSE work?
 
-```{r}
-#| echo: false
-question_code <- "genAI3"
+Artifacts for `genAI3` (from `rse-survey build-artifacts`).
 
-```
+### Focus
 
-## `r filter_label`
+{{< include ../_artifacts/genAI3/focus.md >}}
 
-### Descriptive Statistics
+### By age group
 
-```{r}
-#| echo: false
+{{< include ../_artifacts/genAI3/by_age.md >}}
 
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("Generative AI tool (", filter_label, ")")
-)
-```
+### Between countries
 
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
+{{< include ../_artifacts/genAI3/between_countries.md >}}
 
-plot_heatmap(FILTER, question_code, title = filter_label)
-```
+### Other answers
 
-### Free-text responses
-
-```{r}
-#| echo: false
-source(file.path(book_root, "R/recodes/genAI3_recode.R"))
-
-data_coded <- process_text_codes_with_allocation(
-  filter = FILTER,
-  question_code = "genAI3",
-  recode_map = genAI3_recode_map,
-  header = "AI Tools",
-  other = TRUE,
-  cache_id = "genAI3"
-)
-
-data_coded$summary_table
-```
-
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
-
-### Statistics by age group
-
-```{r}
-#| echo: false
-
-print_heatmap_category_age_wide_table(
-  FILTER,
-  question_code,
-  header = paste0("Generative AI tool by age group (", filter_label, ")")
-)
-```
-
-
-```{r}
-#| echo: false
-#| results: asis
-#| eval: !expr show_within
-cat("## Within ", filter_label, "
-
-", sep = "")
-```
-
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-
-print_heatmap_category_table(
-  FILTER,
-  question_code,
-  header = paste0("Generative AI tool selections within ", filter_label),
-  group_by = FILTER
-)
-```
-
-```{r}
-#| eval: !expr show_within
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_stacked_bars(
-  FILTER,
-  question_code,
-  countries = FILTER,
-  title = paste0("Generative AI tool selections within ", filter_label)
-)
-```
-
-## Between Countries
-
-```{r}
-#| echo: false
-#| fig-width: 10
-#| fig-height: 6
-
-plot_heatmap_category_stacked_bars(
-  plot_countries,
-  question_code,
-  country_groups = country_groups,
-  title = "Generative AI tool selections by country group"
-)
-```
+{{< include ../_artifacts/genAI3/other_by_country.md >}}

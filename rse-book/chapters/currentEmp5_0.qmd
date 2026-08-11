@@ -3,33 +3,10 @@ title: "What is your official job title?"
 question_id: currentEmp5_0
 ---
 
-```{r}
-#| include: false
-#| file: ../R/_load_common.R
-```
+## What is your official job title?
 
-## `r filter_label`
+Artifacts for `currentEmp5_0` (from `rse-survey build-artifacts`).
 
-### Coded job titles
+### Focus
 
-```{r}
-#| echo: false
-
-source(file.path(book_root, "R/recodes/currentEmp5_0_recode.R"))
-```
-
-```{r}
-#| echo: false
-
-data_coded <- process_current_emp5_with_allocation(
-  filter = FILTER,
-  recode_map = currentEmp5_recode_map,
-  header = paste0("Official job title (", filter_label, ")"),
-  other = FALSE,
-  cache_id = "currentEmp5_0"
-)
-
-data_coded$summary_table
-```
-
-The raw-to-category allocation table for this question is in @sec-appendix-recoding.
+{{< include ../_artifacts/currentEmp5_0/focus.md >}}

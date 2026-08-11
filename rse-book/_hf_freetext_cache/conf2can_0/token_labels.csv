@@ -1,0 +1,345 @@
+token,category_llm,category_human,cluster_id,n,exclude
+acs fall meeting,Astronomy conferences,Astronomy conferences,1,1,0
+adass and numerous other conferences,Astronomy conferences,Astronomy conferences,1,1,0
+african digital scholarship and curation conference,Astronomy conferences,Astronomy conferences,1,1,0
+agu fall meeting,Astronomy conferences,Astronomy conferences,1,1,0
+american geophysical union,Astronomy conferences,Astronomy conferences,1,1,0
+american geophysical union annual meeting,Astronomy conferences,Astronomy conferences,1,2,0
+american geophysical union fall meeting,Astronomy conferences,Astronomy conferences,1,1,0
+american meteorological society annual meeting,Astronomy conferences,Astronomy conferences,1,1,0
+american physical society division of plasma physics annual meetings,Astronomy conferences,Astronomy conferences,1,1,0
+aps march meeting,Astronomy conferences,Astronomy conferences,1,2,0
+bernstein conference,Astronomy conferences,Astronomy conferences,1,1,0
+bioinformatic conferences: eccb,Astronomy conferences,Astronomy conferences,1,1,0
+caribbean regional conference of psychology,Astronomy conferences,Astronomy conferences,1,1,0
+chaos communication congress,Astronomy conferences,Astronomy conferences,1,1,0
+chpc conference,Astronomy conferences,Astronomy conferences,1,1,0
+csir biennial conference,Astronomy conferences,Astronomy conferences,1,1,0
+derse conference,Astronomy conferences,Astronomy conferences,1,3,0
+dh conference,Astronomy conferences,Astronomy conferences,1,1,0
+diverses conférences,Astronomy conferences,Astronomy conferences,1,1,0
+domain conferences in the past,Astronomy conferences,Astronomy conferences,1,1,0
+ecological modelling conference,Astronomy conferences,Astronomy conferences,1,1,0
+empirical methods in natural language processing conference,Astronomy conferences,Astronomy conferences,1,1,0
+eresearch south africa conference,Astronomy conferences,Astronomy conferences,1,1,0
+european r users meeting,Astronomy conferences,Astronomy conferences,1,1,0
+faraday discussions,Astronomy conferences,Astronomy conferences,1,1,0
+galaxy community conference,Astronomy conferences,Astronomy conferences,1,1,0
+gamm annual meeting,Astronomy conferences,Astronomy conferences,1,1,0
+gordon research conference (usa),Astronomy conferences,Astronomy conferences,1,1,0
+helmholtz metadata conference,Astronomy conferences,Astronomy conferences,1,1,0
+hmc conference,Astronomy conferences,Astronomy conferences,1,1,0
+hpsf conference,Astronomy conferences,Astronomy conferences,1,1,0
+huminfra nodes conference,Astronomy conferences,Astronomy conferences,1,1,0
+ices annual science conference,Astronomy conferences,Astronomy conferences,1,1,0
+ieee escience conference,Astronomy conferences,Astronomy conferences,1,1,0
+interamerican congress of psychology,Astronomy conferences,Astronomy conferences,1,1,0
+land warfare conference,Astronomy conferences,Astronomy conferences,1,1,0
+lattice conference,Astronomy conferences,Astronomy conferences,1,1,0
+magnetism conferences,Astronomy conferences,Astronomy conferences,1,1,0
+military information and communications symposium of south africa,Astronomy conferences,Astronomy conferences,1,1,0
+not software conferences.,Astronomy conferences,Astronomy conferences,1,1,0
+ocns annual meeting,Astronomy conferences,Astronomy conferences,1,1,0
+one health symposium,Astronomy conferences,Astronomy conferences,1,1,0
+project specific conference,Astronomy conferences,Astronomy conferences,1,1,0
+research area specific not software specific conferences,Astronomy conferences,Astronomy conferences,1,1,0
+ric conference,Astronomy conferences,Astronomy conferences,1,1,0
+seismological society of american annual meeting,Astronomy conferences,Astronomy conferences,1,1,0
+siam conferences,Astronomy conferences,Astronomy conferences,1,1,0
+skach winter meeting,Astronomy conferences,Astronomy conferences,1,1,0
+software defined space conference,Astronomy conferences,Astronomy conferences,1,1,0
+some other astronomy conferences,Astronomy conferences,Astronomy conferences,1,1,0
+some topical conferences,Astronomy conferences,Astronomy conferences,1,1,0
+språkbanken meetings,Astronomy conferences,Astronomy conferences,1,1,0
+topical conferences,Astronomy conferences,Astronomy conferences,1,1,0
+usrse conferences,Astronomy conferences,Astronomy conferences,1,1,0
+aas/spd/tess,Conferences and events,Conferences and events,4,1,0
+acl,Conferences and events,Conferences and events,2,1,0
+acm pearc,Conferences and events,Conferences and events,2,1,0
+acm pepm,Conferences and events,Conferences and events,2,1,0
+acspri,Conferences and events,Conferences and events,2,1,0
+adac,Conferences and events,Conferences and events,2,1,0
+american chemical society,Conferences and events,Conferences and events,4,1,0
+ams,Conferences and events,Conferences and events,4,1,0
+cakefest,Conferences and events,Conferences and events,4,1,0
+chep,Conferences and events,Conferences and events,2,2,0
+chr,Conferences and events,Conferences and events,2,1,0
+cni,Conferences and events,Conferences and events,4,1,0
+coling,Conferences and events,Conferences and events,2,1,0
+compstat,Conferences and events,Conferences and events,2,1,0
+cospar,Conferences and events,Conferences and events,2,1,0
+cosyne,Conferences and events,Conferences and events,2,1,0
+cray user group,Conferences and events,Conferences and events,2,1,0
+cvpr,Conferences and events,Conferences and events,2,1,0
+dasc,Conferences and events,Conferences and events,2,1,0
+derse,Conferences and events,Conferences and events,4,22,0
+dh,Conferences and events,Conferences and events,4,1,0
+dh benelux,Conferences and events,Conferences and events,4,1,0
+dhd,Conferences and events,Conferences and events,4,5,0
+dhnb,Conferences and events,Conferences and events,4,1,0
+ducoms,Conferences and events,Conferences and events,4,1,0
+durham hpc days,Conferences and events,Conferences and events,2,1,0
+ecm,Conferences and events,Conferences and events,4,1,0
+egi,Conferences and events,Conferences and events,4,1,0
+eusn,Conferences and events,Conferences and events,4,2,0
+forge,Conferences and events,Conferences and events,4,1,0
+fosdem,Conferences and events,Conferences and events,4,2,0
+gfv,Conferences and events,Conferences and events,2,1,0
+hipeac,Conferences and events,Conferences and events,2,1,0
+hmc,Conferences and events,Conferences and events,2,1,0
+hmc),Conferences and events,Conferences and events,2,1,0
+icalepcs,Conferences and events,Conferences and events,4,2,0
+icns,Conferences and events,Conferences and events,4,1,0
+icosahom,Conferences and events,Conferences and events,4,1,0
+icse,Conferences and events,Conferences and events,4,2,0
+icsew,Conferences and events,Conferences and events,4,1,0
+ifd&tc,Conferences and events,Conferences and events,2,1,0
+ipdps,Conferences and events,Conferences and events,4,1,0
+isc,Conferences and events,Conferences and events,2,2,0
+iscb,Conferences and events,Conferences and events,4,1,0
+ismb,Conferences and events,Conferences and events,4,1,0
+ismrm,Conferences and events,Conferences and events,4,1,0
+iss,Conferences and events,Conferences and events,4,1,0
+issb,Conferences and events,Conferences and events,4,1,0
+jlesc,Conferences and events,Conferences and events,2,1,0
+juliacon,Conferences and events,Conferences and events,2,3,0
+jupytercon,Conferences and events,Conferences and events,2,1,0
+knime,Conferences and events,Conferences and events,4,1,0
+lhcp,Conferences and events,Conferences and events,2,1,0
+mett,Conferences and events,Conferences and events,2,1,0
+mpg fdm,Conferences and events,Conferences and events,2,1,0
+mse,Conferences and events,Conferences and events,4,1,0
+nac,Conferences and events,Conferences and events,2,1,0
+netsci,Conferences and events,Conferences and events,2,1,0
+nfcs,Conferences and events,Conferences and events,4,1,0
+nfdi,Conferences and events,Conferences and events,2,1,0
+nofe,Conferences and events,Conferences and events,4,1,0
+pasc,Conferences and events,Conferences and events,2,5,0
+pcapac,Conferences and events,Conferences and events,2,1,0
+posit::conf,Conferences and events,Conferences and events,2,3,0
+prasa,Conferences and events,Conferences and events,2,1,0
+pycon,Conferences and events,Conferences and events,2,2,0
+pycon chile,Conferences and events,Conferences and events,2,1,0
+pycon us,Conferences and events,Conferences and events,2,1,0
+pydata,Conferences and events,Conferences and events,2,1,0
+pyhep,Conferences and events,Conferences and events,2,1,0
+recomb,Conferences and events,Conferences and events,2,1,0
+rencontresr,Conferences and events,Conferences and events,2,1,0
+res con,Conferences and events,Conferences and events,2,1,0
+resa,Conferences and events,Conferences and events,2,1,0
+sers,Conferences and events,Conferences and events,4,1,0
+sfn,Conferences and events,Conferences and events,4,1,0
+siam,Conferences and events,Conferences and events,2,4,0
+siam cse,Conferences and events,Conferences and events,2,4,0
+siam pp,Conferences and events,Conferences and events,2,2,0
+sib,Conferences and events,Conferences and events,4,1,0
+sunbelt,Conferences and events,Conferences and events,2,1,0
+sunbelt (insna),Conferences and events,Conferences and events,2,1,0
+techx,Conferences and events,Conferences and events,4,1,0
+tnc,Conferences and events,Conferences and events,2,1,0
+tnc pearc techx,Conferences and events,Conferences and events,2,1,0
+uktc,Conferences and events,Conferences and events,4,1,0
+watoc,Conferences and events,Conferences and events,2,1,0
+wccm,Conferences and events,Conferences and events,4,1,0
+where our users go to,Conferences and events,Conferences and events,4,1,0
+wlcg),Conferences and events,Conferences and events,2,1,0
+worktribe connect,Conferences and events,Conferences and events,4,1,0
+wssspe,Conferences and events,Conferences and events,2,1,0
+de rse,RSE events,RSE events,7,1,0
+emrs rsc,RSE events,RSE events,7,1,0
+event of rsse africa (cape town,RSE events,RSE events,7,1,0
+gamms rse,RSE events,RSE events,7,1,0
+nordic rse conference,RSE events,RSE events,7,1,0
+rse con,RSE events,RSE events,7,1,0
+rse conferences,RSE events,RSE events,7,1,0
+rse day ku leuven,RSE events,RSE events,7,1,0
+rseaunz,RSE events,RSE events,7,1,0
+rsecon,RSE events,RSE events,7,19,0
+rsecon (uk),RSE events,RSE events,7,2,0
+rsecon newcastle,RSE events,RSE events,7,1,0
+rseconuk,RSE events,RSE events,7,1,0
+rslondonsoutheast,RSE events,RSE events,7,1,0
+rss,RSE events,RSE events,7,1,0
+rstudio::conf,RSE events,RSE events,7,1,0
+uk rsecon,RSE events,RSE events,7,1,0
+biometrisches kolloquium,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+cecam espresso summer school,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+comparative oceanic linguistics,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+declarative amsterdam,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+derse würzburg + karlsruhe,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+digital humanities,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+digital humanities in nordic and baltic countries (dhnb),Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+dlr llm wissensaustauschworkshop,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+england,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+espresso summer school,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+euromech colloquium,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+european geosciences union,Scientific conferences and workshops,Scientific conferences and workshops,0,2,0
+european society for textual scholarship,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+european space weather week,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+euroscipy,Scientific conferences and workshops,Scientific conferences and workshops,0,2,0
+gdansk,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+globus world,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+goldschmidt,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+interne wissensaustausch workshop,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+leipzig summer schoon on active matter,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+liege colloquium,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+multiple all over europa,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+musikwissenschaftliche themenkonferenz an der akademie der wissenschaften und der literatur (adw mainz),Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+nordicrsecon,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+other online formats,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+practicalmeeg,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+saxfdm tagung,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+sc,Scientific conferences and workshops,Scientific conferences and workshops,0,2,0
+semantic web in libraries (swib),Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+semantic web in libraris (swib),Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+stockholm,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+summer rosetta con,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+sweden,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+talks lors de déplacements dans des universités,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+theory and practice of digital libraries,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+uk fluids,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+uklft,Scientific conferences and workshops,Scientific conferences and workshops,0,1,0
+aiaa scitech,Scientific research fields,Scientific research fields,5,1,0
+american astronomical society,Scientific research fields,Scientific research fields,5,1,0
+american crystallography association annual meeting (usa) and others,Scientific research fields,Scientific research fields,5,1,0
+american meteorological society,Scientific research fields,Scientific research fields,5,1,0
+annual meeting of the american ornithological society,Scientific research fields,Scientific research fields,5,1,0
+australasian region biometrics conference,Scientific research fields,Scientific research fields,5,1,0
+cancer genomics consortium,Scientific research fields,Scientific research fields,5,1,0
+cmstatistics,Scientific research fields,Scientific research fields,5,1,0
+elixir pathogen data focus group,Scientific research fields,Scientific research fields,5,1,0
+esa living planet,Scientific research fields,Scientific research fields,5,1,0
+esa living planet symposium,Scientific research fields,Scientific research fields,5,1,0
+esa living planete,Scientific research fields,Scientific research fields,5,1,0
+escience,Scientific research fields,Scientific research fields,5,1,0
+evolution and bioinformatics,Scientific research fields,Scientific research fields,5,1,0
+monogram,Scientific research fields,Scientific research fields,5,1,0
+ocean sciences,Scientific research fields,Scientific research fields,5,1,0
+open science days,Scientific research fields,Scientific research fields,5,1,0
+plant and animal genome conference,Scientific research fields,Scientific research fields,5,1,0
+python in heliophysics meetings,Scientific research fields,Scientific research fields,5,1,0
+scipy,Scientific research fields,Scientific research fields,5,2,0
+society for neuroscience,Scientific research fields,Scientific research fields,5,1,0
+south african society of atmospheric scientists,Scientific research fields,Scientific research fields,5,1,0
+spie astronomical telescopes+instrumentation,Scientific research fields,Scientific research fields,5,1,0
+spie astronomy,Scientific research fields,Scientific research fields,5,1,0
+strong lensing conferece,Scientific research fields,Scientific research fields,5,1,0
+supercomputing,Scientific research fields,Scientific research fields,5,2,0
+synchrotron radiation instrumentation (sri),Scientific research fields,Scientific research fields,5,1,0
+virus genomics,Scientific research fields,Scientific research fields,5,1,0
+vision sciences society,Scientific research fields,Scientific research fields,5,1,0
+a few,Survey terms,Survey terms,6,1,0
+aas,Survey terms,Survey terms,6,1,0
+aas and aps,Survey terms,Survey terms,6,1,0
+acat,Survey terms,Survey terms,6,1,0
+adass,Survey terms,Survey terms,6,7,0
+afrilex,Survey terms,Survey terms,6,1,0
+agu,Survey terms,Survey terms,6,9,0
+agu and ssa,Survey terms,Survey terms,6,1,0
+aiaa,Survey terms,Survey terms,6,1,0
+aoir,Survey terms,Survey terms,6,1,0
+arc,Survey terms,Survey terms,6,1,0
+archeofoss,Survey terms,Survey terms,6,1,0
+aviose,Survey terms,Survey terms,6,1,0
+canberra,Survey terms,Survey terms,6,1,0
+chase,Survey terms,Survey terms,6,1,0
+cordi,Survey terms,Survey terms,6,1,0
+dash,Survey terms,Survey terms,6,4,0
+digikult,Survey terms,Survey terms,6,1,0
+eadh,Survey terms,Survey terms,6,1,0
+eccomas,Survey terms,Survey terms,6,2,0
+educause,Survey terms,Survey terms,6,1,0
+egu,Survey terms,Survey terms,6,8,0
+elixir all hands,Survey terms,Survey terms,6,1,0
+emnlp,Survey terms,Survey terms,6,1,0
+epdic,Survey terms,Survey terms,6,1,0
+eresearch,Survey terms,Survey terms,6,1,0
+ewri,Survey terms,Survey terms,6,1,0
+fossdem,Survey terms,Survey terms,6,1,0
+gamm,Survey terms,Survey terms,6,1,0
+gitkon,Survey terms,Survey terms,6,1,0
+hepix,Survey terms,Survey terms,6,1,0
+higgs days santander,Survey terms,Survey terms,6,1,0
+iau,Survey terms,Survey terms,6,1,0
+idw,Survey terms,Survey terms,6,1,0
+igarss,Survey terms,Survey terms,6,1,0
+including adho,Survey terms,Survey terms,6,1,0
+inmm,Survey terms,Survey terms,6,1,0
+issi,Survey terms,Survey terms,6,1,0
+iucr,Survey terms,Survey terms,6,1,0
+ivoa,Survey terms,Survey terms,6,1,0
+jsm,Survey terms,Survey terms,6,1,0
+latinr,Survey terms,Survey terms,6,4,0
+many,Survey terms,Survey terms,6,2,0
+mica,Survey terms,Survey terms,6,1,0
+miccai,Survey terms,Survey terms,6,1,0
+multiple,Survey terms,Survey terms,6,2,0
+neic,Survey terms,Survey terms,6,1,0
+nobugs,Survey terms,Survey terms,6,3,0
+oecd,Survey terms,Survey terms,6,1,0
+pac,Survey terms,Survey terms,6,1,0
+prace days,Survey terms,Survey terms,6,1,0
+shine,Survey terms,Survey terms,6,1,0
+spie,Survey terms,Survey terms,6,3,0
+third infinity,Survey terms,Survey terms,6,1,0
+tiime,Survey terms,Survey terms,6,1,0
+ukrse,Survey terms,Survey terms,6,1,0
+uros,Survey terms,Survey terms,6,1,0
+user!,Survey terms,Survey terms,6,2,0
+usrse,Survey terms,Survey terms,6,2,0
+usrse'xy,Survey terms,Survey terms,6,1,0
+varies,Survey terms,Survey terms,6,1,0
+very different,Survey terms,Survey terms,6,1,0
+vibiom,Survey terms,Survey terms,6,1,0
+wapor,Survey terms,Survey terms,6,1,0
+"""ceci meeting"" (consortium des équipements de calcul intensif)",Workshop series,Workshop series,3,1,0
+acm document engineering,Workshop series,Workshop series,3,1,0
+acts developer workshop,Workshop series,Workshop series,3,1,0
+advanced technologies and treatments for diabetes (attd),Workshop series,Workshop series,3,1,0
+atlas tdaq workshop,Workshop series,Workshop series,3,1,0
+atlas tracking workshop,Workshop series,Workshop series,3,1,0
+barcamp open science,Workshop series,Workshop series,3,1,0
+california forestry science symposium,Workshop series,Workshop series,3,1,0
+ciroh developers conference,Workshop series,Workshop series,3,1,0
+collaborations workshop,Workshop series,Workshop series,3,6,0
+collegeville workshop,Workshop series,Workshop series,3,1,0
+community workshops,Workshop series,Workshop series,3,2,0
+computer applications in archaeology (caa),Workshop series,Workshop series,3,1,0
+computing related conferences and workshops (nordugrid,Workshop series,Workshop series,3,1,0
+dhtech symposium,Workshop series,Workshop series,3,1,0
+different rse conferences & related workshops,Workshop series,Workshop series,3,1,0
+domain conferences/workshops (mrs,Workshop series,Workshop series,3,1,0
+domain workshops,Workshop series,Workshop series,3,1,0
+e.g. european library automation group (elag),Workshop series,Workshop series,3,1,0
+ebrains / hbp summit and workshops,Workshop series,Workshop series,3,1,0
+eln workshops,Workshop series,Workshop series,3,1,0
+european simulation interoperability workshop,Workshop series,Workshop series,3,1,0
+google cloud summit,Workshop series,Workshop series,3,1,0
+https://www.nobugsconference.org/,Workshop series,Workshop series,3,1,0
+ieee escience,Workshop series,Workshop series,3,2,0
+ieee rt,Workshop series,Workshop series,3,1,0
+interne workshops,Workshop series,Workshop series,3,1,0
+language resources and evaluation conference (lrec),Workshop series,Workshop series,3,1,0
+mostly community/ project ws (datahub,Workshop series,Workshop series,3,1,0
+mpg fdm workshop,Workshop series,Workshop series,3,1,0
+nerc digital gathering,Workshop series,Workshop series,3,1,0
+nia omics data resources: a path to interoperability workshop,Workshop series,Workshop series,3,1,0
+noaa space weather workshop,Workshop series,Workshop series,3,1,0
+north american forestry ecology workshop,Workshop series,Workshop series,3,1,0
+open source software for fusion energy conference,Workshop series,Workshop series,3,1,0
+openacc summit,Workshop series,Workshop series,3,1,0
+other consortium/project/topic specific workshops,Workshop series,Workshop series,3,1,0
+programación en ciencias pesqueras,Workshop series,Workshop series,3,1,0
+project workshops,Workshop series,Workshop series,3,2,0
+psdi workshops),Workshop series,Workshop series,3,1,0
+rwanda ai and machine learning  workshop,Workshop series,Workshop series,3,1,0
+siesta advanced workshop,Workshop series,Workshop series,3,1,0
+ssi collaborations workshop,Workshop series,Workshop series,3,1,0
+supercomputing workshop,Workshop series,Workshop series,3,1,0
+swedish language technology conference (sltc),Workshop series,Workshop series,3,1,0
+symposium on software performance (ssp),Workshop series,Workshop series,3,1,0
+text encoding initiative conference,Workshop series,Workshop series,3,1,0
+ucar sea's improving scientific software conference,Workshop series,Workshop series,3,1,0
+uk swift hep workshops,Workshop series,Workshop series,3,1,0
+workshops hosted at sheffield university,Workshop series,Workshop series,3,1,0
+workshops within princeton university (organized by research computing),Workshop series,Workshop series,3,1,0

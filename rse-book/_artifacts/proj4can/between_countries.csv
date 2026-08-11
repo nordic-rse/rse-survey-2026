@@ -1,0 +1,24 @@
+country_group,category,n,pct
+Germany,The developers do their own testing,161,79.3
+Germany,Automated testing with continuous integration,135,66.5
+Germany,No formal testing but users provide feedback,66,32.5
+Germany,No formal testing,24,11.8
+Germany,Test engineers conduct testing,8,3.9
+Germany,Don't know,2,1.0
+Netherlands,The developers do their own testing,39,78.0
+Netherlands,Automated testing with continuous integration,32,64.0
+Netherlands,No formal testing but users provide feedback,17,34.0
+Netherlands,No formal testing,7,14.0
+Netherlands,Test engineers conduct testing,4,8.0
+United Kingdom,Automated testing with continuous integration,96,76.8
+United Kingdom,The developers do their own testing,92,73.6
+United Kingdom,No formal testing but users provide feedback,35,28.0
+United Kingdom,No formal testing,12,9.6
+United Kingdom,Test engineers conduct testing,3,2.4
+United Kingdom,Don't know,1,0.8
+United States,The developers do their own testing,72,80.9
+United States,Automated testing with continuous integration,66,74.2
+United States,No formal testing but users provide feedback,16,18.0
+United States,Test engineers conduct testing,8,9.0
+United States,No formal testing,7,7.9
+United States,Don't know,1,1.1

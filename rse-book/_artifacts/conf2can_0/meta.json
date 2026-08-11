@@ -1,0 +1,13 @@
+{
+  "question_id": "conf2can_0",
+  "focus": [
+    "Germany"
+  ],
+  "tasks": [
+    "focus",
+    "by_age",
+    "between_countries"
+  ],
+  "response_kind": "free_text",
+  "written_at": "2026-08-11T05:18:21.380622+00:00"
+}

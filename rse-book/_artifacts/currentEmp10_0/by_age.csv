@@ -1,0 +1,14 @@
+age_group,category,n,pct,N
+Under 35,Fixed-term,60,85.7,70
+Under 35,Permanent,7,10.0,70
+Under 35,Zero-hours/hourly/casual,2,2.9,70
+Under 35,Prefer not to say,1,1.4,70
+35-44,Fixed-term,47,57.3,82
+35-44,Permanent,32,39.0,82
+35-44,Prefer not to say,2,2.4,82
+35-44,Other,1,1.2,82
+45-54,Permanent,25,67.6,37
+45-54,Fixed-term,11,29.7,37
+45-54,Other,1,2.7,37
+55+,Permanent,12,85.7,14
+55+,Fixed-term,2,14.3,14

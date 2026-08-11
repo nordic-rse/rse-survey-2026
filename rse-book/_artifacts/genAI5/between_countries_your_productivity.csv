@@ -1,0 +1,13 @@
+country_group,category,n,pct,N
+Germany,Increase,123,62.4,197
+Germany,Same,56,28.4,197
+Germany,Decrease,18,9.1,197
+Netherlands,Increase,30,65.2,46
+Netherlands,Same,12,26.1,46
+Netherlands,Decrease,4,8.7,46
+United Kingdom,Increase,60,51.7,116
+United Kingdom,Same,46,39.7,116
+United Kingdom,Decrease,10,8.6,116
+United States,Increase,59,67.0,88
+United States,Same,23,26.1,88
+United States,Decrease,6,6.8,88

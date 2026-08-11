@@ -1,0 +1,25 @@
+age_group,category,n,pct,N
+Under 35,Writing or debugging code,51,86.4,59
+Under 35,Learning or teaching programming concepts,27,45.8,59
+Under 35,Creating test cases or testing strategies,19,32.2,59
+Under 35,Generating technical documentation,18,30.5,59
+Under 35,Summarising technical material,17,28.8,59
+Under 35,Designing software architectures,8,13.6,59
+35-44,Writing or debugging code,55,80.9,68
+35-44,Learning or teaching programming concepts,29,42.6,68
+35-44,Generating technical documentation,28,41.2,68
+35-44,Summarising technical material,28,41.2,68
+35-44,Creating test cases or testing strategies,26,38.2,68
+35-44,Designing software architectures,6,8.8,68
+45-54,Writing or debugging code,20,69.0,29
+45-54,Generating technical documentation,13,44.8,29
+45-54,Creating test cases or testing strategies,12,41.4,29
+45-54,Summarising technical material,11,37.9,29
+45-54,Learning or teaching programming concepts,10,34.5,29
+45-54,Designing software architectures,7,24.1,29
+55+,Writing or debugging code,7,70.0,10
+55+,Summarising technical material,7,70.0,10
+55+,Generating technical documentation,2,20.0,10
+55+,Creating test cases or testing strategies,2,20.0,10
+55+,Learning or teaching programming concepts,2,20.0,10
+55+,Designing software architectures,1,10.0,10

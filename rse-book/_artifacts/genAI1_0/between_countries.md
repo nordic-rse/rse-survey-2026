@@ -1,0 +1,26 @@
+### How frequently do you use generative AI tools in your RSE-related tasks (e.g., coding, documentation, testing, or design)? (N=469)
+
+| country_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Germany | Daily | 53 | 26.1 | 203 |
+| Germany | Weekly | 72 | 35.5 | 203 |
+| Germany | Monthly | 19 | 9.4 | 203 |
+| Germany | Rarely (a few times a year) | 31 | 15.3 | 203 |
+| Germany | Never | 28 | 13.8 | 203 |
+| Netherlands | Daily | 12 | 24.5 | 49 |
+| Netherlands | Weekly | 14 | 28.6 | 49 |
+| Netherlands | Monthly | 7 | 14.3 | 49 |
+| Netherlands | Rarely (a few times a year) | 7 | 14.3 | 49 |
+| Netherlands | Never | 9 | 18.4 | 49 |
+| United Kingdom | Daily | 31 | 24.4 | 127 |
+| United Kingdom | Weekly | 31 | 24.4 | 127 |
+| United Kingdom | Monthly | 10 | 7.9 | 127 |
+| United Kingdom | Rarely (a few times a year) | 25 | 19.7 | 127 |
+| United Kingdom | Never | 30 | 23.6 | 127 |
+| United States | Daily | 32 | 35.6 | 90 |
+| United States | Weekly | 29 | 32.2 | 90 |
+| United States | Monthly | 7 | 7.8 | 90 |
+| United States | Rarely (a few times a year) | 8 | 8.9 | 90 |
+| United States | Never | 14 | 15.6 | 90 |
+
+![How frequently do you use generative AI tools in your RSE-related tasks (e.g., coding, documentation, testing, or design)? (N=469)](../_artifacts/genAI1_0/between_countries.png?v=dfb6c28518)

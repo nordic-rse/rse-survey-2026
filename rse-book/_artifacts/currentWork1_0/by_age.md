@@ -1,0 +1,18 @@
+### Do you always work with the same researchers, or do you regularly change the researchers you work with? (Germany, N=199)
+
+| age_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Under 35 | Same researcher(s) | 38 | 55.1 | 69 |
+| Under 35 | Regularly change researcher(s) | 23 | 33.3 | 69 |
+| Under 35 | Different researchers, same research group | 8 | 11.6 | 69 |
+| 35-44 | Same researcher(s) | 39 | 49.4 | 79 |
+| 35-44 | Regularly change researcher(s) | 29 | 36.7 | 79 |
+| 35-44 | Different researchers, same research group | 11 | 13.9 | 79 |
+| 45-54 | Regularly change researcher(s) | 15 | 40.5 | 37 |
+| 45-54 | Same researcher(s) | 14 | 37.8 | 37 |
+| 45-54 | Different researchers, same research group | 8 | 21.6 | 37 |
+| 55+ | Different researchers, same research group | 8 | 57.1 | 14 |
+| 55+ | Regularly change researcher(s) | 3 | 21.4 | 14 |
+| 55+ | Same researcher(s) | 3 | 21.4 | 14 |
+
+![Do you always work with the same researchers, or do you regularly change the researchers you work with? (N=199)](../_artifacts/currentWork1_0/by_age.png?v=df1ba22c91)

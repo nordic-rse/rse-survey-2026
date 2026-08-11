@@ -1,0 +1,834 @@
+raw,cluster_id,category
+critical thinking,7,AI Ethics and Critical Thinking
+prompt engineering,0,Prompt Engineering
+code review,1,Code Review
+testing,5,Testing Skills
+debugging,4,AI Literacy
+software architecture,2,Software Engineering Skills
+patience,4,AI Literacy
+software engineering,2,Software Engineering Skills
+scepticism,8,Skepticism
+domain knowledge,9,Domain Knowledge
+discipline,3,Software Development Skills
+experience,4,AI Literacy
+domain expertise,9,Domain Knowledge
+communication,3,Software Development Skills
+skepticism,8,Skepticism
+programming,1,Code Review
+problem solving,3,Software Development Skills
+programming skills,1,Code Review
+curiosity,4,AI Literacy
+attention to detail,3,Software Development Skills
+software development,2,Software Engineering Skills
+software design,2,Software Engineering Skills
+programming knowledge,1,Code Review
+documentation,9,Domain Knowledge
+architecture,2,Software Engineering Skills
+common sense,3,Software Development Skills
+caution,4,AI Literacy
+transparency,3,Software Development Skills
+code understanding,1,Code Review
+system design,2,Software Engineering Skills
+prompting,0,Prompt Engineering
+fact checking,5,Testing Skills
+llm knowledge,4,AI Literacy
+previous coding experience,1,Code Review
+coding,1,Code Review
+knowledge of software,2,Software Engineering Skills
+reviewing,5,Testing Skills
+critical reading,7,AI Ethics and Critical Thinking
+understanding its limitations,9,Domain Knowledge
+design patterns,2,Software Engineering Skills
+code reviewing,1,Code Review
+pensamiento crítico,7,AI Ethics and Critical Thinking
+humility,3,Software Development Skills
+restraint,4,AI Literacy
+overview on available tools,9,Domain Knowledge
+clear communication,3,Software Development Skills
+critical thinking and reasoning,7,AI Ethics and Critical Thinking
+multitasking,4,AI Literacy
+software development skills,2,Software Engineering Skills
+review,4,AI Literacy
+knowledge,4,AI Literacy
+ai ethics,7,AI Ethics and Critical Thinking
+devops,4,AI Literacy
+planning,3,Software Development Skills
+reading code,1,Code Review
+test the answers generative ai gives with something that is not ai - ai cannot approve ai,6,AI Oversight Skills
+debugging/code review,1,Code Review
+project planning,3,Software Development Skills
+being able to explain the problem succinctly and clearly,6,AI Oversight Skills
+understand the code it writes.,3,Software Development Skills
+rigour,4,AI Literacy
+need to be already skilled in software development,3,Software Development Skills
+to be able to understand when not to use the output of generative ai.,2,Software Engineering Skills
+ability to be critical,7,AI Ethics and Critical Thinking
+deep understanding of code/problems that the ai is asked so solve,3,Software Development Skills
+code comprehension,1,Code Review
+need to be able to break down a task into subtasks that are comprehensible to the ai and testable by you,2,Software Engineering Skills
+need to know enough to understand what is generated line by line and to check if what is generated is both producing the correct result and taking a sensible approach,2,Software Engineering Skills
+solid understanding of software engineering,2,Software Engineering Skills
+be conservative and use it sparingly,6,AI Oversight Skills
+designing strong apis,9,Domain Knowledge
+not trusting the answers; treating like a fallible human pair programming partner,6,AI Oversight Skills
+same as without using generative ai - it is just an assistant so you need to know what it is doing,2,Software Engineering Skills
+the problem with ai is in telling ai what the problem is,6,AI Oversight Skills
+that is requirements definition.,3,Software Development Skills
+training of junior staff in the seemingly outdated modes of doing things. the model can only enhance what’s there,4,AI Literacy
+saber describir con precisión el objetivo científico los datos disponibles y  las restricciones metodológicas,0,Prompt Engineering
+conocimiento sólido de dominio para evaluar el código generado y validar resultados y supuestos,0,Prompt Engineering
+buenas prácticas de ingeniería de software,7,AI Ethics and Critical Thinking
+conciencia sobre ética y uso responsable de las herramientas de ia generativa,0,Prompt Engineering
+not having inflated expectations for productivity by management.,6,AI Oversight Skills
+a broad spectrum of skills including requirements gathering and analysis.,2,Software Engineering Skills
+the ability to recognise when the ai produces nonsence,6,AI Oversight Skills
+testeo y capacidad de crítica,7,AI Ethics and Critical Thinking
+robust ethics and guardrails,3,Software Development Skills
+legislative compliance,3,Software Development Skills
+resources to experiment (including time) and see what works,6,AI Oversight Skills
+particularly discovering new workflows.,6,AI Oversight Skills
+tool integration,9,Domain Knowledge
+unit testing,5,Testing Skills
+ci/cd,4,AI Literacy
+knowledge of how they work,9,Domain Knowledge
+programming knowledge for purpose of verification,3,Software Development Skills
+how to use them effectively,9,Domain Knowledge
+vorwissen um die ergebnisse beurteilen zu können,0,Prompt Engineering
+prompting-fähigkeiten,0,Prompt Engineering
+a critical mind set and patience.,7,AI Ethics and Critical Thinking
+lernen die richtigen fragen zu stellen? systemverständnis,0,Prompt Engineering
+domain knowlege,4,AI Literacy
+programming language knowledge,1,Code Review
+firm grasp of the programming language and its concepts,3,Software Development Skills
+otherwise you aren't able to review the generated code.,6,AI Oversight Skills
+problem formulation,9,Domain Knowledge
+using stuff efficiently while staying totally independent from bigtech,6,AI Oversight Skills
+none. research has show that pretty much everyone has the same skill with using llms regardless of how much practice they have. these tools have a dangerous combination of high failure rates and sounding authoritative that makes them potentially dangerous to use without a ton of care that most people won't do,4,AI Literacy
+they shouldn't be used,6,AI Oversight Skills
+will make things worse,6,AI Oversight Skills
+training,4,AI Literacy
+choose the right ai,4,AI Literacy
+check and debug final code,1,Code Review
+correct prompting,0,Prompt Engineering
+integration,4,AI Literacy
+licensing,4,AI Literacy
+dependency management,3,Software Development Skills
+testing techniques,5,Testing Skills
+ai agent management,3,Software Development Skills
+the ability to pose the right question or task and to critically analyze the results for accuracy and appropriateness.,2,Software Engineering Skills
+understanding of tools and governance of data,3,Software Development Skills
+improved understanding of ethical and legal considerations,6,AI Oversight Skills
+tbd - still evolving,4,AI Literacy
+understanding the relevant subjects well enough to detect / suspect errors etc.,2,Software Engineering Skills
+healthy skepticism,8,Skepticism
+critical assessment of code/code review,1,Code Review
+software testing and quality assurance; developing and enforcing quality standards and practices; developing sound security and privacy practices,2,Software Engineering Skills
+reviewing skills,5,Testing Skills
+you need to be a good sw engineer/architect and can make decission what is good or bad,2,Software Engineering Skills
+to avoid the ai produces technical debt instead of realy helping.,6,AI Oversight Skills
+promting,0,Prompt Engineering
+skepsis,8,Skepticism
+self-esteem,4,AI Literacy
+gute promts schreiben,7,AI Ethics and Critical Thinking
+minimal understanding of software development workflows,2,Software Engineering Skills
+basic programming knowledge,1,Code Review
+critical thinking and fact checking,7,AI Ethics and Critical Thinking
+solid technical foundations (including staying up to date),3,Software Development Skills
+using ai as a sparring partner rather than as someone doing the work,6,AI Oversight Skills
+good knowledge of the topic,3,Software Development Skills
+good understanding of the whole system,3,Software Development Skills
+good basic knowledge of programming and requirement for the specific field (e.g. geospatial),2,Software Engineering Skills
+understanding how to check correctness of its code completion suggestions. in my experience its first answer is right 70-80% of the time.,4,AI Literacy
+analytic skills,4,AI Literacy
+understanding of programming language used,3,Software Development Skills
+software engineering skills,2,Software Engineering Skills
+you still need to understand whether suggestions/generated code are correct,6,AI Oversight Skills
+efficient and suitable for the current task.,6,AI Oversight Skills
+strong foundational skills and knowledge,9,Domain Knowledge
+owning and taking responsibility for produced software,3,Software Development Skills
+persistence,4,AI Literacy
+proper understanding of problem,3,Software Development Skills
+requirement analysis,9,Domain Knowledge
+basic understanding of research field the software is made for,3,Software Development Skills
+data management,3,Software Development Skills
+formulation de requêtes,7,AI Ethics and Critical Thinking
+vertiefte programmierkenntnisse,7,AI Ethics and Critical Thinking
+moral sense,3,Software Development Skills
+work organization,3,Software Development Skills
+work ethics,3,Software Development Skills
+ai-literacy,4,AI Literacy
+practice,4,AI Literacy
+critical thinking. not everything that generative ai spits out makes sense. some knowledge of the work is needed to determine if the result is viable or not. personally not a fan of generative ai and avoid using it as much as i can.,4,AI Literacy
+konzeptionelles verständnis von diversen techniken und tools,0,Prompt Engineering
+die einem die ki ausspuckt,0,Prompt Engineering
+um bewerten zu können,7,AI Ethics and Critical Thinking
+was gut ist und was nicht. das zusammenfassen und kürzen exzessiver,0,Prompt Engineering
+wortreicher ki-ausgaben bevor man diese an kolleg:innen weitergibt oder seiner dokumentation hinzufügt.,0,Prompt Engineering
+be aware that ai is not smart,6,AI Oversight Skills
+is not able to think for you,6,AI Oversight Skills
+and must not be used to directly generate critical parts of software or documents,6,AI Oversight Skills
+testing testing testing!,5,Testing Skills
+sich mit der inhärenten unzuverlässigkeit von sprachmodellen kritisch auseinanderzusetzen und einzusehen,0,Prompt Engineering
+dass sie zur code-generierung untauglich sind.,0,Prompt Engineering
+general knowledge of common problems in code/scripts,3,Software Development Skills
+being able to write clear requirements,3,Software Development Skills
+computational thinking,7,AI Ethics and Critical Thinking
+understanding of testing,5,Testing Skills
+at least as good knowledge of coding as the ai,3,Software Development Skills
+have a good understanding of the task that is asked to the llm so you understand when it gets off track,2,Software Engineering Skills
+comprehensive understanding of everything ai produced; multi-language experience; review and text creation experience,2,Software Engineering Skills
+knowledge of design patterns,2,Software Engineering Skills
+strong quality assurance,5,Testing Skills
+be aware of newest features in the ai community,6,AI Oversight Skills
+understanding how to test prototype code,1,Code Review
+understanding of at least one programming language in depth,3,Software Development Skills
+actual software engineering skills,2,Software Engineering Skills
+generative ais are good for prototyping fast,6,AI Oversight Skills
+but they cannot every understand the context of where the software will be used,6,AI Oversight Skills
+this requires careful design through software development/engineering designs.,2,Software Engineering Skills
+quick reading,4,AI Literacy
+critical sense,7,AI Ethics and Critical Thinking
+notion of basic security caveats,9,Domain Knowledge
+knowledge about hpc,9,Domain Knowledge
+knowledge about cloud platforms,9,Domain Knowledge
+mastering version control system,2,Software Engineering Skills
+remembering that they are a tool not a black box solution - 'human in the loop' (https://www.phoronix.com/news/llvm-human-in-the-loop),2,Software Engineering Skills
+reading/writing,7,AI Ethics and Critical Thinking
+time management,3,Software Development Skills
+data privacy,3,Software Development Skills
+resilience against hypes,4,AI Literacy
+how to review of ai generated code,1,Code Review
+which models to use and when and why (i.e how to choose).,6,AI Oversight Skills
+understanding the objectives of the development.,3,Software Development Skills
+understanding the context and the domain the code will be used for. in software engineering,2,Software Engineering Skills
+there is no one-size-fits-all (my honest opinion),6,AI Oversight Skills
+knowledge about the prompted subject,0,Prompt Engineering
+brainstorming techniques,7,AI Ethics and Critical Thinking
+experience in software engineering to steer ai agents and to check results.,2,Software Engineering Skills
+je,7,AI Ethics and Critical Thinking
+ne,7,AI Ethics and Critical Thinking
+sais,7,AI Ethics and Critical Thinking
+pas,7,AI Ethics and Critical Thinking
+trial and error,4,AI Literacy
+need to already be an expert with a clear idea and understanding how it should be done. also very high ability to clearly and consisely formulate problems and tasks,4,AI Literacy
+good experience in software development,3,Software Development Skills
+core knowledge of the language in question and design thinking. i increasingly have to spend my time fixing up code that researchers develop rapidly using genai,4,AI Literacy
+where the researchers can't explain the design,6,AI Oversight Skills
+which makes it very difficult to reason about,6,AI Oversight Skills
+extend,4,AI Literacy
+debug,4,AI Literacy
+generative ai isn't useful or necessary,6,AI Oversight Skills
+this is an inappropriately leading question.,6,AI Oversight Skills
+top level technical skills to critically integrate and review the code provided by the ai,2,Software Engineering Skills
+knowing when to step in yourself,3,Software Development Skills
+"just basically being a responsible senior for the ai ""junior""",6,AI Oversight Skills
+openness to new technologies,9,Domain Knowledge
+willingness to experiment,4,AI Literacy
+basic understanding of code,1,Code Review
+basic understanding of prompting,0,Prompt Engineering
+basic understanding of research,9,Domain Knowledge
+(read fast,4,AI Literacy
+get to the point,4,AI Literacy
+don't be afraid of the tool and see through the fluff),6,AI Oversight Skills
+generating technical documentation,9,Domain Knowledge
+experience and knowledge in language your asking it to code in,3,Software Development Skills
+as well as the applications it's developing a program for.,2,Software Engineering Skills
+understanding the basics of gen ai,9,Domain Knowledge
+using it only as a basis always recheck the generated output and refine manually,6,AI Oversight Skills
+crittically questioning the output of ai,6,AI Oversight Skills
+actually still understanding the code,1,Code Review
+and being able to reason with it,6,AI Oversight Skills
+basic dev skills,9,Domain Knowledge
+thinking for one self instead of searching for easy generated answered,6,AI Oversight Skills
+knowing the coding language,1,Code Review
+knowing how to run a code and debug it,1,Code Review
+knowing the expected results or at least have standard tests,6,AI Oversight Skills
+like git you need to first be able to do it yourself. you need to be skilled in problem solving scouring slack finding solutions and you need to understand clean code concepts and things like object oriented programming or functional etc. best practices.,4,AI Literacy
+self scepticism,8,Skepticism
+it skills must already exist in order to understand code quality,3,Software Development Skills
+which ai does. i would never just adopt the code as it is. architecture in particular is not good per se.,6,AI Oversight Skills
+being thorough and sceptical to accept any answer,8,Skepticism
+detect on time the hallucination of ai,6,AI Oversight Skills
+ability to evaluate output of llms,6,AI Oversight Skills
+which,4,AI Literacy
+ironically,4,AI Literacy
+reduces to being basically equivalent to my entire skillset,6,AI Oversight Skills
+coding and understanding what ai has done.,3,Software Development Skills
+understanding of limitations / error modes of underlying models. experience of using models within their wider operational frameworks in real development or writing workflows.,2,Software Engineering Skills
+scientific rigour,4,AI Literacy
+carefulness,3,Software Development Skills
+right incentives for quality,9,Domain Knowledge
+not quantity,4,AI Literacy
+ability to set up integrative workflow,3,Software Development Skills
+knowledge of software engineering,2,Software Engineering Skills
+ability to write and test software rigorously,3,Software Development Skills
+understanding of its limitations,9,Domain Knowledge
+coding ability to understand what it produces,3,Software Development Skills
+you need to already be a good well rounded developer,3,Software Development Skills
+quality control,3,Software Development Skills
+software desifn,2,Software Engineering Skills
+fundamental knowledge about generative ai and its limitation,9,Domain Knowledge
+when to use,4,AI Literacy
+when to not use,6,AI Oversight Skills
+how to prompt well,0,Prompt Engineering
+how to verify code,1,Code Review
+knowledge of the models limits,9,Domain Knowledge
+ability to withstand and enjoy a lot more code review!,1,Code Review
+logic,4,AI Literacy
+analytics,3,Software Development Skills
+i have found using genai for anything beyond simple tasks frustrating and counter productive. the tool need to get better before i would use them continuously,4,AI Literacy
+critical thinking and understanding of the code,7,AI Ethics and Critical Thinking
+die fähigkeiten sind die selben wie für das effiziente entwickeln von software generell. man braucht vor allem ein solides verständnis im requirements engineering und muss diese vermitteln können (egal ob einem bot,0,Prompt Engineering
+einem mitarbeiter oder sich für sich selbst zur strukturierung der entwicklung).,0,Prompt Engineering
+knowledge of ai tools,9,Domain Knowledge
+how to use/prompt ai tools efficiently,0,Prompt Engineering
+how to use ai-generated results efficiently and safely,6,AI Oversight Skills
+quality assurance,5,Testing Skills
+verification.,5,Testing Skills
+code safety structures,1,Code Review
+computer architecture,2,Software Engineering Skills
+operating systems,2,Software Engineering Skills
+prompt craftsmanship,0,Prompt Engineering
+communication skills,3,Software Development Skills
+there is no way to use generative ai effectively because it is a bluff machine,6,AI Oversight Skills
+knowledge of programming fundamentals,3,Software Development Skills
+knowledge of general code architecture,2,Software Engineering Skills
+reading skills,7,AI Ethics and Critical Thinking
+critical thinking skills,7,AI Ethics and Critical Thinking
+nowadays,4,AI Literacy
+using cli agents in a daily basis,9,Domain Knowledge
+for me,4,AI Literacy
+the most important skill is to know business rules and scientific concepts behind the architecture you are working to achieve. it is more important to understand concepts than technical details.,2,Software Engineering Skills
+actual development skills and classic se training. ai should be used as a tool,2,Software Engineering Skills
+not as a whole independent developer.,6,AI Oversight Skills
+good software development practices,2,Software Engineering Skills
+technical background,9,Domain Knowledge
+be critical,7,AI Ethics and Critical Thinking
+write good prompts,0,Prompt Engineering
+programming & development expertise,3,Software Development Skills
+analysis expertise,9,Domain Knowledge
+prompt-engineering,0,Prompt Engineering
+privacy and security expertise,3,Software Development Skills
+risk assessment,3,Software Development Skills
+broad knowledge of relevant principles to assess llm output quality,6,AI Oversight Skills
+kritisches hinterfragen,7,AI Ethics and Critical Thinking
+belohnungsaufschub und bereitschaft zu lernen obwohl 'die antwort' schon da ist (delayed gratification).,0,Prompt Engineering
+being able to reproduce ai-results,6,AI Oversight Skills
+being able to test ai-results,5,Testing Skills
+familiarity with domain and technology,9,Domain Knowledge
+writing tests to constrain generated code to correct behavior,1,Code Review
+code reviewing the generated code,1,Code Review
+attention to detail.,3,Software Development Skills
+research skills,4,AI Literacy
+logical reasoning (prompting),0,Prompt Engineering
+rigorous assessment (assessing generated solutions),6,AI Oversight Skills
+diligent testing,5,Testing Skills
+software engineering professional practices,2,Software Engineering Skills
+particularly devops/automated testing/tdd/bdd. spec based development looks interesting too.,4,AI Literacy
+sehr gute programmierkenntnisse,0,Prompt Engineering
+same as normal rs work,4,AI Literacy
+prompt engineering and code review / testing,0,Prompt Engineering
+to know when to use it and when not to,6,AI Oversight Skills
+good prompt engineering,0,Prompt Engineering
+how to phrase queries to get the answer you are looking for immediately,0,Prompt Engineering
+clear problem definition and cautious use of tools (to avoid hallucinations),6,AI Oversight Skills
+writing good prompts,0,Prompt Engineering
+identifying useless responses,6,AI Oversight Skills
+code refactoring skills,1,Code Review
+development without generative ai for a while.,6,AI Oversight Skills
+generative ai is useless and even actively detrimental to research software development.,4,AI Literacy
+same as now,4,AI Literacy
+ability to detect bullshit,3,Software Development Skills
+you can only produce quality code using generative ai if you know what quality code looks like. generated code in my experience is often of bad quality upon closer scrutiny. that is not to say that the tools themselves aren't useful,4,AI Literacy
+but they don't take away the skills that a research software developer currently must have.,2,Software Engineering Skills
+i hate generative ai with a passion,6,AI Oversight Skills
+it is a deeply destructive and immoral technology,6,AI Oversight Skills
+and i will do what i can to keep as far away from it as possible.,6,AI Oversight Skills
+to know how to code in the first place,3,Software Development Skills
+you still need coding skills yourself to determine whether or not the ai actually produces something meaningful,2,Software Engineering Skills
+conocimiento (aunque sea básico) del lenguaje/sistema relacionado con las preguntas,2,Software Engineering Skills
+knowing how to do the job without genai,6,AI Oversight Skills
+verständnis des softwareprojekts,0,Prompt Engineering
+you already need to know what you are doing,6,AI Oversight Skills
+ability to break a problem down into smaller problems,6,AI Oversight Skills
+solid algorithmic idea of what one wants to do,6,AI Oversight Skills
+reasonable grasp of the programming language (to use it safely),3,Software Development Skills
+understanding the scope of the software. communicate to the ai what the users need. understand the needs of the users and how they would like to benefit from the sofware.,2,Software Engineering Skills
+ai competencies,4,AI Literacy
+tieferes verständnis des gesamtcodes,0,Prompt Engineering
+um im prompt alle notwendigen bedingungen exakt definieren zu können und dann den generierten code hinsichtlich der wechselwirkung mit anderen teilen einschätzen zu können,0,Prompt Engineering
+all the ones that make a good software engineer,3,Software Development Skills
+sceptisism,8,Skepticism
+targeted use,4,AI Literacy
+understanding concepts of ai/llms and understanding the concepts of the technology/platformthe ai creates suggestions/solutions for,2,Software Engineering Skills
+critical thinking (as ever),7,AI Ethics and Critical Thinking
+if i only knew,4,AI Literacy
+a general understanding of the programming and not blind copy + execution of the code,3,Software Development Skills
+erfahrung,7,AI Ethics and Critical Thinking
+kritisches denken,7,AI Ethics and Critical Thinking
+learn to code.,1,Code Review
+documenting,3,Software Development Skills
+luck,4,AI Literacy
+descriptive,4,AI Literacy
+critical,7,AI Ethics and Critical Thinking
+fachwissen,7,AI Ethics and Critical Thinking
+coding competence,1,Code Review
+critical thinking/judgement,7,AI Ethics and Critical Thinking
+proper human testing,5,Testing Skills
+knowing how to protect source from genai slop,6,AI Oversight Skills
+verifikation und verständnis des generierten codes,0,Prompt Engineering
+clear prompting,0,Prompt Engineering
+buena base en ciencia de la computación/ criterio para diferenciar lo que es útil de lo que no,0,Prompt Engineering
+fundamental understanding of computational thinking and design,3,Software Development Skills
+savoir déjà coder!,7,AI Ethics and Critical Thinking
+be very aware of the things that get generated and double-check everything and test rigorously.,2,Software Engineering Skills
+ingeniería prompt,7,AI Ethics and Critical Thinking
+be an experienced software engineer,2,Software Engineering Skills
+know what you're doing even without the ai,6,AI Oversight Skills
+be able to thoroughly review the probably crappy but very plausible ai output,6,AI Oversight Skills
+be able to treat ai like a very junior dev,6,AI Oversight Skills
+code comprehension and validation,1,Code Review
+holistic understanding of the software project,3,Software Development Skills
+project scope awareness,3,Software Development Skills
+experience with generative ai tools and their failure modes,6,AI Oversight Skills
+ai is currently very useful to create algorithms,6,AI Oversight Skills
+datastructures and boilerplate code. it becomes more important to be vigilant for misconceptions that the ai makes,2,Software Engineering Skills
+taking more of a orchestrative approach. that said,6,AI Oversight Skills
+until ai can take over coding completely,1,Code Review
+we must not outsource all coding tasks to ai,6,AI Oversight Skills
+because the formalism of code helps us programmers to take important decisions and discover misconceptions. generally the job shifts to doing more design work and less coding. i use github copilot to write boilerplate code quickly and use chat to do reaearch on new areas and discuss ideas.,4,AI Literacy
+knowing its limitations,9,Domain Knowledge
+careful understanding of where this can be helpful,6,AI Oversight Skills
+where it is excessive and unnecessary or even dangerous,6,AI Oversight Skills
+eigene kenntnis und urteilsfähigkeit,0,Prompt Engineering
+strategic thinking,7,AI Ethics and Critical Thinking
+how to ensure you are solving the problem you want to solve,6,AI Oversight Skills
+a cirtical mind; good books or teachers in software architecture and software patterns; good books on robust software,2,Software Engineering Skills
+critical evaluation,7,AI Ethics and Critical Thinking
+digital sovereignty,3,Software Development Skills
+i am not sure,4,AI Literacy
+low-level understanding of computer architecture,2,Software Engineering Skills
+proper specification and testing,5,Testing Skills
+underlying understanding of the code,3,Software Development Skills
+the skill of deluding yourself that the genai is saving you time and/or effort,6,AI Oversight Skills
+programming experience to evaluate the results,3,Software Development Skills
+ability to effectively evaluate correctness and quality of generative ai outputs. effective interaction models for most effectively steering / specifying what you want the model to do.,4,AI Literacy
+good examples that shows possibilities and limitations. a careful attitude.,2,Software Engineering Skills
+qa and testing,5,Testing Skills
+no over-reliance,4,AI Literacy
+having time to do things properly,6,AI Oversight Skills
+research skills like investigating different solutions and weighing pros and cons,6,AI Oversight Skills
+understanding of llm capabilities,9,Domain Knowledge
+judgment,4,AI Literacy
+willingness to sacrifice using the hard earned skills that have already been learnt which will in turn atrophy.,4,AI Literacy
+general language knowledge,9,Domain Knowledge
+general computer science knowledge,9,Domain Knowledge
+most/all software engineering skills,2,Software Engineering Skills
+critical thinking and reviewing! basic technical knowlegde about concepts and structures in software!,2,Software Engineering Skills
+understanding of code ai writes,1,Code Review
+understanding how ai works,9,Domain Knowledge
+workflows that mitigate slop (e.g. manual review),6,AI Oversight Skills
+choosing energy-cheap models,9,Domain Knowledge
+knowing what tasks to delegate,9,Domain Knowledge
+one needs to know how to at least read code to effectively use ai tools.,2,Software Engineering Skills
+good engineering skill,9,Domain Knowledge
+durchblick,7,AI Ethics and Critical Thinking
+ambition,4,AI Literacy
+verständnis,7,AI Ethics and Critical Thinking
+programmieren,7,AI Ethics and Critical Thinking
+explaining well all important details,9,Domain Knowledge
+knowing how to configure with ai agents,9,Domain Knowledge
+keeping in mind privacy considerations,3,Software Development Skills
+prompting skills,0,Prompt Engineering
+understanding limitations,9,Domain Knowledge
+coding skills,1,Code Review
+reproducibilidad,7,AI Ethics and Critical Thinking
+understanding of easy to maintain code,3,Software Development Skills
+understanding of modular code design,1,Code Review
+ability to breakdown and understand complex projects,3,Software Development Skills
+critical thinking and problem solving,7,AI Ethics and Critical Thinking
+fairly strong programming background,3,Software Development Skills
+familiarity with common software terminology and trends,3,Software Development Skills
+programming experience,1,Code Review
+ability to read and review code,1,Code Review
+understanding prompting,0,Prompt Engineering
+understanding agentic coding,1,Code Review
+ability to assess code quality,1,Code Review
+integrity,3,Software Development Skills
+diligence,4,AI Literacy
+strong sense for detecting errors in generated code,3,Software Development Skills
+own expertise in software development,2,Software Engineering Skills
+limitations of said tools,9,Domain Knowledge
+critical examination of the results,7,AI Ethics and Critical Thinking
+design thinking,7,AI Ethics and Critical Thinking
+architectural thinking,2,Software Engineering Skills
+one needs to understand what ai does and where it is going to struggle (and what it doesn't do). where it struggles it can introduce errors but dress them up very convincingly.,2,Software Engineering Skills
+das wichtigste ist zu wissen wann man die ki nicht einsetzt.,0,Prompt Engineering
+software engineering (skilled/advanced),2,Software Engineering Skills
+programming (skilled/advanced),1,Code Review
+you have to be able to understand the code it generates and therefore be able to write it yourself. only if you still understand your code it is an actual productivity increase. better might be to not use ai to generate code but to ask how a problem could be solved and discuss as form of rubber ducky debugging,4,AI Literacy
+knowledge of connected services,9,Domain Knowledge
+technical & organisational constraints,9,Domain Knowledge
+domain knowledge; ai needs to be guided for basicially everything except for code generation,2,Software Engineering Skills
+programming experience to find flaws in the ai's output,6,AI Oversight Skills
+understanding for architectures,2,Software Engineering Skills
+appreciation of (automated) code testing,1,Code Review
+understanding what is right and what is wrong,6,AI Oversight Skills
+handle bad code from non programming people,1,Code Review
+handle backslash if people understand the limits of ai and starting to avoid it,6,AI Oversight Skills
+analysis,4,AI Literacy
+creative thinking,7,AI Ethics and Critical Thinking
+ai prompting and usage skills,0,Prompt Engineering
+fundamental software engineering knowledge,2,Software Engineering Skills
+offenheit gegenüber ki,7,AI Ethics and Critical Thinking
+zugriff auf qualitativ hochwertige llms,0,Prompt Engineering
+clean code,1,Code Review
+good judgement,4,AI Literacy
+technical prowess,4,AI Literacy
+avoid it.,6,AI Oversight Skills
+peer-review experience. doubt every paragraph.,2,Software Engineering Skills
+a fundamental understanding of what the code generated from these generative ai tools is still required to ensure that it is running accurately,2,Software Engineering Skills
+system architecture,2,Software Engineering Skills
+multi-lingual familiarity,9,Domain Knowledge
+design and analysis,9,Domain Knowledge
+trying to shelve concepts in your brain for later rather vs a results-oriented approach (both might be suitable for different scenarios),4,AI Literacy
+designing system architecture,2,Software Engineering Skills
+firm grasp on programming patterns,3,Software Development Skills
+excellent code reviewing skills,1,Code Review
+iterative development skills,9,Domain Knowledge
+basic understanding on llm stochasticity,9,Domain Knowledge
+basic understanding on llm context engineering,9,Domain Knowledge
+basic understanding on transformer attention models,9,Domain Knowledge
+deep understanding of the code it produces,3,Software Development Skills
+prompt engineering; critical evaluation and qa,0,Prompt Engineering
+the ability to actually code without ai.,2,Software Engineering Skills
+prompt creation,0,Prompt Engineering
+automated testing,5,Testing Skills
+clear understanding of anticipated code architecture,3,Software Development Skills
+be good at programming in the first place.,3,Software Development Skills
+previous-knowledge,4,AI Literacy
+code review and analysis,1,Code Review
+system design and architecture,2,Software Engineering Skills
+scalability,4,AI Literacy
+security/risk analysis,3,Software Development Skills
+high attention to detail,3,Software Development Skills
+enough knowledge to be able to check the generated information/code,3,Software Development Skills
+and critical thinking skills to determine if using ai is the correct choice.,2,Software Engineering Skills
+understanding of computer fundamentals,3,Software Development Skills
+good taste,4,AI Literacy
+a good foundation in software development is needed before using gai tools,3,Software Development Skills
+non-proprietary and privacy respecting tools that integrate with cli editors,6,AI Oversight Skills
+i would continue to avoid using generative ai for actual coding; generating test cases and updating documentation might be useful.,4,AI Literacy
+self-discipline about skill development,9,Domain Knowledge
+how to prompt is key,0,Prompt Engineering
+a strong vocabulary and understanding of computer science in the domain in which you work.,2,Software Engineering Skills
+code design,1,Code Review
+numerical methods,9,Domain Knowledge
+programming fundamentals,9,Domain Knowledge
+understanding the limitations of ai,9,Domain Knowledge
+understanding of hardware,9,Domain Knowledge
+write clear pseudocode,1,Code Review
+machine learning fundamentals,9,Domain Knowledge
+knowing when to use the tools; critcal assessment of the results,6,AI Oversight Skills
+ability to effectively communicate requirements in writting english,3,Software Development Skills
+learning toolchains to add context (e.g. user docs) to the ai so they can give better answers,6,AI Oversight Skills
+the ability to write good prompts and evaluate the material that ai returns for accuracy and appropriateness for the task at hand,2,Software Engineering Skills
+how to organize and unionize,3,Software Development Skills
+how to transition to democratic socialism,9,Domain Knowledge
+debugging tool basics,9,Domain Knowledge
+and design patterns,9,Domain Knowledge
+detail orientation,3,Software Development Skills
+test design,5,Testing Skills
+conocimiento previo de ingeniería de software,7,AI Ethics and Critical Thinking
+understanding the cost/benefits of its use,6,AI Oversight Skills
+setting up environment and context correctly,9,Domain Knowledge
+i am not interested in using it,6,AI Oversight Skills
+prompt engineering and llm architecture build ( transformer module: encodio & decoding),0,Prompt Engineering
+apropiada integracion con ides. pront engineering.,7,AI Ethics and Critical Thinking
+deep theoretical understanding of ml/ai,9,Domain Knowledge
+you need to know how to write good code in that language on your own; effective use of tests; ability to understand and review code that is generated; ability to multi-task,2,Software Engineering Skills
+knowledge about your own project and your technologies,3,Software Development Skills
+strategy,3,Software Development Skills
+you need to be a professional software engineer first in order to get professional results out of the chatbot.,2,Software Engineering Skills
+management,3,Software Development Skills
+trust/ethical assurance,3,Software Development Skills
+solid background in system design/architecture,2,Software Engineering Skills
+breadth+depth in multiple ecosystems,9,Domain Knowledge
+and critical thinking ability re selecting best tools for the job,7,AI Ethics and Critical Thinking
+software patterns,2,Software Engineering Skills
+software architectures,2,Software Engineering Skills
+language basics,9,Domain Knowledge
+some understanding of the function and limitations of llms,6,AI Oversight Skills
+complete avoidance. llm-generated code is frequently non-functional,6,AI Oversight Skills
+unclear,4,AI Literacy
+and misunderstood by those who generate it. this ultimately generates additional work,2,Software Engineering Skills
+since you now not only have poor-quality code,6,AI Oversight Skills
+but also very little context for why it was designed in a particular way.,6,AI Oversight Skills
+experienced in programming,3,Software Development Skills
+debugging code,1,Code Review
+profiling,4,AI Literacy
+incremental development,9,Domain Knowledge
+expertise,4,AI Literacy
+review code / docs and other outputs,1,Code Review
+good software dev skills to double check/guide ai,6,AI Oversight Skills
+senior rse skills,4,AI Literacy
+you need to know how to program,3,Software Development Skills
+criticism to ai answers,7,AI Ethics and Critical Thinking
+ability to digest answers to get reaqsonable information,6,AI Oversight Skills
+architecture knowledge,2,Software Engineering Skills
+procedural thinking,7,AI Ethics and Critical Thinking
+ability to distil the true requirements from unstructured descriptions,6,AI Oversight Skills
+good understanding of the problem,3,Software Development Skills
+ability to tell plausible output from correct output,6,AI Oversight Skills
+formal proof assistant languages,5,Testing Skills
+effective prompt writing,0,Prompt Engineering
+organization,3,Software Development Skills
+know in advance what result you want and have an idea how you want to do it. (knowing architecture,2,Software Engineering Skills
+algorithms,4,AI Literacy
+datatypes before you start coding),1,Code Review
+accurate communication with the ai,3,Software Development Skills
+project management,3,Software Development Skills
+formal validation methods,5,Testing Skills
+system architecture planning,2,Software Engineering Skills
+being organized,3,Software Development Skills
+awareness of environmental impact,3,Software Development Skills
+discernment,4,AI Literacy
+understanding the codebase being targeted sufficiently well to critically evaluate generated output,2,Software Engineering Skills
+algorithms and data structures,9,Domain Knowledge
+anything cognitive,4,AI Literacy
+development experience. i'm at least able to read and debug and follow the code that is generated. i suspect junior devs aren't ever going to pick up that experience,4,AI Literacy
+system design experience,2,Software Engineering Skills
+close inspection and knowledge of how to do it without ai,6,AI Oversight Skills
+technical framework,9,Domain Knowledge
+best practices,9,Domain Knowledge
+all se skills are necessary because you have to be able to assess the information that is generated and trim it down,2,Software Engineering Skills
+i.e. only take the code that is really necessary.,2,Software Engineering Skills
+abstract thinking,7,AI Ethics and Critical Thinking
+ability to formalize a problem/task,6,AI Oversight Skills
+best practice training,9,Domain Knowledge
+ability to understand problems in a wider context,3,Software Development Skills
+product vision,3,Software Development Skills
+active knowlede,4,AI Literacy
+ai needs to be better at doing complex tasks,6,AI Oversight Skills
+an ability to remain connected to reality rather than falling into psychosis while having all of ones primary interactions be with a machine. an ability to understand the kind of errors a multi-terabyte statistical language model can make in software,4,AI Literacy
+and recognise these when they occur even when the models are hyper-optimised for producing output that looks plausible to human eyes.,2,Software Engineering Skills
+"""actual skills""",4,AI Literacy
+"""fundamental knowledge""",9,Domain Knowledge
+convincing stakeholders the need for rses in the genai loop,6,AI Oversight Skills
+problem decomposition,9,Domain Knowledge
+strong programming fundamentals,3,Software Development Skills
+senior-level software engineering skills,2,Software Engineering Skills
+comunicación,7,AI Ethics and Critical Thinking
+honestidad profesional,7,AI Ethics and Critical Thinking
+transparencia,7,AI Ethics and Critical Thinking
+having valid data in hands and asking correct questions.,2,Software Engineering Skills
+building mcp tools,9,Domain Knowledge
+building custom gpts,9,Domain Knowledge
+fastidious commitment to reviewing and understanding the output of ai tools,2,Software Engineering Skills
+be able to understand the suggestions before applying them,6,AI Oversight Skills
+bessere konzepte für testing,0,Prompt Engineering
+adaptability,4,AI Literacy
+verstehen des erzeugten codes,0,Prompt Engineering
+um diesen bewerten zu können und logikfehler zu finden,0,Prompt Engineering
+ask the right questions,0,Prompt Engineering
+interpret the results sceptically,8,Skepticism
+project managment,3,Software Development Skills
+validation testing,5,Testing Skills
+ai literacy and foundations for use,9,Domain Knowledge
+ai ethics course,3,Software Development Skills
+environmental consequences,3,Software Development Skills
+moral understanding,3,Software Development Skills
+ability to check and modify proposed solutions,6,AI Oversight Skills
+avoid code bloat and repetition,1,Code Review
+understanding important concepts,9,Domain Knowledge
+taste,4,AI Literacy
+the ability to look the other way,7,AI Ethics and Critical Thinking
+critical thinking and inhibition (to not continue the negative slope when the ai doesn't find what you want),6,AI Oversight Skills
+general understaning of coding. prompting experience. common sense. concentration. real world experience.,2,Software Engineering Skills
+be a proficient software developer,2,Software Engineering Skills
+be tool-curious,4,AI Literacy
+and advanced understanding of the generated code and its concepts,3,Software Development Skills
+stop and think,7,AI Ethics and Critical Thinking
+reflect,4,AI Literacy
+indifference about social and ecological impacts,6,AI Oversight Skills
+much stronger software architecture skills,2,Software Engineering Skills
+stronger skills in restricting the ai to produce code of wanted quality or architecture (e.g. using interfaces (rust traits) and tests).,2,Software Engineering Skills
+abstraktionsfähigkeit,7,AI Ethics and Critical Thinking
+exzellentes prompting,7,AI Ethics and Critical Thinking
+hohe disziplin beim prüfen des codes,0,Prompt Engineering
+coding in the first place,1,Code Review
+understanding field of application even more,9,Domain Knowledge
+broad expertise in software development/software architecture,2,Software Engineering Skills
+experioence,4,AI Literacy
+core development skills,9,Domain Knowledge
+especially the patience for reviewing,5,Testing Skills
+deeper test coverage,5,Testing Skills
+basic coding knowledge,1,Code Review
+critical mindset,7,AI Ethics and Critical Thinking
+domain knowledge: without knowing and understanding the science - including the technical aspects - generative ai is risky; critical thinking,2,Software Engineering Skills
+knowledge of the tasks,9,Domain Knowledge
+knowledge of the right ai tools,9,Domain Knowledge
+understanding the code it generates and interfere when it is not up to a certain standard,2,Software Engineering Skills
+technical skills related to the scientific field of the project,3,Software Development Skills
+ethische klarheit um ki abzulehnen,0,Prompt Engineering
+formulating will contained tasks,9,Domain Knowledge
+understanding how they work on a fundamental level.,3,Software Development Skills
+gen-ai is a powerful tool for a developer with a solid foundational skill set. it is a dangerous crutch and time sink for others.,4,AI Literacy
+project management skills,3,Software Development Skills
+knowing what you're doing enough to actually be able to check if the code it wrote is correct,2,Software Engineering Skills
+need to already have solid knowledge of coding to assess ai output for correctness,2,Software Engineering Skills
+motivation to learn,9,Domain Knowledge
+good base knowledge to spot halucinations/innefficencies,6,AI Oversight Skills
+preexistent and robust software development experience,2,Software Engineering Skills
+basic understanding of the math behind how llms work,9,Domain Knowledge
+critical eye on the result,7,AI Ethics and Critical Thinking
+background understanding of the use case,9,Domain Knowledge
+inquisitive mind,7,AI Ethics and Critical Thinking
+some working knowledge of the problem statement and technical language; for many problems,2,Software Engineering Skills
+generative ai cannot be used out of the box without knowledgable review,6,AI Oversight Skills
+accurate prompt definitions; security analysis; code validation,0,Prompt Engineering
+detailed and clear prompting,0,Prompt Engineering
+understanding how ai analyses and responds to prompts,0,Prompt Engineering
+but i think most developers have these skills,3,Software Development Skills
+fundametal understanding of the task,9,Domain Knowledge
+strong background in programming,3,Software Development Skills
+experience of knowing when something is wrong,6,AI Oversight Skills
+effective testing,5,Testing Skills
+knowing how to ensure your code is of good quality,3,Software Development Skills
+knowing how to edit your code so there is no original research left in it before you use it in a prompt,4,AI Literacy
+knowing what uses of ai are allowed in a phd programme,6,AI Oversight Skills
+knowing what your actual issue/question is,6,AI Oversight Skills
+strong communication skills like writing in a clear and detailed manner and reading and understanding the work of another mind which happens to be artificial,4,AI Literacy
+understanding the general problem in the first place,3,Software Development Skills
+knowing how to prompt the llms,0,Prompt Engineering
+understanding that these models find the average/typical solutions and should not be used as an end all be all option for solving any problems or answering your questions in full.,2,Software Engineering Skills
+understanding it's limitations,9,Domain Knowledge
+software archtecture and design,2,Software Engineering Skills
+understanding of the technology the ai is producing output for.,2,Software Engineering Skills
+research domain knowledge! and software skills that don't involve code: software design,2,Software Engineering Skills
+knowing when it is wrong,6,AI Oversight Skills
+knowing what questions to ask,0,Prompt Engineering
+testing ai's limits,5,Testing Skills
+you still need to understand the code and what you want the code to do,2,Software Engineering Skills
+skills in how gen ai can be wrong and how to double check it,6,AI Oversight Skills
+fundamental understanding of programming,3,Software Development Skills
+pros and cons of llms,6,AI Oversight Skills
+understanding the tech stack that is being used,3,Software Development Skills
+ability to think critically - similar to knowing how/when to use a stackoverflow answer,7,AI Ethics and Critical Thinking
+an understanding of the domain problem,9,Domain Knowledge
+knowing what are the possilbe option to know when a suggestion is terrible,6,AI Oversight Skills
+ability to suggest the appropriate tech stack and packages.,2,Software Engineering Skills
+high-level software design,2,Software Engineering Skills
+and taste. product design,4,AI Literacy
+ux,4,AI Literacy
+large existing knowledge base,9,Domain Knowledge
+bullshit detector,3,Software Development Skills
+verifying sources,5,Testing Skills
+actually understanding and not blindl copying,6,AI Oversight Skills
+read software,2,Software Engineering Skills
+evaluate software quality,2,Software Engineering Skills
+knowing when they're the wrong tool for the job,6,AI Oversight Skills
+a good understanding of the languages and tools being used,3,Software Development Skills
+understanding software architecture best practices. system level design. debugging.,2,Software Engineering Skills
+tener altos conocimientos de ingenieria de software y una conceptualización clara de las tecnologías,2,Software Engineering Skills
+moral bankruptcy,3,Software Development Skills
+imagination,4,AI Literacy
+validation,5,Testing Skills
+solid understanding of programming principles; ability to read and understand code,3,Software Development Skills
+developing proper configuration files,2,Software Engineering Skills
+test generation,5,Testing Skills
+proper monitoring and feedback to llm,6,AI Oversight Skills
+software testing,5,Testing Skills
+a skeptical nature,8,Skepticism
+selber zu denken,7,AI Ethics and Critical Thinking
+general concepts of software engineering,2,Software Engineering Skills
+formal software engineering training,2,Software Engineering Skills
+understanding of domain research,9,Domain Knowledge
+software development skills (version control,2,Software Engineering Skills
+management). ability to understand information sources,3,Software Development Skills
+which requires research and programming skills.,2,Software Engineering Skills
+you need to be critical of what it outputs,6,AI Oversight Skills
+and have to also understand the problem you're trying to make it solve for you,2,Software Engineering Skills
+programming(!),1,Code Review
+impulse control,3,Software Development Skills
+sound scepticism!,8,Skepticism
+testing ai generated output,5,Testing Skills
+time-management,3,Software Development Skills
+agent management,3,Software Development Skills
+software design principles,2,Software Engineering Skills
+restraint. limit ai use since it's extremely easy to overuse it resulting in low quality code,4,AI Literacy
+fundamental knowledge about research software dev,3,Software Development Skills
+structured prompting,0,Prompt Engineering
+ciritical thinking,7,AI Ethics and Critical Thinking
+proper prompting; understanding of llms; proper knowledge of programming languages,0,Prompt Engineering
+the ability to actually understand and test what generative models produce,2,Software Engineering Skills
+understanding and familiarizing yourself with the principles and basics of software development,3,Software Development Skills
+proper understanding of the project you are trying to build. good understanding of the ability and limitations of genai. proficiency in tools that streamline the development process of genai use. proficiency in designing automated tests. being able to clearly define what a project should do. knowing how to choose the right model/agent for the task.,4,AI Literacy
+software project management,2,Software Engineering Skills
+prompt enigneering,7,AI Ethics and Critical Thinking
+gen ai has no place in research which is ultimately about increasing human knowledge - at least one human should understand each step.,4,AI Literacy
+code fluency,1,Code Review
+architechture understanding,9,Domain Knowledge
+challenging ai produced plans and code,1,Code Review
+an interrogative mindset,7,AI Ethics and Critical Thinking
+etica,7,AI Ethics and Critical Thinking
+decisión,7,AI Ethics and Critical Thinking
+valor de la herramienta,7,AI Ethics and Critical Thinking
+"reading/using with a ""critical"" lense",7,AI Ethics and Critical Thinking
+following up with learning/research,9,Domain Knowledge
+keeping up to date on genai tools,6,AI Oversight Skills
+sceptisisim,8,Skepticism
+language expertise,9,Domain Knowledge
+pentesting,4,AI Literacy
+ability to ask ai the right questions,0,Prompt Engineering
+lesen,7,AI Ethics and Critical Thinking
+aufmerksamkeitsspanne,7,AI Ethics and Critical Thinking
+architekturverständnis,0,Prompt Engineering
+you would still need to have solid understanding of the software development process and architecture. with models you can only improve the gap you know you are missing. often models don't automatically improve the gap you don't know you are missing.,4,AI Literacy
+understand security issues that can arise. software engineering and architecture are still prerequisites,2,Software Engineering Skills
+without them,4,AI Literacy
+vibe-coders are working blindly and introduce terrible mistakes,6,AI Oversight Skills
+strong data engineering fundamentals,9,Domain Knowledge
+understanding of how parts go together,9,Domain Knowledge
+understanding of flow to get most out of tools,3,Software Development Skills
+understanding of what ai is attempting to do,6,AI Oversight Skills
+understanding of basics,9,Domain Knowledge
+research methodology,9,Domain Knowledge
+einschätzung und prüfung des code,0,Prompt Engineering
+knowing how to set up a blocklist to filter ai-generated pages from search results,6,AI Oversight Skills
+in general,4,AI Literacy
+you have to already have some development experience / know what you're doing to be able to use these tools effectively. otherwise you won't be able to spot mistakes or critically review their outputs.,4,AI Literacy
+understanding of ai fundamentals to make best use of the tool and know biases/flaws,2,Software Engineering Skills
+code design and srchitecture skills,2,Software Engineering Skills
+writing good specs,9,Domain Knowledge
+wissenschaftlich-kritische reflexionsfähigkeit,0,Prompt Engineering
+nachhaltigkeitsbewusstsein,7,AI Ethics and Critical Thinking
+technisches verständnis,7,AI Ethics and Critical Thinking
+frustrationstoleranz,4,AI Literacy
+selbstwertgefühl,7,AI Ethics and Critical Thinking
+ethikbewusstsein,7,AI Ethics and Critical Thinking
+projektmanagementfähigkeiten,0,Prompt Engineering
+generating permanent facts/skills to be reused between conversations,6,AI Oversight Skills
+local inference (ideally on device but smth similar to gwdg would be okay too),6,AI Oversight Skills
+a good background understanding,9,Domain Knowledge
+an ability to critic answers,7,AI Ethics and Critical Thinking
+that's really hard - we are only just learning about it.,6,AI Oversight Skills
+if used well by experts then i believe it is a powerful tool.,2,Software Engineering Skills
+if used blindly then it is full of dangers.,6,AI Oversight Skills
+critical evaluation of ai-generated outputs,6,AI Oversight Skills
+software design and architecture fundamentals.,2,Software Engineering Skills
+creo que hay que saber las bases primero,7,AI Ethics and Critical Thinking
+tanto sobre el tema que estamos investigando como de programación,0,Prompt Engineering
+eso permite usar estas herramientas de manera efectiva.,7,AI Ethics and Critical Thinking
+dealing with ai slop bug reports,6,AI Oversight Skills
+using mcp to integrate into existing systems,9,Domain Knowledge
+discriminación de código,7,AI Ethics and Critical Thinking
+ejecución de lógica,7,AI Ethics and Critical Thinking
+entendimiento de la problemática,7,AI Ethics and Critical Thinking
+análisis crítico.,7,AI Ethics and Critical Thinking
+criticism,4,AI Literacy
+tests,5,Testing Skills
+the ability to not use them :),6,AI Oversight Skills
+creativity,4,AI Literacy
+accurate prompts,0,Prompt Engineering
+code lesen und eigenständig bewerten - was sich leider durch massive nutzung von ki schwerer (weniger oft) lernen lässt.,0,Prompt Engineering

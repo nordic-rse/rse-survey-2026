@@ -1,0 +1,24 @@
+### How frequently do you use generative AI tools in your RSE-related tasks (e.g., coding, documentation, testing, or design)? (Germany, N=201)
+
+| age_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Under 35 | Daily | 21 | 30.4 | 69 |
+| Under 35 | Weekly | 25 | 36.2 | 69 |
+| Under 35 | Monthly | 6 | 8.7 | 69 |
+| Under 35 | Rarely (a few times a year) | 11 | 15.9 | 69 |
+| Under 35 | Never | 6 | 8.7 | 69 |
+| 35-44 | Daily | 23 | 28.0 | 82 |
+| 35-44 | Weekly | 30 | 36.6 | 82 |
+| 35-44 | Monthly | 6 | 7.3 | 82 |
+| 35-44 | Rarely (a few times a year) | 12 | 14.6 | 82 |
+| 35-44 | Never | 11 | 13.4 | 82 |
+| 45-54 | Daily | 9 | 25.0 | 36 |
+| 45-54 | Weekly | 11 | 30.6 | 36 |
+| 45-54 | Monthly | 7 | 19.4 | 36 |
+| 45-54 | Rarely (a few times a year) | 2 | 5.6 | 36 |
+| 45-54 | Never | 7 | 19.4 | 36 |
+| 55+ | Weekly | 5 | 35.7 | 14 |
+| 55+ | Rarely (a few times a year) | 6 | 42.9 | 14 |
+| 55+ | Never | 3 | 21.4 | 14 |
+
+![How frequently do you use generative AI tools in your RSE-related tasks (e.g., coding, documentation, testing, or design)? (N=201)](../_artifacts/genAI1_0/by_age.png?v=5ab6dcb1c2)

@@ -1,0 +1,6 @@
+category,n,pct
+The developers do their own testing,39,78.0
+Automated testing with continuous integration,32,64.0
+No formal testing but users provide feedback,17,34.0
+No formal testing,7,14.0
+Test engineers conduct testing,4,8.0

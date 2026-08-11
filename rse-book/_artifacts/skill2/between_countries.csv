@@ -1,0 +1,30 @@
+country_group,category,n,pct,N
+Germany,Coding And Development,44,36.7,120
+Germany,Project Management,37,30.8,120
+Germany,Soft Skills And Collaboration,37,30.8,120
+Germany,Software Architecture And Design,29,24.2,120
+Germany,Advanced Development Techniques,27,22.5,120
+Germany,Development Tools And Technologies,22,18.3,120
+Germany,Software Testing,21,17.5,120
+Germany,Research Software Management,17,14.2,120
+Germany,AI And Automation,13,10.8,120
+Germany,Requirements Engineering,8,6.7,120
+Germany,Teaching And Communication Skills,8,6.7,120
+Netherlands,Project Management,4,33.3,12
+Netherlands,Software Testing,2,16.7,12
+Netherlands,Development Tools And Technologies,2,16.7,12
+Netherlands,Soft Skills And Collaboration,2,16.7,12
+Netherlands,Software Architecture And Design,1,8.3,12
+Netherlands,Coding And Development,1,8.3,12
+Netherlands,AI And Automation,1,8.3,12
+United Kingdom,Project Management,18,45.0,40
+United Kingdom,Coding And Development,14,35.0,40
+United Kingdom,Development Tools And Technologies,11,27.5,40
+United Kingdom,Soft Skills And Collaboration,5,12.5,40
+United Kingdom,Software Testing,3,7.5,40
+United Kingdom,Software Architecture And Design,2,5.0,40
+United States,Coding And Development,6,35.3,17
+United States,Development Tools And Technologies,5,29.4,17
+United States,Soft Skills And Collaboration,4,23.5,17
+United States,Project Management,3,17.6,17
+United States,Software Testing,2,11.8,17

@@ -1,0 +1,41 @@
+age_group,category,n,pct,N
+Under 35,Software Architecture And Design,12,34.3,35
+Under 35,Project Management,11,31.4,35
+Under 35,Coding And Development,11,31.4,35
+Under 35,Soft Skills And Collaboration,10,28.6,35
+Under 35,Development Tools And Technologies,8,22.9,35
+Under 35,Software Testing,8,22.9,35
+Under 35,Advanced Development Techniques,7,20.0,35
+Under 35,Research Software Management,7,20.0,35
+Under 35,Requirements Engineering,3,8.6,35
+Under 35,AI And Automation,3,8.6,35
+Under 35,Teaching And Communication Skills,2,5.7,35
+35-44,Coding And Development,24,42.9,56
+35-44,Soft Skills And Collaboration,18,32.1,56
+35-44,Project Management,17,30.4,56
+35-44,Software Architecture And Design,14,25.0,56
+35-44,Advanced Development Techniques,11,19.6,56
+35-44,Development Tools And Technologies,10,17.9,56
+35-44,Software Testing,9,16.1,56
+35-44,Research Software Management,6,10.7,56
+35-44,AI And Automation,6,10.7,56
+35-44,Requirements Engineering,2,3.6,56
+35-44,Teaching And Communication Skills,2,3.6,56
+45-54,Soft Skills And Collaboration,9,39.1,23
+45-54,Project Management,8,34.8,23
+45-54,Coding And Development,7,30.4,23
+45-54,Advanced Development Techniques,6,26.1,23
+45-54,Software Testing,4,17.4,23
+45-54,Development Tools And Technologies,4,17.4,23
+45-54,Teaching And Communication Skills,4,17.4,23
+45-54,Research Software Management,3,13.0,23
+45-54,Requirements Engineering,2,8.7,23
+45-54,Software Architecture And Design,2,8.7,23
+45-54,AI And Automation,2,8.7,23
+55+,Advanced Development Techniques,3,50.0,6
+55+,AI And Automation,2,33.3,6
+55+,Coding And Development,2,33.3,6
+55+,Project Management,1,16.7,6
+55+,Software Architecture And Design,1,16.7,6
+55+,Requirements Engineering,1,16.7,6
+55+,Research Software Management,1,16.7,6

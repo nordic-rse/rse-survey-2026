@@ -1,0 +1,100 @@
+country_group,category,n,pct
+Germany,Python,185,91.6
+Germany,C++,70,34.7
+Germany,JavaScript,49,24.3
+Germany,SQL,47,23.3
+Germany,R,43,21.3
+Germany,C,42,20.8
+Germany,Fortran,41,20.3
+Germany,Java,35,17.3
+Germany,Julia,22,10.9
+Germany,TypeScript,22,10.9
+Germany,Matlab,19,9.4
+Germany,PHP,13,6.4
+Germany,Rust,13,6.4
+Germany,Assembly,5,2.5
+Germany,Go,5,2.5
+Germany,Groovy,5,2.5
+Germany,C#,4,2.0
+Germany,Perl,4,2.0
+Germany,Haskell,3,1.5
+Germany,Scala,3,1.5
+Germany,Common Lisp,2,1.0
+Germany,Lua,2,1.0
+Germany,Ruby,2,1.0
+Germany,Clojure,1,0.5
+Germany,CoffeeScript,1,0.5
+Germany,Dart,1,0.5
+Germany,Elixir,1,0.5
+Germany,Objective-C,1,0.5
+Germany,Swift,1,0.5
+Germany,VBA,1,0.5
+Germany,Visual Basic,1,0.5
+Netherlands,Python,45,91.8
+Netherlands,SQL,17,34.7
+Netherlands,R,16,32.7
+Netherlands,C++,14,28.6
+Netherlands,JavaScript,13,26.5
+Netherlands,Julia,9,18.4
+Netherlands,C,7,14.3
+Netherlands,TypeScript,7,14.3
+Netherlands,Rust,6,12.2
+Netherlands,Fortran,4,8.2
+Netherlands,Java,4,8.2
+Netherlands,C#,2,4.1
+Netherlands,Matlab,2,4.1
+Netherlands,PHP,2,4.1
+Netherlands,CoffeeScript,1,2.0
+Netherlands,Go,1,2.0
+Netherlands,Haskell,1,2.0
+Netherlands,Lua,1,2.0
+Netherlands,Perl,1,2.0
+Netherlands,VBA,1,2.0
+United Kingdom,Python,113,91.1
+United Kingdom,C++,43,34.7
+United Kingdom,SQL,41,33.1
+United Kingdom,JavaScript,37,29.8
+United Kingdom,R,31,25.0
+United Kingdom,Fortran,26,21.0
+United Kingdom,C,25,20.2
+United Kingdom,Java,19,15.3
+United Kingdom,TypeScript,15,12.1
+United Kingdom,Matlab,12,9.7
+United Kingdom,PHP,11,8.9
+United Kingdom,Julia,10,8.1
+United Kingdom,Perl,9,7.3
+United Kingdom,Rust,8,6.5
+United Kingdom,C#,7,5.6
+United Kingdom,Lua,7,5.6
+United Kingdom,Assembly,4,3.2
+United Kingdom,Go,4,3.2
+United Kingdom,Ruby,4,3.2
+United Kingdom,Haskell,2,1.6
+United Kingdom,VB.NET,2,1.6
+United Kingdom,Erlang,1,0.8
+United Kingdom,VBA,1,0.8
+United Kingdom,Visual Basic,1,0.8
+United States,Python,78,84.8
+United States,JavaScript,36,39.1
+United States,C++,35,38.0
+United States,SQL,33,35.9
+United States,R,25,27.2
+United States,C,22,23.9
+United States,Fortran,17,18.5
+United States,TypeScript,17,18.5
+United States,Matlab,12,13.0
+United States,Java,10,10.9
+United States,Rust,10,10.9
+United States,Go,6,6.5
+United States,Julia,6,6.5
+United States,PHP,6,6.5
+United States,Perl,4,4.3
+United States,Ruby,3,3.3
+United States,Swift,3,3.3
+United States,Lua,2,2.2
+United States,Assembly,1,1.1
+United States,C#,1,1.1
+United States,F#,1,1.1
+United States,Groovy,1,1.1
+United States,Scala,1,1.1
+United States,VB.NET,1,1.1

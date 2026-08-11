@@ -1,0 +1,25 @@
+### What is the highest level of education you have attained? (N=476)
+
+| country_group | category | n | pct | N |
+| --- | --- | --- | --- | --- |
+| Germany | Promotion/PhD | 95 | 46.1 | 206 |
+| Germany | Masters Degree | 89 | 43.2 | 206 |
+| Germany | Undergraduate degree | 14 | 6.8 | 206 |
+| Germany | UAS / subject-specific HE entrance qualification | 5 | 2.4 | 206 |
+| Germany | Secondary / lower secondary certificate | 1 | 0.5 | 206 |
+| Germany | General university entrance qualification | 1 | 0.5 | 206 |
+| Germany | Habilitation | 1 | 0.5 | 206 |
+| Netherlands | PhD | 31 | 62.0 | 50 |
+| Netherlands | WO Masters | 15 | 30.0 | 50 |
+| Netherlands | HBO Undergraduate | 2 | 4.0 | 50 |
+| Netherlands | HBO Masters | 1 | 2.0 | 50 |
+| Netherlands | WO Undergraduate | 1 | 2.0 | 50 |
+| United Kingdom | PhD | 93 | 73.2 | 127 |
+| United Kingdom | Masters Degree | 26 | 20.5 | 127 |
+| United Kingdom | Undergraduate degree | 7 | 5.5 | 127 |
+| United Kingdom | Further Education (NVQ / A-Level) | 1 | 0.8 | 127 |
+| United States | PhD | 52 | 55.9 | 93 |
+| United States | Masters Degree | 27 | 29.0 | 93 |
+| United States | Undergraduate degree | 14 | 15.1 | 93 |
+
+![What is the highest level of education you have attained? (N=476)](../_artifacts/edu1_0/between_countries.png?v=e847b5a486)
