@@ -2,6 +2,8 @@
 
 from pathlib import Path
 
+import pandas as pd
+
 
 def get_data_path(file: str, year: int, data_dir: str = "data") -> Path:
     """Resolve the path to a data file.
@@ -34,3 +36,27 @@ def get_data_path(file: str, year: int, data_dir: str = "data") -> Path:
         raise FileNotFoundError(f"No file at {path}")
 
     return path
+
+
+def load_data(path: Path) -> pd.DataFrame:
+    """Load data from path into data frame.
+
+    Parameters
+    ----------
+    path : Path
+        Path to data file
+
+    Returns
+    -------
+    pd.DataFrame
+        Survey responses as data frame
+
+    Raises
+    ------
+    ValueError
+        Raises if the data frame has no rows
+    """
+    df = pd.read_csv(path)
+    if len(df) == 0:
+        raise ValueError("The data frame has no rows.")
+    return df
