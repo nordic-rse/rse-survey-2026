@@ -1432,6 +1432,15 @@ wheels = [
 ]
 
 [[package]]
+name = "plotly-stubs"
+version = "0.1.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/14/6f/e98bf4b6cca3e7b715bb3532dc940768cca81f5416753b8c62b25577c75f/plotly_stubs-0.1.4.tar.gz", hash = "sha256:0443cf7d5378ed81c9a6b1b24c4d796188ee2e0016bea548b41d4a5c90a1be09", size = 201535, upload-time = "2026-08-24T12:00:49.75Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d5/c2/d04254d668c56aabd11e001eb7cd8b5db78172349a9a48b57f82728e84be/plotly_stubs-0.1.4-py3-none-any.whl", hash = "sha256:c5ae8c8f5060b5c634de9583668768e06bce3f154689996615a6c3f783c38085", size = 106297, upload-time = "2026-08-24T12:00:48.55Z" },
+]
+
+[[package]]
 name = "pluggy"
 version = "1.6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1811,6 +1820,7 @@ dev = [
     { name = "jupytext" },
     { name = "mypy" },
     { name = "pandas-stubs" },
+    { name = "plotly-stubs" },
     { name = "pre-commit" },
     { name = "pytest" },
     { name = "ruff" },
@@ -1829,6 +1839,7 @@ dev = [
     { name = "jupytext", specifier = ">=1.19.5" },
     { name = "mypy", specifier = ">=2.3.1" },
     { name = "pandas-stubs", specifier = ">=3.0.5.260730" },
+    { name = "plotly-stubs", specifier = ">=0.1.4" },
     { name = "pre-commit", specifier = ">=4.6.2" },
     { name = "pytest", specifier = ">=9.1.1" },
     { name = "ruff", specifier = ">=0.16.7" },

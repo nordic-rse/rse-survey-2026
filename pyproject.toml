@@ -23,6 +23,7 @@ dev = [
     "jupytext>=1.19.5",
     "mypy>=2.3.1",
     "pandas-stubs>=3.0.5.260730",
+    "plotly-stubs>=0.1.4",
     "pre-commit>=4.6.2",
     "pytest>=9.1.1",
     "ruff>=0.16.7",
