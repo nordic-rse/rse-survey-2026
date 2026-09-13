@@ -21,3 +21,6 @@ data/
 
 # cache
 *__pycache__
+
+# notebooks
+notebooks/*.ipynb
