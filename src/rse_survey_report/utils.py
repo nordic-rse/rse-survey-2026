@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from rse_survey_report.config import CATEGORIES
+from rse_survey_report.config import AGE_GROUPS, CATEGORIES
 
 
 def get_data_path(file: str, year: int, data_dir: str = "data") -> Path:
@@ -117,9 +117,8 @@ def preprocess_data(
     return df_clean
 
 
-def prepare_questions(
+def parse_questions(
     df: pd.DataFrame,
-    df_counts: pd.DataFrame,
     question_col: str = "Question",
     id_col: str = "New_name",
     categories: dict[str, list[str]] = CATEGORIES,
@@ -127,6 +126,54 @@ def prepare_questions(
     """Extract and clean up questions and ids from raw dataframe.
 
     Raw data frame is called 2026: 2026_all_cols.csv
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Raw data frame with question text and ids
+    question_col : str
+        Name of the column with question text
+    id_col : str
+        Name of the column with question id information
+    categories : dict[str, list[str]]
+        Mapping from category name to question ids, by default CATEGORIES
+
+    Returns
+    -------
+    pd.DataFrame
+        Data frame with one row per response column: ids, question text,
+        multiple-choice answers, column name, and category.
+        Questions without a category get NaN.
+    """
+    questions = (
+        df[question_col]
+        .str.replace(r"\t.*", "", regex=True)
+        .str.extract(
+            r"^\s*(?P<question>.*?)\s*(?:\([^()]*\))?\s*(?:\[(?P<mc_answer>[^\]]*)\])?\s*$"
+        )
+    )
+    # questions likert5a and likert5b have no stem, copying therefore the item text
+    no_stem = questions["question"] == ""
+    questions["question"] = questions["question"].mask(no_stem, questions["mc_answer"])
+    ids = df[id_col].str.extract(r"^(?P<id>[^\[]+?)(?:\[(?P<mc_id>[^\]]*)\])?(?:_0)?$")
+    # map categories before likert5a, likert5b get their item suffix
+    id_to_category = {i: cat for cat, id_list in categories.items() for i in id_list}
+    category = ids["id"].map(id_to_category)
+    # ensure that the special questions likert5a, liker5b get unique ids
+    item_number = ids.groupby("id").cumcount() + 1
+    ids["id"] = ids["id"].mask(no_stem, ids["id"] + "_" + item_number.astype(str))
+
+    return pd.concat([ids, questions], axis=1).assign(col=df[id_col], category=category)
+
+
+def prepare_questions(
+    df: pd.DataFrame,
+    df_counts: pd.DataFrame,
+    question_col: str = "Question",
+    id_col: str = "New_name",
+    categories: dict[str, list[str]] = CATEGORIES,
+) -> pd.DataFrame:
+    """Combine the parsed questions with the response counts.
 
     Parameters
     ----------
@@ -147,27 +194,7 @@ def prepare_questions(
         Clean data frame with question text, multiple-choice answers, ids,
         category, and country information. Questions without a category get NaN.
     """
-    questions = (
-        df[question_col]
-        .str.replace(r"\t.*", "", regex=True)
-        .str.extract(
-            r"^\s*(?P<question>.*?)\s*(?:\([^()]*\))?\s*(?:\[(?P<mc_answer>[^\]]*)\])?\s*$"
-        )
-    )
-    # questions likert5a and likert5b have no stem, copying therefore the item text
-    no_stem = questions["question"] == ""
-    questions["question"] = questions["question"].mask(no_stem, questions["mc_answer"])
-    ids = df[id_col].str.extract(r"^(?P<id>[^\[]+?)(?:\[(?P<mc_id>[^\]]*)\])?(?:_0)?$")
-    # map categories before likert5a, likert5b get their item suffix
-    id_to_category = {i: cat for cat, id_list in categories.items() for i in id_list}
-    category = ids["id"].map(id_to_category)
-    # ensure that the special questions likert5a, liker5b get unique ids
-    item_number = ids.groupby("id").cumcount() + 1
-    ids["id"] = ids["id"].mask(no_stem, ids["id"] + "_" + item_number.astype(str))
-
-    df_questions = pd.concat([ids, questions], axis=1).assign(
-        col=df[id_col], category=category
-    )
+    df_questions = parse_questions(df, question_col, id_col, categories)
 
     df_long = (
         df_counts.rename_axis("country")
@@ -205,4 +232,34 @@ def get_counts_question_country(df: pd.DataFrame) -> pd.DataFrame:
         .groupby(df["country"])
         .sum()
         .reindex(all_countries, fill_value=0)
+    )
+
+
+def add_age_group(
+    df: pd.DataFrame, age_col: str = "socio3_0", group_col: str = "age_group"
+) -> pd.DataFrame:
+    """Add the age group of each respondent as an ordered categorical column.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Survey responses
+    age_col : str, optional
+        Column with the age answers, by default "socio3_0"
+    group_col : str, optional
+        Name of the new column, by default "age_group"
+
+    Returns
+    -------
+    pd.DataFrame
+        Survey responses with the column group_col: "Below 35", "35-45", or
+        "45+". Respondents without an age ("Prefer not to say") get NaN.
+    """
+    groups = list(dict.fromkeys(AGE_GROUPS.values()))
+    return df.assign(
+        **{
+            group_col: pd.Categorical(
+                df[age_col].map(AGE_GROUPS), categories=groups, ordered=True
+            )
+        }
     )

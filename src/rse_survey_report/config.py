@@ -2,6 +2,33 @@
 
 NORDICS = ["Finland", "Norway", "Sweden", "Denmark", "Iceland", "Estonia"]
 
+# country groups for the "Between countries" section, as FILTER_COMPARE in rse-book
+COMPARE_GROUPS = {
+    "Nordics": NORDICS,
+    "Germany": ["Germany"],
+    "Netherlands": ["Netherlands"],
+}
+
+# answer scales, as likert5_levels() and likert_time_levels() in rse-book
+AGREEMENT_LEVELS = [
+    "Strongly disagree",
+    "Disagree",
+    "Neither agree or disagree",
+    "Agree",
+    "Strongly Agree",
+]
+LIKERT_LEVELS = ["0% (None at all)", "20%", "40%", "60%", "80%", "100% (All my time)"]
+
+# age groups from socio3_0, as assign_age_groups_two() in rse-book
+AGE_GROUPS = {
+    "18 to 24 years": "Below 35",
+    "25 to 34 years": "Below 35",
+    "35 to 44 years": "35-45",
+    "45 to 54 years": "45+",
+    "55 to 64 years": "45+",
+    "Age 65 or older": "45+",
+}
+
 # categories and their question ids, in the order of the parts in rse-book/_quarto.yml
 # country-specific ids follow their section in RSE_survey_outline/survey-process.md
 CATEGORIES = {
