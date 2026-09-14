@@ -11,6 +11,15 @@ question_id: fund3
 plot_choice(df, codebook, "fund3").show()
 ```
 
+### Other answers
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "fund3"))
+```
+
+@sec-recoding lists the raw answers of each category.
+
 ## By age group
 
 ```{python}

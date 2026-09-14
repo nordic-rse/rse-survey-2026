@@ -12,7 +12,13 @@ Each chapter shows one survey question in four sections:
 - **Within Nordics**: one group for each Nordic country.
 - **Between countries**: the Nordics, Germany and the Netherlands.
 
-Free-text questions have no chapter.
+Free-text answers appear as a table in the **Nordics** section only. Rules
+from the R rse-book group the answers into categories:
+
+- An "Other" field always gets a table. Without rules, the table shows the
+  answers unchanged.
+- A free-text question gets a chapter only when it has rules.
+- The Recoding appendix gives the category of each raw answer.
 
 ## Build the book
 

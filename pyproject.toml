@@ -43,3 +43,8 @@ convention = "numpy"
 strict = true
 files = ["src", "tests", "notebooks"]
 untyped_calls_exclude = ["IPython"]
+
+# book.py imports freetext, so an exclude would not skip it; ignore its errors
+[[tool.mypy.overrides]]
+module = "rse_survey_report.freetext"
+ignore_errors = true

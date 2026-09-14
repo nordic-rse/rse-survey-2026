@@ -3,9 +3,11 @@ title: "International RSE Survey 2026"
 subtitle: "Nordic results and the survey book"
 author: "Florence Bockting & Samantha Wittke"
 date: today
+title-slide-attributes:
+  data-background-color: "#702552"
 format:
   revealjs:
-    theme: simple
+    theme: [simple, nordic-rse.scss]
     slide-number: true
     scrollable: true
     smaller: true
@@ -23,11 +25,20 @@ from IPython.display import Markdown
 
 from rse_survey_report.book import BOOK_CATEGORIES, BOOK_DIR, load_book_data
 from rse_survey_report.config import NORDICS
+from rse_survey_report.freetext import (
+    TEXT_TYPES,
+    allocate_tokens,
+    question_tokens,
+    summarize_allocation,
+)
 from rse_survey_report.plotting import (
+    GROUP_COLORS,
     plot_agreement,
+    plot_bool,
     plot_choice,
     plot_likert2,
 )
+from rse_survey_report.recode_maps import RECODE_MAPS
 from rse_survey_report.utils import get_data_path, load_data, preprocess_data
 
 codebook, df, df_compare = load_book_data()
@@ -43,8 +54,33 @@ n_countries = df_submitted["country"].nunique()
 n_nordic = len(df)
 n_chapters = len(list((BOOK_DIR / "chapters").glob("*.qmd")))
 
-BLUE = "#2a78d6"
-GREY = "#b8b8b8"
+PLUM = "#822361"
+
+
+def n_answered(question: str) -> int:
+    """Count the respondents with a free-text answer to a question."""
+    rows = codebook[(codebook["id"] == question) & codebook["type"].isin(TEXT_TYPES)]
+    return int(df[rows["col"].unique()].notna().any(axis=1).sum())
+
+
+def free_text_bars(question: str, top: int = 8):
+    """Plot the largest free-text categories of a question."""
+    tokens = question_tokens(df, codebook, question)
+    rules = RECODE_MAPS.get(question, [])
+    counts = summarize_allocation(allocate_tokens(tokens, rules)).head(top)
+    # reversed order puts the largest bar at the top of a horizontal chart
+    fig = px.bar(
+        counts.iloc[::-1],
+        x="n",
+        y="category",
+        orientation="h",
+        text="n",
+        color_discrete_sequence=[PLUM],
+        labels={"n": "Answer parts", "category": ""},
+        height=420,
+    )
+    fig.update_layout(plot_bgcolor="white")
+    return fig
 ```
 
 # Method: background
@@ -55,62 +91,118 @@ GREY = "#b8b8b8"
 ::: {.column width="50%"}
 **Dashboard**
 
-- https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/
-- interactive dashboard for international RSE survey data
-- focus: explorative data analysis
+- [Link to dashboard](https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/)
+- Interactive dashboard for international RSE survey data
+- Focus: explorative data analysis
+- Interactive filters and cross-filters
+- All countries in one place
+- Fast answers to ad-hoc questions
 
 :::
 ::: {.column width="50%"}
-**Quarto book**
+**Quarto book** (new)
 
-- new initiative
-- One chapter for each survey question
-- A fixed view on the Nordic countries
-- Comparisons by age group and by country
-- Built from code: the same data gives the same book
+- [Lives in GitHub]()
+- One question at a time, with its question text
+- Ready to share: meetings, reports, appendices
+- Custom analysis, groups, visualisations, etc.
+- Reproducible, Open source, Python 3.x
 :::
 ::::
 
 ## Structure of the book
 
-```{mermaid}
-flowchart LR
-  A["Responses<br>2026_tf.csv"] --> C["Codebook<br>question type, answers, order"]
-  B["Question text<br>2026_all_cols.csv"] --> C
-  C --> D["Chapters<br>make book"]
-  D --> E["Website<br>_book/"]
+**Folder structure**
+
+```text
+data/2026/             survey CSV files (not in git)
+src/rse_survey_report/
+  config.py            Nordics, groups, topics
+  codebook.py          question type, answers, order
+  plotting.py          plot_choice, plot_agreement, ...
+  book.py              writes one chapter per question
+book/
+  _setup.qmd           loads the data for each chapter
+  chapters/            generated chapters
+Makefile               make book, make slides, make test
 ```
 
-- `{python} len(BOOK_CATEGORIES)` parts, one for each topic.
-  `{python} n_chapters` chapters, one for each closed question.
-- Each chapter has four sections:
-  - **Nordics**: all Nordic respondents
-  - **By age group**: below 35, 35-45, 45+
-  - **Within Nordics**: one group for each Nordic country
-  - **Between countries**: Nordics, Germany, Netherlands
-- Free-text questions have no chapter.
+**Contents**
 
-## How to go further with the book
+- `{python} n_chapters` chapters, one for each question.
+- Current template for chapters has four sections:
+  - **Nordics**, **By age group**, **Within Nordics**, **Between countries**
 
-::: {.callout-note}
-Placeholder: text to come.
+## Use the book for your own analysis
+
+| Task | Edit | Then run |
+| :-- | :-- | :-- |
+| Render the book | Put the CSV files in `data/2026/` | `make book` |
+| Change a plot | A function in `plotting.py` | `make test`, then `make book` |
+| Change a group | `AGE_GROUPS` or `COMPARE_GROUPS` in `config.py` | `make book` |
+| Add a section to each chapter | `chapter_qmd()` in `book.py` | `make book` |
+
+- `make book` writes the chapters again and renders it to `book/_book/`.
+
+## How to go further with the book (I)
+
+::: {.callout-warning}
+The book is under active development. Its structure can still change.
 :::
+
+**Flexibility**
+
+- Make the analysis easier to customize, with more modular code
+- Change the target and comparison countries without editing code
+- Offer alternative visualizations
+
+**Data**
+
+- Add earlier survey waves, with a section that compares the years
+- Show connections between questions
+
+## How to go further with the book (II)
+
+**Free text**
+
+- Analyse free-text answers faster: cluster and label them with NLP and local language models
+
+**Community**
+
+- Link the book and the dashboard clearly
+- Work with the survey team to keep the book useful for all countries and future years
+- Collect requirements: which template structure, and which ready-made analyses users can select
+
+**Documentation**
+
+- Write tutorials and how-to guides for the book
 
 # Method: introduction
 
-## Questions
+## Topics, in survey order
+
+```{python}
+#| include: false
+topics = list(BOOK_CATEGORIES)
+half = (len(topics) + 1) // 2
+```
 
 :::: {.columns}
 ::: {.column width="50%"}
-**Topics, in survey order**
-
 ```{python}
 #| output: asis
-print("\n".join(f"- {name}" for name in BOOK_CATEGORIES))
+print("\n".join(f"{i}. {name}" for i, name in enumerate(topics[:half], start=1)))
 ```
 :::
 ::: {.column width="50%"}
-**Question types**
+```{python}
+#| output: asis
+print("\n".join(f"{i}. {name}" for i, name in enumerate(topics[half:], start=half + 1)))
+```
+:::
+::::
+
+## Question types
 
 ```{python}
 #| output: asis
@@ -126,26 +218,23 @@ print("| Type | Answer format | Questions |\n| :-- | :-- | --: |")
 for kind, text in formats.items():
     print(f"| `{kind}` | {text} | {n_questions.get(kind, 0)} |")
 ```
-:::
-::::
 
-## Respondents per country
+## Respondents per countrys
 
+- Top 15 of `{python} n_countries`
 `{python} n_rows` responses. `{python} n_submitted` are submitted, from
-`{python} n_countries` countries. The analysis uses the submitted responses
-only.
+`{python} n_countries` countries.
 
 ```{python}
+# ascending order puts the largest bar at the top of a horizontal chart
 top = df_submitted["country"].value_counts().head(15).sort_values()
 fig = px.bar(
     x=top.values,
     y=top.index,
     orientation="h",
-    color=[
-        "Nordic" if country in NORDICS else "Other" for country in top.index
-    ],
-    color_discrete_map={"Nordic": BLUE, "Other": GREY},
-    labels={"x": "Submitted responses", "y": "", "color": ""},
+    text=top.values,
+    color_discrete_sequence=[PLUM],
+    labels={"x": "Submitted responses", "y": ""},
     height=480,
 )
 fig.update_layout(plot_bgcolor="white")
@@ -163,7 +252,7 @@ fig = px.bar(
     x=nordic.index,
     y=nordic.values,
     text=nordic.values,
-    color_discrete_sequence=[BLUE],
+    color_discrete_sequence=[PLUM],
     labels={"x": "", "y": "Submitted responses"},
     height=420,
 )
@@ -173,8 +262,7 @@ fig.show()
 
 ## Nordics: respondents per question
 
-Respondents skip questions. Country-specific questions have few or no Nordic
-responses.
+Country-specific questions have few or no Nordic responses.
 
 ```{python}
 col_to_id = (
@@ -184,12 +272,21 @@ col_to_id = (
 )
 answered = df[col_to_id.index].notna().T.groupby(col_to_id, sort=False).any().T
 answered = answered.loc[:, answered.any()]
-per_question = answered.sum()
+per_country = (
+    answered.groupby(df["country"])
+    .sum()
+    .reindex(NORDICS, fill_value=0)
+    .T.reset_index(names="question")
+    .melt(id_vars="question", var_name="country", value_name="respondents")
+)
 fig = px.bar(
-    x=per_question.index,
-    y=per_question.values,
-    color_discrete_sequence=[BLUE],
-    labels={"x": "Question id", "y": "Respondents"},
+    per_country,
+    x="question",
+    y="respondents",
+    color="country",
+    category_orders={"country": NORDICS, "question": list(answered.columns)},
+    color_discrete_sequence=GROUP_COLORS,
+    labels={"question": "Question id", "respondents": "Respondents", "country": ""},
     height=480,
 )
 fig.update_layout(plot_bgcolor="white", xaxis_tickangle=-90, xaxis_dtick=1)
@@ -199,22 +296,61 @@ fig.show()
 
 # Results: key insights
 
-## Employment
+## Employment (I)
 
 ```{python}
 plot_choice(df, codebook, "currentEmp10").show()
 ```
 
-## Time: actual and desired
+```{python}
+fixed = df.loc[df["currentEmp10_0"] == "Fixed-term", "age_group"]
+n_fixed = len(fixed)
+age_counts = fixed.value_counts().reindex(
+    df["age_group"].cat.categories, fill_value=0
+)
+fig = px.bar(
+    x=age_counts.index,
+    y=age_counts.values,
+    text=age_counts.values,
+    color_discrete_sequence=[PLUM],
+    labels={"x": "Age group", "y": "Respondents"},
+    height=280,
+    width=500,
+)
+fig.update_layout(plot_bgcolor="white")
+fig.show()
+```
+
+## Employment (II)
+
+::: {.panel-tabset}
+### Level of education
+
+```{python}
+plot_choice(df, codebook, "edu1").show()
+```
+
+### Discipline of work
+
+```{python}
+plot_choice(df, codebook, "currentEmp13").show()
+```
+:::
+
+## Time & Tasks
+
+```{python}
+plot_bool(df, codebook, "rse4de").show()
+```
+
+```{python}
+plot_choice(df, codebook, "currentWork2qcl").show()
+```
+
+## Time & Tasks: actual and desired
 
 ```{python}
 plot_likert2(df, codebook).show()
-```
-
-## Generative AI
-
-```{python}
-plot_choice(df, codebook, "genAI1").show()
 ```
 
 ## Satisfaction
@@ -255,7 +391,80 @@ plot_agreement(df, codebook, "likert5b_2").show()
 ```
 :::
 
-## What should Nordic-RSE do?
+## Open source
+
+::: {.panel-tabset}
+### Open-source licence
+
+```{python}
+plot_choice(df, codebook, "open1can").show()
+```
+
+### DOI for software
+
+```{python}
+plot_choice(df, codebook, "likert2b").show()
+```
+:::
+
+## Generative AI (I)
+
+```{python}
+plot_choice(df, codebook, "genAI1").show()
+```
+
+```{python}
+plot_choice(df, codebook, "genAI2").show()
+```
+
+## Skills Nordic RSEs want to learn
+
+`{python} n_answered("skill2")` respondents named up to three skills. The 8
+largest categories:
+
+```{python}
+free_text_bars("skill2").show()
+```
+
+The bars count parts of answers, not respondents.
+
+## Training programs Nordic RSEs work with
+
+`{python} n_answered("train3")` respondents named their training programs. The 8
+largest categories:
+
+```{python}
+free_text_bars("train3").show()
+```
+
+The bars count parts of answers, not respondents.
+
+## RSE Organisation (I)
+
+::: {.panel-tabset}
+### Interest in joining
+
+```{python}
+plot_bool(df, codebook, "org1can").show()
+```
+
+### What members hope to get
+
+```{python}
+plot_choice(df, codebook, "org2can").show()
+```
+
+### Fostering community
+
+```{python}
+# long answer labels wrap onto several lines; give each bar more height
+fig = plot_choice(df, codebook, "org3nord")
+fig.update_layout(height=fig.layout.height * 1.8)
+fig.show()
+```
+:::
+
+## RSE Organisation (II)
 
 ```{python}
 plot_choice(df, codebook, "org4nord").show()
@@ -263,14 +472,15 @@ plot_choice(df, codebook, "org4nord").show()
 
 # Discussion
 
-## Discussion
+- We saw that respondents would like to spend less time on "other activities". What other activities do you have to do besides research, software development, teaching, and management?
+- A small but not neligible percentage disagree with the aspect that their experience is in demand on labour market. What experiences you think are lacking for suceeding on the labour market?
+- Promotion routes seems to be unclear. What are your experiences with this? Do you have ideas what would help you to get a better picture?
+- The generation of DOI or other persistent identifier is not used. Can you explain why you don't use it? Is it not relevant for your software or are you not aware of this possibility?
 
-- What surprises you in the results?
-- Which questions should the next survey add or remove?
-- How can Nordic-RSE act on the results?
 
 ## Links
 
 - Blog post: [Nordic RSEs: satisfied, skilled and in demand but looking for
   clearer career paths](https://nordic-rse.org/blog/rse-survey-analysis/)
 - Quarto book: <https://nordic-rse.github.io/rse-survey-2026/>
+- Dashboard: <https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/>

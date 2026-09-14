@@ -72,6 +72,7 @@ book:
     - part: "Conferences"
       chapters:
         - chapters/conf1can.qmd
+        - chapters/conf2can.qmd
     - part: "Project Management"
       chapters:
         - chapters/proj1can.qmd
@@ -86,9 +87,11 @@ book:
     - part: "Training"
       chapters:
         - chapters/train2.qmd
+        - chapters/train3.qmd
         - chapters/train4.qmd
         - chapters/train5.qmd
         - chapters/skillNord.qmd
+        - chapters/skill2.qmd
     - part: "Funding"
       chapters:
         - chapters/fund3.qmd
@@ -108,6 +111,8 @@ book:
     - part: "Demographics"
       chapters:
         - chapters/socio3.qmd
+  appendices:
+    - appendices/recoding.qmd
 format:
   html:
     theme: cosmo

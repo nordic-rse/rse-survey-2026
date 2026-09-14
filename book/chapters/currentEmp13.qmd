@@ -11,6 +11,15 @@ question_id: currentEmp13
 plot_choice(df, codebook, "currentEmp13").show()
 ```
 
+### Other answers
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "currentEmp13"))
+```
+
+@sec-recoding lists the raw answers of each category.
+
 ## By age group
 
 ```{python}

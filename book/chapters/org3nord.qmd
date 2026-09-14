@@ -11,6 +11,15 @@ question_id: org3nord
 plot_choice(df, codebook, "org3nord").show()
 ```
 
+### Other answers
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "org3nord"))
+```
+
+@sec-recoding lists the raw answers of each category.
+
 ## By age group
 
 ```{python}

@@ -100,6 +100,29 @@ def test_write_book_skips_unanswered_and_free_text(tmp_path: Path) -> None:
     paths = write_book(CODEBOOK, DF, tmp_path, categories=CATEGORIES)
     stems = [path.stem for path in paths]
     assert stems == ["edu", "disc", "grid", "likert0", "likert1"]
+    assert not (tmp_path / "appendices" / "recoding.qmd").exists()
+
+
+def test_write_book_adds_other_answers_to_first_section_only(tmp_path: Path) -> None:
+    df = DF.copy()
+    df["disc[other]_0"] = ["Chemistry", None]
+    write_book(CODEBOOK, df, tmp_path, categories=CATEGORIES)
+    qmd = (tmp_path / "chapters" / "disc.qmd").read_text()
+    assert qmd.count('text_table(df, codebook, "disc")') == 1
+    assert qmd.index("### Other answers") < qmd.index("## By age group")
+    appendix = (tmp_path / "appendices" / "recoding.qmd").read_text()
+    assert 'allocation_table(df, codebook, "disc")' in appendix
+    assert "appendices/recoding.qmd" in (tmp_path / "_quarto.yml").read_text()
+
+
+def test_write_book_free_text_question_needs_rules(tmp_path: Path) -> None:
+    paths = write_book(
+        CODEBOOK, DF, tmp_path, categories=CATEGORIES, recode_maps={"note": []}
+    )
+    assert "note" in [path.stem for path in paths]
+    qmd = (tmp_path / "chapters" / "note.qmd").read_text()
+    assert 'text_table(df, codebook, "note")' in qmd
+    assert "## By age group" not in qmd
 
 
 def test_write_book_orders_parts_by_categories(tmp_path: Path) -> None:

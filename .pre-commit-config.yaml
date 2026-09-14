@@ -17,6 +17,8 @@ repos:
     hooks:
       - id: codespell
         files: *package
+        # the recode rules match raw survey answers, typos included
+        exclude: ^src/rse_survey_report/recode_maps\.py$
 
   - repo: local
     hooks:

@@ -1,0 +1,15 @@
+---
+title: "What training programs are you involved with?"
+question_id: train3
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "train3"))
+```
+
+@sec-recoding lists the raw answers of each category.

@@ -1,6 +1,7 @@
 ```{python}
 #| include: false
 from rse_survey_report.book import load_book_data
+from rse_survey_report.freetext import allocation_table, text_table
 from rse_survey_report.plotting import (
     plot_agreement,
     plot_bool,
