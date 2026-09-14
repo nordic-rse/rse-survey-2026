@@ -102,7 +102,7 @@ def free_text_bars(question: str, top: int = 8):
 ::: {.column width="50%"}
 **Quarto book** (new)
 
-- [Lives in GitHub]()
+- [Lives in GitHub](https://github.com/nordic-rse/rse-survey-2026/pull/15)
 - One question at a time, with its question text
 - Ready to share: meetings, reports, appendices
 - Custom analysis, groups, visualisations, etc.
