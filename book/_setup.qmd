@@ -1,0 +1,13 @@
+```{python}
+#| include: false
+from rse_survey_report.book import load_book_data
+from rse_survey_report.plotting import (
+    plot_agreement,
+    plot_bool,
+    plot_choice,
+    plot_likert,
+    plot_likert2,
+)
+
+codebook, df, df_compare = load_book_data()
+```

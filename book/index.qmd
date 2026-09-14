@@ -1,0 +1,26 @@
+# About {.unnumbered}
+
+This book shows the answers to the International RSE Survey 2026 for the
+Nordic countries: Finland, Norway, Sweden, Denmark, Iceland and Estonia. It
+uses the submitted responses only. Percentages are relative to the
+respondents who answered each question.
+
+Each chapter shows one survey question in four sections:
+
+- **Nordics**: all Nordic respondents.
+- **By age group**: below 35, 35-45 and 45+.
+- **Within Nordics**: one group for each Nordic country.
+- **Between countries**: the Nordics, Germany and the Netherlands.
+
+Free-text questions have no chapter.
+
+## Build the book
+
+The chapters come from the codebook. Do not edit them by hand.
+
+```bash
+make book
+```
+
+The command writes `chapters/` and `_quarto.yml`. Then it renders the book to
+`_book/`. The data must be in `data/2026/`.
