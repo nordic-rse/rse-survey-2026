@@ -473,6 +473,9 @@ plot_choice(df, codebook, "org4nord").show()
 ## Discussion
 
 - **Survey activity.** Did you answer the survey? If not, why?
+- **Social sciences.** Minority of RSEs work in social sciences and majority in computer sciences.
+  Are there few RSEs in social sciences and psychology, or did the survey not reach them?
+  How can Nordic-RSE reach out to these fields?
 - **Other activities.** Respondents want to spend less time on "other activities".
   Besides research, software development, teaching and management: what else takes your time?
 - **Labour market.** 16% disagree that their experience is in demand.
@@ -481,7 +484,6 @@ plot_choice(df, codebook, "org4nord").show()
   What is your experience? What would make the routes clearer?
 - **DOIs for software.** 20 of 25 respondents never create a DOI for their software.
   Why not? Is it not relevant for your software, or did you not know it is possible?
-- Minority of RSE in social sciences/psychology -> need to reach out more in this area
 
 ## What's next
 
