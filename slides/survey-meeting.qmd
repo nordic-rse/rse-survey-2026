@@ -472,6 +472,7 @@ plot_choice(df, codebook, "org4nord").show()
 
 ## Discussion
 
+- **Survey activity.** Did you answer the survey? If not, why?
 - **Other activities.** Respondents want to spend less time on "other activities".
   Besides research, software development, teaching and management: what else takes your time?
 - **Labour market.** 16% disagree that their experience is in demand.
@@ -480,6 +481,13 @@ plot_choice(df, codebook, "org4nord").show()
   What is your experience? What would make the routes clearer?
 - **DOIs for software.** 20 of 25 respondents never create a DOI for their software.
   Why not? Is it not relevant for your software, or did you not know it is possible?
+- Minority of RSE in social sciences/psychology -> need to reach out more in this area
+
+## What's next
+
+- Another blog post about incorporating their answers and NordicRSE answers
+- Call for people that want to get involved with NordicRSE
+
 
 ## Links
 
@@ -487,3 +495,4 @@ plot_choice(df, codebook, "org4nord").show()
   clearer career paths](https://nordic-rse.org/blog/rse-survey-analysis/)
 - Quarto book: <https://nordic-rse.github.io/rse-survey-2026/>
 - Dashboard: <https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/>
+- Hackmd for sharing disucssions: <https://hackmd.io/@nordic-rse/rse-survey-2026>

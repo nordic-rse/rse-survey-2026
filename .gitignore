@@ -23,3 +23,5 @@ notebooks/*.ipynb
 # python book: CI has no data, so commit chapters/, _quarto.yml and _freeze/
 book/_book/
 book/.quarto/
+
+!slides/survey-meeting.html
