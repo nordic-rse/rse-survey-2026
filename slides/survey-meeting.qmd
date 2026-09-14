@@ -470,13 +470,16 @@ fig.show()
 plot_choice(df, codebook, "org4nord").show()
 ```
 
-# Discussion
+## Discussion
 
-- We saw that respondents would like to spend less time on "other activities". What other activities do you have to do besides research, software development, teaching, and management?
-- A small but not neligible percentage disagree with the aspect that their experience is in demand on labour market. What experiences you think are lacking for suceeding on the labour market?
-- Promotion routes seems to be unclear. What are your experiences with this? Do you have ideas what would help you to get a better picture?
-- The generation of DOI or other persistent identifier is not used. Can you explain why you don't use it? Is it not relevant for your software or are you not aware of this possibility?
-
+- **Other activities.** Respondents want to spend less time on "other activities".
+  Besides research, software development, teaching and management: what else takes your time?
+- **Labour market.** 16% disagree that their experience is in demand.
+  Which skills or experience are missing to succeed on the job market?
+- **Promotion.** Promotion routes seem unclear.
+  What is your experience? What would make the routes clearer?
+- **DOIs for software.** 20 of 25 respondents never create a DOI for their software.
+  Why not? Is it not relevant for your software, or did you not know it is possible?
 
 ## Links
 

@@ -29,8 +29,7 @@ AGE_GROUPS = {
     "Age 65 or older": "45+",
 }
 
-# categories and their question ids, in the order of the parts in rse-book/_quarto.yml
-# country-specific ids follow their section in RSE_survey_outline/survey-process.md
+# categories and their question ids [categories are handcoded]
 CATEGORIES = {
     "Setup": ["startlanguage", "startdate"],
     "RSE role": ["rse1", "rse3", "rse4de"],
@@ -42,8 +41,6 @@ CATEGORIES = {
         "org1can",
         "org1cz",
         "org1swiss",
-        "ukrse12sa",
-        "proj6uk",
         "org2can",
         "org3nord",
         "org3us",
@@ -98,21 +95,22 @@ CATEGORIES = {
     ],
     "Turnover": ["turnOver3", "turnOver3zaf", "turnOver4zaf"],
     "Work activities": [
-        "currentWork2",
         "currentWork1",
+        "currentWork2",
         "currentWork2qcl",
         "currentWork3nord",
     ],
-    "Publications": ["paper3mod", "paper2mod"],
-    "Conferences": ["conf1can", "conf2can", "ref1uk"],
+    "Publications": ["paper3mod", "paper2mod", "ref1uk"],
+    "Conferences": ["conf1can", "conf2can", "ukrse12sa"],
     "Project Management": [
         "proj1can",
-        "proj8can",
-        "proj7can",
         "proj4can",
         "proj5can",
         "proj5zaf",
         "proj6zaf",
+        "proj6uk",
+        "proj7can",
+        "proj8can",
     ],
     "Job stability": ["stability1", "stability2"],
     "Training": [
@@ -124,8 +122,8 @@ CATEGORIES = {
         "skillNord",
         "skill2",
     ],
-    "Funding": ["fund3", "fund3qnl", "fund1nord", "fund1can", "fund1uk"],
-    "Tooling": ["tool5", "tool5can", "tool2", "tool4can"],
+    "Funding": ["fund1nord", "fund1can", "fund1uk", "fund3", "fund3qnl"],
+    "Tooling": ["tool2", "tool4can", "tool5", "tool5can"],
     "Generative AI": ["genAI1", "genAI2", "genAI3", "genAI4", "genAI5", "genAI6"],
     "Demographics": ["socio3"],
 }
