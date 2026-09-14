@@ -1,0 +1,30 @@
+---
+title: "What is the highest level of education you have attained?"
+question_id: edu1
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "edu1").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "edu1", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "edu1", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "edu1", group_by="country_group").show()
+```

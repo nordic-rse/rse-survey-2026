@@ -1,0 +1,30 @@
+---
+title: "Which version control tools do you use for software"
+question_id: proj5zaf
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "proj5zaf").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "proj5zaf", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "proj5zaf", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "proj5zaf", group_by="country_group").show()
+```

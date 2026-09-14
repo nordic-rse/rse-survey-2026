@@ -1,0 +1,15 @@
+---
+title: "What three skills would you like to acquire or improve to help your work as a Research Software Engineer / Research Software Developer? The skills can be technical and"
+question_id: skill2
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "skill2"))
+```
+
+@sec-recoding lists the raw answers of each category.

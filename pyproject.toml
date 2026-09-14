@@ -1,0 +1,50 @@
+[project]
+name = "rse-survey-report"
+version = "0.1.0"
+description = "Python package for analysing and reporting the international RSE survey data"
+readme = "README.md"
+authors = [
+    { name = "Florence Bockting", email = "florence.bockting@aalto.fi" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "nbformat>=5.11.1",
+    "pandas>=3.0.5",
+    "plotly>=7.0.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.15,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "jupytext>=1.19.5",
+    "mypy>=2.3.1",
+    "pandas-stubs>=3.0.5.260730",
+    "plotly-stubs>=0.1.4",
+    "pre-commit>=4.6.2",
+    "pytest>=9.1.1",
+    "ruff>=0.16.7",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+"notebooks/**" = ["D"]
+
+[tool.mypy]
+strict = true
+files = ["src", "tests", "notebooks"]
+untyped_calls_exclude = ["IPython"]
+
+# book.py imports freetext, so an exclude would not skip it; ignore its errors
+[[tool.mypy.overrides]]
+module = "rse_survey_report.freetext"
+ignore_errors = true

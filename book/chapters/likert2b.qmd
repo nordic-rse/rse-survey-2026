@@ -1,0 +1,30 @@
+---
+title: "How often do you generate a DOI or other persistent identifier for your software?"
+question_id: likert2b
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "likert2b").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "likert2b", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "likert2b", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "likert2b", group_by="country_group").show()
+```

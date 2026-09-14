@@ -1,0 +1,30 @@
+---
+title: "I feel that my contribution to research is recognised by..."
+question_id: likert4b
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert4b").show()
+```
+
+## By age group
+
+```{python}
+plot_agreement(df, codebook, "likert4b", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert4b", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_agreement(df_compare, codebook, "likert4b", group_by="country_group").show()
+```

@@ -1,0 +1,30 @@
+---
+title: "My experience is in demand on the labour market"
+question_id: likert5b_1
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5b_1").show()
+```
+
+## By age group
+
+```{python}
+plot_agreement(df, codebook, "likert5b_1", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5b_1", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_agreement(df_compare, codebook, "likert5b_1", group_by="country_group").show()
+```

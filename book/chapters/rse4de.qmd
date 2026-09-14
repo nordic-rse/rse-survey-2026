@@ -1,0 +1,30 @@
+---
+title: "Does the majority of your role comprise leading a group of software developers or RSEs?"
+question_id: rse4de
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "rse4de").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "rse4de", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "rse4de", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "rse4de", group_by="country_group").show()
+```

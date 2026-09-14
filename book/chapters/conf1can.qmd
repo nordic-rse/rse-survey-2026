@@ -1,0 +1,30 @@
+---
+title: "Have you presented your software work at a conference or workshop?"
+question_id: conf1can
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "conf1can").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "conf1can", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "conf1can", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "conf1can", group_by="country_group").show()
+```

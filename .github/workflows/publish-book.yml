@@ -3,7 +3,11 @@ on:
     branches:
       - main
     paths:
-      - "rse-book/**"
+      - "book/**"
+      - ".github/workflows/publish-book.yml"
+  pull_request:
+    paths:
+      - "book/**"
       - ".github/workflows/publish-book.yml"
   workflow_dispatch:
 
@@ -21,10 +25,18 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      # pull requests only render the book, so they do not replace the live site
+      - name: Render the book
+        if: github.event_name == 'pull_request'
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: book
+
       - name: Render and publish to GitHub Pages
+        if: github.event_name != 'pull_request'
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: rse-book
+          path: book
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

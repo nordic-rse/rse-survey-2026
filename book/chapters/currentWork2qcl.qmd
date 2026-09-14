@@ -1,0 +1,39 @@
+---
+title: "Who are you writing code for, supporting with your code or providing services"
+question_id: currentWork2qcl
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "currentWork2qcl").show()
+```
+
+### Other answers
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "currentWork2qcl"))
+```
+
+@sec-recoding lists the raw answers of each category.
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "currentWork2qcl", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "currentWork2qcl", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "currentWork2qcl", group_by="country_group").show()
+```

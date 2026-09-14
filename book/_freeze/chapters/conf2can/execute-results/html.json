@@ -1,0 +1,12 @@
+{
+  "hash": "1b63d66abc5eca067682e35d57b62ba7",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"At which conference(s)/workshop(s) have you presented your software work?\"\nquestion_id: conf2can\n---\n\n\n## Nordics\n\n| Category | n | % |\n| :-- | --: | --: |\n| Digital Humanities and GLAM | 8 | 18.2 |\n| HPC and e-infrastructure | 7 | 15.9 |\n| Chemistry, materials and photon science | 5 | 11.4 |\n| RSE community conferences | 4 | 9.1 |\n| Astronomy, space and physics | 3 | 6.8 |\n| ... | 2 | 4.5 |\n| AI, NLP and vision | 2 | 4.5 |\n| Geosciences and environment | 2 | 4.5 |\n| Mathematics and statistics | 1 | 2.3 |\n| Multiple or unspecified conferences | 1 | 2.3 |\n| Neuroscience and psychology | 1 | 2.3 |\n| R ecosystem | 1 | 2.3 |\n| Social sciences and networks | 1 | 2.3 |\n| europeana tech | 1 | 2.3 |\n| international conferences | 1 | 2.3 |\n| meg-nord | 1 | 2.3 |\n| nofe | 1 | 2.3 |\n| nordic-rse | 1 | 2.3 |\n| pha4ge | 1 | 2.3 |\n\n\n\n@sec-recoding lists the raw answers of each category.\n\n",
+    "supporting": [
+      "conf2can_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

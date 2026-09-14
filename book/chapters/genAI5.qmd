@@ -1,0 +1,62 @@
+---
+title: "Over the next five years, how do you think generative AI tools will affect your"
+question_id: genAI5
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "genAI5[1]_0").show()
+```
+
+```{python}
+plot_choice(df, codebook, "genAI5[2]_0").show()
+```
+
+```{python}
+plot_choice(df, codebook, "genAI5[3]_0").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "genAI5[1]_0", group_by="age_group").show()
+```
+
+```{python}
+plot_choice(df, codebook, "genAI5[2]_0", group_by="age_group").show()
+```
+
+```{python}
+plot_choice(df, codebook, "genAI5[3]_0", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "genAI5[1]_0", group_by="country").show()
+```
+
+```{python}
+plot_choice(df, codebook, "genAI5[2]_0", group_by="country").show()
+```
+
+```{python}
+plot_choice(df, codebook, "genAI5[3]_0", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "genAI5[1]_0", group_by="country_group").show()
+```
+
+```{python}
+plot_choice(df_compare, codebook, "genAI5[2]_0", group_by="country_group").show()
+```
+
+```{python}
+plot_choice(df_compare, codebook, "genAI5[3]_0", group_by="country_group").show()
+```

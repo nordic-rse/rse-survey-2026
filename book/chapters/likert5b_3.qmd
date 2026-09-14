@@ -1,0 +1,30 @@
+---
+title: "It is likely that my next position will be a Research Software Engineer / Research Software Developer role"
+question_id: likert5b_3
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5b_3").show()
+```
+
+## By age group
+
+```{python}
+plot_agreement(df, codebook, "likert5b_3", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5b_3", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_agreement(df_compare, codebook, "likert5b_3", group_by="country_group").show()
+```

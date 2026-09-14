@@ -1,0 +1,30 @@
+---
+title: "It is likely that I will gain a promotion within my current group"
+question_id: likert5a_2
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5a_2").show()
+```
+
+## By age group
+
+```{python}
+plot_agreement(df, codebook, "likert5a_2", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5a_2", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_agreement(df_compare, codebook, "likert5a_2", group_by="country_group").show()
+```
