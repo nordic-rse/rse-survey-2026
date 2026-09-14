@@ -1,0 +1,30 @@
+---
+title: "Do the projects you work on typically have a plan to cope with developers leaving the group?"
+question_id: stability2
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "stability2").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "stability2", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "stability2", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "stability2", group_by="country_group").show()
+```

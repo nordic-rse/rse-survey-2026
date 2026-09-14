@@ -1,0 +1,30 @@
+---
+title: "On which platform(s) is your most recent research software project deployed? Please select all that"
+question_id: tool5
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "tool5").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "tool5", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "tool5", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "tool5", group_by="country_group").show()
+```

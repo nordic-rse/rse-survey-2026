@@ -1,0 +1,30 @@
+---
+title: "Are you a member of any of the following associations of Research Software Engineers (called \"Research Software Developers\" in Canada)?"
+question_id: ukrse1
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "ukrse1").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "ukrse1", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "ukrse1", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "ukrse1", group_by="country_group").show()
+```

@@ -1,0 +1,30 @@
+---
+title: "Which generative AI tools do you currently use in your RSE"
+question_id: genAI3
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "genAI3").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "genAI3", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "genAI3", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "genAI3", group_by="country_group").show()
+```

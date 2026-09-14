@@ -1,0 +1,30 @@
+---
+title: "Would you be interested in joining such an organisation?"
+question_id: org1can
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "org1can").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "org1can", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "org1can", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "org1can", group_by="country_group").show()
+```

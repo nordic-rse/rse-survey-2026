@@ -5,13 +5,8 @@ agent/*
 *_cache
 Rplots.pdf
 *.html
-!rse-book/_book/**
-rse-book/_book/
-rse-book/*.zip
 skills-lock.json
-!insights.html
 *.log
-!rse-book/_book.zip
 rse-survey-2026-nordic-analysis-book.zip
 rse-survey-2026-nordic-analysis-book/*
 
@@ -25,8 +20,6 @@ data/
 # notebooks
 notebooks/*.ipynb
 
-# python book: chapters and _quarto.yml come from rse_survey_report.book
+# python book: CI has no data, so commit chapters/, _quarto.yml and _freeze/
 book/_book/
 book/.quarto/
-book/chapters/
-book/_quarto.yml

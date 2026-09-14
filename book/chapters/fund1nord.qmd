@@ -1,0 +1,30 @@
+---
+title: "Do you have access to grants in your institutions/country for RSE type of work (ie not research grants)?"
+question_id: fund1nord
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "fund1nord").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "fund1nord", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "fund1nord", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "fund1nord", group_by="country_group").show()
+```

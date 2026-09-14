@@ -1,0 +1,30 @@
+---
+title: "Over the next five years, how do you think generative AI tools will affect demand for RSEs roles?"
+question_id: genAI4
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "genAI4").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "genAI4", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "genAI4", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "genAI4", group_by="country_group").show()
+```

@@ -1,0 +1,30 @@
+---
+title: "Do you feel like you have a network of peers that extends beyond your close colleagues?"
+question_id: currentWork3nord
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "currentWork3nord").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "currentWork3nord", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "currentWork3nord", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "currentWork3nord", group_by="country_group").show()
+```

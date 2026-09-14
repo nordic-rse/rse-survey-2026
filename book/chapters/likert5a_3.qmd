@@ -1,0 +1,30 @@
+---
+title: "There are many opportunities within my chosen career plan"
+question_id: likert5a_3
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5a_3").show()
+```
+
+## By age group
+
+```{python}
+plot_agreement(df, codebook, "likert5a_3", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5a_3", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_agreement(df_compare, codebook, "likert5a_3", group_by="country_group").show()
+```

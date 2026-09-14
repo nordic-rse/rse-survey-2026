@@ -1,0 +1,30 @@
+---
+title: "Please select the discipline(s) in which you work. Please select all that"
+question_id: currentEmp13
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "currentEmp13").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "currentEmp13", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "currentEmp13", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "currentEmp13", group_by="country_group").show()
+```

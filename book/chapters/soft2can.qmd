@@ -1,0 +1,30 @@
+---
+title: "Do you consider yourself a professional software developer?"
+question_id: soft2can
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "soft2can").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "soft2can", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "soft2can", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "soft2can", group_by="country_group").show()
+```

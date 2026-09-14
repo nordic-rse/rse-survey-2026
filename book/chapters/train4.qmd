@@ -1,0 +1,30 @@
+---
+title: "Do you teach or support the teaching of credit bearing modules or courses?"
+question_id: train4
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "train4").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "train4", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "train4", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "train4", group_by="country_group").show()
+```

@@ -1,0 +1,30 @@
+---
+title: "Have you published a paper about your software?"
+question_id: paper3mod
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "paper3mod").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "paper3mod", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "paper3mod", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "paper3mod", group_by="country_group").show()
+```

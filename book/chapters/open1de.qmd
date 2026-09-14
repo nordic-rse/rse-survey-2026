@@ -1,0 +1,30 @@
+---
+title: "Do you have an ORCID ID?"
+question_id: open1de
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "open1de").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "open1de", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "open1de", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "open1de", group_by="country_group").show()
+```

@@ -1,0 +1,30 @@
+---
+title: "How likely are you to choose to leave your job in the next 12 months?"
+question_id: turnOver3
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "turnOver3").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "turnOver3", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "turnOver3", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "turnOver3", group_by="country_group").show()
+```

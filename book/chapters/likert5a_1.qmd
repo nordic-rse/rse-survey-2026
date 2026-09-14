@@ -1,0 +1,30 @@
+---
+title: "It would not be very difficult for me to get an equivalent job in a different institution"
+question_id: likert5a_1
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5a_1").show()
+```
+
+## By age group
+
+```{python}
+plot_agreement(df, codebook, "likert5a_1", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert5a_1", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_agreement(df_compare, codebook, "likert5a_1", group_by="country_group").show()
+```

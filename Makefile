@@ -13,7 +13,6 @@ test:
 notebook:
 	uv run jupytext --set-formats ipynb,py:percent notebooks/overview.py
 
-# the chapters depend on the package code, which quarto freeze does not track
 book:
 	rm -rf book/_freeze
 	uv run python -m rse_survey_report.book

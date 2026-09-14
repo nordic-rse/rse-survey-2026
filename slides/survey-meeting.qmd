@@ -55,12 +55,15 @@ GREY = "#b8b8b8"
 ::: {.column width="50%"}
 **Dashboard**
 
-- Interactive exploration of the survey
-- One question at a time, with filters
+- https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/
+- interactive dashboard for international RSE survey data
+- focus: explorative data analysis
+
 :::
 ::: {.column width="50%"}
 **Quarto book**
 
+- new initiative
 - One chapter for each survey question
 - A fixed view on the Nordic countries
 - Comparisons by age group and by country

@@ -1,0 +1,30 @@
+---
+title: "Which of the following sources are used to pay for your effort as a Research Software"
+question_id: fund3
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "fund3").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "fund3", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "fund3", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "fund3", group_by="country_group").show()
+```

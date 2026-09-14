@@ -1,0 +1,30 @@
+---
+title: "With Nordic-RSE we have an association dedicated to the community of Research Software Engineers in the Nordics. What tasks do you think should be undertaken by Nordic-RSE or a future Nordic institute for research"
+question_id: org4nord
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "org4nord").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "org4nord", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "org4nord", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "org4nord", group_by="country_group").show()
+```

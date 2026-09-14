@@ -1,0 +1,30 @@
+---
+title: "How do you test the software that you produce? Please check all that"
+question_id: proj4can
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "proj4can").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "proj4can", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "proj4can", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "proj4can", group_by="country_group").show()
+```

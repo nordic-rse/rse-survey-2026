@@ -1,0 +1,30 @@
+---
+title: "Which collaboration tools do you use for software"
+question_id: proj6zaf
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "proj6zaf").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "proj6zaf", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "proj6zaf", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "proj6zaf", group_by="country_group").show()
+```

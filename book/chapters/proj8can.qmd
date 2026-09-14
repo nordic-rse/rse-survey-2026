@@ -1,0 +1,30 @@
+---
+title: "Do your research software projects typically include a project manager?"
+question_id: proj8can
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "proj8can").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "proj8can", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "proj8can", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "proj8can", group_by="country_group").show()
+```

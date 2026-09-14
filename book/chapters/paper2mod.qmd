@@ -1,0 +1,94 @@
+---
+title: "In general, when your software contributes to a paper, are you acknowledged in that paper?"
+question_id: paper2mod
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "paper2mod[1]_0").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[2]_0").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[3]_0").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[4]_0").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[5]_0").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "paper2mod[1]_0", group_by="age_group").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[2]_0", group_by="age_group").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[3]_0", group_by="age_group").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[4]_0", group_by="age_group").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[5]_0", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "paper2mod[1]_0", group_by="country").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[2]_0", group_by="country").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[3]_0", group_by="country").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[4]_0", group_by="country").show()
+```
+
+```{python}
+plot_choice(df, codebook, "paper2mod[5]_0", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "paper2mod[1]_0", group_by="country_group").show()
+```
+
+```{python}
+plot_choice(df_compare, codebook, "paper2mod[2]_0", group_by="country_group").show()
+```
+
+```{python}
+plot_choice(df_compare, codebook, "paper2mod[3]_0", group_by="country_group").show()
+```
+
+```{python}
+plot_choice(df_compare, codebook, "paper2mod[4]_0", group_by="country_group").show()
+```
+
+```{python}
+plot_choice(df_compare, codebook, "paper2mod[5]_0", group_by="country_group").show()
+```

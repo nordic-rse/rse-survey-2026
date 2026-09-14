@@ -1,0 +1,30 @@
+---
+title: "Do you work full time or part time?"
+question_id: currentEmp12
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "currentEmp12").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "currentEmp12", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "currentEmp12", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "currentEmp12", group_by="country_group").show()
+```

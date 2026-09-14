@@ -1,0 +1,30 @@
+---
+title: "Are you part of a dedicated research software group within your institution?"
+question_id: currentWork2
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_bool(df, codebook, "currentWork2").show()
+```
+
+## By age group
+
+```{python}
+plot_bool(df, codebook, "currentWork2", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_bool(df, codebook, "currentWork2", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_bool(df_compare, codebook, "currentWork2", group_by="country_group").show()
+```

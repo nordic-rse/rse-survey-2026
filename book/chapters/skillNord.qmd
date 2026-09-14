@@ -1,0 +1,30 @@
+---
+title: "Are you granted time for personal skills acquisition or professional development?"
+question_id: skillNord
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "skillNord").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "skillNord", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "skillNord", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "skillNord", group_by="country_group").show()
+```
