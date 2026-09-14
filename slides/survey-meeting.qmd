@@ -1,0 +1,273 @@
+---
+title: "International RSE Survey 2026"
+subtitle: "Nordic results and the survey book"
+author: "Florence Bockting & Samantha Wittke"
+date: today
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    scrollable: true
+    smaller: true
+execute:
+  echo: false
+  warning: false
+jupyter: python3
+---
+
+```{python}
+#| include: false
+import pandas as pd
+import plotly.express as px
+from IPython.display import Markdown
+
+from rse_survey_report.book import BOOK_CATEGORIES, BOOK_DIR, load_book_data
+from rse_survey_report.config import NORDICS
+from rse_survey_report.plotting import (
+    plot_agreement,
+    plot_choice,
+    plot_likert2,
+)
+from rse_survey_report.utils import get_data_path, load_data, preprocess_data
+
+codebook, df, df_compare = load_book_data()
+
+df_all = preprocess_data(
+    load_data(get_data_path("2026_tf.csv", 2026)), excl_var="submitdate_0"
+)
+df_submitted = df_all[df_all["complete"]]
+
+n_rows = len(df_all)
+n_submitted = len(df_submitted)
+n_countries = df_submitted["country"].nunique()
+n_nordic = len(df)
+n_chapters = len(list((BOOK_DIR / "chapters").glob("*.qmd")))
+
+BLUE = "#2a78d6"
+GREY = "#b8b8b8"
+```
+
+# Method: background
+
+## A Quarto book as a complement to the dashboard
+
+:::: {.columns}
+::: {.column width="50%"}
+**Dashboard**
+
+- Interactive exploration of the survey
+- One question at a time, with filters
+:::
+::: {.column width="50%"}
+**Quarto book**
+
+- One chapter for each survey question
+- A fixed view on the Nordic countries
+- Comparisons by age group and by country
+- Built from code: the same data gives the same book
+:::
+::::
+
+## Structure of the book
+
+```{mermaid}
+flowchart LR
+  A["Responses<br>2026_tf.csv"] --> C["Codebook<br>question type, answers, order"]
+  B["Question text<br>2026_all_cols.csv"] --> C
+  C --> D["Chapters<br>make book"]
+  D --> E["Website<br>_book/"]
+```
+
+- `{python} len(BOOK_CATEGORIES)` parts, one for each topic.
+  `{python} n_chapters` chapters, one for each closed question.
+- Each chapter has four sections:
+  - **Nordics**: all Nordic respondents
+  - **By age group**: below 35, 35-45, 45+
+  - **Within Nordics**: one group for each Nordic country
+  - **Between countries**: Nordics, Germany, Netherlands
+- Free-text questions have no chapter.
+
+## How to go further with the book
+
+::: {.callout-note}
+Placeholder: text to come.
+:::
+
+# Method: introduction
+
+## Questions
+
+:::: {.columns}
+::: {.column width="50%"}
+**Topics, in survey order**
+
+```{python}
+#| output: asis
+print("\n".join(f"- {name}" for name in BOOK_CATEGORIES))
+```
+:::
+::: {.column width="50%"}
+**Question types**
+
+```{python}
+#| output: asis
+formats = {
+    "choice": "One or more options",
+    "bool": "True or false",
+    "likert": "Share of time, 0% to 100%",
+    "agreement": "Five levels, disagree to agree",
+    "text": "Free text",
+}
+n_questions = codebook.drop_duplicates("id")["type"].value_counts()
+print("| Type | Answer format | Questions |\n| :-- | :-- | --: |")
+for kind, text in formats.items():
+    print(f"| `{kind}` | {text} | {n_questions.get(kind, 0)} |")
+```
+:::
+::::
+
+## Respondents per country
+
+`{python} n_rows` responses. `{python} n_submitted` are submitted, from
+`{python} n_countries` countries. The analysis uses the submitted responses
+only.
+
+```{python}
+top = df_submitted["country"].value_counts().head(15).sort_values()
+fig = px.bar(
+    x=top.values,
+    y=top.index,
+    orientation="h",
+    color=[
+        "Nordic" if country in NORDICS else "Other" for country in top.index
+    ],
+    color_discrete_map={"Nordic": BLUE, "Other": GREY},
+    labels={"x": "Submitted responses", "y": "", "color": ""},
+    height=480,
+)
+fig.update_layout(plot_bgcolor="white")
+fig.show()
+```
+
+## Focus on the Nordics
+
+`{python} n_nordic` submitted responses from Finland, Norway, Sweden, Denmark,
+Iceland and Estonia.
+
+```{python}
+nordic = df["country"].value_counts().reindex(NORDICS, fill_value=0)
+fig = px.bar(
+    x=nordic.index,
+    y=nordic.values,
+    text=nordic.values,
+    color_discrete_sequence=[BLUE],
+    labels={"x": "", "y": "Submitted responses"},
+    height=420,
+)
+fig.update_layout(plot_bgcolor="white")
+fig.show()
+```
+
+## Nordics: respondents per question
+
+Respondents skip questions. Country-specific questions have few or no Nordic
+responses.
+
+```{python}
+col_to_id = (
+    codebook[codebook["col"].isin(df.columns)]
+    .drop_duplicates("col")
+    .set_index("col")["id"]
+)
+answered = df[col_to_id.index].notna().T.groupby(col_to_id, sort=False).any().T
+answered = answered.loc[:, answered.any()]
+per_question = answered.sum()
+fig = px.bar(
+    x=per_question.index,
+    y=per_question.values,
+    color_discrete_sequence=[BLUE],
+    labels={"x": "Question id", "y": "Respondents"},
+    height=480,
+)
+fig.update_layout(plot_bgcolor="white", xaxis_tickangle=-90, xaxis_dtick=1)
+fig.update_xaxes(tickfont_size=8)
+fig.show()
+```
+
+# Results: key insights
+
+## Employment
+
+```{python}
+plot_choice(df, codebook, "currentEmp10").show()
+```
+
+## Time: actual and desired
+
+```{python}
+plot_likert2(df, codebook).show()
+```
+
+## Generative AI
+
+```{python}
+plot_choice(df, codebook, "genAI1").show()
+```
+
+## Satisfaction
+
+::: {.panel-tabset}
+### Current position
+
+```{python}
+plot_agreement(df, codebook, "likert3a").show()
+```
+
+### Career
+
+```{python}
+plot_agreement(df, codebook, "likert3b").show()
+```
+:::
+
+## Demand on the labour market
+
+```{python}
+plot_agreement(df, codebook, "likert5b_1").show()
+```
+
+## Career paths
+
+::: {.panel-tabset}
+### Promotion
+
+```{python}
+plot_agreement(df, codebook, "likert5a_2").show()
+```
+
+### Promotion process
+
+```{python}
+plot_agreement(df, codebook, "likert5b_2").show()
+```
+:::
+
+## What should Nordic-RSE do?
+
+```{python}
+plot_choice(df, codebook, "org4nord").show()
+```
+
+# Discussion
+
+## Discussion
+
+- What surprises you in the results?
+- Which questions should the next survey add or remove?
+- How can Nordic-RSE act on the results?
+
+## Links
+
+- Blog post: [Nordic RSEs: satisfied, skilled and in demand but looking for
+  clearer career paths](https://nordic-rse.org/blog/rse-survey-analysis/)
+- Quarto book: <https://nordic-rse.github.io/rse-survey-2026/>

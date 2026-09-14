@@ -24,3 +24,9 @@ data/
 
 # notebooks
 notebooks/*.ipynb
+
+# python book: chapters and _quarto.yml come from rse_survey_report.book
+book/_book/
+book/.quarto/
+book/chapters/
+book/_quarto.yml
