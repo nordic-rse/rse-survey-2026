@@ -5,7 +5,12 @@ from pathlib import Path
 
 import pandas as pd
 
-from rse_survey_report.codebook import add_country, build_codebook, save_codebook
+from rse_survey_report.codebook import (
+    add_country,
+    answered_columns,
+    build_codebook,
+    save_codebook,
+)
 from rse_survey_report.config import (
     CATEGORIES,
     COMPARE,
@@ -440,20 +445,14 @@ def write_book(
         out_dir/appendices/recoding.qmd. The landing page out_dir/index.qmd
         names the target group.
     """
-    if "country" not in codebook:
-        raise KeyError("The 'country' column is missing. Run `add_country` first.")
+    # select the columns before the old chapters are removed
+    answered = answered_columns(codebook, countries)
 
     chapter_dir = out_dir / "chapters"
     chapter_dir.mkdir(parents=True, exist_ok=True)
     for old in chapter_dir.glob("*.qmd"):
         old.unlink()
 
-    targets = set(countries)
-    answered = {
-        col
-        for col, value in zip(codebook["col"], codebook["country"], strict=True)
-        if targets & set(str(value).split(", "))
-    }
     parts: dict[str, list[str]] = {category: [] for category in categories}
     paths = []
     text_questions = []

@@ -166,46 +166,6 @@ def parse_questions(
     return pd.concat([ids, questions], axis=1).assign(col=df[id_col], category=category)
 
 
-def prepare_questions(
-    df: pd.DataFrame,
-    df_counts: pd.DataFrame,
-    question_col: str = "Question",
-    id_col: str = "New_name",
-    categories: dict[str, list[str]] = CATEGORIES,
-) -> pd.DataFrame:
-    """Combine the parsed questions with the response counts.
-
-    Parameters
-    ----------
-    df : pd.DataFrame
-        Raw data frame with question text and ids
-    df_counts: pd.DataFrame
-        Data frame with response counts per question and country
-    question_col : str
-        Name of the column with question text
-    id_col : str
-        Name of the column with question id information
-    categories : dict[str, list[str]]
-        Mapping from category name to question ids, by default CATEGORIES
-
-    Returns
-    -------
-    pd.DataFrame
-        Clean data frame with question text, multiple-choice answers, ids,
-        category, and country information. Questions without a category get NaN.
-    """
-    df_questions = parse_questions(df, question_col, id_col, categories)
-
-    df_long = (
-        df_counts.rename_axis("country")
-        .reset_index()
-        .melt(id_vars="country", var_name="col", value_name="n_responses")
-        .merge(df_questions, on="col", how="inner")
-    )
-
-    return df_long
-
-
 def get_counts_question_country(df: pd.DataFrame) -> pd.DataFrame:
     """Count responses per question and country.
 

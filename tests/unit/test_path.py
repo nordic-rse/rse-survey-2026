@@ -7,7 +7,7 @@ import pytest
 from rse_survey_report.utils import (
     get_data_path,
     load_data,
-    prepare_questions,
+    parse_questions,
     preprocess_data,
 )
 
@@ -70,7 +70,7 @@ def test_preprocess_success() -> None:
     npt.assert_array_equal(actual_vars, pd.Index(["country", "complete"]))
 
 
-def test_prepare_questions_success() -> None:
+def test_parse_questions_success() -> None:
     df = pd.DataFrame(
         {
             "New_name": [
@@ -96,7 +96,7 @@ def test_prepare_questions_success() -> None:
             ],
         }
     )
-    questions = pd.DataFrame(
+    expected = pd.DataFrame(
         {
             "id": [
                 "currentEmp10",
@@ -129,6 +129,7 @@ def test_prepare_questions_success() -> None:
                 None,
                 "My experience is in demand",
             ],
+            "col": df["New_name"],
             # likert5b gets its category before it gets the item suffix
             "category": [
                 "Employment",
@@ -143,37 +144,8 @@ def test_prepare_questions_success() -> None:
         }
     )
     categories = {"Employment": ["currentEmp10"], "Likert scales": ["likert5b"]}
-    df_counts = pd.DataFrame(
-        {
-            "currentEmp10_0": [3, 1],
-            "currentEmp10[other]_0": [1, 0],
-            "org3nord[7]_0": [0, 2],
-            "fund3_0": [2, 1],
-            "genAI3_0": [4, 3],
-            "ethnicity_latino": [1, 0],
-            "ukrse1_0": [5, 0],
-            "likert5b[1]_0": [2, 0],
-        },
-        index=pd.Index(["Germany", "Norway"], name="country"),
-    )
-    # one row per question and country, in the column order of df_counts
-    expected = pd.concat(
-        [
-            pd.DataFrame(
-                {
-                    "country": ["Germany", "Norway"] * 8,
-                    "col": df["New_name"].repeat(2).tolist(),
-                    "n_responses": [3, 1, 1, 0, 0, 2, 2, 1, 4, 3, 1, 0, 5, 0, 2, 0],
-                }
-            ),
-            questions.loc[questions.index.repeat(2)].reset_index(drop=True),
-        ],
-        axis=1,
-    )
 
-    pd.testing.assert_frame_equal(
-        prepare_questions(df, df_counts, categories=categories), expected
-    )
+    pd.testing.assert_frame_equal(parse_questions(df, categories=categories), expected)
 
 
 # def test_get_counts_question_country_success() -> None:

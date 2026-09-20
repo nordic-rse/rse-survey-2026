@@ -35,7 +35,7 @@ import pandas as pd
 import plotly.express as px
 from IPython.display import display
 
-from rse_survey_report.codebook import build_codebook
+from rse_survey_report.codebook import add_country, answered_columns, build_codebook
 from rse_survey_report.config import CATEGORIES, TARGET_COUNTRIES
 from rse_survey_report.plotting import (
     plot_agreement,
@@ -46,10 +46,8 @@ from rse_survey_report.plotting import (
 )
 from rse_survey_report.utils import (
     add_age_group,
-    get_counts_question_country,
     get_data_path,
     load_data,
-    prepare_questions,
     preprocess_data,
 )
 
@@ -116,15 +114,16 @@ pd.DataFrame(
 # - **Answer routing.** Some answers open a follow-up question, e.g. a
 #   "Yes" to `conf1can` opens `conf2can`.
 #
-# `RSE_survey_outline/survey-process.md` lists all routing rules. The table
-# below counts the respondents for each question and country.
+# `RSE_survey_outline/survey-process.md` lists all routing rules.
+#
+# The codebook records the routing. It has one row for each response column
+# and answer. The column `country` lists the countries that answered a
+# response column. An empty `country` means that nobody answered.
 
 # %%
-counts = get_counts_question_country(df_clean)
 df_cols = load_data(get_data_path("2026_all_cols.csv", 2026))
-df_questions = prepare_questions(df_cols, counts)
-
-print(df_questions)
+codebook = add_country(build_codebook(df_cols, df_raw), df_clean)
+codebook.head()
 
 # %% [markdown]
 # ### Questions for the Nordic countries
@@ -135,14 +134,14 @@ print(df_questions)
 
 # %%
 df_nordics = df_clean[df_clean["country"].isin(TARGET_COUNTRIES)]
-df_nordics_quest = df_questions[
-    df_questions["country"].isin(TARGET_COUNTRIES) & (df_questions["n_responses"] > 0)
-]
+nordic_cols = answered_columns(codebook, TARGET_COUNTRIES)
 
 # %%
-shown = df_nordics_quest.drop_duplicates("question")[
-    ["id", "question", "category"]
-].reset_index(drop=True)
+shown = (
+    codebook[codebook["col"].isin(nordic_cols)]
+    .drop_duplicates("question")[["id", "question", "category"]]
+    .reset_index(drop=True)
+)
 with pd.option_context("display.max_rows", None, "display.max_colwidth", None):
     display(
         shown.style.set_properties(
@@ -157,7 +156,12 @@ with pd.option_context("display.max_rows", None, "display.max_colwidth", None):
 # questions. Partial responses stop early.
 
 # %%
-col_to_id = df_questions.drop_duplicates("col").set_index("col")["id"]
+# socio1_0 and submitdate_0 are in the codebook, but not in the clean data
+col_to_id = (
+    codebook[codebook["col"].isin(df_nordics.columns)]
+    .drop_duplicates("col")
+    .set_index("col")["id"]
+)
 answered = df_nordics[col_to_id.index].notna().T.groupby(col_to_id, sort=False).any().T
 answered = answered.loc[:, answered.any()]
 counts_by_country = (
@@ -185,15 +189,8 @@ fig.show()
 # %% [markdown]
 # ## 3. Question types
 #
-# The codebook has one row for each response column and answer. It gives
-# the question type, the answers and their order.
-
-# %%
-codebook = build_codebook(df_cols, df_raw)
-codebook.head()
-
-# %% [markdown]
-# Each type has its own answer format and plot function:
+# Besides the country, the codebook gives the question type, the answers and
+# their order. Each type has its own answer format and plot function:
 #
 # | Type | Answer format | Example | Plot function |
 # | :-- | :-- | :-- | :-- |

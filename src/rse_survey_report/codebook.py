@@ -1,6 +1,7 @@
 """Codebook with the question text and allowed answers per response column."""
 
 import re
+from collections.abc import Iterable
 from pathlib import Path
 from typing import cast
 
@@ -8,6 +9,9 @@ import pandas as pd
 
 from rse_survey_report.config import AGREEMENT_LEVELS, CATEGORIES
 from rse_survey_report.utils import get_counts_question_country, parse_questions
+
+# separator between the country names in the codebook column "country"
+COUNTRY_SEP = ", "
 
 
 def _answer_key(answer: object) -> tuple[int, float, str]:
@@ -172,9 +176,44 @@ def add_country(codebook: pd.DataFrame, df: pd.DataFrame) -> pd.DataFrame:
 
     counts = get_counts_question_country(df)
     answered = cast("pd.Series[bool]", counts.rename_axis(columns="col").gt(0).stack())
-    joined = answered[answered].reset_index().groupby("col")["country"].agg(", ".join)
+    joined = (
+        answered[answered].reset_index().groupby("col")["country"].agg(COUNTRY_SEP.join)
+    )
 
     return codebook.assign(country=codebook["col"].map(joined).fillna(""))
+
+
+def answered_columns(codebook: pd.DataFrame, countries: Iterable[str]) -> set[str]:
+    """Select the response columns that at least one of the countries answered.
+
+    Reads the country column that `add_country` writes.
+
+    Parameters
+    ----------
+    codebook : pd.DataFrame
+        Codebook with a country column, from `add_country`
+    countries : Iterable[str]
+        Country names, e.g. TARGET_COUNTRIES
+
+    Returns
+    -------
+    set[str]
+        Names of the response columns
+
+    Raises
+    ------
+    KeyError
+        Raises if the codebook has no "country" column
+    """
+    if "country" not in codebook:
+        raise KeyError("The 'country' column is missing. Run `add_country` first.")
+
+    targets = set(countries)
+    return {
+        col
+        for col, value in zip(codebook["col"], codebook["country"], strict=True)
+        if targets & set(str(value).split(COUNTRY_SEP))
+    }
 
 
 def save_codebook(codebook: pd.DataFrame, path: str | Path) -> Path:
