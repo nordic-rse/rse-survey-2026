@@ -407,7 +407,6 @@ def _quarto_yml(parts: dict[str, list[str]], appendices: list[str]) -> str:
 
 def write_book(
     codebook: pd.DataFrame,
-    df: pd.DataFrame,
     out_dir: Path = BOOK_DIR,
     label: str = TARGET,
     countries: list[str] = TARGET_COUNTRIES,
@@ -420,14 +419,12 @@ def write_book(
     ----------
     codebook : pd.DataFrame
         Codebook from build_codebook()
-    df : pd.DataFrame
-        Survey responses of the chapter analyses
     out_dir : Path, optional
         Book directory, by default <repo root>/book
     label : str, optional
         Name of the countries in df, by default TARGET
     countries : list[str], optional
-        Countries in df, for the landing page, by default TARGET_COUNTRIES
+        Target countries, for the landing page, by default TARGET_COUNTRIES
     categories : dict[str, list[str]], optional
         Book parts in this order, by default BOOK_CATEGORIES
     recode_maps : dict[str, list[Rule]], optional
@@ -443,12 +440,20 @@ def write_book(
         out_dir/appendices/recoding.qmd. The landing page out_dir/index.qmd
         names the target group.
     """
+    if "country" not in codebook:
+        raise KeyError("The 'country' column is missing. Run `add_country` first.")
+
     chapter_dir = out_dir / "chapters"
     chapter_dir.mkdir(parents=True, exist_ok=True)
     for old in chapter_dir.glob("*.qmd"):
         old.unlink()
 
-    answered = df.columns[df.notna().any()]
+    targets = set(countries)
+    answered = {
+        col
+        for col, value in zip(codebook["col"], codebook["country"], strict=True)
+        if targets & set(str(value).split(", "))
+    }
     parts: dict[str, list[str]] = {category: [] for category in categories}
     paths = []
     text_questions = []
@@ -493,5 +498,5 @@ if __name__ == "__main__":
     codebook, df, _ = load_book_data(year=year)
     path_codebook = get_data_path("2026_tf.csv", year).parent / "codebook.csv"
     save_codebook(codebook, path_codebook)
-    paths = write_book(codebook, df)
+    paths = write_book(codebook)
     print(f"Wrote {len(paths)} chapters to {BOOK_DIR / 'chapters'}")
