@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from rse_survey_report.codebook import build_codebook
+from rse_survey_report.codebook import add_country, build_codebook, save_codebook
 from rse_survey_report.config import (
     CATEGORIES,
     COMPARE,
@@ -168,6 +168,7 @@ def load_book_data(
 
     df_clean = preprocess_data(df_raw, excl_var="submitdate_0")
     df_clean = add_age_group(df_clean[df_clean["complete"]].copy())
+    codebook = add_country(codebook, df_clean)
     df = df_clean[df_clean["country"].isin(countries)]
 
     country_group = {
@@ -488,6 +489,9 @@ def write_book(
 
 
 if __name__ == "__main__":
-    codebook, df, _ = load_book_data()
+    year = 2026
+    codebook, df, _ = load_book_data(year=year)
+    path_codebook = get_data_path("2026_tf.csv", year).parent / "codebook.csv"
+    save_codebook(codebook, path_codebook)
     paths = write_book(codebook, df)
     print(f"Wrote {len(paths)} chapters to {BOOK_DIR / 'chapters'}")

@@ -1,11 +1,13 @@
 """Codebook with the question text and allowed answers per response column."""
 
 import re
+from pathlib import Path
+from typing import cast
 
 import pandas as pd
 
 from rse_survey_report.config import AGREEMENT_LEVELS, CATEGORIES
-from rse_survey_report.utils import parse_questions
+from rse_survey_report.utils import get_counts_question_country, parse_questions
 
 
 def _answer_key(answer: object) -> tuple[int, float, str]:
@@ -138,3 +140,68 @@ def build_codebook(
         .drop(columns="position")
         .reset_index(drop=True)
     )
+
+
+def add_country(codebook: pd.DataFrame, df: pd.DataFrame) -> pd.DataFrame:
+    """Add country column to codebook.
+
+    Country column provides information about in which country a specific
+    question has been asked.
+
+    Parameters
+    ----------
+    codebook : pd.DataFrame
+        The codebook build via `build_codebook`
+    df : pd.DataFrame
+        The clean response data returned by `preprocess_data`
+
+    Returns
+    -------
+    pd.DataFrame
+        Codebook including a country column
+
+    Raises
+    ------
+    ValueError
+        Raises if column "country" not in the response data frame
+    """
+    if "country" not in df:
+        raise ValueError(
+            "Column 'country' not found. Pass the data frame from preprocess_data()."
+        )
+
+    counts = get_counts_question_country(df)
+    answered = cast("pd.Series[bool]", counts.rename_axis(columns="col").gt(0).stack())
+    joined = answered[answered].reset_index().groupby("col")["country"].agg(", ".join)
+
+    return codebook.assign(country=codebook["col"].map(joined).fillna(""))
+
+
+def save_codebook(codebook: pd.DataFrame, path: str | Path) -> Path:
+    """Save codebook to csv.
+
+    Save the final codebook as .csv incl. country column using `add_country()`
+
+    Parameters
+    ----------
+    codebook : pd.DataFrame
+        The final codebook incl. country column
+    path : str | Path
+        Saving path
+
+    Returns
+    -------
+    Path
+        Path to saved codebook.csv file
+
+    Raises
+    ------
+    KeyError
+        Raises if codebook has no "country" column
+    """
+    path = Path(path)
+    if "country" not in codebook:
+        raise KeyError("The 'country' column is missing. Run `add_country` first.")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    codebook.to_csv(path, index=False)
+    return path
