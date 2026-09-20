@@ -1,13 +1,20 @@
 """Fixtures that are used throughout the rse-survey-report."""
 
-NORDICS = ["Finland", "Norway", "Sweden", "Denmark", "Iceland", "Estonia"]
-
-# country groups for the "Between countries" section, as FILTER_COMPARE in rse-book
-COMPARE_GROUPS = {
-    "Nordics": NORDICS,
+# the countries of each country group
+COUNTRY_GROUPS = {
+    "Nordics": ["Finland", "Norway", "Sweden", "Denmark", "Iceland", "Estonia"],
     "Germany": ["Germany"],
     "Netherlands": ["Netherlands"],
 }
+
+# the group of the chapter analyses; a key of COUNTRY_GROUPS
+TARGET = "Nordics"
+
+# the groups to compare the target with, in the "Between countries" section
+COMPARE = ["Germany", "Netherlands"]
+
+# the countries of the target group
+TARGET_COUNTRIES = COUNTRY_GROUPS[TARGET]
 
 # answer scales, as likert5_levels() and likert_time_levels() in rse-book
 AGREEMENT_LEVELS = [

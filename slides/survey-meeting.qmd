@@ -24,7 +24,7 @@ import plotly.express as px
 from IPython.display import Markdown
 
 from rse_survey_report.book import BOOK_CATEGORIES, BOOK_DIR, load_book_data
-from rse_survey_report.config import NORDICS
+from rse_survey_report.config import TARGET_COUNTRIES
 from rse_survey_report.freetext import (
     TEXT_TYPES,
     allocate_tokens,
@@ -139,7 +139,8 @@ Makefile               make book, make slides, make test
 | :-- | :-- | :-- |
 | Render the book | Put the CSV files in `data/2026/` | `make book` |
 | Change a plot | A function in `plotting.py` | `make test`, then `make book` |
-| Change a group | `AGE_GROUPS` or `COMPARE_GROUPS` in `config.py` | `make book` |
+| Change the target country | `TARGET` in `config.py` | `make book` |
+| Change a group | `AGE_GROUPS` or `COMPARE` in `config.py` | `make book` |
 | Add a section to each chapter | `chapter_qmd()` in `book.py` | `make book` |
 
 - `make book` writes the chapters again and renders it to `book/_book/`.
@@ -247,7 +248,7 @@ fig.show()
 Iceland and Estonia.
 
 ```{python}
-nordic = df["country"].value_counts().reindex(NORDICS, fill_value=0)
+nordic = df["country"].value_counts().reindex(TARGET_COUNTRIES, fill_value=0)
 fig = px.bar(
     x=nordic.index,
     y=nordic.values,
@@ -275,7 +276,7 @@ answered = answered.loc[:, answered.any()]
 per_country = (
     answered.groupby(df["country"])
     .sum()
-    .reindex(NORDICS, fill_value=0)
+    .reindex(TARGET_COUNTRIES, fill_value=0)
     .T.reset_index(names="question")
     .melt(id_vars="question", var_name="country", value_name="respondents")
 )
@@ -284,7 +285,7 @@ fig = px.bar(
     x="question",
     y="respondents",
     color="country",
-    category_orders={"country": NORDICS, "question": list(answered.columns)},
+    category_orders={"country": TARGET_COUNTRIES, "question": list(answered.columns)},
     color_discrete_sequence=GROUP_COLORS,
     labels={"question": "Question id", "respondents": "Respondents", "country": ""},
     height=480,

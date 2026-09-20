@@ -36,7 +36,7 @@ import plotly.express as px
 from IPython.display import display
 
 from rse_survey_report.codebook import build_codebook
-from rse_survey_report.config import CATEGORIES, NORDICS
+from rse_survey_report.config import CATEGORIES, TARGET_COUNTRIES
 from rse_survey_report.plotting import (
     plot_agreement,
     plot_bool,
@@ -134,9 +134,9 @@ print(df_questions)
 # questions with at least one Nordic response.
 
 # %%
-df_nordics = df_clean[df_clean["country"].isin(NORDICS)]
+df_nordics = df_clean[df_clean["country"].isin(TARGET_COUNTRIES)]
 df_nordics_quest = df_questions[
-    df_questions["country"].isin(NORDICS) & (df_questions["n_responses"] > 0)
+    df_questions["country"].isin(TARGET_COUNTRIES) & (df_questions["n_responses"] > 0)
 ]
 
 # %%
@@ -171,7 +171,7 @@ fig = px.bar(
     x="id",
     y="n_responses",
     color="country",
-    category_orders={"country": NORDICS, "id": list(answered.columns)},
+    category_orders={"country": TARGET_COUNTRIES, "id": list(answered.columns)},
     color_discrete_sequence=["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4"],
     labels={"id": "Question id", "n_responses": "# Respondents", "country": "Country"},
     width=14 * answered.shape[1] + 250,

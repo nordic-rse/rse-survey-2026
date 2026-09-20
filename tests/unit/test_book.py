@@ -2,7 +2,14 @@ from pathlib import Path
 
 import pandas as pd
 
-from rse_survey_report.book import chapter_qmd, plot_calls, write_book
+from rse_survey_report.book import (
+    chapter_qmd,
+    compare_groups,
+    index_qmd,
+    plot_calls,
+    write_book,
+)
+from rse_survey_report.config import TARGET
 
 CODEBOOK = pd.DataFrame(
     [
@@ -81,7 +88,8 @@ def test_chapter_qmd_has_setup_and_sections() -> None:
     qmd = chapter_qmd(CODEBOOK, "edu")
     assert qmd.startswith('---\ntitle: "Question text"\nquestion_id: edu\n---\n')
     assert "{{< include ../_setup.qmd >}}" in qmd
-    for heading in ["Nordics", "By age group", "Within Nordics", "Between countries"]:
+    headings = [TARGET, "By age group", f"Within {TARGET}", "Between countries"]
+    for heading in headings:
         assert f"## {heading}\n" in qmd
     assert 'plot_choice(df, codebook, "edu").show()' in qmd
     assert 'plot_choice(df, codebook, "edu", group_by="age_group").show()' in qmd
@@ -138,3 +146,23 @@ def test_write_book_removes_old_chapters(tmp_path: Path) -> None:
     old.write_text("old")
     write_book(CODEBOOK, DF, tmp_path, categories=CATEGORIES)
     assert not old.exists()
+
+
+def test_chapter_qmd_uses_the_label() -> None:
+    qmd = chapter_qmd(CODEBOOK, "edu", label="Germany")
+    assert "## Germany\n" in qmd
+    assert "## Within Germany\n" in qmd
+
+
+def test_compare_groups_puts_the_target_first_and_once() -> None:
+    groups = compare_groups(
+        "Germany",
+        ["Nordics", "Germany"],
+        {"Germany": ["Germany"], "Nordics": ["Finland"]},
+    )
+    assert list(groups) == ["Germany", "Nordics"]
+
+
+def test_write_book_index_names_the_target(tmp_path: Path) -> None:
+    write_book(CODEBOOK, DF, tmp_path, "Germany", ["Germany"], categories=CATEGORIES)
+    assert index_qmd("Germany", ["Germany"]) == (tmp_path / "index.qmd").read_text()

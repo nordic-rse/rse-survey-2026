@@ -44,8 +44,9 @@ value in `submitdate_0`.
 
 [`config.py`](src/rse_survey_report/config.py) holds the settings:
 
-- `NORDICS` is the set of countries for the chapter analyses.
-- `COMPARE_GROUPS` are the country groups for the "Between countries" section.
+- `COUNTRY_GROUPS` gives the countries of each group.
+- `TARGET` is the group of the chapter analyses. Change it to switch the country.
+- `COMPARE` lists the groups to compare the target with.
 - `AGE_GROUPS` maps the age answers (`socio3_0`) to three age groups.
 - `CATEGORIES` sets the book parts and the questions in each part.
 
@@ -63,7 +64,7 @@ This command deletes `book/_freeze/`. Then it writes the chapters and
 `book/_quarto.yml` from the codebook. Then it renders the book to
 `book/_book/`. Open `book/_book/index.html`.
 
-Do not edit `book/chapters/` or `book/_quarto.yml`. The next build replaces
+Do not edit `book/index.qmd`, `book/chapters/` or `book/_quarto.yml`. The next build replaces
 them.
 
 Render the slides:

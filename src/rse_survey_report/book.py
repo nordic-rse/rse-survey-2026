@@ -6,7 +6,13 @@ from pathlib import Path
 import pandas as pd
 
 from rse_survey_report.codebook import build_codebook
-from rse_survey_report.config import CATEGORIES, COMPARE_GROUPS, NORDICS
+from rse_survey_report.config import (
+    CATEGORIES,
+    COMPARE,
+    COUNTRY_GROUPS,
+    TARGET,
+    TARGET_COUNTRIES,
+)
 from rse_survey_report.freetext import TEXT_TYPES, Rule
 from rse_survey_report.plotting import LIKERT_ACTUAL, LIKERT_DESIRED, _grid_items
 from rse_survey_report.recode_maps import RECODE_MAPS
@@ -54,6 +60,43 @@ execute:
 jupyter: python3
 """
 
+INDEX_INTRO = """\
+# About {{.unnumbered}}
+
+This book shows the answers to the International RSE Survey 2026 for
+{countries}.
+
+It uses the submitted responses only. Percentages are relative to the
+respondents who answered each question.
+
+Each chapter shows one survey question in four sections:
+
+- **{label}**: all respondents.
+- **By age group**: below 35, 35-45 and 45+.
+- **Within {label}**: one group for each country.
+- **Between countries**: {groups}.
+
+Free-text answers appear as a table in the **{label}** section only. Rules
+from the R rse-book group the answers into categories:
+
+- An "Other" field always gets a table. Without rules, the table shows the
+  answers unchanged.
+- A free-text question gets a chapter only when it has rules.
+- The Recoding appendix gives the category of each raw answer.
+
+## Build the book
+
+The chapters come from the codebook. Do not edit them by hand.
+
+```bash
+make book
+```
+
+The command writes `index.qmd`, `chapters/` and `_quarto.yml`. Then it renders
+the book to `_book/`. The data must be in `data/2026/`.
+"""
+
+
 RECODING_INTRO = """\
 # Recoding {#sec-recoding}
 
@@ -69,10 +112,36 @@ count once. So `n` counts answer parts, not respondents.
 """
 
 
+def compare_groups(
+    target: str = TARGET,
+    compare: list[str] = COMPARE,
+    country_groups: dict[str, list[str]] = COUNTRY_GROUPS,
+) -> dict[str, list[str]]:
+    """List the country groups of the "Between countries" section.
+
+    Parameters
+    ----------
+    target : str, optional
+        Group of the chapter analyses, by default TARGET
+    compare : list[str], optional
+        Groups to compare the target with, by default COMPARE
+    country_groups : dict[str, list[str]], optional
+        Countries of each group, by default COUNTRY_GROUPS
+
+    Returns
+    -------
+    dict[str, list[str]]
+        The target first, then the compare groups. The target appears once,
+        also when compare lists it.
+    """
+    names = [target] + [name for name in compare if name != target]
+    return {name: country_groups[name] for name in names}
+
+
 def load_book_data(
     year: int = 2026,
-    countries: list[str] = NORDICS,
-    compare_groups: dict[str, list[str]] = COMPARE_GROUPS,
+    countries: list[str] = TARGET_COUNTRIES,
+    groups: dict[str, list[str]] | None = None,
 ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Load the codebook and the submitted responses for the book.
 
@@ -81,17 +150,18 @@ def load_book_data(
     year : int, optional
         Year of the survey data, by default 2026
     countries : list[str], optional
-        Countries of the chapter analyses, by default NORDICS
-    compare_groups : dict[str, list[str]], optional
+        Countries of the chapter analyses, by default TARGET_COUNTRIES
+    groups : dict[str, list[str]] | None, optional
         Country groups for the "Between countries" section, by default
-        COMPARE_GROUPS
+        compare_groups()
 
     Returns
     -------
     tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]
         The codebook, the responses from countries with the column age_group,
-        and the responses from compare_groups with the column country_group
+        and the responses from groups with the column country_group
     """
+    groups = compare_groups() if groups is None else groups
     df_raw = load_data(get_data_path("2026_tf.csv", year))
     df_cols = load_data(get_data_path("2026_all_cols.csv", year))
     codebook = build_codebook(df_cols, df_raw)
@@ -102,13 +172,13 @@ def load_book_data(
 
     country_group = {
         country: group
-        for group, members in reversed(compare_groups.items())
+        for group, members in reversed(groups.items())
         for country in members
     }
     df_compare = df_clean.assign(
         country_group=pd.Categorical(
             df_clean["country"].map(country_group),
-            categories=list(compare_groups),
+            categories=list(groups),
             ordered=True,
         )
     ).dropna(subset=["country_group"])
@@ -206,7 +276,7 @@ def _text_cell(question: str, kind: str) -> str:
 def chapter_qmd(
     codebook: pd.DataFrame,
     question: str,
-    label: str = "Nordics",
+    label: str = TARGET,
     calls: list[tuple[str, str | None]] | None = None,
     free_text: str | None = None,
 ) -> str:
@@ -219,7 +289,7 @@ def chapter_qmd(
     question : str
         Question id (e.g. "edu1")
     label : str, optional
-        Name of the countries in df, by default "Nordics"
+        Name of the countries in df, by default TARGET
     calls : list[tuple[str, str | None]] | None, optional
         Plot calls, by default plot_calls(codebook, question)
     free_text : str | None, optional
@@ -254,6 +324,44 @@ def chapter_qmd(
         if free_text and heading == label:
             parts.append(_text_cell(question, free_text))
     return "\n".join(parts)
+
+
+def _and_list(items: list[str]) -> str:
+    """Join the items with commas and a final "and"."""
+    if len(items) < 2:
+        return "".join(items)
+    return f"{', '.join(items[:-1])} and {items[-1]}"
+
+
+def index_qmd(
+    label: str = TARGET,
+    countries: list[str] = TARGET_COUNTRIES,
+    groups: dict[str, list[str]] | None = None,
+) -> str:
+    """Write the Quarto source of the landing page.
+
+    Parameters
+    ----------
+    label : str, optional
+        Name of the target group, by default TARGET
+    countries : list[str], optional
+        Countries of the target group, by default TARGET_COUNTRIES
+    groups : dict[str, list[str]] | None, optional
+        Country groups of the "Between countries" section, by default
+        compare_groups()
+
+    Returns
+    -------
+    str
+        Landing page that names the target group and the compare groups
+    """
+    groups = compare_groups() if groups is None else groups
+    names = _and_list(countries)
+    return INDEX_INTRO.format(
+        label=label,
+        countries=names if names == label else f"{label}: {names}",
+        groups=_and_list(list(groups)),
+    )
 
 
 def recoding_qmd(codebook: pd.DataFrame, questions: list[str]) -> str:
@@ -300,7 +408,8 @@ def write_book(
     codebook: pd.DataFrame,
     df: pd.DataFrame,
     out_dir: Path = BOOK_DIR,
-    label: str = "Nordics",
+    label: str = TARGET,
+    countries: list[str] = TARGET_COUNTRIES,
     categories: dict[str, list[str]] = BOOK_CATEGORIES,
     recode_maps: dict[str, list[Rule]] = RECODE_MAPS,
 ) -> list[Path]:
@@ -315,7 +424,9 @@ def write_book(
     out_dir : Path, optional
         Book directory, by default <repo root>/book
     label : str, optional
-        Name of the countries in df, by default "Nordics"
+        Name of the countries in df, by default TARGET
+    countries : list[str], optional
+        Countries in df, for the landing page, by default TARGET_COUNTRIES
     categories : dict[str, list[str]], optional
         Book parts in this order, by default BOOK_CATEGORIES
     recode_maps : dict[str, list[Rule]], optional
@@ -328,7 +439,8 @@ def write_book(
         or without responses in df, gets no chapter. Chapters follow the
         survey order within each part. Old chapters in out_dir/chapters are
         removed. Questions with a free-text table also get a section in
-        out_dir/appendices/recoding.qmd.
+        out_dir/appendices/recoding.qmd. The landing page out_dir/index.qmd
+        names the target group.
     """
     chapter_dir = out_dir / "chapters"
     chapter_dir.mkdir(parents=True, exist_ok=True)
@@ -370,6 +482,7 @@ def write_book(
     appendices = ["appendices/recoding.qmd"] if text_questions else []
 
     parts = {category: questions for category, questions in parts.items() if questions}
+    (out_dir / "index.qmd").write_text(index_qmd(label, countries))
     (out_dir / "_quarto.yml").write_text(_quarto_yml(parts, appendices))
     return paths
 
