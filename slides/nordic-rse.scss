@@ -1,0 +1,37 @@
+/*-- scss:defaults --*/
+
+// Colors and font from https://nordic-rse.org/css/style.css
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+$nrse-text: #384452;
+$nrse-plum: #822361;
+$nrse-plum-dark: #702552;
+$nrse-border: #dfe2e5;
+
+$font-family-sans-serif: "Roboto", sans-serif;
+$body-color: $nrse-text;
+$link-color: $nrse-plum;
+$presentation-heading-color: $nrse-plum;
+$presentation-heading-font: "Roboto", sans-serif;
+$presentation-heading-font-weight: 500;
+
+/*-- scss:rules --*/
+
+// Section divider slides, as in the site banner
+.reveal section.level1 h1 {
+  color: $nrse-plum-dark;
+}
+
+// Title slide: white text on the dark plum background
+#title-slide {
+  h1.title,
+  .subtitle,
+  .quarto-title-author-name,
+  .date {
+    color: #ffffff;
+  }
+}
+
+.reveal blockquote {
+  border-left: 0.25em solid $nrse-border;
+}

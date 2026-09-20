@@ -5,12 +5,23 @@ agent/*
 *_cache
 Rplots.pdf
 *.html
-!rse-book/_book/**
-rse-book/_book/
-rse-book/*.zip
 skills-lock.json
-!insights.html
 *.log
-!rse-book/_book.zip
 rse-survey-2026-nordic-analysis-book.zip
 rse-survey-2026-nordic-analysis-book/*
+
+
+# survey data
+data/
+
+# cache
+*__pycache__
+
+# notebooks
+notebooks/*.ipynb
+
+# python book: CI has no data, so commit chapters/, _quarto.yml and _freeze/
+book/_book/
+book/.quarto/
+
+!slides/survey-meeting.html

@@ -1,0 +1,30 @@
+---
+title: "How many software projects are you currently involved in?"
+question_id: proj1can
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "proj1can").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "proj1can", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "proj1can", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "proj1can", group_by="country_group").show()
+```

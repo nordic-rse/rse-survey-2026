@@ -1,96 +1,118 @@
-# rse-survey-2026
+# rse-survey-report
 
-Analysis and reporting code for the International RSE Survey 2026. The
-repository contains a question-by-question Quarto book (with Nordic insights as
-the landing page) and generated descriptions of the survey flow.
+Python package for the analysis and reporting of the International RSE Survey
+2026. The package makes a Quarto book with one chapter per survey question. It
+also contains an overview notebook and slides for the survey meeting.
+
+## Setup
+
+The package needs Python 3.14 or later and [uv](https://docs.astral.sh/uv/).
+The book and the slides also need [Quarto](https://quarto.org/).
+
+```bash
+uv sync
+uv run pre-commit install
+```
 
 ## Data
 
-Place the survey exports in `RSE_survey_2026_data/` at the repository root. The
-analysis uses:
+The data are not in this repository. Put the survey exports in
+`data/<year>/` at the repository root:
 
-- `2026_tf.csv`: one row per respondent, including question responses and
-  country (`socio1_0`);
-- `2026_all_cols.csv`: question text and option metadata.
+- `data/2026/2026_tf.csv`: one row per respondent, with the responses and
+  the country (`socio1_0`).
+- `data/2026/2026_all_cols.csv`: the question text and the answer options.
 
-The data are not committed to this repository.
+The analyses use only the submitted responses. These are the rows with a
+value in `submitdate_0`.
 
 ## Repository structure
 
 | Path | Purpose |
 |------|---------|
-| [`rse-book/`](rse-book/) | Main Quarto book; About part (insights + user guide) plus question-by-question chapters |
-| [`rse-book/index.qmd`](rse-book/index.qmd) | Nordic insights landing page |
-| [`rse-book/about/user-guide.qmd`](rse-book/about/user-guide.qmd) | User guide for working with the book |
-| [`rse-book/chapters/`](rse-book/chapters/) | One Quarto chapter per survey question or question group |
-| [`rse-book/R/`](rse-book/R/) | Book configuration, data preparation, analysis, and plotting code |
-| [`rse-book/R/recodes/`](rse-book/R/recodes/) | Reusable free-text recoding maps |
-| [`RSE_survey_insights_helper/`](RSE_survey_insights_helper/) | Data, plotting, caption, theme, and setup modules for the Nordic insights page |
-| [`RSE_survey_outline/survey-process.md`](RSE_survey_outline/survey-process.md) | Global survey flow, routing, and analysis filtering |
-| [`RSE_survey_outline/survey-process-nordics.md`](RSE_survey_outline/survey-process-nordics.md) | Generated Nordic question inventory with per-question **N** and routing notes |
-| [`RSE_survey_outline/build-survey-process-nordics.R`](RSE_survey_outline/build-survey-process-nordics.R) | Generator for the Nordic survey-process document |
+| [`src/rse_survey_report/config.py`](src/rse_survey_report/config.py) | Country groups, answer levels, age groups and question categories |
+| [`src/rse_survey_report/utils.py`](src/rse_survey_report/utils.py) | Load and preprocess the survey data |
+| [`src/rse_survey_report/codebook.py`](src/rse_survey_report/codebook.py) | Codebook with the question text and allowed answers per response column |
+| [`src/rse_survey_report/plotting.py`](src/rse_survey_report/plotting.py) | One plot function per question type |
+| [`src/rse_survey_report/book.py`](src/rse_survey_report/book.py) | Write the book chapters and `book/_quarto.yml` |
+| [`book/`](book/) | Quarto book; [`index.qmd`](book/index.qmd) is the landing page |
+| [`notebooks/overview.py`](notebooks/overview.py) | Overview notebook in jupytext percent format |
+| [`slides/survey-meeting.qmd`](slides/survey-meeting.qmd) | Slides for the survey meeting |
+| [`tests/unit/`](tests/unit/) | Unit tests |
 
 ## Configuration
 
-Book and report code share `rse-book/R/.config`:
+[`config.py`](src/rse_survey_report/config.py) holds the settings:
 
-- `DATA_DIR` gives the data directory name;
-- `NORDIC_COUNTRIES` is the Nordic set (landing page always uses this);
-- `FILTER` is the primary country scope for chapters;
-- `FILTER_COMPARE` is a named list of extra groups for Between Countries.
-
-Analyses retain only submitted responses (rows with a non-empty
-`submitdate_0`).
+- `COUNTRY_GROUPS` gives the countries of each group.
+- `TARGET` is the group of the chapter analyses. Change it to switch the country.
+- `COMPARE` lists the groups to compare the target with.
+- `AGE_GROUPS` maps the age answers (`socio3_0`) to three age groups.
+- `CATEGORIES` sets the book parts and the questions in each part.
 
 ## Build the outputs
 
 Run these commands from the repository root.
 
-Regenerate the Nordic survey-process document:
+Build the book:
 
 ```bash
-Rscript RSE_survey_outline/build-survey-process-nordics.R
+make book
 ```
 
-Render the complete analysis book (Nordic insights landing page plus chapters):
+This command deletes `book/_freeze/`. Then it writes the chapters and
+`book/_quarto.yml` from the codebook. Then it renders the book to
+`book/_book/`. Open `book/_book/index.html`.
+
+Do not edit `book/index.qmd`, `book/chapters/` or `book/_quarto.yml`. The next build replaces
+them.
+
+Render the slides:
 
 ```bash
-cd rse-book
-quarto render
+make slides
 ```
 
-To render one book chapter while developing:
+Make the `.ipynb` file for the overview notebook:
 
 ```bash
-cd rse-book
-quarto render chapters/conf2can_0.qmd
+make notebook
 ```
-
-The book is written to `rse-book/_book/`. Open `_book/index.html` for the
-Nordic insights landing page.
 
 ## Publish the book
 
-The book is published to GitHub Pages at
+The book is on GitHub Pages at
 <https://nordic-rse.github.io/rse-survey-2026/>.
 
-Survey microdata are not available in CI, so computed results are frozen
-locally and committed under `rse-book/_freeze/`. GitHub Actions then renders
-HTML from those freezes and deploys to the `gh-pages` branch.
+CI has no survey data. CI renders the book from the committed chapters and
+the results in `book/_freeze/`.
 
-1. With the survey data available, render the book so `_freeze/` stays in sync
-   with chapter sources and R code:
+1. Build the book with the survey data:
 
    ```bash
-   cd rse-book
-   quarto render
+   make book
    ```
 
-2. Commit any updated files under `rse-book/_freeze/` together with analysis
-   changes.
+2. Commit `book/chapters/`, `book/_quarto.yml` and `book/_freeze/` together
+   with the code changes.
 
-3. Push to `main`. The `Publish Quarto book` workflow deploys automatically
-   when `rse-book/` changes. You can also run it manually from the Actions tab.
+3. Push to `main`. The `Publish Quarto book` workflow deploys the book to
+   the `gh-pages` branch when `book/` changes. You can also start it from
+   the Actions tab.
+
+## Development
+
+| Command | Purpose |
+|---------|---------|
+| `make test` | Run the tests with `pytest` |
+| `make checks` | Run all pre-commit hooks (ruff, mypy and others) on all files |
+| `make checks-all` | Fix the lint errors and format the code with ruff |
+
+The mypy hook uses the staged version of each file. Stage the files that
+import from each other together.
 
 ## How to cite
-Bockting, F. & Wittke, S. (2026). Analysis Book for the International RSE Survey 2026 (Nordic Focus) (Version 0.1.0). Zenodo. https://doi.org/10.5281/zenodo.21716004
+
+Bockting, F. & Wittke, S. (2026). Analysis Book for the International RSE
+Survey 2026 (Nordic Focus) (Version 0.1.0). Zenodo.
+https://doi.org/10.5281/zenodo.21716004

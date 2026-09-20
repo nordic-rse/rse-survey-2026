@@ -1,0 +1,39 @@
+---
+title: "What would you hope to get out of such an organisation (check all that"
+question_id: org2can
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "org2can").show()
+```
+
+### Other answers
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "org2can"))
+```
+
+@sec-recoding lists the raw answers of each category.
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "org2can", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "org2can", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "org2can", group_by="country_group").show()
+```

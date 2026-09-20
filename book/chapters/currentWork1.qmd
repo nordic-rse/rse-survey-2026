@@ -1,0 +1,30 @@
+---
+title: "Do you always work with the same researchers, or do you regularly change the researchers you work with?"
+question_id: currentWork1
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "currentWork1").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "currentWork1", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "currentWork1", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "currentWork1", group_by="country_group").show()
+```

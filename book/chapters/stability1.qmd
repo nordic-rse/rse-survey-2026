@@ -1,0 +1,30 @@
+---
+title: "What is the minimum number of software developers that would have to suddenly disappear from your current project before it stalls due to a lack of knowledgeable people?"
+question_id: stability1
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "stability1").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "stability1", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "stability1", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "stability1", group_by="country_group").show()
+```

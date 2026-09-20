@@ -1,0 +1,30 @@
+---
+title: "On average, how much of your time is spent on"
+question_id: likert0
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_likert(df, codebook, "likert0").show()
+```
+
+## By age group
+
+```{python}
+plot_likert(df, codebook, "likert0", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_likert(df, codebook, "likert0", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_likert(df_compare, codebook, "likert0", group_by="country_group").show()
+```

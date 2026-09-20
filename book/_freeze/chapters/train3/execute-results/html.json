@@ -1,0 +1,12 @@
+{
+  "hash": "309a7e448e26ba054c9ccc805565d596",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"What training programs are you involved with?\"\nquestion_id: train3\n---\n\n\n## Nordics\n\n| Category | n | % |\n| :-- | --: | --: |\n| CodeRefinery | 8 | 17.8 |\n| University teaching and academic courses | 8 | 17.8 |\n| Local/in‑house trainings | 7 | 15.6 |\n| Workshops, tutorials, and hackathons | 4 | 8.9 |\n| HPC and research computing trainings | 3 | 6.7 |\n| Python and general programming | 3 | 6.7 |\n| The Carpentries | 3 | 6.7 |\n| Online and self‑directed learning | 2 | 4.4 |\n| AI/ML and data science trainings | 1 | 2.2 |\n| Community and external initiatives | 1 | 2.2 |\n| Institution/organisation‑specific programs | 1 | 2.2 |\n| Summer/Fall schools | 1 | 2.2 |\n| internal seminars | 1 | 2.2 |\n| internal training in various topics | 1 | 2.2 |\n| occasional training for our software at conferences | 1 | 2.2 |\n\n\n\n@sec-recoding lists the raw answers of each category.\n\n",
+    "supporting": [
+      "train3_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

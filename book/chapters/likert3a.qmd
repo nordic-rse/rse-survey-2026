@@ -1,0 +1,30 @@
+---
+title: "In general, I am satisfied with my current position."
+question_id: likert3a
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert3a").show()
+```
+
+## By age group
+
+```{python}
+plot_agreement(df, codebook, "likert3a", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_agreement(df, codebook, "likert3a", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_agreement(df_compare, codebook, "likert3a", group_by="country_group").show()
+```

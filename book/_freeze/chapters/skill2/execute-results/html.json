@@ -1,0 +1,12 @@
+{
+  "hash": "a21c388668be358b9b6ebd8c7564504f",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"What three skills would you like to acquire or improve to help your work as a Research Software Engineer / Research Software Developer? The skills can be technical and\"\nquestion_id: skill2\n---\n\n\n## Nordics\n\n| Category | n | % |\n| :-- | --: | --: |\n| AI-assisted development and agents | 12 | 11.3 |\n| HPC, parallel and GPU computing | 12 | 11.3 |\n| Communication, teaching and writing | 7 | 6.6 |\n| Project/product/time management | 6 | 5.7 |\n| DevOps, CI/CD and pipelines | 5 | 4.7 |\n| Software development practices and SDLC | 5 | 4.7 |\n| People leadership and stakeholder management | 4 | 3.8 |\n| Software testing, QA and verification | 4 | 3.8 |\n| AI/ML theory and model development | 3 | 2.8 |\n| Collaboration and community building | 3 | 2.8 |\n| New programming language (generic) | 3 | 2.8 |\n| Programming language: Rust | 3 | 2.8 |\n| Software architecture and system design | 3 | 2.8 |\n| Systems, OS, embedded and hardware/FPGA | 3 | 2.8 |\n| Cloud, containers and Kubernetes | 2 | 1.9 |\n| Data storage and databases | 2 | 1.9 |\n| Domain-specific scientific knowledge | 2 | 1.9 |\n| Grants, funding, consultancy and marketing | 2 | 1.9 |\n| Mathematics/Statistics/Computer Science | 2 | 1.9 |\n| Personal stress/time/task management | 2 | 1.9 |\n| Programming language: C/C++ | 2 | 1.9 |\n| Programming language: Julia | 2 | 1.9 |\n| Programming language: Python | 2 | 1.9 |\n| Security and secure engineering | 2 | 1.9 |\n| Software Documentation | 2 | 1.9 |\n| Software design principles and patterns | 2 | 1.9 |\n| Web development, UI and UX | 2 | 1.9 |\n| Developer tooling | 1 | 0.9 |\n| Legal Knowledge | 1 | 0.9 |\n| Packaging and software distribution | 1 | 0.9 |\n| Performance engineering and optimisation | 1 | 0.9 |\n| Programming language: JS/TS/Java | 1 | 0.9 |\n| Programming language: R | 1 | 0.9 |\n| Version control (Git) and collaboration | 1 | 0.9 |\n\n\n\n@sec-recoding lists the raw answers of each category.\n\n",
+    "supporting": [
+      "skill2_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

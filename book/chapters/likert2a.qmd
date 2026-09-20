@@ -1,0 +1,46 @@
+---
+title: "When you are writing about your software, do you reference the software directly or do you reference a paper describing your software?"
+question_id: likert2a
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "likert2a[1]_0").show()
+```
+
+```{python}
+plot_choice(df, codebook, "likert2a[2]_0").show()
+```
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "likert2a[1]_0", group_by="age_group").show()
+```
+
+```{python}
+plot_choice(df, codebook, "likert2a[2]_0", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "likert2a[1]_0", group_by="country").show()
+```
+
+```{python}
+plot_choice(df, codebook, "likert2a[2]_0", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "likert2a[1]_0", group_by="country_group").show()
+```
+
+```{python}
+plot_choice(df_compare, codebook, "likert2a[2]_0", group_by="country_group").show()
+```

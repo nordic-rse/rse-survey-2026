@@ -1,0 +1,39 @@
+---
+title: "For what purposes do you use generative AI"
+question_id: genAI2
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+plot_choice(df, codebook, "genAI2").show()
+```
+
+### Other answers
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "genAI2"))
+```
+
+@sec-recoding lists the raw answers of each category.
+
+## By age group
+
+```{python}
+plot_choice(df, codebook, "genAI2", group_by="age_group").show()
+```
+
+## Within Nordics
+
+```{python}
+plot_choice(df, codebook, "genAI2", group_by="country").show()
+```
+
+## Between countries
+
+```{python}
+plot_choice(df_compare, codebook, "genAI2", group_by="country_group").show()
+```

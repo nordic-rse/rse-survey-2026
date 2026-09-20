@@ -1,0 +1,15 @@
+---
+title: "At which conference(s)/workshop(s) have you presented your software work?"
+question_id: conf2can
+---
+
+{{< include ../_setup.qmd >}}
+
+## Nordics
+
+```{python}
+#| output: asis
+print(text_table(df, codebook, "conf2can"))
+```
+
+@sec-recoding lists the raw answers of each category.
